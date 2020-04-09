@@ -1,0 +1,36 @@
+{
+    "name": "location",
+    "label": "Location",
+    "levels": [
+        {
+            "name": "city",
+            "label": "City",
+            "attributes": [
+                "cityName"
+            ]
+        },
+        {
+            "name": "country",
+            "label": "Country",
+            "attributes": [
+                "countryID",
+                "countryName"
+            ]
+        },
+        {
+            "name": "continent",
+            "label": "Continent",
+            "attributes": [
+                "continentID",
+                "continentName"
+            ]
+        }
+    ],
+    "hierarchies": [
+        {
+            "name": "cncyct",
+            "label": "Continent-Country-City",
+            "levels": ["continent", "country", "city"]
+        }
+    ]
+}

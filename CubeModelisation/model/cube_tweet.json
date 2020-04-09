@@ -1,0 +1,74 @@
+{
+    "name": "tweet",
+    "label": "Tweets Analysis",
+    "dimensions": [
+        "language",
+        "location",
+        "sentiment",
+        "source",
+        "time"
+    ],
+    "measures": [
+        {
+            "name": "numberOfTweets"
+        }
+    ],
+    "aggregates": [
+        {
+            "name": "numberOfTweets_average",
+            "label": "Tweet Number AVG",
+            "measure": "numberOfTweets",
+            "function": "avg"
+        },
+        {
+            "name": "numberOfTweets_sum",
+            "label": "Tweet Number SUM",
+            "measure": "numberOfTweets",
+            "function": "sum"
+        }
+    ],
+    "fact": "facttweet",
+    "joins": [
+        {
+            "master": "facttweet.languageID",
+            "detail": "dimlanguage.languageID"
+        },
+        {
+            "master": "facttweet.sentimentID",
+            "detail": "dimsentiment.sentimentID"
+        },
+        {
+            "master": "facttweet.sourceID",
+            "detail": "dimsource.sourceID"
+        },
+        {
+            "master": "facttweet.locationID",
+            "detail": "dimlocation.locationID"
+        },
+        {
+            "master": "facttweet.timeID",
+            "detail": "dimtime.timeID"
+        }
+    ],
+    "mappings": {
+            "numberOfTweets": "facttweet.numberOfTweets",
+            "language.languageID": "dimlanguage.languageID",
+            "language.languageCode": "dimlanguage.languageCode",
+            "language.languageName": "dimlanguage.languageName",
+            "sentiment.sentimentID": "dimsentiment.sentimentID",
+            "sentiment.sentimentLabel": "dimsentiment.sentimentLabel",
+            "source.sourceID": "dimsource.sourceID",
+            "source.sourceName": "dimsource.sourceName",
+            "location.cityName": "dimlocation.cityName",
+            "location.countryID": "dimlocation.countryID",
+            "location.countryName": "dimlocation.countryName",
+            "location.continentID": "dimlocation.continentID",
+            "location.continentName": "dimlocation.continentName",
+            "time.day": "dimtime.day",
+            "time.dayOfWeek": "dimtime.dayOfWeek",
+            "time.month": "dimtime.month",
+            "time.monthName": "dimtime.monthName",
+            "time.season": "dimtime.season",
+            "time.year": "dimtime.year"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "language",
+    "label": "Language",
+    "levels": [
+        {
+            "name": "language",
+            "label": "Language",
+            "attributes": [
+                "languageCode",
+                "languageName"
+            ]
+        }
+    ]
+}

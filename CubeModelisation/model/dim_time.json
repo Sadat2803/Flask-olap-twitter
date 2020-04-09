@@ -1,0 +1,65 @@
+{
+    "name": "time",
+    "label": "Time",
+    "levels": [
+        {
+            "name": "year",
+            "label": "Year",
+            "attributes": [
+                "year"
+            ]
+        },
+        {
+            "name": "season",
+            "label": "Season",
+            "attributes": [
+                "season"
+            ]
+        },
+        {
+            "name": "month",
+            "label": "Month",
+            "attributes": [
+                "month",
+                "monthName"
+            ]
+        },
+        {
+            "name": "week",
+            "label": "Week",
+            "attributes": [
+                "dayOfWeek"
+            ]
+        },
+        {
+            "name": "day",
+            "label": "Day",
+            "attributes": [
+                "day"
+            ]
+        }
+    ],
+    "hierarchies": [
+        {
+            "name": "ymd",
+            "label": "Year-Month-Day",
+            "levels": ["year", "month", "day"]
+        },
+        {
+            "name": "ym",
+            "label": "Year-Month",
+            "levels": ["year", "month"]
+        },
+        {
+            "name": "ymw",
+            "label": "Year-Month-Week",
+            "levels": ["year","month" , "week"]
+        },
+        {
+            "name": "ysmwd",
+            "label": "Year-Season-Month-Week-Day",
+            "levels": ["year", "season", "month", "week"]
+        }
+    ],
+    "default_hierarchy_name": "ymd"
+}

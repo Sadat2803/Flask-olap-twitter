@@ -1,0 +1,14 @@
+{
+    "name": "source",
+    "label": "Source",
+    "levels": [
+        {
+            "name": "source",
+            "label": "Source",
+            "attributes": [
+                "sourceID",
+                "sourceName"
+            ]
+        }
+    ]
+}

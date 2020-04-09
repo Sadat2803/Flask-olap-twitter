@@ -1,0 +1,53 @@
+{
+    "name": "sentiment",
+    "label": "Sentiment Analysis",
+    "dimensions": [
+        "language",
+        "location",
+        "time"
+    ],
+    "measures": [
+        {
+            "name": "averageSentiment"
+        }
+    ],
+    "aggregates": [{
+            "name": "sentiment_average",
+            "label": "SentimentAverage Avg",
+            "measure": "averageSentiment",
+            "function": "avg"
+        }
+    ],
+    "fact": "factsentiment",
+    "joins": [
+        {
+            "master": "factsentiment.languageID",
+            "detail": "dimlanguage.languageID"
+        },
+        {
+            "master": "factsentiment.locationID",
+            "detail": "dimlocation.locationID"
+        },
+        {
+            "master": "factsentiment.timeID",
+            "detail": "dimtime.timeID"
+        }
+    ],
+    "mappings": {
+            "averageSentiment": "factsentiment.averageSentiment",
+            "language.languageID": "dimlanguage.languageID",
+            "language.languageCode": "dimlanguage.languageCode",
+            "language.languageName": "dimlanguage.languageName",
+            "location.cityName": "dimlocation.cityName",
+            "location.countryID": "dimlocation.countryID",
+            "location.countryName": "dimlocation.countryName",
+            "location.continentID": "dimlocation.continentID",
+            "location.continentName": "dimlocation.continentName",
+            "time.day": "dimtime.day",
+            "time.dayOfWeek": "dimtime.dayOfWeek",
+            "time.month": "dimtime.month",
+            "time.monthName": "dimtime.monthName",
+            "time.season": "dimtime.season",
+            "time.year": "dimtime.year"
+    }
+}

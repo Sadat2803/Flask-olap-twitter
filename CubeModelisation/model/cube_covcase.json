@@ -1,0 +1,67 @@
+{
+    "name": "covcase",
+    "label": "Cov Cases Analysis",
+    "dimensions": [
+        "location",
+        "time"
+    ],
+    "measures": [
+        {
+            "name": "nbrOfCases"
+        },
+       {
+            "name": "nbrOfDeath"
+        },
+        {
+            "name": "nbrOfRecovered"
+        }
+    ],
+    "aggregates": [
+        {
+            "name": "nbrOfCases_sum",
+            "label": "Sum Case Number",
+            "measure": "nbrOfCases",
+            "function": "sum"
+        },
+        {
+            "name": "nbrOfDeath_sum",
+            "label": "Sum Death Number",
+            "measure": "nbrOfDeath",
+            "function": "sum"
+        },
+        {
+            "name": "nbrOfRecovered_sum",
+            "label": "Sum Recovered Number",
+            "measure": "nbrOfRecovered",
+            "function": "sum"
+        }
+    ],
+    "fact": "factcovcase",
+    "joins": [
+        {
+            "master": "facttweet.locationID",
+            "detail": "dimlocation.locationID"
+        },
+        {
+            "master": "facttweet.timeID",
+            "detail": "dimtime.timeID"
+        }
+    ],
+    "mappings": {
+            "nbrOfCases": "factcovcase.nbrOfCases",
+            "nbrOfDeath": "factcovcase.nbrOfDeath",
+            "nbrOfRecovered": "factcovcase.nbrOfRecovered",
+            "location.cityName": "dimlocation.cityName",
+            "location.countryID": "dimlocation.countryID",
+            "location.countryName": "dimlocation.countryName",
+            "location.continentID": "dimlocation.continentID",
+            "location.continentName": "dimlocation.continentName",
+            "time.periodeOfDay": "dimtime.periodeOfDay",
+            "time.day": "dimtime.day",
+            "time.dayOfWeek": "dimtime.dayOfWeek",
+            "time.month": "dimtime.month",
+            "time.monthName": "dimtime.monthName",
+            "time.season": "dimtime.season",
+            "time.year": "dimtime.year"
+    }
+}

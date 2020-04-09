@@ -1,0 +1,14 @@
+{
+    "name": "sentiment",
+    "label": "Sentiment",
+    "levels": [
+        {
+            "name": "sentiment",
+            "label": "Sentiment",
+            "attributes": [
+                "sentimentID",
+                "sentimentLabel"
+            ]
+        }
+    ]
+}
