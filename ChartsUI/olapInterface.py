@@ -2,7 +2,8 @@ from flask import Flask, jsonify
 from flask_cors import cross_origin
 from CubeModelisation.sentimentCube import SentimentCube
 from CubeModelisation.tweetCube import TweetCube
-
+import pymysql
+pymysql.install_as_MySQLdb()
 # --------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -12,7 +13,7 @@ def runServer():
 
 
 
-    @app.route('/route1', methods=['GET'])
+    @app.route('/countriesSentiments', methods=['GET'])
     @cross_origin()
     def sentimentByCountriesAndDatesMapJson():
         sentimentCube = SentimentCube()
