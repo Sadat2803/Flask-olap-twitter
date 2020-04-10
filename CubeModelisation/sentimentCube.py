@@ -32,7 +32,6 @@ class SentimentCube:
 
         output = []
         for row in result.table_rows("location"):
-            #print(row.record)
             output.append(row.record)
 
         data = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
@@ -48,5 +47,24 @@ class SentimentCube:
                 data[date][country]['numberOfPositive'] += 1
             else:
                 data[date][country]['numberOfNeutral'] += 1
-        #print(data)
-        return data
+
+        dataList = []
+        element = {'date': '', 'countriesList': []}
+        #result = {}
+        for date in data:
+            element['date'] = date
+            countryElement = {'countryName': '', 'numberOfPositive': 0, 'numberOfNegative': 0, 'numberOfNeutral': 0}
+            myCountriesList = []
+            for country in data[date]:
+                countryElement['countryName'] =  country
+                countryElement['numberOfPositive'] = data[date][country]['numberOfPositive']
+                countryElement['numberOfNegative'] = data[date][country]['numberOfNegative']
+                countryElement['numberOfNeutral'] = data[date][country]['numberOfNeutral']
+                myCountriesList.append(countryElement)
+                countryElement = {'countryName': '', 'numberOfPositive': 0, 'numberOfNegative': 0, 'numberOfNeutral': 0}
+            element['countriesList'] = myCountriesList
+            dataList.append(element)
+            #result[date] = myCountriesList
+            element = {'date': '', 'countriesList': []}
+        return dataList
+        #return result
