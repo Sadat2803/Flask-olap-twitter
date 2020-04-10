@@ -50,7 +50,7 @@ class TweetCube:
         #print(data)
         return data
 
-    def getBarChartLanguage(self):
+    def getBarChartRaceByLanguageAndDate(self):
         cube = self.workspace.cube("tweet")
         cube.browser = self.browserTweet
         cell = Cell(cube)
@@ -62,9 +62,29 @@ class TweetCube:
         output = []
         for row in result.table_rows("time"):
             output.append(row.record)
-            print(row.record)
-        print(output)
-        return output
+            #print(row.record)
+
+        data = defaultdict(lambda: defaultdict(lambda: defaultdict()))
+        for row in output:
+            date = row['time.day'] + "/" + row['time.month'] + "/" + row['time.year']
+            language = row['language.languageName']
+            data[date][language]['numberOfTweets'] = row['numberOfTweets_sum']
+        dataList = []
+        element = {'date': '', 'languagesList': []}
+        for date in data:
+            element['date'] = date
+            languageElement = {'language': '', 'numberOfTweets': 0}
+            myLanguagesList = []
+            for language in data[date]:
+                languageElement['language'] = language
+                languageElement['numberOfTweets'] = data[date][language]['numberOfTweets']
+                myLanguagesList.append(languageElement)
+                languageElement = {'language': '', 'numberOfTweets': 0}
+            element['languagesList'] = myLanguagesList
+            dataList.append(element)
+            element = {'date': '', 'languagesList': []}
+        return dataList
+
 
 
     def getBarChartSentiment(self):
@@ -81,3 +101,7 @@ class TweetCube:
             print(row.record)
         print(output)
         return output
+""""
+tweetCube = TweetCube()
+tweetCube.getBarChartRaceByLanguageAndDate()
+"""
