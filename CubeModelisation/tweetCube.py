@@ -50,6 +50,7 @@ class TweetCube:
         #print(data)
         return data
 
+
     def getBarChartRaceByLanguageAndDate(self):
         cube = self.workspace.cube("tweet")
         cube.browser = self.browserTweet
@@ -58,7 +59,6 @@ class TweetCube:
         result = self.browserTweet.aggregate(cell, drilldown=["time:day", "language"],
                                              aggregates=["numberOfTweets_sum"])
 
-        print("Record count : %8d" % result.summary["numberOfTweets_sum"])
         output = []
         for row in result.table_rows("time"):
             output.append(row.record)
@@ -86,22 +86,37 @@ class TweetCube:
         return dataList
 
 
-
-    def getBarChartSentiment(self):
+    def getBarChartRaceBySentimentAndDate(self):
         cube = self.workspace.cube("tweet")
         cube.browser = self.browserTweet
         cell = Cell(cube)
 
-        result = self.browserTweet.aggregate(cell, drilldown=["time:day","sentiment"], aggregates=["numberOfTweets_sum"])
+        result = self.browserTweet.aggregate(cell, drilldown=["time:day", "sentiment"],
+                                             aggregates=["numberOfTweets_sum"])
 
-        print("Record count : %8d" % result.summary["numberOfTweets_sum"])
         output = []
         for row in result.table_rows("time"):
             output.append(row.record)
-            print(row.record)
-        print(output)
-        return output
-""""
-tweetCube = TweetCube()
-tweetCube.getBarChartRaceByLanguageAndDate()
-"""
+            #print(row.record)
+
+        data = defaultdict(lambda: defaultdict(lambda: defaultdict()))
+        for row in output:
+            date = row['time.day'] + "/" + row['time.month'] + "/" + row['time.year']
+            sentiment = row['sentiment.sentimentLabel']
+            data[date][sentiment]['numberOfTweets'] = row['numberOfTweets_sum']
+        dataList = []
+        element = {'date': '', 'sentimentsList': []}
+        for date in data:
+            element['date'] = date
+            sentimentElement = {'sentiment': '', 'numberOfTweets': 0}
+            mySentimentsList = []
+            for sentiment in data[date]:
+                sentimentElement['sentiment'] = sentiment
+                sentimentElement['numberOfTweets'] = data[date][sentiment]['numberOfTweets']
+                mySentimentsList.append(sentimentElement)
+                sentimentElement = {'sentiment': '', 'numberOfTweets': 0}
+            element['sentimentsList'] = mySentimentsList
+            dataList.append(element)
+            element = {'date': '', 'sentimentsList': []}
+        return dataList
+

@@ -36,6 +36,14 @@ def runServer():
         a = jsonify(data)
         return a
 
+    @app.route('/route4', methods=['GET'])
+    @cross_origin()
+    def barChartRaceBySentimentAndDateJson():
+        tweetCube = TweetCube()
+        data = tweetCube.getBarChartRaceBySentimentAndDate()
+        a = jsonify(data)
+        return a
+
     app.run(debug=True)
 
 
