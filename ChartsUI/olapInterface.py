@@ -1,6 +1,7 @@
 from flask import Flask, jsonify
 from flask_cors import cross_origin
 from CubeModelisation.sentimentCube import SentimentCube
+from CubeModelisation.tweetCube import TweetCube
 
 # --------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -11,12 +12,21 @@ def runServer():
 
 
 
-    @app.route('/', methods=['GET'])
+    @app.route('/route1', methods=['GET'])
     @cross_origin()
     def sentimentByCountriesAndDatesMapJson():
         sentimentCube = SentimentCube()
         data = sentimentCube.getSentimentByContriesAndDates()
-        return jsonify(data)
+        a = jsonify(data)
+        return a
+
+    @app.route('/route2', methods=['GET'])
+    @cross_origin()
+    def sourcePieChartsByContinentJson():
+        tweetCube = TweetCube()
+        data = tweetCube.getPieChartSource()
+        a = jsonify(data)
+        return a
 
     app.run(debug=True)
 
