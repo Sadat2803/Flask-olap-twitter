@@ -35,7 +35,7 @@ class SentimentCube:
 
         data = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
         for row in output:
-            date = row['time.day'] + "/" + row['time.month'] + "/" + row['time.year']
+            date = row['time.year'] + "-" + row['time.month'] + "-" + row['time.month']
             country = row['location.countryName']
             data[date][country]['numberOfNegative'] += 0
             data[date][country]['numberOfPositive'] += 0
