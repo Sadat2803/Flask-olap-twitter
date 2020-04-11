@@ -1,6 +1,5 @@
 from __future__ import print_function
 
-import json
 from collections import defaultdict
 
 import cubes
@@ -50,13 +49,12 @@ class SentimentCube:
 
         dataList = []
         element = {'date': '', 'countriesList': []}
-        #result = {}
         for date in data:
             element['date'] = date
             countryElement = {'countryName': '', 'numberOfPositive': 0, 'numberOfNegative': 0, 'numberOfNeutral': 0}
             myCountriesList = []
             for country in data[date]:
-                countryElement['countryName'] =  country
+                countryElement['countryName'] = country
                 countryElement['numberOfPositive'] = data[date][country]['numberOfPositive']
                 countryElement['numberOfNegative'] = data[date][country]['numberOfNegative']
                 countryElement['numberOfNeutral'] = data[date][country]['numberOfNeutral']
@@ -64,7 +62,5 @@ class SentimentCube:
                 countryElement = {'countryName': '', 'numberOfPositive': 0, 'numberOfNegative': 0, 'numberOfNeutral': 0}
             element['countriesList'] = myCountriesList
             dataList.append(element)
-            #result[date] = myCountriesList
             element = {'date': '', 'countriesList': []}
         return dataList
-        #return result

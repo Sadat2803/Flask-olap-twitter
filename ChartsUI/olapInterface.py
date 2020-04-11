@@ -21,7 +21,7 @@ def runServer():
         a = jsonify(data)
         return a
 
-    @app.route('/route2', methods=['GET'])
+    @app.route('/tweetsSourcesBycontinent', methods=['GET'])
     @cross_origin()
     def sourcePieChartsByContinentJson():
         tweetCube = TweetCube()
@@ -29,7 +29,7 @@ def runServer():
         a = jsonify(data)
         return a
 
-    @app.route('/route3', methods=['GET'])
+    @app.route('/tweetsByLanguage', methods=['GET'])
     @cross_origin()
     def barChartRaceByLanguageAndDateJson():
         tweetCube = TweetCube()
@@ -37,7 +37,7 @@ def runServer():
         a = jsonify(data)
         return a
 
-    @app.route('/route4', methods=['GET'])
+    @app.route('/tweetsBySentiments', methods=['GET'])
     @cross_origin()
     def barChartRaceBySentimentAndDateJson():
         tweetCube = TweetCube()
