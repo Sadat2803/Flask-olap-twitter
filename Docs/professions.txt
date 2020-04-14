@@ -1,0 +1,39 @@
+Management
+president; vice-president; director; manager;executive officer; CEO ;deputy director; managing director; financial director; marketing director;general manager; assistant manager; manager; production manager;personnel manager; marketing manager; sales manager; project manager;supervisor; inspector; controller
+Office workers
+office worker; office employee; office clerk;filing clerk; receptionist; secretary; assistant;typist; stenographer
+Banking and financial activities
+banker; bank officer; economist; auditor;accountant; bookkeeper; teller; cashier; bank clerk;financier; treasurer; investor; sponsor;stockbroker; pawnbroker; tax collector
+Sales and stores
+sales representative; sales manager;salesperson; salesman; saleswoman; salesgirl; salesclerk; cashier;seller; buyer; wholesale buyer; wholesaler; retailer;merchant; distributor; dealer; trader; advertising agent;grocer; greengrocer; baker; butcher; florist
+Medicine
+doctor; physician; family doctor; general practitioner;eye specialist; ear specialist; throat specialist; heart specialist;cardiologist; surgeon; pediatrician; psychiatrist; psychoanalyst;dentist; dietitian; pharmacist; veterinarian;nurse; paramedic; nurse's aide
+School and college
+principal; dean; professor; teacher; instructor;schoolteacher; college teacher; university teacher;head teacher; senior teacher; tutor; mentor; counselor ;teacher of mathematics; mathematics teacher; math teacherEnglish teacher; teacher of English; history teacher; music teacher;
+Student
+student; pupil; learner
+Science
+scientist; scholar; researcher; explorer; inventor;mathematician; physicist; chemist; biologist; botanist; zoologist; historian; archaeologist; geologist; psychologist; sociologist; economist; linguist; astronomer; philosopher; geographer
+IT specialists
+computer specialist; computer programmer; computer operator; software specialist; systems analyst; systems administrator; web developer; web programmer; webmaster; web designer
+Art and creative work
+artist; painter; sculptor; architect; composer; conductor;musician; pianist; violinist; guitarist; drummer; player;singer; dancer; opera singer; ballet dancer; performer;film director; producer; art director; cameraman; actor; actress; player;writer; poet; author; playwright; dramatist; scenarist; publisher;journalist; reporter; correspondent; photographer;designer; fashion designer; dress designer;interior designer; furniture designer; graphic designer
+Construction, repair, maintenance
+builder; construction worker; developer; contractor;engineer; technician; mechanic; electrical engineer; electrician;welder; bricklayer; mason; carpenter; plumber; painter; decorator;repairer; repairman; maintenance man; handyman; caretaker;housekeeper; cleaning lady; cleaning woman; janitor
+Pilots, drivers, crew members
+pilot; flight engineer; flight navigator; flight attendant; stewardess;dispatcher; mechanic; car mechanic; railroad worker; railway worker;driver; chauffeur; taxi driver, cabdriver; bus driver; truck driver;captain; skipper; navigator; sailor
+Law and order
+judge; lawyer; attorney; legal adviser; barrister; solicitor;police officer; policeman; traffic officer; detective;guard; bodyguard; lifeguard; warden; prison guard
+Restaurants
+chef; head cook; cook;maitre d'hotel ; headwaiter; waiter; waitress;bartender; barman; barmaid;dishwasher; busboy
+Other
+firefighter, fireman; tailor; seamstress; postman, mailman;travel agent; travel guide; model; politician; porter;editor; proofreader; printer; translator; interpreter; librarian;jeweler (BrE: jeweller); telephone operator; coal miner;farmer; farm worker; fisherman; hunter; forester; gardener;hairdresser; hair stylist; barber; beautician; cosmetologist; specialist; expert; consultant; adviser; priest; clergyman
+
+
+
+
+
+
+
+
+
