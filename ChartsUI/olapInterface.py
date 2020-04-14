@@ -11,8 +11,6 @@ pymysql.install_as_MySQLdb()
 def runServer():
     app = Flask(__name__)
 
-
-
     @app.route('/countriesSentiments', methods=['GET'])
     @cross_origin()
     def sentimentByCountriesAndDatesMapJson():

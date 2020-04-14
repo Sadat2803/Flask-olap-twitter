@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PFE_M2_SII.iml" filepath="$PROJECT_DIR$/.idea/PFE_M2_SII.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/olapTwitter/.idea/olapTwitter.iml" filepath="$USER_HOME$/PycharmProjects/olapTwitter/.idea/olapTwitter.iml" />
     </modules>
   </component>
 </project>

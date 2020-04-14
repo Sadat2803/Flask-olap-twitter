@@ -49,12 +49,16 @@ class SentimentCube:
 
         dataList = []
         element = {'date': '', 'countriesList': []}
+        import pickle
+        with open('../Docs/locations.pickle', 'rb') as file:
+            worldIso2Dict = pickle.load(file)
         for date in data:
             element['date'] = date
-            countryElement = {'countryName': '', 'numberOfPositive': 0, 'numberOfNegative': 0, 'numberOfNeutral': 0}
+            countryElement = {'countryName': '','iso2':'', 'numberOfPositive': 0, 'numberOfNegative': 0, 'numberOfNeutral': 0}
             myCountriesList = []
             for country in data[date]:
                 countryElement['countryName'] = country
+                countryElement['iso2'] = worldIso2Dict[country]
                 countryElement['numberOfPositive'] = data[date][country]['numberOfPositive']
                 countryElement['numberOfNegative'] = data[date][country]['numberOfNegative']
                 countryElement['numberOfNeutral'] = data[date][country]['numberOfNeutral']
