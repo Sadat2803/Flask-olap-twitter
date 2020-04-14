@@ -58,7 +58,7 @@ class SentimentCube:
             myCountriesList = []
             for country in data[date]:
                 countryElement['countryName'] = country
-                countryElement['iso2'] = worldIso2Dict[country]
+                countryElement['iso2'] = worldIso2Dict['japan']
                 countryElement['numberOfPositive'] = data[date][country]['numberOfPositive']
                 countryElement['numberOfNegative'] = data[date][country]['numberOfNegative']
                 countryElement['numberOfNeutral'] = data[date][country]['numberOfNeutral']
