@@ -35,35 +35,41 @@ class SentimentCube:
 
         data = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
         for row in output:
-            date = row['time.year'] + "-" + row['time.month'] + "-" + row['time.month']
-            country = row['location.countryName']
-            data[date][country]['numberOfNegative'] += 0
-            data[date][country]['numberOfPositive'] += 0
-            data[date][country]['numberOfNeutral'] += 0
-            if row['sentiment_average'] < -0.1:
-                data[date][country]['numberOfNegative'] += 1
-            elif row['sentiment_average'] > 0.1:
-                data[date][country]['numberOfPositive'] += 1
-            else:
-                data[date][country]['numberOfNeutral'] += 1
-
+            if row['location.countryName'] != 'ND':
+                date = row['time.year'] + "-" + row['time.month'] + "-" + row['time.day']
+                country = row['location.countryName']
+                data[date][country]['numberOfNegative'] += 0
+                data[date][country]['numberOfPositive'] += 0
+                data[date][country]['numberOfNeutral'] += 0
+                if row['sentiment_average'] < -0.1:
+                    data[date][country]['numberOfNegative'] += 1
+                elif row['sentiment_average'] > 0.1:
+                    data[date][country]['numberOfPositive'] += 1
+                else:
+                    data[date][country]['numberOfNeutral'] += 1
         dataList = []
         element = {'date': '', 'countriesList': []}
         import pickle
         with open('../Docs/locations.pickle', 'rb') as file:
+            worldCitiesDict = pickle.load(file)
             worldIso2Dict = pickle.load(file)
+
         for date in data:
             element['date'] = date
             countryElement = {'countryName': '','iso2':'', 'numberOfPositive': 0, 'numberOfNegative': 0, 'numberOfNeutral': 0}
             myCountriesList = []
             for country in data[date]:
-                countryElement['countryName'] = country
-                countryElement['iso2'] = worldIso2Dict['japan']
-                countryElement['numberOfPositive'] = data[date][country]['numberOfPositive']
-                countryElement['numberOfNegative'] = data[date][country]['numberOfNegative']
-                countryElement['numberOfNeutral'] = data[date][country]['numberOfNeutral']
-                myCountriesList.append(countryElement)
-                countryElement = {'countryName': '', 'numberOfPositive': 0, 'numberOfNegative': 0, 'numberOfNeutral': 0}
+                try:
+                    countryElement['countryName'] = country
+                    countryElement['iso2'] = worldIso2Dict[country]
+                    countryElement['numberOfPositive'] = data[date][country]['numberOfPositive']
+                    countryElement['numberOfNegative'] = data[date][country]['numberOfNegative']
+                    countryElement['numberOfNeutral'] = data[date][country]['numberOfNeutral']
+                    myCountriesList.append(countryElement)
+                    countryElement = {'countryName': '', 'numberOfPositive': 0, 'numberOfNegative': 0,
+                                      'numberOfNeutral': 0}
+                except KeyError as e:
+                    print("No iso2 available for: "+str(e))
             element['countriesList'] = myCountriesList
             dataList.append(element)
             element = {'date': '', 'countriesList': []}
