@@ -15,7 +15,15 @@ def runServer():
     @cross_origin()
     def sentimentByCountriesAndDatesMapJson():
         sentimentCube = SentimentCube()
-        data = sentimentCube.getSentimentByContriesAndDates()
+        data = sentimentCube.getSentimentByCountriesAndDates()
+        a = jsonify(data)
+        return a
+
+    @app.route('/groupedCountriesSentiments', methods=['GET'])
+    @cross_origin()
+    def sentimentByCountriesMapJson():
+        sentimentCube = SentimentCube()
+        data = sentimentCube.getSentimentByCountries()
         a = jsonify(data)
         return a
 
