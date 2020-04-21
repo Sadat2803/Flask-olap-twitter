@@ -26,30 +26,34 @@ class TweetCube:
         cube = self.workspace.cube("tweet")
         cube.browser = self.browserTweet
         cell = Cell(cube)
-
         result = self.browserTweet.aggregate(cell, drilldown=["location","source"],aggregates=["numberOfTweets_sum"])
+        output = defaultdict(lambda: defaultdict())
 
-        output = []
         for row in result.table_rows("location"):
-            #print(row.record)
-            output.append(row.record)
-
-        temp = defaultdict(lambda: defaultdict())
-        for row in output:
-            continent = row['location.continentName']
-            source = row['source.sourceName']
-            temp[continent][source] = row['numberOfTweets_sum']
+            continent = row.record['location.continentName']
+            source = row.record['source.sourceName']
+            output[continent][source] = row.record['numberOfTweets_sum']
+        temp = {'continentName': '',
+                'sources': [{'source': '', 'numberOfTweets': ''}, {'source': '', 'numberOfTweets': ''},
+                            {'source': '', 'numberOfTweets': ''}]}
+        i = 0
         data = []
-        for continent in temp:
-            element = {'continentName': continent,
-                       'iphoneNumber': temp[continent]['iPhone'],
-                       'androidNumber': temp[continent]['Android'],
-                       'webNumber': temp[continent]['Web'],
-                       'otherSourceNumber': temp[continent]['Unknown']}
-            data.append(element)
-        #print(data)
+        for continent in output:
+            temp['continentName'] = continent
+            temp['sources'][i]['source'] = "iPhone"
+            temp['sources'][i]['numberOfTweets'] = output[continent]['iPhone']
+            i += 1
+            temp['sources'][i]['source'] = "Android"
+            temp['sources'][i]['numberOfTweets'] = output[continent]['Android']
+            i += 1
+            temp['sources'][i]['source'] = "Web"
+            temp['sources'][i]['numberOfTweets'] = output[continent]['Web']
+            i = 0
+            data.append(temp)
+            temp = {'continentName': '',
+                'sources': [{'source': '', 'numberOfTweets': ''}, {'source': '', 'numberOfTweets': ''},
+                            {'source': '', 'numberOfTweets': ''}]}
         return data
-
 
     def getBarChartRaceByLanguageAndDate(self):
         cube = self.workspace.cube("tweet")

@@ -27,7 +27,7 @@ def runServer():
         a = jsonify(data)
         return a
 
-    @app.route('/tweetsSourcesBycontinent', methods=['GET'])
+    @app.route('/tweetsSourcesByContinent', methods=['GET'])
     @cross_origin()
     def sourcePieChartsByContinentJson():
         tweetCube = TweetCube()
