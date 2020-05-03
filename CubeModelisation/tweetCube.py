@@ -15,9 +15,7 @@ class TweetCube:
         self.workspace = Workspace()
         self.workspace.register_default_store("sql",
                                          url="mysql://root:@localhost/tweetsdatawarehouse")
-
         model = cubes.read_model_metadata_bundle("../CubeModelisation/model/")
-
         self.workspace.import_model(model)
         self.browserTweet = self.workspace.browser("tweet")
 
@@ -59,34 +57,35 @@ class TweetCube:
         cube = self.workspace.cube("tweet")
         cube.browser = self.browserTweet
         cell = Cell(cube)
-
         result = self.browserTweet.aggregate(cell, drilldown=["time:day", "language"],
                                              aggregates=["numberOfTweets_sum"])
-
         output = []
         for row in result.table_rows("time"):
             output.append(row.record)
-            #print(row.record)
-
         data = defaultdict(lambda: defaultdict(lambda: defaultdict()))
+        languagesList = []
         for row in output:
             date = row['time.day'] + "/" + row['time.month'] + "/" + row['time.year']
             language = row['language.languageName']
+            languagesList.append(language)
+            # creating data structure containing all languages
             data[date][language]['numberOfTweets'] = row['numberOfTweets_sum']
-        dataList = []
+
+        #GET LIST OF LANGUAGES FROM FILE
+        import pickle
+        with open('../Docs/languagesStructure.pickle', 'rb') as file:
+            languagesList = pickle.load(file)
+        print(len(languagesList))
         element = {'date': '', 'languagesList': []}
+        dataList = []
         for date in data:
             element['date'] = date
-            languageElement = {'language': '', 'numberOfTweets': 0}
-            myLanguagesList = []
-            for language in data[date]:
-                languageElement['language'] = language
-                languageElement['numberOfTweets'] = data[date][language]['numberOfTweets']
-                myLanguagesList.append(languageElement)
-                languageElement = {'language': '', 'numberOfTweets': 0}
-            element['languagesList'] = myLanguagesList
+            for language in languagesList:
+                if language in data[date]:
+                    element['languagesList'].append({'language':language,'numberOfTweets':data[date][language]['numberOfTweets']})
+                else:
+                    element['languagesList'].append({'language':language,'numberOfTweets':0})
             dataList.append(element)
-            element = {'date': '', 'languagesList': []}
         return dataList
 
 
@@ -101,7 +100,6 @@ class TweetCube:
         output = []
         for row in result.table_rows("time"):
             output.append(row.record)
-            #print(row.record)
 
         data = defaultdict(lambda: defaultdict(lambda: defaultdict()))
         for row in output:
