@@ -80,6 +80,8 @@ class TweetCube:
         dataList = []
         for date in data:
             element['date'] = date
+            element['languagesList'] = []
+            print(len(languagesList))
             for language in languagesList:
                 if language in data[date]:
                     element['languagesList'].append({'language':language,'numberOfTweets':data[date][language]['numberOfTweets']})
