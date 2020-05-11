@@ -1,15 +1,15 @@
 from eloquent import DatabaseManager, Model
 
-config = {
+configdb = {
         'mysql':{
             'driver': 'mysql',
             'host': 'localhost',
-            'database': 'tweetsdatawarehouse',
+            'database': 'datawarehouse',
             'user': 'root',
             'password': '',
             'prefix':''
         }
     }
 
-db = DatabaseManager(config)
+db = DatabaseManager(configdb)
 Model.set_connection_resolver(db)

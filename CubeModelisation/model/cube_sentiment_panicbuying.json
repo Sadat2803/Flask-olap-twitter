@@ -1,64 +1,43 @@
 {
-    "name": "tweet",
-    "label": "Tweets Analysis",
+    "name": "sentimentpanicbuying",
+    "label": "Sentiment Analysis panicbuying",
     "dimensions": [
         "language",
         "location",
-        "sentiment",
-        "source",
         "time"
     ],
     "measures": [
         {
-            "name": "numberOfTweets"
+            "name": "averageSentiment"
         }
     ],
-    "aggregates": [
-        {
-            "name": "numberOfTweets_average",
-            "label": "Tweet Number AVG",
-            "measure": "numberOfTweets",
+    "aggregates": [{
+            "name": "sentiment_average",
+            "label": "SentimentAverage Avg",
+            "measure": "averageSentiment",
             "function": "avg"
-        },
-        {
-            "name": "numberOfTweets_sum",
-            "label": "Tweet Number SUM",
-            "measure": "numberOfTweets",
-            "function": "sum"
         }
     ],
-    "fact": "facttweet",
+    "fact": "factsentimentpanicbuying",
     "joins": [
         {
-            "master": "facttweet.languageID",
+            "master": "factsentimentpanicbuying.languageID",
             "detail": "dimlanguage.languageID"
         },
         {
-            "master": "facttweet.sentimentID",
-            "detail": "dimsentiment.sentimentID"
-        },
-        {
-            "master": "facttweet.sourceID",
-            "detail": "dimsource.sourceID"
-        },
-        {
-            "master": "facttweet.locationID",
+            "master": "factsentimentpanicbuying.locationID",
             "detail": "dimlocation.locationID"
         },
         {
-            "master": "facttweet.timeID",
+            "master": "factsentimentpanicbuying.timeID",
             "detail": "dimtime.timeID"
         }
     ],
     "mappings": {
-            "numberOfTweets": "facttweet.numberOfTweets",
+            "averageSentiment": "factsentimentpanicbuying.averageSentiment",
             "language.languageID": "dimlanguage.languageID",
             "language.languageCode": "dimlanguage.languageCode",
             "language.languageName": "dimlanguage.languageName",
-            "sentiment.sentimentID": "dimsentiment.sentimentID",
-            "sentiment.sentimentLabel": "dimsentiment.sentimentLabel",
-            "source.sourceID": "dimsource.sourceID",
-            "source.sourceName": "dimsource.sourceName",
             "location.cityName": "dimlocation.cityName",
             "location.countryID": "dimlocation.countryID",
             "location.countryName": "dimlocation.countryName",

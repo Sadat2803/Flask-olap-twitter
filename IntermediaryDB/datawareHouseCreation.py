@@ -1,5 +1,4 @@
 from eloquent import DatabaseManager, Model
-
 from DWFiles.dimLanguage import DimLanguage
 from DWFiles.dimLocation import DimLocation
 from DWFiles.dimSentiment import DimSentiment
@@ -14,7 +13,7 @@ config = {
         'mysql':{
             'driver': 'mysql',
             'host': 'localhost',
-            'database': 'IntermediaryDB',
+            'database': 'InterDB',
             'user': 'root',
             'password': '',
             'prefix':''
@@ -26,91 +25,142 @@ dbIntermediary = DatabaseManager(config)
 
 class DatawareHouseCreation:
 
-    def createDatawareHouse(self):
+    def createDatawareHouse(self, clientID):
 
-        # Fill the Fact Tweet Table
-        data = dbIntermediary.table('alltweets').select(dbIntermediary.raw('*,count(*) as numberOfTweets')).group_by(
-            'languageName', 'sourceName', 'timeAltID', 'sentimentLabel', 'cityName').get()
-        cpt = 0
-        for row in data:
-            rowSentiment = [row['sentimentLabel']]
-            rowSource = [row['sourceName']]
-            rowTime = [row['timeAltID'], row['dayOfWeek'], row['day'], row['month'], row['monthName'], row['year'],
-                       row['season']]
-            rowLocation = [row['locationAltID'], row['cityName'], row['countryID'], row['countryName'],
-                           row['continentID'], row['continentName']]
-            rowLanguage = [row['languageCode'], row['languageName']]
+        # get all the different concepts for this client
+        allConcepts = dbIntermediary.table('alltweets').select(dbIntermediary.raw('distinct concept')).where('clientID', '=', clientID).get()
 
-            # instanciate the DB tables
-            time = DimTime()
-            sentiment = DimSentiment()
-            language = DimLanguage()
-            location = DimLocation()
-            source = DimSource()
-            factTweet = FactTweet()
+        for temp in allConcepts:
+            concept = temp['concept']
+            # create 2 cubes (tables) for this concept
+            tweetCubeName = 'facttweet' + concept
+            sentimentCubeName = 'factsentiment' + concept
+            print('concept is : ',concept)
+            mydb = mysql.connector.connect(
+                host="localhost",
+                user="root",
+                passwd="",
+                database="datawarehouse"
+            )
 
-            # fill the dimensions
-            timeID = time.insert(rowTime)
-            sentimentID = sentiment.insert(rowSentiment)
-            languageID = language.insert(rowLanguage)
-            locationID = location.insert(rowLocation)
-            sourceID = source.insert(rowSource)
+            mycursor = mydb.cursor()
+            mycursor.execute("""
+                                    DROP TABLE IF EXISTS """ + tweetCubeName + """;
+                                    CREATE TABLE IF NOT EXISTS """ + tweetCubeName + """ (
+                                      locationID int(11) NOT NULL,
+                                      sourceID int(11) NOT NULL,
+                                      languageID int(11) NOT NULL,
+                                      timeID int(11) NOT NULL,
+                                      sentimentID int(11) NOT NULL,
+                                      numberOfTweets int(11) NOT NULL
+                                    ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+                                    """
+                            +
+                             """
+                                                     DROP TABLE IF EXISTS """ + sentimentCubeName + """;
+                                                     CREATE TABLE IF NOT EXISTS """ + sentimentCubeName + """ (
+                                                       locationID int(11) NOT NULL,
+                                                       languageID int(11) NOT NULL,
+                                                       timeID int(11) NOT NULL,
+                                                       averageSentiment float NOT NULL
+                                                     ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+                                                     """
+                             )
+            mycursor.close()
+            #-----------------------------------------
+            configdb = {
+                'mysql': {
+                    'driver': 'mysql',
+                    'host': 'localhost',
+                    'database': 'datawarehouse',
+                    'user': 'root',
+                    'password': '',
+                    'prefix': ''
+                }
+            }
 
-            # fill the fact table with foreign keys & mesures
-            numberOfTweets = row['numberOfTweets']
+            db = DatabaseManager(configdb)
+            Model.set_connection_resolver(db)
+            #-----------------------------------------
+            # Fill the Fact Tweet Table
+            data = dbIntermediary.table('alltweets').select(dbIntermediary.raw('*,count(*) as numberOfTweets'))\
+                .where('clientID', '=', clientID).where('concept', '=', concept).group_by(
+                'languageName', 'sourceName', 'timeAltID', 'sentimentLabel', 'cityName').get()
 
-            row = [locationID, sourceID, languageID, timeID, sentimentID, numberOfTweets]
+            cpt = 0
+            for row in data:
+                rowSentiment = [row['sentimentLabel']]
+                rowSource = [row['sourceName']]
+                rowTime = [row['timeAltID'], row['dayOfWeek'], row['day'], row['month'], row['monthName'], row['year'],
+                           row['season']]
+                rowLocation = [row['locationAltID'], row['cityName'], row['countryID'], row['countryName'],
+                               row['continentID'], row['continentName']]
+                rowLanguage = [row['languageCode'], row['languageName']]
 
-            factTweet.insert(row)
+                # instanciate the DB tables
+                time = DimTime()
+                sentiment = DimSentiment()
+                language = DimLanguage()
+                location = DimLocation()
+                source = DimSource()
+                factTweet = FactTweet()
 
-            cpt += 1
-            print(cpt, "tuple inserted", sep=" ")
-        print("All tuples are inserted For the Fact Tweet")
+                # fill the dimensions
+                timeID = time.insert(rowTime)
+                sentimentID = sentiment.insert(rowSentiment)
+                languageID = language.insert(rowLanguage)
+                locationID = location.insert(rowLocation)
+                sourceID = source.insert(rowSource)
+
+                # fill the fact table with foreign keys & mesures
+                numberOfTweets = row['numberOfTweets']
+                row = [locationID, sourceID, languageID, timeID, sentimentID, numberOfTweets]
+                factTweet.insert(row, tweetCubeName)
+                cpt += 1
+                print(cpt, "tuple inserted", sep=" ")
+            print("All tuples are inserted For the Fact Tweet for the concept :", concept)
 # ----------------------------------------------------------------------------------------------------------------
-        # Fill the Fact Sentiment Table
-        data = dbIntermediary.table('alltweets').select(
-            dbIntermediary.raw('*,avg(sentimentValue) as averageSentiment')).group_by(
-            'languageName', 'timeAltID', 'cityName').get()
-        cpt = 0
-        for row in data:
-            rowTime = [row['timeAltID'], row['dayOfWeek'], row['day'], row['month'], row['monthName'], row['year'],
-                       row['season']]
-            rowLocation = [row['locationAltID'], row['cityName'], row['countryID'], row['countryName'],
-                           row['continentID'], row['continentName']]
-            rowLanguage = [row['languageCode'], row['languageName']]
+            # Fill the Fact Sentiment Table
+            data = dbIntermediary.table('alltweets').select(
+                dbIntermediary.raw('*,avg(sentimentValue) as averageSentiment'))\
+                .where('clientID', '=', clientID).where('concept', '=', concept).group_by(
+                'languageName', 'timeAltID', 'cityName').get()
+            cpt = 0
+            for row in data:
+                rowTime = [row['timeAltID'], row['dayOfWeek'], row['day'], row['month'], row['monthName'], row['year'],
+                           row['season']]
+                rowLocation = [row['locationAltID'], row['cityName'], row['countryID'], row['countryName'],
+                               row['continentID'], row['continentName']]
+                rowLanguage = [row['languageCode'], row['languageName']]
 
-            # instanciate the DB tables
-            time = DimTime()
-            language = DimLanguage()
-            location = DimLocation()
-            factSentiment = FactSentiment()
+                # instanciate the DB tables
+                time = DimTime()
+                language = DimLanguage()
+                location = DimLocation()
+                factSentiment = FactSentiment()
 
-            # fill the dimensions
-            timeID = time.insert(rowTime)
-            languageID = language.insert(rowLanguage)
-            locationID = location.insert(rowLocation)
+                # fill the dimensions
+                timeID = time.insert(rowTime)
+                languageID = language.insert(rowLanguage)
+                locationID = location.insert(rowLocation)
 
-            # fill the fact table with foreign keys & mesures
-            averageSentiment = row['averageSentiment']
+                # fill the fact table with foreign keys & mesures
+                averageSentiment = row['averageSentiment']
+                row = [locationID, languageID, timeID, averageSentiment]
 
-            row = [locationID, languageID, timeID, averageSentiment]
-
-            factSentiment.insert(row)
-
-            cpt += 1
-            print(cpt, "tuple inserted", sep=" ")
-        print("All tuples are inserted For the Fact Sentiment")
+                factSentiment.insert(row, sentimentCubeName)
+                cpt += 1
+                print(cpt, "tuple inserted", sep=" ")
+            print("All tuples are inserted For the Fact Sentiment for the concept :", concept)
 # ----------------------------------------------------------------------------------------------------------------
         # Fill the Fact CovCase Table
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
             passwd="",
-            database="IntermediaryDB"
+            database="interDB"
         )
-
         mycursor = mydb.cursor()
-
         mycursor.execute("select * from covidstats, alltweets "
                          "where alltweets.timeAltID = covidstats.dateCode and alltweets.countryName = covidstats.country "
                          "group by covidstats.country ,covidstats.date")

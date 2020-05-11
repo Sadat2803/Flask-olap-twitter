@@ -8,19 +8,20 @@ from cubes import Workspace, Cell, PointCut
 
 class SentimentCube:
 
-    def __init__(self):
+    def __init__(self, concept):
         self.createCube()
+        self.concept = concept
 
     def createCube(self):
         self.workspace = Workspace()
-        self.workspace.register_default_store("sql", url="mysql://root:@localhost/tweetsdatawarehouse")
+        self.workspace.register_default_store("sql", url="mysql://root:@localhost/datawarehouse")
         model = cubes.read_model_metadata_bundle("../CubeModelisation/model/")
         self.workspace.import_model(model)
-        self.browserTweet = self.workspace.browser("sentiment")
+        self.browserTweet = self.workspace.browser("sentiment" + self.concept)
 
 
     def getSentimentByCountriesAndDates(self):
-        cube = self.workspace.cube("sentiment")
+        cube = self.workspace.cube("sentiment" + self.concept)
         cube.browser = self.browserTweet
         cell = Cell(cube)
 
@@ -72,7 +73,7 @@ class SentimentCube:
         return dataList
 
     def getSentimentByCountries(self):
-        cube = self.workspace.cube("sentiment")
+        cube = self.workspace.cube("sentiment" + self.concept)
         cube.browser = self.browserTweet
         cell = Cell(cube)
         result = self.browserTweet.aggregate(cell, drilldown=["time:day","location:city"], aggregates=["sentiment_average"])

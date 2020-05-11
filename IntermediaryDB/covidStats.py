@@ -4,7 +4,7 @@ config = {
         'mysql':{
             'driver': 'mysql',
             'host': 'localhost',
-            'database': 'IntermediaryDB',
+            'database': 'interdb',
             'user': 'root',
             'password': '',
             'prefix':''

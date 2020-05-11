@@ -6,6 +6,7 @@ class DimTime(Model):
     __primary_key__ = 'timeID'
     __table__ = "dimtime"
 
+
     def insert(self,row):
         found = DimTime.where('timeAltID', '=', row[0])
         if found.count() == 0:

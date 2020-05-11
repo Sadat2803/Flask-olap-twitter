@@ -1,22 +1,27 @@
 import json
+from nltk import defaultdict
 from os import listdir
 from os import rename
 from os.path import isfile, join
 from IntermediaryDB.allTweets import AllTweets
-
+import re
+from nltk.corpus import stopwords
 from Preprocessing.tweetsPreProcessing import *
+import preprocessor as p
 
 
 class TweetsInsertionIntermediaryToDB():
 
 
-    def lanchInsertionToIntermediaryDB(self,enrichment):
+    def lanchInsertionToIntermediaryDB(self,enrichment, folderPath, concept, clientID):
 
         preProcessing = TweetsPreProcessing()
         if enrichment == False: #default case
             dirPath = "../TweetFiles/"
         else: #enrichment case
             dirPath = "../EnrichmentFiles/"
+        dirPath = folderPath
+        print(dirPath)
         allFiles = [f for f in listdir(dirPath) if isfile(join(dirPath, f))]
         print(allFiles)
         for fileName in allFiles:
@@ -37,12 +42,17 @@ class TweetsInsertionIntermediaryToDB():
                     cpt=0
                     for tweet in tweets['tweets']:
                         allTweets = AllTweets()
+
                         tweetID = tweet['id_str']
-                        row  = [tweetID]
+                        text = p.clean(tweet['text'])
+                        text = " ".join(re.findall('\w+', text))
+                        text = "text"
+                        row = [tweetID, text]
                         row += preProcessing.getLangage(tweet['lang']) + preProcessing.getLocation(tweet['user']['location'])\
                                + preProcessing.getTime(tweet['created_at']) + preProcessing.getSentimentAnalysis(tweet['text'])\
                                + preProcessing.getSource(tweet['source'])
-
+                        row += [clientID, concept]
+                        print(row)
                         allTweets.insert(row)
                         cpt+=1
                         print(cpt,"tweet ",sep=" ")
@@ -56,7 +66,7 @@ class TweetsInsertionIntermediaryToDB():
                     rename(newFileName,newFileName2)
 
 
-        print("All Files are loaded to the database")
+        print("All Files are loaded to the intermediary database")
 
     def renameFiles(self):
         dirPath = "../TweetFiles/"
@@ -94,10 +104,63 @@ class TweetsInsertionIntermediaryToDB():
         print(listUser.__len__())
 
 
+    def lanchInsertionToDB(self,enrichment):
+
+        if enrichment == False: #default case
+            dirPath = "../TweetFiles/"
+        else: #enrichment case
+            dirPath = "../EnrichmentFiles/"
+        allFiles = [f for f in listdir(dirPath) if isfile(join(dirPath, f))]
+        print(allFiles)
+        cpt = 0
+        i = 0
+        for fileName in allFiles:
+            if fileName.startswith("ExtractedTweetsFor"):
+                fullFileName = dirPath + fileName
+                tweetsFile = open(fullFileName, 'r', encoding="utf-8")
+                tweets = json.load(tweetsFile)
+
+                for tweet in tweets['tweets']:
+                    tweetID = tweet['id_str']
+                    tweetLanguage = tweet['lang']
+                    if tweetLanguage =="en":
+                        found = AllTweets.find(tweetID)
+                        if found:
+                            if found.text == "":
+                                tweetText = p.clean(tweet['text'])
+                                print(tweetText)
+                                #tweetText = tweetText.encode('unicode-escape').decode('utf-8')
+                                found.text = tweetText
+                                found.save()
+                                i += 1
+                                print(i," lignes updated")
+                    cpt += 1
+                    print(cpt,"tweet number")
+                tweetsFile.close()
+
+
+
+    def getKeyWordsFromTweets(self):
+        result = AllTweets.where("languageCode","=","en").where("text","!=","").get()
+        wordFrequency = defaultdict(int)
+        stopWords = set(stopwords.words('english'))
+
+        for row in result:
+            text = row.text.lower()
+            tokens = re.findall("[a-zA-Z]{2,}",text)
+            for token in tokens:
+                if token not in stopWords:
+                    wordFrequency[token]+=1
+        w = sorted(wordFrequency.items(), key=lambda wordFrequency: wordFrequency[1], reverse=True)
+        print(w)
+
+
 
 
 if __name__=="__main__":
     test = TweetsInsertionIntermediaryToDB()
-    test.lanchInsertionToIntermediaryDB(enrichment=False)
+    #test.lanchInsertionToIntermediaryDB(enrichment=False)
+    test.lanchInsertionToDB(enrichment=False)
+    #test.getKeyWordsFromTweets()
     #test.renameFiles()
     #test.getDistinctTweets()
