@@ -131,7 +131,6 @@ class TweetsPreProcessing():
             worldIso2Dict = pickle.load(file)
             worldIso3Dict = pickle.load(file)
             worldCountriesDict = pickle.load(file)
-
         if location == None: #in case no location given by the user
             location=""
         en_blob = TextBlob(location)
@@ -399,7 +398,7 @@ class TweetsPreProcessing():
 
 if __name__ == '__main__':
     preProcessing = TweetsPreProcessing()
-    loc = preProcessing.getLocation("barcelona")
+    loc = preProcessing.getLocation("i live in japan")
     print(loc)
     """tweetsFile = open('Docs/myTweetsExtracted.json', 'r', encoding="utf-8")
     tweets = json.load(tweetsFile)

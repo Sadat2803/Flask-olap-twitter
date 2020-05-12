@@ -8,20 +8,20 @@ from cubes import Workspace, Cell, PointCut
 
 class TweetCube:
 
-    def __init__(self):
+    def __init__(self, concept):
         self.createCube()
+        self.concept = concept
 
     def createCube(self):
         self.workspace = Workspace()
         self.workspace.register_default_store("sql",
-                                         url="mysql://root:@localhost/tweetsdatawarehouse")
+                                         url="mysql://root:@localhost/datawarehouse")
         model = cubes.read_model_metadata_bundle("../CubeModelisation/model/")
         self.workspace.import_model(model)
-        self.browserTweet = self.workspace.browser("tweet")
-
+        self.browserTweet = self.workspace.browser("tweet" + self.concept)
 
     def getPieChartSource(self):
-        cube = self.workspace.cube("tweet")
+        cube = self.workspace.cube("tweet" + self.concept)
         cube.browser = self.browserTweet
         cell = Cell(cube)
         result = self.browserTweet.aggregate(cell, drilldown=["location","source"],aggregates=["numberOfTweets_sum"])
@@ -54,7 +54,7 @@ class TweetCube:
         return data
 
     def getBarChartRaceByLanguageAndDate(self):
-        cube = self.workspace.cube("tweet")
+        cube = self.workspace.cube("tweet" + self.concept)
         cube.browser = self.browserTweet
         cell = Cell(cube)
         result = self.browserTweet.aggregate(cell, drilldown=["time:day", "language"],
@@ -92,7 +92,7 @@ class TweetCube:
 
 
     def getBarChartRaceBySentimentAndDate(self):
-        cube = self.workspace.cube("tweet")
+        cube = self.workspace.cube("tweet" + self.concept)
         cube.browser = self.browserTweet
         cell = Cell(cube)
 

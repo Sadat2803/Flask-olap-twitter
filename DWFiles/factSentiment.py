@@ -3,10 +3,11 @@ from DWFiles.importsForDB import *
 class FactSentiment(Model):
     __fillable__ = ['locationID','languageID','timeID','averageSentiment']
     __timestamps__ = False
-    __table__ = "factsentiment"
 
-    def insert(self,row):
+
+    def insert(self,row, sentimentCubeName):
         #foreign keys
+        self.__table__ = sentimentCubeName
         self.locationID = row[0]
         self.languageID = row[1]
         self.timeID = row[2]

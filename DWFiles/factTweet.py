@@ -3,10 +3,10 @@ from DWFiles.importsForDB import *
 class FactTweet(Model):
     __fillable__ = ['locationID','sourceID','languageID','timeID','sentimentID','numberOfTweets']
     __timestamps__ = False
-    __table__ = "facttweet"
 
-    def insert(self,row):
+    def insert(self,row, tweetCubeName):
         #foreign keys
+        self.__table__ = tweetCubeName
         self.locationID = row[0]
         self.sourceID = row[1]
         self.languageID = row[2]

@@ -1,6 +1,6 @@
 {
-    "name": "sentiment",
-    "label": "Sentiment Analysis",
+    "name": "sentimentstayathome",
+    "label": "Sentiment Analysis stayathome",
     "dimensions": [
         "language",
         "location",
@@ -18,23 +18,23 @@
             "function": "avg"
         }
     ],
-    "fact": "factsentiment",
+    "fact": "factsentimentstayathome",
     "joins": [
         {
-            "master": "factsentiment.languageID",
+            "master": "factsentimentstayathome.languageID",
             "detail": "dimlanguage.languageID"
         },
         {
-            "master": "factsentiment.locationID",
+            "master": "factsentimentstayathome.locationID",
             "detail": "dimlocation.locationID"
         },
         {
-            "master": "factsentiment.timeID",
+            "master": "factsentimentstayathome.timeID",
             "detail": "dimtime.timeID"
         }
     ],
     "mappings": {
-            "averageSentiment": "factsentiment.averageSentiment",
+            "averageSentiment": "factsentimentstayathome.averageSentiment",
             "language.languageID": "dimlanguage.languageID",
             "language.languageCode": "dimlanguage.languageCode",
             "language.languageName": "dimlanguage.languageName",

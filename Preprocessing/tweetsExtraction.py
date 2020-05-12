@@ -13,7 +13,7 @@ class TweetsRest():
 
     def extractTweets(self,tagsList,enrichment):
         #,since="2020-03-19" , until="2020-03-20"
-        allTweets = tweepy.Cursor(self.api.search, q=tagsList,since="2020-04-08" , until="2020-04-09",count=100).items()
+        allTweets = tweepy.Cursor(self.api.search, q=tagsList,since="2020-05-07" , until="2020-05-08",count=100).items()
         if enrichment:
             fileName = "../EnrichmentFiles/ExtractedTweetsFor-" + str(datetime.datetime.today()).split()[0] + ".json"
         else:

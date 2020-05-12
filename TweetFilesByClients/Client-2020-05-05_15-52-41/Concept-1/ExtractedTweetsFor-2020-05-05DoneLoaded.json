@@ -1,0 +1,2440 @@
+{ "tweets" : [{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 14:52:41 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    91,
+                    99
+                ],
+                "text": "COVID19"
+            },
+            {
+                "indices": [
+                    100,
+                    120
+                ],
+                "text": "KitaTeguhKitaMenang"
+            },
+            {
+                "indices": [
+                    121,
+                    136
+                ],
+                "text": "KomunikasiKita"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 114914506,
+                "id_str": "114914506",
+                "indices": [
+                    3,
+                    15
+                ],
+                "name": "Jabatan Penerangan Malaysia",
+                "screen_name": "JPenerangan"
+            },
+            {
+                "id": 531041640,
+                "id_str": "531041640",
+                "indices": [
+                    76,
+                    89
+                ],
+                "name": "KKMPutrajaya",
+                "screen_name": "KKMPutrajaya"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257684649192460292,
+    "id_str": "1257684649192460292",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "in",
+    "metadata": {
+        "iso_language_code": "in",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 33,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Tue May 05 09:43:32 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        74,
+                        82
+                    ],
+                    "text": "COVID19"
+                },
+                {
+                    "indices": [
+                        83,
+                        103
+                    ],
+                    "text": "KitaTeguhKitaMenang"
+                }
+            ],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1257606849928421377",
+                    "indices": [
+                        105,
+                        128
+                    ],
+                    "url": "https://t.co/xbhdHmKYD8"
+                }
+            ],
+            "user_mentions": [
+                {
+                    "id": 531041640,
+                    "id_str": "531041640",
+                    "indices": [
+                        59,
+                        72
+                    ],
+                    "name": "KKMPutrajaya",
+                    "screen_name": "KKMPutrajaya"
+                }
+            ]
+        },
+        "favorite_count": 36,
+        "favorited": false,
+        "geo": null,
+        "id": 1257606849928421377,
+        "id_str": "1257606849928421377",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "in",
+        "metadata": {
+            "iso_language_code": "in",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 33,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "text": "Status Terkini COVID-19 Di Malaysia, 5 Mei 2020 \n\nSumber : @KKMPutrajaya\n\n#COVID19\n#KitaTeguhKitaMenang\u2026 https://t.co/xbhdHmKYD8",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Wed Feb 17 01:10:37 +0000 2010",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Menyampaikan maklumat Kerajaan kepada rakyat & mengumpul maklumat daripada rakyat untuk dimaklumkan kepada Kerajaan.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "facebook.com/penerangan",
+                            "expanded_url": "https://www.facebook.com/penerangan",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/B2RwClgAJJ"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 5503,
+            "follow_request_sent": false,
+            "followers_count": 131253,
+            "following": false,
+            "friends_count": 283,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 114914506,
+            "id_str": "114914506",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 220,
+            "location": "Wilayah Persekutuan Putrajaya",
+            "name": "Jabatan Penerangan Malaysia",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/114914506/1486437619",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1205517350306402304/hcAqCodG_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1205517350306402304/hcAqCodG_normal.jpg",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "JPenerangan",
+            "statuses_count": 38306,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/B2RwClgAJJ",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @JPenerangan: Status Terkini COVID-19 Di Malaysia, 5 Mei 2020 \n\nSumber : @KKMPutrajaya\n\n#COVID19\n#KitaTeguhKitaMenang\n#KomunikasiKita\n#S\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon May 07 07:17:04 +0000 2012",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 1921,
+        "follow_request_sent": false,
+        "followers_count": 324,
+        "following": false,
+        "friends_count": 210,
+        "geo_enabled": true,
+        "has_extended_profile": false,
+        "id": 573381856,
+        "id_str": "573381856",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 1,
+        "location": "",
+        "name": "Yati Anuar",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/575499230174838784/jbyVr7hq_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/575499230174838784/jbyVr7hq_normal.jpeg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "YRosman",
+        "statuses_count": 24929,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 14:52:39 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    18,
+                    26
+                ],
+                "text": "COVID19"
+            },
+            {
+                "indices": [
+                    110,
+                    124
+                ],
+                "text": "SetiaBerbakti"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 412919725,
+                "id_str": "412919725",
+                "indices": [
+                    3,
+                    16
+                ],
+                "name": "RELA Malaysia",
+                "screen_name": "relamalaysia"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257684641697259520,
+    "id_str": "1257684641697259520",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "in",
+    "metadata": {
+        "iso_language_code": "in",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 2,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Tue May 05 07:03:31 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        0,
+                        8
+                    ],
+                    "text": "COVID19"
+                },
+                {
+                    "indices": [
+                        92,
+                        106
+                    ],
+                    "text": "SetiaBerbakti"
+                }
+            ],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1257566580734480385",
+                    "indices": [
+                        108,
+                        131
+                    ],
+                    "url": "https://t.co/fUZGlNA8bQ"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 3,
+        "favorited": false,
+        "geo": null,
+        "id": 1257566580734480385,
+        "id_str": "1257566580734480385",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "in",
+        "metadata": {
+            "iso_language_code": "in",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 2,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "text": "#COVID19\nAntara penugasan pegawai dan anggota RELA di seluruh negara hari ini | 5 Mei 2020 \n#SetiaBerbakti\u2026 https://t.co/fUZGlNA8bQ",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Tue Nov 15 08:42:22 +0000 2011",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "Laman rasmi twitter Jabatan Sukarelawan Malaysia (RELA)",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "rela.gov.my",
+                            "expanded_url": "http://www.rela.gov.my",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/uUTlLZt57e"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 326,
+            "follow_request_sent": false,
+            "followers_count": 556488,
+            "following": false,
+            "friends_count": 242,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 412919725,
+            "id_str": "412919725",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 90,
+            "location": "Malaysia",
+            "name": "RELA Malaysia",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/412919725/1476160294",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/818990967822782466/9aBXcZaQ_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/818990967822782466/9aBXcZaQ_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "relamalaysia",
+            "statuses_count": 10004,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/uUTlLZt57e",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @relamalaysia: #COVID19\nAntara penugasan pegawai dan anggota RELA di seluruh negara hari ini | 5 Mei 2020 \n#SetiaBerbakti\n#StrongerToget\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed May 16 02:39:56 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Laman rasmi Twitter Pejabat RELA Daerah Jerantut",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/rela.jerantut",
+                        "expanded_url": "https://www.facebook.com/rela.jerantut",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/t29CQ6gucQ"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 567,
+        "follow_request_sent": false,
+        "followers_count": 15076,
+        "following": false,
+        "friends_count": 2636,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 581454700,
+        "id_str": "581454700",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 6,
+        "location": "Jerantut, Pahang",
+        "name": "RELA Daerah Jerantut",
+        "notifications": false,
+        "profile_background_color": "4712B8",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/581454700/1510879046",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/786822517188993024/iwQM3uJ7_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/786822517188993024/iwQM3uJ7_normal.jpg",
+        "profile_link_color": "981CEB",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "7D8065",
+        "profile_text_color": "7F8970",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Rela_Jerantut",
+        "statuses_count": 55139,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/t29CQ6gucQ",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 14:52:37 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    18,
+                    26
+                ],
+                "text": "COVID19"
+            },
+            {
+                "indices": [
+                    110,
+                    124
+                ],
+                "text": "SetiaBerbakti"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 412919725,
+                "id_str": "412919725",
+                "indices": [
+                    3,
+                    16
+                ],
+                "name": "RELA Malaysia",
+                "screen_name": "relamalaysia"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257684629605109761,
+    "id_str": "1257684629605109761",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "in",
+    "metadata": {
+        "iso_language_code": "in",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 3,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Tue May 05 07:02:47 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        0,
+                        8
+                    ],
+                    "text": "COVID19"
+                },
+                {
+                    "indices": [
+                        92,
+                        106
+                    ],
+                    "text": "SetiaBerbakti"
+                }
+            ],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1257566393030946820",
+                    "indices": [
+                        108,
+                        131
+                    ],
+                    "url": "https://t.co/bvhQ8Xoahh"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 6,
+        "favorited": false,
+        "geo": null,
+        "id": 1257566393030946820,
+        "id_str": "1257566393030946820",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "in",
+        "metadata": {
+            "iso_language_code": "in",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 3,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "text": "#COVID19\nAntara penugasan pegawai dan anggota RELA di seluruh negara hari ini | 5 Mei 2020 \n#SetiaBerbakti\u2026 https://t.co/bvhQ8Xoahh",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Tue Nov 15 08:42:22 +0000 2011",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "Laman rasmi twitter Jabatan Sukarelawan Malaysia (RELA)",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "rela.gov.my",
+                            "expanded_url": "http://www.rela.gov.my",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/uUTlLZt57e"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 326,
+            "follow_request_sent": false,
+            "followers_count": 556488,
+            "following": false,
+            "friends_count": 242,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 412919725,
+            "id_str": "412919725",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 90,
+            "location": "Malaysia",
+            "name": "RELA Malaysia",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/412919725/1476160294",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/818990967822782466/9aBXcZaQ_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/818990967822782466/9aBXcZaQ_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "relamalaysia",
+            "statuses_count": 10004,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/uUTlLZt57e",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @relamalaysia: #COVID19\nAntara penugasan pegawai dan anggota RELA di seluruh negara hari ini | 5 Mei 2020 \n#SetiaBerbakti\n#StrongerToget\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed May 16 02:39:56 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Laman rasmi Twitter Pejabat RELA Daerah Jerantut",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/rela.jerantut",
+                        "expanded_url": "https://www.facebook.com/rela.jerantut",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/t29CQ6gucQ"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 567,
+        "follow_request_sent": false,
+        "followers_count": 15076,
+        "following": false,
+        "friends_count": 2636,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 581454700,
+        "id_str": "581454700",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 6,
+        "location": "Jerantut, Pahang",
+        "name": "RELA Daerah Jerantut",
+        "notifications": false,
+        "profile_background_color": "4712B8",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/581454700/1510879046",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/786822517188993024/iwQM3uJ7_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/786822517188993024/iwQM3uJ7_normal.jpg",
+        "profile_link_color": "981CEB",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "7D8065",
+        "profile_text_color": "7F8970",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Rela_Jerantut",
+        "statuses_count": 55139,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/t29CQ6gucQ",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 14:52:36 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    76,
+                    87
+                ],
+                "text": "stayathome"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "in.style.yahoo.com/the-youth-from\u2026",
+                "expanded_url": "https://in.style.yahoo.com/the-youth-from-dharavi-have-a-creative-way-to-urge-people-to-wear-masks-and-stayathome-104920925.html?soc_src=community&soc_trk=tw",
+                "indices": [
+                    88,
+                    111
+                ],
+                "url": "https://t.co/tJCJ7ZFgtv"
+            }
+        ],
+        "user_mentions": [
+            {
+                "id": 69506712,
+                "id_str": "69506712",
+                "indices": [
+                    116,
+                    127
+                ],
+                "name": "Yahoo India",
+                "screen_name": "YahooIndia"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257684628199989249,
+    "id_str": "1257684628199989249",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "text": "The youth from Dharavi have a creative way to urge people to wear masks and #stayathome https://t.co/tJCJ7ZFgtv via @yahooindia",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sat Mar 21 03:38:22 +0000 2020",
+        "default_profile": true,
+        "default_profile_image": true,
+        "description": "",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 9,
+        "follow_request_sent": false,
+        "followers_count": 0,
+        "following": false,
+        "friends_count": 6,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1241207410947055616,
+        "id_str": "1241207410947055616",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "",
+        "name": "Deel",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Deel46916878",
+        "statuses_count": 144,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 14:52:35 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1257684621841633281",
+                "indices": [
+                    117,
+                    140
+                ],
+                "url": "https://t.co/n4FBeSusOj"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257684621841633281,
+    "id_str": "1257684621841633281",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "de",
+    "metadata": {
+        "iso_language_code": "de",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "Was haben Outbreak, Contagion, The Crazies, The last Days, Twelve Monkeys und \u00e4hnliche Filme gemeinsam? Die Leute w\u2026 https://t.co/n4FBeSusOj",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sun May 29 13:57:27 +0000 2016",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Mum, \u00c4rztin. Zynisch sind die geistig Reichen. Twittert privat \u00fcber Kinder, Beruf, medizinisch Informatives und Politisches. Gutmensch",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "kindundkittel.de",
+                        "expanded_url": "http://www.kindundkittel.de",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/za161m92OG"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 17134,
+        "follow_request_sent": false,
+        "followers_count": 5371,
+        "following": false,
+        "friends_count": 488,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 736919383549841408,
+        "id_str": "736919383549841408",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 26,
+        "location": "Berlin, Deutschland",
+        "name": "Kind und kittel",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/736919383549841408/1563816349",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1153355566137393152/gVh8S6m4_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1153355566137393152/gVh8S6m4_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "KindundKittel",
+        "statuses_count": 15169,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/za161m92OG",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 14:52:34 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    18,
+                    26
+                ],
+                "text": "COVID19"
+            },
+            {
+                "indices": [
+                    110,
+                    124
+                ],
+                "text": "SetiaBerbakti"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 412919725,
+                "id_str": "412919725",
+                "indices": [
+                    3,
+                    16
+                ],
+                "name": "RELA Malaysia",
+                "screen_name": "relamalaysia"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257684618859343875,
+    "id_str": "1257684618859343875",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "in",
+    "metadata": {
+        "iso_language_code": "in",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 3,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Tue May 05 07:02:29 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        0,
+                        8
+                    ],
+                    "text": "COVID19"
+                },
+                {
+                    "indices": [
+                        92,
+                        106
+                    ],
+                    "text": "SetiaBerbakti"
+                }
+            ],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1257566319517429760",
+                    "indices": [
+                        108,
+                        131
+                    ],
+                    "url": "https://t.co/F9I6IeZY71"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 5,
+        "favorited": false,
+        "geo": null,
+        "id": 1257566319517429760,
+        "id_str": "1257566319517429760",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "in",
+        "metadata": {
+            "iso_language_code": "in",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 3,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "text": "#COVID19\nAntara penugasan pegawai dan anggota RELA di seluruh negara hari ini | 5 Mei 2020 \n#SetiaBerbakti\u2026 https://t.co/F9I6IeZY71",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Tue Nov 15 08:42:22 +0000 2011",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "Laman rasmi twitter Jabatan Sukarelawan Malaysia (RELA)",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "rela.gov.my",
+                            "expanded_url": "http://www.rela.gov.my",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/uUTlLZt57e"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 326,
+            "follow_request_sent": false,
+            "followers_count": 556488,
+            "following": false,
+            "friends_count": 242,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 412919725,
+            "id_str": "412919725",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 90,
+            "location": "Malaysia",
+            "name": "RELA Malaysia",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/412919725/1476160294",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/818990967822782466/9aBXcZaQ_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/818990967822782466/9aBXcZaQ_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "relamalaysia",
+            "statuses_count": 10004,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/uUTlLZt57e",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @relamalaysia: #COVID19\nAntara penugasan pegawai dan anggota RELA di seluruh negara hari ini | 5 Mei 2020 \n#SetiaBerbakti\n#StrongerToget\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed May 16 02:39:56 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Laman rasmi Twitter Pejabat RELA Daerah Jerantut",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/rela.jerantut",
+                        "expanded_url": "https://www.facebook.com/rela.jerantut",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/t29CQ6gucQ"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 567,
+        "follow_request_sent": false,
+        "followers_count": 15076,
+        "following": false,
+        "friends_count": 2636,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 581454700,
+        "id_str": "581454700",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 6,
+        "location": "Jerantut, Pahang",
+        "name": "RELA Daerah Jerantut",
+        "notifications": false,
+        "profile_background_color": "4712B8",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/581454700/1510879046",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/786822517188993024/iwQM3uJ7_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/786822517188993024/iwQM3uJ7_normal.jpg",
+        "profile_link_color": "981CEB",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "7D8065",
+        "profile_text_color": "7F8970",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Rela_Jerantut",
+        "statuses_count": 55139,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/t29CQ6gucQ",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 14:52:33 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    75,
+                    86
+                ],
+                "text": "stayathome"
+            }
+        ],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/vCoZafbusI",
+                "expanded_url": "https://twitter.com/HammertonBrew/status/1257684613704581120/video/1",
+                "id": 1257684560709550081,
+                "id_str": "1257684560709550081",
+                "indices": [
+                    87,
+                    110
+                ],
+                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1257684560709550081/pu/img/7QjorQAsXTcYnsFX.jpg",
+                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1257684560709550081/pu/img/7QjorQAsXTcYnsFX.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 1280
+                    },
+                    "medium": {
+                        "h": 675,
+                        "resize": "fit",
+                        "w": 1200
+                    },
+                    "small": {
+                        "h": 383,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/vCoZafbusI"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "additional_media_info": {
+                    "monetizable": false
+                },
+                "display_url": "pic.twitter.com/vCoZafbusI",
+                "expanded_url": "https://twitter.com/HammertonBrew/status/1257684613704581120/video/1",
+                "id": 1257684560709550081,
+                "id_str": "1257684560709550081",
+                "indices": [
+                    87,
+                    110
+                ],
+                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1257684560709550081/pu/img/7QjorQAsXTcYnsFX.jpg",
+                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1257684560709550081/pu/img/7QjorQAsXTcYnsFX.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 720,
+                        "resize": "fit",
+                        "w": 1280
+                    },
+                    "medium": {
+                        "h": 675,
+                        "resize": "fit",
+                        "w": 1200
+                    },
+                    "small": {
+                        "h": 383,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "video",
+                "url": "https://t.co/vCoZafbusI",
+                "video_info": {
+                    "aspect_ratio": [
+                        16,
+                        9
+                    ],
+                    "duration_millis": 20667,
+                    "variants": [
+                        {
+                            "bitrate": 256000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1257684560709550081/pu/vid/480x270/ZjkoqODtH4n81Ymh.mp4?tag=10"
+                        },
+                        {
+                            "content_type": "application/x-mpegURL",
+                            "url": "https://video.twimg.com/ext_tw_video/1257684560709550081/pu/pl/S-tKMNMN00dSMb_D.m3u8?tag=10"
+                        },
+                        {
+                            "bitrate": 832000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1257684560709550081/pu/vid/640x360/OJHjwP4xQKGZD49l.mp4?tag=10"
+                        },
+                        {
+                            "bitrate": 2176000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1257684560709550081/pu/vid/1280x720/cd5bUkN4P-Jx7p33.mp4?tag=10"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257684613704581120,
+    "id_str": "1257684613704581120",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": {
+        "attributes": {},
+        "bounding_box": {
+            "coordinates": [
+                [
+                    [
+                        -0.1153079246895143,
+                        51.5431625679102
+                    ],
+                    [
+                        -0.1153079246895143,
+                        51.5431625679102
+                    ],
+                    [
+                        -0.1153079246895143,
+                        51.5431625679102
+                    ],
+                    [
+                        -0.1153079246895143,
+                        51.5431625679102
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "contained_within": [],
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "full_name": "Hammerton Brewery",
+        "id": "07d9ebc8e0c87000",
+        "name": "Hammerton Brewery",
+        "place_type": "poi",
+        "url": "https://api.twitter.com/1.1/geo/id/07d9ebc8e0c87000.json"
+    },
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "UK Pub social distancing measures for after lockdown. We have it covered!! #stayathome https://t.co/vCoZafbusI",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Jan 06 23:35:16 +0000 2014",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Multi award brewery, brewing in Islington, London. Taproom open every Friday and Saturday, our pub @hammertonhouse",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "hammerton-brewery.myshopify.com",
+                        "expanded_url": "https://hammerton-brewery.myshopify.com/",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/cNAovq0t7A"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 3629,
+        "follow_request_sent": false,
+        "followers_count": 17324,
+        "following": false,
+        "friends_count": 9366,
+        "geo_enabled": true,
+        "has_extended_profile": false,
+        "id": 2279727386,
+        "id_str": "2279727386",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 265,
+        "location": "Islington, London",
+        "name": "Hammerton Brewery",
+        "notifications": false,
+        "profile_background_color": "1A1B1F",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2279727386/1585351536",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/923308285490540544/X64w4HXi_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/923308285490540544/X64w4HXi_normal.jpg",
+        "profile_link_color": "2FC2EF",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "252429",
+        "profile_text_color": "666666",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "HammertonBrew",
+        "statuses_count": 6644,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/cNAovq0t7A",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 14:52:32 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 114914506,
+                "id_str": "114914506",
+                "indices": [
+                    3,
+                    15
+                ],
+                "name": "Jabatan Penerangan Malaysia",
+                "screen_name": "JPenerangan"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257684612030947328,
+    "id_str": "1257684612030947328",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "in",
+    "metadata": {
+        "iso_language_code": "in",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 41,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Tue May 05 09:49:45 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1257608414005358592",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/XfS9wPtVoY"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 48,
+        "favorited": false,
+        "geo": null,
+        "id": 1257608414005358592,
+        "id_str": "1257608414005358592",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "in",
+        "metadata": {
+            "iso_language_code": "in",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 41,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "text": "KENYATAAN AKHBAR KEMENTERIAN KESIHATAN MALAYSIA\n\nSITUASI SEMASA JANGKITAN PENYAKIT CORONAVIRUS 2019 (COVID-19) DI M\u2026 https://t.co/XfS9wPtVoY",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Wed Feb 17 01:10:37 +0000 2010",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Menyampaikan maklumat Kerajaan kepada rakyat & mengumpul maklumat daripada rakyat untuk dimaklumkan kepada Kerajaan.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "facebook.com/penerangan",
+                            "expanded_url": "https://www.facebook.com/penerangan",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/B2RwClgAJJ"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 5503,
+            "follow_request_sent": false,
+            "followers_count": 131253,
+            "following": false,
+            "friends_count": 283,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 114914506,
+            "id_str": "114914506",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 220,
+            "location": "Wilayah Persekutuan Putrajaya",
+            "name": "Jabatan Penerangan Malaysia",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/114914506/1486437619",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1205517350306402304/hcAqCodG_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1205517350306402304/hcAqCodG_normal.jpg",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "JPenerangan",
+            "statuses_count": 38306,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/B2RwClgAJJ",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @JPenerangan: KENYATAAN AKHBAR KEMENTERIAN KESIHATAN MALAYSIA\n\nSITUASI SEMASA JANGKITAN PENYAKIT CORONAVIRUS 2019 (COVID-19) DI MALAYSIA\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon May 07 07:17:04 +0000 2012",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 1921,
+        "follow_request_sent": false,
+        "followers_count": 324,
+        "following": false,
+        "friends_count": 210,
+        "geo_enabled": true,
+        "has_extended_profile": false,
+        "id": 573381856,
+        "id_str": "573381856",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 1,
+        "location": "",
+        "name": "Yati Anuar",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/575499230174838784/jbyVr7hq_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/575499230174838784/jbyVr7hq_normal.jpeg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "YRosman",
+        "statuses_count": 24929,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 14:52:31 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    0,
+                    11
+                ],
+                "text": "StayAtHome"
+            }
+        ],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/Qivb6yIIyW",
+                "expanded_url": "https://twitter.com/ThAtS_Me_TIKA/status/1257684605458661377/video/1",
+                "id": 1257684519391502336,
+                "id_str": "1257684519391502336",
+                "indices": [
+                    12,
+                    35
+                ],
+                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1257684519391502336/pu/img/1V_5daWqJwqRjbBY.jpg",
+                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1257684519391502336/pu/img/1V_5daWqJwqRjbBY.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 1280,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "medium": {
+                        "h": 1200,
+                        "resize": "fit",
+                        "w": 675
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 383
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/Qivb6yIIyW"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "additional_media_info": {
+                    "monetizable": false
+                },
+                "display_url": "pic.twitter.com/Qivb6yIIyW",
+                "expanded_url": "https://twitter.com/ThAtS_Me_TIKA/status/1257684605458661377/video/1",
+                "id": 1257684519391502336,
+                "id_str": "1257684519391502336",
+                "indices": [
+                    12,
+                    35
+                ],
+                "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1257684519391502336/pu/img/1V_5daWqJwqRjbBY.jpg",
+                "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1257684519391502336/pu/img/1V_5daWqJwqRjbBY.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 1280,
+                        "resize": "fit",
+                        "w": 720
+                    },
+                    "medium": {
+                        "h": 1200,
+                        "resize": "fit",
+                        "w": 675
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 383
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "video",
+                "url": "https://t.co/Qivb6yIIyW",
+                "video_info": {
+                    "aspect_ratio": [
+                        9,
+                        16
+                    ],
+                    "duration_millis": 8767,
+                    "variants": [
+                        {
+                            "bitrate": 632000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1257684519391502336/pu/vid/320x568/dICvL8jRz26otmwh.mp4?tag=10"
+                        },
+                        {
+                            "bitrate": 832000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1257684519391502336/pu/vid/360x640/cUwlrR9odkzVMjY_.mp4?tag=10"
+                        },
+                        {
+                            "content_type": "application/x-mpegURL",
+                            "url": "https://video.twimg.com/ext_tw_video/1257684519391502336/pu/pl/oH9o9W5S8eYznfwz.m3u8?tag=10"
+                        },
+                        {
+                            "bitrate": 2176000,
+                            "content_type": "video/mp4",
+                            "url": "https://video.twimg.com/ext_tw_video/1257684519391502336/pu/vid/720x1280/lTc2pBEKgvfDNKC2.mp4?tag=10"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257684605458661377,
+    "id_str": "1257684605458661377",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "und",
+    "metadata": {
+        "iso_language_code": "und",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "#StayAtHome https://t.co/Qivb6yIIyW",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jul 09 01:06:34 +0000 2009",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "#UMES13 #UMESAlumni,#TeamSwagg,#TeamDC, #TeamLesbian, #TeamDreadHead, #TeamTatted",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "facebook.com/group.php?gid=\u2026",
+                        "expanded_url": "http://www.facebook.com/group.php?gid=115832495105609",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/GximS9rW82"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 8261,
+        "follow_request_sent": false,
+        "followers_count": 253,
+        "following": false,
+        "friends_count": 729,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 55092387,
+        "id_str": "55092387",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 5,
+        "location": "DC",
+        "name": "Swagg to the fullest",
+        "notifications": false,
+        "profile_background_color": "0099B9",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme10/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme10/bg.gif",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/55092387/1359343228",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1221260879251091459/LEcyChXD_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1221260879251091459/LEcyChXD_normal.jpg",
+        "profile_link_color": "0099B9",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "7AC4EE",
+        "profile_text_color": "E83A05",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "ThAtS_Me_TIKA",
+        "statuses_count": 19719,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/GximS9rW82",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 14:52:30 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    0,
+                    13
+                ],
+                "text": "dudukdirumah"
+            },
+            {
+                "indices": [
+                    14,
+                    25
+                ],
+                "text": "StayAtHome"
+            },
+            {
+                "indices": [
+                    26,
+                    42
+                ],
+                "text": "KitaMestiMenang"
+            },
+            {
+                "indices": [
+                    43,
+                    63
+                ],
+                "text": "KitaTeguhKitaMenang"
+            },
+            {
+                "indices": [
+                    64,
+                    90
+                ],
+                "text": "PerintahKawalanPergerakan"
+            },
+            {
+                "indices": [
+                    91,
+                    105
+                ],
+                "text": "PsaCOVID19RTM"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1257684603696865282",
+                "indices": [
+                    107,
+                    130
+                ],
+                "url": "https://t.co/Jx89NSoJ3s"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257684603696865282,
+    "id_str": "1257684603696865282",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": true,
+    "lang": "und",
+    "metadata": {
+        "iso_language_code": "und",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "quoted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Tue May 05 05:41:32 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        0,
+                        6
+                    ],
+                    "text": "COVID"
+                }
+            ],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1257545945018822656",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/CvZuxL6eAM"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 10,
+        "favorited": false,
+        "geo": null,
+        "id": 1257545945018822656,
+        "id_str": "1257545945018822656",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "in",
+        "metadata": {
+            "iso_language_code": "und",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": true,
+        "retweet_count": 4,
+        "retweeted": false,
+        "source": "<a href=\"http://www.tweetcaster.com\" rel=\"nofollow\">TweetCaster for Android</a>",
+        "text": "#COVID-19\n\nDON\u2019T PUT MALAYSIA ON GREATER RISK OF COVID-19.\n\nSumber: Bahagian D3 (ATIPSOM), Jabatan Siasatan Jenayah\u2026 https://t.co/CvZuxL6eAM",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Thu Aug 18 07:43:13 +0000 2011",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "Segala maklumat jenayah/aduan awam hendaklah disalurkan dlm inbox Twitter Rasmi PDRM & identiti pemberi maklumat tidak akan didedahkan bagi tujuan keselamatan.",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 248,
+            "follow_request_sent": false,
+            "followers_count": 172439,
+            "following": false,
+            "friends_count": 14,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 357366883,
+            "id_str": "357366883",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 469,
+            "location": "Bukit Aman, Kuala Lumpur",
+            "name": "Polis Diraja M'sia",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/357366883/1557216687",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1551247178/327135_126521087448881_100002729721003_120098_1968583889_o_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1551247178/327135_126521087448881_100002729721003_120098_1968583889_o_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "PDRMsia",
+            "statuses_count": 41519,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "quoted_status_id": 1257545945018822656,
+    "quoted_status_id_str": "1257545945018822656",
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "#dudukdirumah\n#StayAtHome\n#KitaMestiMenang\n#KitaTeguhKitaMenang\n#PerintahKawalanPergerakan\n#PsaCOVID19RTM\u2026 https://t.co/Jx89NSoJ3s",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Feb 06 09:15:18 +0000 2012",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "101.9, 105.3 & 92.1 (Permata Selatan) #radiopilihanno1bangsajohor",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "johorfm.rtm.gov.my",
+                        "expanded_url": "http://johorfm.rtm.gov.my",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/l6rcmJwuTf"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 135,
+        "follow_request_sent": false,
+        "followers_count": 1170,
+        "following": false,
+        "friends_count": 125,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 484607777,
+        "id_str": "484607777",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 2,
+        "location": "Johor",
+        "name": "johorfm",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/484607777/1578118629",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1198957721837420544/DQf_KVVm_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1198957721837420544/DQf_KVVm_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "johorfm",
+        "statuses_count": 7858,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/l6rcmJwuTf",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 14:52:29 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    7,
+                    14
+                ],
+                "text": "always"
+            },
+            {
+                "indices": [
+                    15,
+                    21
+                ],
+                "text": "focus"
+            },
+            {
+                "indices": [
+                    27,
+                    35
+                ],
+                "text": "winning"
+            },
+            {
+                "indices": [
+                    43,
+                    52
+                ],
+                "text": "remember"
+            },
+            {
+                "indices": [
+                    62,
+                    67
+                ],
+                "text": "lose"
+            },
+            {
+                "indices": [
+                    75,
+                    81
+                ],
+                "text": "think"
+            },
+            {
+                "indices": [
+                    82,
+                    100
+                ],
+                "text": "motivationtuesday"
+            },
+            {
+                "indices": [
+                    101,
+                    106
+                ],
+                "text": "life"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1257684598273826816",
+                "indices": [
+                    108,
+                    131
+                ],
+                "url": "https://t.co/lRaxQLsAai"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257684598273826816,
+    "id_str": "1257684598273826816",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "Do not #always #focus\ud83d\udd75\ufe0f on #winning\ud83c\udfc5, also #remember where to #lose\ud83e\udd14 what. #think #motivationtuesday #life\u2026 https://t.co/lRaxQLsAai",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Tue Jul 09 08:37:05 +0000 2019",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Be Happy\ud83d\ude0aBe Motivate\ud83d\ude09Be Healthy\ud83d\udcaaBe Wealthy\ud83e\udd11Be Successful\ud83e\udd17\n\ud83d\ude0a|#1EntrepreneurLife\n\ud83d\udcaa\ud83c\udffb|MotivationalSpeaker\n\ud83d\ude0e|LifeCoach\n\ud83d\udc47|Follow me for all time #Motivate\ud83d\udcaa",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "instagram.com/asc_motivation/",
+                        "expanded_url": "https://www.instagram.com/asc_motivation/",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/BxDgMh83TG"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 149,
+        "follow_request_sent": false,
+        "followers_count": 10,
+        "following": false,
+        "friends_count": 52,
+        "geo_enabled": true,
+        "has_extended_profile": false,
+        "id": 1148511375976611840,
+        "id_str": "1148511375976611840",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "India",
+        "name": "ASC_MOTIVATION",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1148511375976611840/1577288246",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1209860180814360576/9h1wrZfF_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1209860180814360576/9h1wrZfF_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "asc_motivation",
+        "statuses_count": 414,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/BxDgMh83TG",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 14:52:28 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 114914506,
+                "id_str": "114914506",
+                "indices": [
+                    3,
+                    15
+                ],
+                "name": "Jabatan Penerangan Malaysia",
+                "screen_name": "JPenerangan"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257684592795938816,
+    "id_str": "1257684592795938816",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "in",
+    "metadata": {
+        "iso_language_code": "in",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 36,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Tue May 05 09:55:28 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1257609851737268228",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/TvMTzsJ5vT"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 39,
+        "favorited": false,
+        "geo": null,
+        "id": 1257609851737268228,
+        "id_str": "1257609851737268228",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "in",
+        "metadata": {
+            "iso_language_code": "in",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 36,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "text": "[SIARAN MEDIA] \n\nJPJ MEMBERIKAN KEBENARAN KEPADA POS MALAYSIA UNTUK MENJALANKAN URUS NIAGA PEMBAHARUAN LKM DAN LESE\u2026 https://t.co/TvMTzsJ5vT",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Wed Feb 17 01:10:37 +0000 2010",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Menyampaikan maklumat Kerajaan kepada rakyat & mengumpul maklumat daripada rakyat untuk dimaklumkan kepada Kerajaan.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "facebook.com/penerangan",
+                            "expanded_url": "https://www.facebook.com/penerangan",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/B2RwClgAJJ"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 5503,
+            "follow_request_sent": false,
+            "followers_count": 131253,
+            "following": false,
+            "friends_count": 283,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 114914506,
+            "id_str": "114914506",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 220,
+            "location": "Wilayah Persekutuan Putrajaya",
+            "name": "Jabatan Penerangan Malaysia",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/114914506/1486437619",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1205517350306402304/hcAqCodG_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1205517350306402304/hcAqCodG_normal.jpg",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "JPenerangan",
+            "statuses_count": 38306,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/B2RwClgAJJ",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @JPenerangan: [SIARAN MEDIA] \n\nJPJ MEMBERIKAN KEBENARAN KEPADA POS MALAYSIA UNTUK MENJALANKAN URUS NIAGA PEMBAHARUAN LKM DAN LESEN MEMAN\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon May 07 07:17:04 +0000 2012",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 1921,
+        "follow_request_sent": false,
+        "followers_count": 324,
+        "following": false,
+        "friends_count": 210,
+        "geo_enabled": true,
+        "has_extended_profile": false,
+        "id": 573381856,
+        "id_str": "573381856",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 1,
+        "location": "",
+        "name": "Yati Anuar",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/575499230174838784/jbyVr7hq_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/575499230174838784/jbyVr7hq_normal.jpeg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "YRosman",
+        "statuses_count": 24929,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+}
+]
+}
