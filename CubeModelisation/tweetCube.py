@@ -114,9 +114,10 @@ class TweetCube:
             element['date'] = date
             sentimentElement = {'sentiment': '', 'numberOfTweets': 0}
             mySentimentsList = []
-            for sentiment in data[date]:
+            for sentiment in ['positive','negative','neutral']:
                 sentimentElement['sentiment'] = sentiment
-                sentimentElement['numberOfTweets'] = data[date][sentiment]['numberOfTweets']
+                if data[date][sentiment]['numberOfTweets']:
+                    sentimentElement['numberOfTweets'] = data[date][sentiment]['numberOfTweets']
                 mySentimentsList.append(sentimentElement)
                 sentimentElement = {'sentiment': '', 'numberOfTweets': 0}
             element['sentimentsList'] = mySentimentsList
