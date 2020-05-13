@@ -18,12 +18,15 @@ class TweetCube:
                                          url="mysql://root:@localhost/datawarehouse")
         model = cubes.read_model_metadata_bundle("../CubeModelisation/model/")
         self.workspace.import_model(model)
-        self.browserTweet = self.workspace.browser("tweet" + self.concept)
+        self.browserTweet = self.workspace.browser("tweet")
 
     def getPieChartSource(self):
-        cube = self.workspace.cube("tweet" + self.concept)
+        cube = self.workspace.cube("tweet")
         cube.browser = self.browserTweet
-        cell = Cell(cube)
+
+        cut = [PointCut("concept", [self.concept])]
+        cell = Cell(cube, cut)
+
         result = self.browserTweet.aggregate(cell, drilldown=["location","source"],aggregates=["numberOfTweets_sum"])
         output = defaultdict(lambda: defaultdict())
 
@@ -33,30 +36,37 @@ class TweetCube:
             output[continent][source] = row.record['numberOfTweets_sum']
         temp = {'continentName': '',
                 'sources': [{'source': '', 'numberOfTweets': ''}, {'source': '', 'numberOfTweets': ''},
-                            {'source': '', 'numberOfTweets': ''}]}
+                            {'source': '', 'numberOfTweets': ''}, {'source': '', 'numberOfTweets': ''}]}
+        print("output ",output)
         i = 0
         data = []
         for continent in output:
             temp['continentName'] = continent
             temp['sources'][i]['source'] = "iPhone"
-            temp['sources'][i]['numberOfTweets'] = output[continent]['iPhone']
+            temp['sources'][i]['numberOfTweets'] = output[continent].get('iPhone', 0)
             i += 1
             temp['sources'][i]['source'] = "Android"
-            temp['sources'][i]['numberOfTweets'] = output[continent]['Android']
+            temp['sources'][i]['numberOfTweets'] = output[continent].get('Android', 0)
             i += 1
             temp['sources'][i]['source'] = "Web"
-            temp['sources'][i]['numberOfTweets'] = output[continent]['Web']
+            temp['sources'][i]['numberOfTweets'] = output[continent].get('Web', 0)
+            i += 1
+            temp['sources'][i]['source'] = "Unknown"
+            temp['sources'][i]['numberOfTweets'] = output[continent].get('Unknown', 0)
             i = 0
             data.append(temp)
             temp = {'continentName': '',
                 'sources': [{'source': '', 'numberOfTweets': ''}, {'source': '', 'numberOfTweets': ''},
-                            {'source': '', 'numberOfTweets': ''}]}
+                            {'source': '', 'numberOfTweets': ''}, {'source': '', 'numberOfTweets': ''}]}
         return data
 
     def getBarChartRaceByLanguageAndDate(self):
-        cube = self.workspace.cube("tweet" + self.concept)
+        cube = self.workspace.cube("tweet")
         cube.browser = self.browserTweet
-        cell = Cell(cube)
+
+        cut = [PointCut("concept", [self.concept])]
+        cell = Cell(cube, cut)
+
         result = self.browserTweet.aggregate(cell, drilldown=["time:day", "language"],
                                              aggregates=["numberOfTweets_sum"])
         output = []
@@ -92,9 +102,11 @@ class TweetCube:
 
 
     def getBarChartRaceBySentimentAndDate(self):
-        cube = self.workspace.cube("tweet" + self.concept)
+        cube = self.workspace.cube("tweet")
         cube.browser = self.browserTweet
-        cell = Cell(cube)
+
+        cut = [PointCut("concept", [self.concept])]
+        cell = Cell(cube, cut)
 
         result = self.browserTweet.aggregate(cell, drilldown=["time:day", "sentiment"],
                                              aggregates=["numberOfTweets_sum"])
@@ -114,10 +126,9 @@ class TweetCube:
             element['date'] = date
             sentimentElement = {'sentiment': '', 'numberOfTweets': 0}
             mySentimentsList = []
-            for sentiment in ['positive','negative','neutral']:
+            for sentiment in data[date]:
                 sentimentElement['sentiment'] = sentiment
-                if data[date][sentiment]['numberOfTweets']:
-                    sentimentElement['numberOfTweets'] = data[date][sentiment]['numberOfTweets']
+                sentimentElement['numberOfTweets'] = data[date][sentiment]['numberOfTweets']
                 mySentimentsList.append(sentimentElement)
                 sentimentElement = {'sentiment': '', 'numberOfTweets': 0}
             element['sentimentsList'] = mySentimentsList

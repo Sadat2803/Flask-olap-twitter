@@ -1,10 +1,11 @@
 {
-    "name": "sentimentpanicbuying",
-    "label": "Sentiment Analysis panicbuying",
+    "name": "sentiment",
+    "label": "Sentiment Analysis",
     "dimensions": [
         "language",
         "location",
-        "time"
+        "time",
+        "concept"
     ],
     "measures": [
         {
@@ -18,23 +19,27 @@
             "function": "avg"
         }
     ],
-    "fact": "factsentimentpanicbuying",
+    "fact": "factsentiment",
     "joins": [
         {
-            "master": "factsentimentpanicbuying.languageID",
+            "master": "factsentiment.languageID",
             "detail": "dimlanguage.languageID"
         },
         {
-            "master": "factsentimentpanicbuying.locationID",
+            "master": "factsentiment.locationID",
             "detail": "dimlocation.locationID"
         },
         {
-            "master": "factsentimentpanicbuying.timeID",
+            "master": "factsentiment.timeID",
             "detail": "dimtime.timeID"
+        },
+        {
+            "master": "factsentiment.conceptID",
+            "detail": "dimconcept.conceptID"
         }
     ],
     "mappings": {
-            "averageSentiment": "factsentimentpanicbuying.averageSentiment",
+            "averageSentiment": "factsentiment.averageSentiment",
             "language.languageID": "dimlanguage.languageID",
             "language.languageCode": "dimlanguage.languageCode",
             "language.languageName": "dimlanguage.languageName",
@@ -48,6 +53,8 @@
             "time.month": "dimtime.month",
             "time.monthName": "dimtime.monthName",
             "time.season": "dimtime.season",
-            "time.year": "dimtime.year"
+            "time.year": "dimtime.year",
+            "concept.conceptID": "dimconcept.conceptID",
+            "concept.conceptLabel": "dimconcept.conceptLabel"
     }
 }
