@@ -1,3 +1,6 @@
+from collections import defaultdict
+
+import mysql.connector
 from flask import Flask, jsonify, request
 from flask_cors import cross_origin
 from CubeModelisation.sentimentCube import SentimentCube
@@ -56,6 +59,38 @@ def runServer():
         data = tweetCube.getBarChartRaceBySentimentAndDate()
         a = jsonify(data)
         return a
+
+    @app.route('/route6', methods=['GET'])
+    @cross_origin()
+    def getConceptsByAnalysis():
+        mydb = mysql.connector.connect(
+            host="localhost",
+            user="root",
+            passwd="",
+            database="interDB"
+        )
+        mycursor = mydb.cursor()
+        mycursor.execute("select clientID, concept from alltweets "
+                         "group by clientID, concept")
+        result = mycursor.fetchall()
+
+        temp = defaultdict(lambda: list())
+        for row in result:
+            temp[row[0]] += [row[1]]
+
+        element = {'analysisId': '', 'analysisName': '', 'analysisConcepts': []}
+        dataList = []
+        for clientID in temp:
+            element['analysisId'] = clientID
+            element['analysisName'] = clientID
+            element['analysisConcepts'] = []
+            for concept in temp[clientID]:
+                element['analysisConcepts'].append(concept)
+            dataList.append(element)
+
+        a = jsonify(dataList)
+        return a
+
 
     app.run(debug=True)
 
