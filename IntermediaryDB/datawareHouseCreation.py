@@ -7,6 +7,7 @@ from DWFiles.dimTime import DimTime
 from DWFiles.factCovCase import FactCovCase
 from DWFiles.factSentiment import FactSentiment
 from DWFiles.factTweet import FactTweet
+from DWFiles.dimConcept import DimConcept
 import mysql.connector
 
 config = {
@@ -29,64 +30,31 @@ class DatawareHouseCreation:
 
         # get all the different concepts for this client
         allConcepts = dbIntermediary.table('alltweets').select(dbIntermediary.raw('distinct concept')).where('clientID', '=', clientID).get()
+        configdb = {
+            'mysql': {
+                'driver': 'mysql',
+                'host': 'localhost',
+                'database': 'datawarehouse',
+                'user': 'root',
+                'password': '',
+                'prefix': ''
+            }
+        }
 
+        db = DatabaseManager(configdb)
+        Model.set_connection_resolver(db)
         for temp in allConcepts:
             concept = temp['concept']
-            # create 2 cubes (tables) for this concept
-            tweetCubeName = 'facttweet' + concept
-            sentimentCubeName = 'factsentiment' + concept
             print('concept is : ',concept)
-            mydb = mysql.connector.connect(
-                host="localhost",
-                user="root",
-                passwd="",
-                database="datawarehouse"
-            )
-
-            mycursor = mydb.cursor()
-            mycursor.execute("""
-                                    DROP TABLE IF EXISTS """ + tweetCubeName + """;
-                                    CREATE TABLE IF NOT EXISTS """ + tweetCubeName + """ (
-                                      locationID int(11) NOT NULL,
-                                      sourceID int(11) NOT NULL,
-                                      languageID int(11) NOT NULL,
-                                      timeID int(11) NOT NULL,
-                                      sentimentID int(11) NOT NULL,
-                                      numberOfTweets int(11) NOT NULL
-                                    ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-                                    """
-                            +
-                             """
-                                                     DROP TABLE IF EXISTS """ + sentimentCubeName + """;
-                                                     CREATE TABLE IF NOT EXISTS """ + sentimentCubeName + """ (
-                                                       locationID int(11) NOT NULL,
-                                                       languageID int(11) NOT NULL,
-                                                       timeID int(11) NOT NULL,
-                                                       averageSentiment float NOT NULL
-                                                     ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-                                                     """
-                             )
-            mycursor.close()
-            #-----------------------------------------
-            configdb = {
-                'mysql': {
-                    'driver': 'mysql',
-                    'host': 'localhost',
-                    'database': 'datawarehouse',
-                    'user': 'root',
-                    'password': '',
-                    'prefix': ''
-                }
-            }
-
-            db = DatabaseManager(configdb)
-            Model.set_connection_resolver(db)
             #-----------------------------------------
             # Fill the Fact Tweet Table
             data = dbIntermediary.table('alltweets').select(dbIntermediary.raw('*,count(*) as numberOfTweets'))\
                 .where('clientID', '=', clientID).where('concept', '=', concept).group_by(
                 'languageName', 'sourceName', 'timeAltID', 'sentimentLabel', 'cityName').get()
 
+            conceptTable = DimConcept()
+            rowConcept = [concept]
+            conceptID = conceptTable.insert(rowConcept)
             cpt = 0
             for row in data:
                 rowSentiment = [row['sentimentLabel']]
@@ -114,8 +82,8 @@ class DatawareHouseCreation:
 
                 # fill the fact table with foreign keys & mesures
                 numberOfTweets = row['numberOfTweets']
-                row = [locationID, sourceID, languageID, timeID, sentimentID, numberOfTweets]
-                factTweet.insert(row, tweetCubeName)
+                row = [conceptID, locationID, sourceID, languageID, timeID, sentimentID, numberOfTweets]
+                factTweet.insert(row)
                 cpt += 1
                 print(cpt, "tuple inserted", sep=" ")
             print("All tuples are inserted For the Fact Tweet for the concept :", concept)
@@ -146,9 +114,9 @@ class DatawareHouseCreation:
 
                 # fill the fact table with foreign keys & mesures
                 averageSentiment = row['averageSentiment']
-                row = [locationID, languageID, timeID, averageSentiment]
+                row = [conceptID, locationID, languageID, timeID, averageSentiment]
 
-                factSentiment.insert(row, sentimentCubeName)
+                factSentiment.insert(row)
                 cpt += 1
                 print(cpt, "tuple inserted", sep=" ")
             print("All tuples are inserted For the Fact Sentiment for the concept :", concept)

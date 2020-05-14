@@ -1,54 +1,64 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 from flask_cors import cross_origin
 from CubeModelisation.sentimentCube import SentimentCube
 from CubeModelisation.tweetCube import TweetCube
-import pymysql
-pymysql.install_as_MySQLdb()
+
 # --------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 def runServer():
     app = Flask(__name__)
 
-    @app.route('/countriesSentiments', methods=['GET'])
+
+    @app.route('/route1', methods=['GET'])
     @cross_origin()
     def sentimentByCountriesAndDatesMapJson():
-        sentimentCube = SentimentCube()
+        concept = request.args['concept']
+        sentimentCube = SentimentCube(concept)
         data = sentimentCube.getSentimentByCountriesAndDates()
         a = jsonify(data)
         return a
 
-    @app.route('/groupedCountriesSentiments', methods=['GET'])
+    @app.route('/route2', methods=['GET'])
     @cross_origin()
     def sentimentByCountriesMapJson():
-        sentimentCube = SentimentCube()
+        concept = request.args['concept']
+        sentimentCube = SentimentCube(concept)
         data = sentimentCube.getSentimentByCountries()
         a = jsonify(data)
         return a
 
-    @app.route('/tweetsSourcesByContinent', methods=['GET'])
+
+    @app.route('/route3', methods=['GET'])
     @cross_origin()
     def sourcePieChartsByContinentJson():
-        tweetCube = TweetCube()
+        concept = request.args['concept']
+        tweetCube = TweetCube(concept)
         data = tweetCube.getPieChartSource()
         a = jsonify(data)
         return a
 
-    @app.route('/tweetsByLanguage', methods=['GET'])
+    @app.route('/route4', methods=['GET'])
     @cross_origin()
     def barChartRaceByLanguageAndDateJson():
-        tweetCube = TweetCube()
+        concept = request.args['concept']
+        tweetCube = TweetCube(concept)
         data = tweetCube.getBarChartRaceByLanguageAndDate()
         a = jsonify(data)
         return a
 
-    @app.route('/tweetsBySentiment', methods=['GET'])
+    @app.route('/route5', methods=['GET'])
     @cross_origin()
     def barChartRaceBySentimentAndDateJson():
-        tweetCube = TweetCube()
+        concept = request.args['concept']
+        tweetCube = TweetCube(concept)
         data = tweetCube.getBarChartRaceBySentimentAndDate()
         a = jsonify(data)
         return a
 
     app.run(debug=True)
+
 
 # --------------------------------------------------------------------------------------------------------------------------------------------
 if __name__ == "__main__":

@@ -1,12 +1,13 @@
 {
-    "name": "tweetstayathome",
-    "label": "Tweets Analysis stayathome",
+    "name": "tweet",
+    "label": "Tweets Analysis",
     "dimensions": [
         "language",
         "location",
         "sentiment",
         "source",
-        "time"
+        "time",
+        "concept"
     ],
     "measures": [
         {
@@ -27,31 +28,35 @@
             "function": "sum"
         }
     ],
-    "fact": "facttweetstayathome",
+    "fact": "facttweet",
     "joins": [
         {
-            "master": "facttweetstayathome.languageID",
+            "master": "facttweet.languageID",
             "detail": "dimlanguage.languageID"
         },
         {
-            "master": "facttweetstayathome.sentimentID",
+            "master": "facttweet.sentimentID",
             "detail": "dimsentiment.sentimentID"
         },
         {
-            "master": "facttweetstayathome.sourceID",
+            "master": "facttweet.sourceID",
             "detail": "dimsource.sourceID"
         },
         {
-            "master": "facttweetstayathome.locationID",
+            "master": "facttweet.locationID",
             "detail": "dimlocation.locationID"
         },
         {
-            "master": "facttweetstayathome.timeID",
+            "master": "facttweet.timeID",
             "detail": "dimtime.timeID"
+        },
+        {
+            "master": "facttweet.conceptID",
+            "detail": "dimconcept.conceptID"
         }
     ],
     "mappings": {
-            "numberOfTweets": "facttweetstayathome.numberOfTweets",
+            "numberOfTweets": "facttweet.numberOfTweets",
             "language.languageID": "dimlanguage.languageID",
             "language.languageCode": "dimlanguage.languageCode",
             "language.languageName": "dimlanguage.languageName",
@@ -69,6 +74,8 @@
             "time.month": "dimtime.month",
             "time.monthName": "dimtime.monthName",
             "time.season": "dimtime.season",
-            "time.year": "dimtime.year"
+            "time.year": "dimtime.year",
+            "concept.conceptID": "dimconcept.conceptID",
+            "concept.conceptLabel": "dimconcept.conceptLabel"
     }
 }

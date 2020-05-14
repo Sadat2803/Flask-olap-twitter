@@ -1,0 +1,14 @@
+{
+    "name": "concept",
+    "label": "Concept",
+    "levels": [
+        {
+            "name": "concept",
+            "label": "Concept",
+            "attributes": [
+                "conceptLabel",
+                "conceptID"
+            ]
+        }
+    ]
+}
