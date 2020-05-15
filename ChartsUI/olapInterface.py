@@ -23,7 +23,7 @@ def runServer():
         a = jsonify(data)
         return a
 
-    @app.route('/route2', methods=['GET'])
+    @app.route('/sentimentByCountriesMapJson', methods=['GET'])
     @cross_origin()
     def sentimentByCountriesMapJson():
         concept = request.args['concept']
@@ -91,7 +91,7 @@ def runServer():
         a = jsonify(dataList)
         return a
 
-    @app.route('/route7', methods=['GET'])
+    @app.route('/createCubeForAnAnalysis', methods=['GET'])
     @cross_origin()
     def createCubeForAnAnalysis():
         analysisID = request.args['analysisID']
@@ -100,8 +100,6 @@ def runServer():
         data = []
         a = jsonify(data)
         return a
-
-
     app.run(debug=True)
 
 
