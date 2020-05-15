@@ -7,7 +7,7 @@ from CubeModelisation.sentimentCube import SentimentCube
 from CubeModelisation.tweetCube import TweetCube
 
 # --------------------------------------------------------------------------------------------------------------------------------------------
-
+from Preprocessing.mainProgramme import MainProgramme
 
 
 def runServer():
@@ -89,6 +89,16 @@ def runServer():
             dataList.append(element)
 
         a = jsonify(dataList)
+        return a
+
+    @app.route('/route7', methods=['GET'])
+    @cross_origin()
+    def createCubeForAnAnalysis():
+        analysisID = request.args['analysisID']
+        test = MainProgramme([])
+        test.createCubes(analysisID)
+        data = []
+        a = jsonify(data)
         return a
 
 
