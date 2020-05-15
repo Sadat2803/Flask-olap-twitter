@@ -18,12 +18,12 @@ class MainProgramme():
         self.conceptsList = conceptsList
         temp = str(datetime.datetime.today()).split()
         temp[1] = temp[1].replace(":", "-")
-        self.clientID = "Client-" + temp[0] + "_" + temp[1].split('.')[0]
+        self.analysisID = "Analysis-" + temp[0] + "_" + temp[1].split('.')[0]
 
     def extractAndSaveDataIntoIntermediaryDB(self):
         # create a folder for this client
         """
-        fullPath = "../TweetFilesByClients/" + self.clientID
+        fullPath = "../TweetFilesByClients/" + self.analysisID
         os.mkdir(fullPath)
         #print("Directory ", fullPath, " Created ")
         cpt = 0
@@ -56,15 +56,15 @@ class MainProgramme():
         """
         #insert tweets into the intermediary database
         cpt = 0
-        fullPath = "../TweetFilesByClients/" +"Client-2020-05-05_15-52-41" #self.clientID
+        fullPath = "../TweetFilesByClients/" +"Analysis-2020-05-05_15-52-41" #self.analysisID
         tweetsInsertionIntermediaryToDB = TweetsInsertionIntermediaryToDB()
         for concept in self.conceptsList:
             cpt += 1
             conceptFolderPath = fullPath + "/" + "Concept-" + str(cpt) + "/"
-            tweetsInsertionIntermediaryToDB.lanchInsertionToIntermediaryDB(False, conceptFolderPath, concept.lower(), self.clientID)
+            tweetsInsertionIntermediaryToDB.lanchInsertionToIntermediaryDB(False, conceptFolderPath, concept.lower(), "Analysis-2020-05-05_15-52-41" ) #self.analysisID
         print("tweets insertion into intermediary database done!")
 
-    def createCubes(self, clientID):
+    def createCubes(self, analysisID):
 
         #reset the database for owr new analyse
         mydb = mysql.connector.connect(
@@ -78,54 +78,22 @@ class MainProgramme():
         tablesName = mycursor.fetchall()
         for row in tablesName:
             table = row[0]
-            if table.startswith("factsentiment") or table.startswith("facttweet"):
-                mycursor.execute("DROP TABLE " + table)
-            else:
-                mycursor.execute("TRUNCATE " + table)
+            mycursor.execute("TRUNCATE " + table)
         mycursor.close()
         print("reinitialisation de la base de donnée")
         #time.sleep(10)
+        # create the datawarehouse
         datawareHouseCreation = DatawareHouseCreation()
-        datawareHouseCreation.createDatawareHouse(clientID)
+        datawareHouseCreation.createDatawareHouse(analysisID)
+        print("datawarehouse crée!")
         #--------------------------------------------
-        # create the json model
-        #first we have to reinisialise the modele
-        dirPath = '../CubeModelisation/model/'
-        filesList = [f for f in os.listdir(dirPath) if os.path.isfile(os.path.join(dirPath, f))]
-        for fileName in filesList:
-            if fileName.startswith("cube_tweet_") or fileName.startswith("cube_sentiment_"):
-                # delete the file
-                path = dirPath+fileName
-                os.remove(path)
-                print(path, " is deleted")
-
-        tweetCube = open("../CubeModelisation/cube_tweet_example.json", "r").read()
-        sentimentcube = open("../CubeModelisation/cube_sentiment_example.json", "r").read()
-        for row in tablesName:
-            table = row[0]
-            if table.startswith("factsentiment"):
-                concept = table[13:]
-                f = open("../CubeModelisation/model/cube_sentiment_" + concept + ".json","w")
-                f.write(sentimentcube.replace("#conceptName#", concept))
-                f.close()
-            if table.startswith("facttweet"):
-                concept = table[9:]
-                f = open("../CubeModelisation/model/cube_tweet_" + concept + ".json", "w")
-                f.write(tweetCube.replace("#conceptName#", concept))
-                f.close()
-        print("creation du modèle est faite")
-
-
-
-
-
 
 if __name__=="__main__":
     conceptsList = ["StayAtHome", "panicBuying"]
     test = MainProgramme(conceptsList)
     #test.extractAndSaveDataIntoIntermediaryDB()
-    clientID = 'Client-2020-05-07_19-26-13'
-    test.createCubes(clientID)
+    analysisID = 'Analysis-2020-05-05_15-52-41'
+    test.createCubes(analysisID)
 
 
 
