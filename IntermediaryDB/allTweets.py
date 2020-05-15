@@ -47,7 +47,7 @@ class AllTweets(Model):
 
             self.sourceName = row[19]
 
-            self.clientID = row[20]
+            self.analysisID = row[20]
             self.concept = row[21]
 
             self.save()

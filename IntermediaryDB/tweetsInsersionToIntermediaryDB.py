@@ -13,7 +13,7 @@ import preprocessor as p
 class TweetsInsertionIntermediaryToDB():
 
 
-    def lanchInsertionToIntermediaryDB(self,enrichment, folderPath, concept, clientID):
+    def lanchInsertionToIntermediaryDB(self,enrichment, folderPath, concept, analysisID):
 
         preProcessing = TweetsPreProcessing()
         if enrichment == False: #default case
@@ -51,7 +51,7 @@ class TweetsInsertionIntermediaryToDB():
                         row += preProcessing.getLangage(tweet['lang']) + preProcessing.getLocation(tweet['user']['location'])\
                                + preProcessing.getTime(tweet['created_at']) + preProcessing.getSentimentAnalysis(tweet['text'])\
                                + preProcessing.getSource(tweet['source'])
-                        row += [clientID, concept]
+                        row += [analysisID, concept]
                         print(row)
                         allTweets.insert(row)
                         cpt+=1

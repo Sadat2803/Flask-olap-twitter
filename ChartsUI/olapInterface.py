@@ -70,8 +70,8 @@ def runServer():
             database="interDB"
         )
         mycursor = mydb.cursor()
-        mycursor.execute("select clientID, concept from alltweets "
-                         "group by clientID, concept")
+        mycursor.execute("select analysisID, concept from alltweets "
+                         "group by analysisID, concept")
         result = mycursor.fetchall()
 
         temp = defaultdict(lambda: list())
@@ -80,11 +80,11 @@ def runServer():
 
         element = {'analysisId': '', 'analysisName': '', 'analysisConcepts': []}
         dataList = []
-        for clientID in temp:
-            element['analysisId'] = clientID
-            element['analysisName'] = clientID
+        for analysisID in temp:
+            element['analysisId'] = analysisID
+            element['analysisName'] = analysisID
             element['analysisConcepts'] = []
-            for concept in temp[clientID]:
+            for concept in temp[analysisID]:
                 element['analysisConcepts'].append(concept)
             dataList.append(element)
 

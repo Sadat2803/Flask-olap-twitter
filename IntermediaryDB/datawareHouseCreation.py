@@ -26,10 +26,10 @@ dbIntermediary = DatabaseManager(config)
 
 class DatawareHouseCreation:
 
-    def createDatawareHouse(self, clientID):
+    def createDatawareHouse(self, analysisID):
 
         # get all the different concepts for this client
-        allConcepts = dbIntermediary.table('alltweets').select(dbIntermediary.raw('distinct concept')).where('clientID', '=', clientID).get()
+        allConcepts = dbIntermediary.table('alltweets').select(dbIntermediary.raw('distinct concept')).where('analysisID', '=', analysisID).get()
         configdb = {
             'mysql': {
                 'driver': 'mysql',
@@ -49,7 +49,7 @@ class DatawareHouseCreation:
             #-----------------------------------------
             # Fill the Fact Tweet Table
             data = dbIntermediary.table('alltweets').select(dbIntermediary.raw('*,count(*) as numberOfTweets'))\
-                .where('clientID', '=', clientID).where('concept', '=', concept).group_by(
+                .where('analysisID', '=', analysisID).where('concept', '=', concept).group_by(
                 'languageName', 'sourceName', 'timeAltID', 'sentimentLabel', 'cityName').get()
 
             conceptTable = DimConcept()
@@ -91,7 +91,7 @@ class DatawareHouseCreation:
             # Fill the Fact Sentiment Table
             data = dbIntermediary.table('alltweets').select(
                 dbIntermediary.raw('*,avg(sentimentValue) as averageSentiment'))\
-                .where('clientID', '=', clientID).where('concept', '=', concept).group_by(
+                .where('analysisID', '=', analysisID).where('concept', '=', concept).group_by(
                 'languageName', 'timeAltID', 'cityName').get()
             cpt = 0
             for row in data:
