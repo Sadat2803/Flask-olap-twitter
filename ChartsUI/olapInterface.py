@@ -60,7 +60,7 @@ def runServer():
         a = jsonify(data)
         return a
 
-    @app.route('/route6', methods=['GET'])
+    @app.route('/getConceptsByAnalysis', methods=['GET'])
     @cross_origin()
     def getConceptsByAnalysis():
         mydb = mysql.connector.connect(

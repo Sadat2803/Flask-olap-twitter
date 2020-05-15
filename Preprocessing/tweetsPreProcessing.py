@@ -8,7 +8,6 @@ from textblob import TextBlob
 import preprocessor as p
 import cv2 as cv
 import gender_guesser.detector as gender
-from AgeGender.AgeGender import AgeGender
 
 class TweetsPreProcessing():
     monthList = {
@@ -33,10 +32,7 @@ class TweetsPreProcessing():
         'Europe': 'EU'
     }
 
-    def __init__(self):
 
-        self.detector = AgeGender()
-        self.genderDetectorByName = gender.Detector()
 
     def getTime(self,fullCreationDate):
 
@@ -298,21 +294,6 @@ class TweetsPreProcessing():
             locationAltID = ''.join(city.split())+iso3
         return [locationAltID, city ,iso2 ,country ,continentID ,continent]
 
-    def getProfile(self,user):
-
-        idAltProfile = user['id_str']
-        createdAt = user['created_at'][26:31]+'-'+self.monthList[user['created_at'][4:7]]+'-'+user['created_at'][8:10]
-        profileName = p.clean(user['name'])
-        profileName = ' '.join(re.findall(r"\w+",profileName))
-        #profileName = profileName.encode('utf-8')
-        #download the profile picture
-        #self.getProfilePic(user['profile_image_url'],idAltProfile)
-        #detect the gender
-        profileSexe = self.getGender(idAltProfile,profileName)
-        profileFollowersCount = user['followers_count']
-        profileVerified = user['verified']
-        profileName = "name"
-        return [idAltProfile, createdAt, profileName, profileSexe, profileFollowersCount, profileVerified]
 
 
     """def getSexe(self,profileName):
@@ -354,34 +335,6 @@ class TweetsPreProcessing():
         return sexe
         """
 
-    def getGender(self,profileID,profileName):
-        sexe = 'unknown'
-        try:
-            imgIn = cv.imread("../images/" + profileID + ".jpg")
-            genderList, imgOut = self.detector.detectAgeGender(imgIn)
-            cv.imwrite("../imagesClassified/"+profileID+".jpg",imgOut)
-        except:
-            genderList=[]
-        #in case there are many faces in the profile pictures they should be all the same gender
-        if(genderList.__len__()>0):
-            sexe = genderList[0]
-            for gender in genderList[1:]:
-                if gender!=sexe:
-                    sexe = 'unknown'
-                    break
-        if sexe == 'unknown':
-            try:
-                name = profileName.split()[0]
-            except:
-                name = profileName
-            sexe = self.genderDetectorByName.get_gender(name)
-        if sexe == 'andy':
-            sexe = 'unknown'
-        elif sexe =='mostly_male':
-            sexe = 'male'
-        elif sexe =='mostly_female':
-            sexe = 'female'
-        return sexe
 
     def getProfilePic(self,picUrl,picID):
         picUrl = picUrl.replace("normal","400x400")
