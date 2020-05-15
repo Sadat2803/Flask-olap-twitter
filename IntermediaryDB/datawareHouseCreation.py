@@ -48,7 +48,8 @@ class DatawareHouseCreation:
             print('concept is : ',concept)
             #-----------------------------------------
             # Fill the Fact Tweet Table
-            data = dbIntermediary.table('alltweets').select(dbIntermediary.raw('*,count(*) as numberOfTweets'))\
+            data = dbIntermediary.table('alltweets').select(dbIntermediary.raw(
+                'languageName, sourceName, timeAltID, sentimentLabel, cityName, count(*) as numberOfTweets'))\
                 .where('analysisID', '=', analysisID).where('concept', '=', concept).group_by(
                 'languageName', 'sourceName', 'timeAltID', 'sentimentLabel', 'cityName').get()
 
@@ -56,7 +57,15 @@ class DatawareHouseCreation:
             rowConcept = [concept]
             conceptID = conceptTable.insert(rowConcept)
             cpt = 0
-            for row in data:
+            for tuple in data:
+                temp = dbIntermediary.table('alltweets').select(dbIntermediary.raw('*')).where(
+                    'languageName', '=', tuple['languageName']).where(
+                    'sourceName', '=', tuple['sourceName']).where(
+                    'timeAltID', '=', tuple['timeAltID']).where(
+                    'sentimentLabel', '=', tuple['sentimentLabel']).where(
+                    'cityName', '=', tuple['cityName']).get()
+
+                row = temp[0]
                 rowSentiment = [row['sentimentLabel']]
                 rowSource = [row['sourceName']]
                 rowTime = [row['timeAltID'], row['dayOfWeek'], row['day'], row['month'], row['monthName'], row['year'],
@@ -81,7 +90,7 @@ class DatawareHouseCreation:
                 sourceID = source.insert(rowSource)
 
                 # fill the fact table with foreign keys & mesures
-                numberOfTweets = row['numberOfTweets']
+                numberOfTweets = tuple['numberOfTweets']
                 row = [conceptID, locationID, sourceID, languageID, timeID, sentimentID, numberOfTweets]
                 factTweet.insert(row)
                 cpt += 1
@@ -90,11 +99,17 @@ class DatawareHouseCreation:
 # ----------------------------------------------------------------------------------------------------------------
             # Fill the Fact Sentiment Table
             data = dbIntermediary.table('alltweets').select(
-                dbIntermediary.raw('*,avg(sentimentValue) as averageSentiment'))\
+                dbIntermediary.raw('languageName, timeAltID, cityName, avg(sentimentValue) as averageSentiment'))\
                 .where('analysisID', '=', analysisID).where('concept', '=', concept).group_by(
                 'languageName', 'timeAltID', 'cityName').get()
             cpt = 0
-            for row in data:
+            for tuple in data:
+                temp = dbIntermediary.table('alltweets').select(dbIntermediary.raw('*')).where(
+                    'languageName', '=', tuple['languageName']).where(
+                    'timeAltID', '=', tuple['timeAltID']).where(
+                    'cityName', '=', tuple['cityName']).get()
+
+                row = temp[0]
                 rowTime = [row['timeAltID'], row['dayOfWeek'], row['day'], row['month'], row['monthName'], row['year'],
                            row['season']]
                 rowLocation = [row['locationAltID'], row['cityName'], row['countryID'], row['countryName'],
@@ -113,7 +128,7 @@ class DatawareHouseCreation:
                 locationID = location.insert(rowLocation)
 
                 # fill the fact table with foreign keys & mesures
-                averageSentiment = row['averageSentiment']
+                averageSentiment = tuple['averageSentiment']
                 row = [conceptID, locationID, languageID, timeID, averageSentiment]
 
                 factSentiment.insert(row)
