@@ -54,16 +54,20 @@ class MainProgramme():
                 tweetsRest.extractTweets(concept, filePath, dateBegin, dateEnd)
         print("tweets extraction done!")
 
+
         #insert tweets into the intermediary database
         cpt = 0
         fullPath = "../TweetFilesByClients/" +self.analysisID
+        print("hello world 1 ")
         tweetsInsertionIntermediaryToDB = TweetsInsertionIntermediaryToDB()
+        print("hello world 2 ")
         for concept in self.conceptsList:
+            print("hello world 3 ")
             cpt += 1
             conceptFolderPath = fullPath + "/" + "Concept-" + str(cpt) + "/"
             tweetsInsertionIntermediaryToDB.lanchInsertionToIntermediaryDB(False, conceptFolderPath, concept.lower(), self.analysisID)
         print("tweets insertion into intermediary database done!")
-
+        return self.analysisID
     def createCubes(self, analysisID):
 
         #reset the database for owr new analyse

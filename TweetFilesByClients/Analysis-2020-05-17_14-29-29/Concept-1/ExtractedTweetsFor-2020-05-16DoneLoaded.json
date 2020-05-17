@@ -1,0 +1,2236 @@
+{ "tweets" : [{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat May 16 23:59:59 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1261808648315121664",
+                "indices": [
+                    116,
+                    139
+                ],
+                "url": "https://t.co/L86p9FjgL2"
+            }
+        ],
+        "user_mentions": [
+            {
+                "id": 1241211524204695557,
+                "id_str": "1241211524204695557",
+                "indices": [
+                    0,
+                    16
+                ],
+                "name": "Marisa Ribeiro\ud83c\udf3b\ud83d\udc78\ud83d\udc99\ud83d\udc9b\ud83d\udc97",
+                "screen_name": "MarisaR89684798"
+            },
+            {
+                "id": 1118553943334883328,
+                "id_str": "1118553943334883328",
+                "indices": [
+                    17,
+                    33
+                ],
+                "name": "Filomena Renata, dona de mim ah\u00e1 ah\u00e1\u00e1",
+                "screen_name": "filomenarenata1"
+            }
+        ]
+    },
+    "favorite_count": 1,
+    "favorited": false,
+    "geo": null,
+    "id": 1261808648315121664,
+    "id_str": "1261808648315121664",
+    "in_reply_to_screen_name": "MarisaR89684798",
+    "in_reply_to_status_id": 1261797757830025216,
+    "in_reply_to_status_id_str": "1261797757830025216",
+    "in_reply_to_user_id": 1241211524204695557,
+    "in_reply_to_user_id_str": "1241211524204695557",
+    "is_quote_status": false,
+    "lang": "pt",
+    "metadata": {
+        "iso_language_code": "pt",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "@MarisaR89684798 @filomenarenata1 E quem nunca ? Ela \u00e9  ligeira fica com vontade quem quer em tempo de CORONA  V\u00caM\u2026 https://t.co/L86p9FjgL2",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Tue Apr 04 01:10:14 +0000 2017",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 1385,
+        "follow_request_sent": false,
+        "followers_count": 613,
+        "following": false,
+        "friends_count": 3215,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 849066548824297472,
+        "id_str": "849066548824297472",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "",
+        "name": "Denise Ramos Duarte",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/849066548824297472/1491624353",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/849070376881729536/olWo_yyC_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/849070376881729536/olWo_yyC_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "DeniseRD10",
+        "statuses_count": 903,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat May 16 23:59:59 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "health.grid.id/read/352090446\u2026",
+                "expanded_url": "https://health.grid.id/read/352090446/usai-tularkan-virus-corona-pada-ratusan-jemaat-di-bandung-pendeta-ini-meninggal-dunia",
+                "indices": [
+                    97,
+                    120
+                ],
+                "url": "https://t.co/y2hErhByen"
+            }
+        ],
+        "user_mentions": [
+            {
+                "id": 1255787169886736386,
+                "id_str": "1255787169886736386",
+                "indices": [
+                    3,
+                    14
+                ],
+                "name": "Negri Seterah",
+                "screen_name": "RestyReseh"
+            },
+            {
+                "id": 183718365,
+                "id_str": "183718365",
+                "indices": [
+                    82,
+                    92
+                ],
+                "name": "HAM untuk Semua!",
+                "screen_name": "KomnasHAM"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1261808646972817409,
+    "id_str": "1261808646972817409",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "in",
+    "metadata": {
+        "iso_language_code": "in",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 336,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sat May 16 23:10:21 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "health.grid.id/read/352090446\u2026",
+                    "expanded_url": "https://health.grid.id/read/352090446/usai-tularkan-virus-corona-pada-ratusan-jemaat-di-bandung-pendeta-ini-meninggal-dunia",
+                    "indices": [
+                        81,
+                        104
+                    ],
+                    "url": "https://t.co/y2hErhByen"
+                }
+            ],
+            "user_mentions": [
+                {
+                    "id": 183718365,
+                    "id_str": "183718365",
+                    "indices": [
+                        66,
+                        76
+                    ],
+                    "name": "HAM untuk Semua!",
+                    "screen_name": "KomnasHAM"
+                }
+            ]
+        },
+        "favorite_count": 651,
+        "favorited": false,
+        "geo": null,
+        "id": 1261796157241483265,
+        "id_str": "1261796157241483265",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "in",
+        "metadata": {
+            "iso_language_code": "in",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 336,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "text": "Kapir2 yg beginian diancam penjara klu mereka ibadah lagi  gk min @KomnasHAM ? \n\nhttps://t.co/y2hErhByen",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Thu Apr 30 09:12:59 +0000 2020",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "cayah",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 4,
+            "follow_request_sent": false,
+            "followers_count": 20280,
+            "following": false,
+            "friends_count": 97,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 1255787169886736386,
+            "id_str": "1255787169886736386",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 4,
+            "location": "",
+            "name": "Negri Seterah",
+            "notifications": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1255787169886736386/1588255550",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1255938532746489859/_TVe9bDT_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1255938532746489859/_TVe9bDT_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "RestyReseh",
+            "statuses_count": 1688,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @RestyReseh: Kapir2 yg beginian diancam penjara klu mereka ibadah lagi  gk min @KomnasHAM ? \n\nhttps://t.co/y2hErhByen",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed Sep 05 06:38:12 +0000 2018",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Jalan yang benar",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 19820,
+        "follow_request_sent": false,
+        "followers_count": 1042,
+        "following": false,
+        "friends_count": 962,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 1037228386752421888,
+        "id_str": "1037228386752421888",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Alaska",
+        "name": "M.Syam Ilwa",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1037228386752421888/1561954098",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1145544980099846144/wXUNiCgG_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1145544980099846144/wXUNiCgG_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "MSyam_ilwa",
+        "statuses_count": 24544,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat May 16 23:59:59 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 236131165,
+                "id_str": "236131165",
+                "indices": [
+                    3,
+                    17
+                ],
+                "name": "\u0130brahim Melih G\u00f6k\u00e7ek",
+                "screen_name": "06melihgokcek"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1261808646868152325,
+    "id_str": "1261808646868152325",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "tr",
+    "metadata": {
+        "iso_language_code": "tr",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 577,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sat May 16 23:25:44 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/IY18Vma30C",
+                    "expanded_url": "https://twitter.com/06melihgokcek/status/1261800029632765953/video/1",
+                    "id": 1261799967540359168,
+                    "id_str": "1261799967540359168",
+                    "indices": [
+                        110,
+                        133
+                    ],
+                    "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1261799967540359168/pu/img/V_GQS1_T2brpmvRL.jpg",
+                    "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1261799967540359168/pu/img/V_GQS1_T2brpmvRL.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 358,
+                            "resize": "fit",
+                            "w": 640
+                        },
+                        "medium": {
+                            "h": 358,
+                            "resize": "fit",
+                            "w": 640
+                        },
+                        "small": {
+                            "h": 358,
+                            "resize": "fit",
+                            "w": 640
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/IY18Vma30C"
+                }
+            ],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": []
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "additional_media_info": {
+                        "monetizable": false
+                    },
+                    "display_url": "pic.twitter.com/IY18Vma30C",
+                    "expanded_url": "https://twitter.com/06melihgokcek/status/1261800029632765953/video/1",
+                    "id": 1261799967540359168,
+                    "id_str": "1261799967540359168",
+                    "indices": [
+                        110,
+                        133
+                    ],
+                    "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1261799967540359168/pu/img/V_GQS1_T2brpmvRL.jpg",
+                    "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1261799967540359168/pu/img/V_GQS1_T2brpmvRL.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 358,
+                            "resize": "fit",
+                            "w": 640
+                        },
+                        "medium": {
+                            "h": 358,
+                            "resize": "fit",
+                            "w": 640
+                        },
+                        "small": {
+                            "h": 358,
+                            "resize": "fit",
+                            "w": 640
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "video",
+                    "url": "https://t.co/IY18Vma30C",
+                    "video_info": {
+                        "aspect_ratio": [
+                            320,
+                            179
+                        ],
+                        "duration_millis": 26507,
+                        "variants": [
+                            {
+                                "bitrate": 832000,
+                                "content_type": "video/mp4",
+                                "url": "https://video.twimg.com/ext_tw_video/1261799967540359168/pu/vid/640x358/7866EluZ7xJ-DOpL.mp4?tag=10"
+                            },
+                            {
+                                "bitrate": 256000,
+                                "content_type": "video/mp4",
+                                "url": "https://video.twimg.com/ext_tw_video/1261799967540359168/pu/vid/482x270/TX7CUsdgEIGD3-5y.mp4?tag=10"
+                            },
+                            {
+                                "content_type": "application/x-mpegURL",
+                                "url": "https://video.twimg.com/ext_tw_video/1261799967540359168/pu/pl/Ye9MCpQwxX6vEEEf.m3u8?tag=10"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "favorite_count": 2891,
+        "favorited": false,
+        "geo": null,
+        "id": 1261800029632765953,
+        "id_str": "1261800029632765953",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "tr",
+        "metadata": {
+            "iso_language_code": "tr",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 577,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "text": "ARKADA\u015e CORONA\u2019NIN \u00c7\u00d6Z\u00dcM\u00dcN\u00dc BULMU\u015e...\nBENCE KILI\u00c7DARO\u011eLU\u2019NA S\u00d6YLEY\u0130N.\nBU F\u0130KR\u0130 KAPSIN...\nACA\u0130P REYT\u0130NG YAPAR\ud83d\ude06 https://t.co/IY18Vma30C",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Sun Jan 09 21:49:21 +0000 2011",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Twitlerin %99\u2019unu ben atar\u0131m.% 1 dan\u0131\u015fmanlar\u0131m atabilir.",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 921,
+            "follow_request_sent": false,
+            "followers_count": 4096316,
+            "following": false,
+            "friends_count": 50132,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 236131165,
+            "id_str": "236131165",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 3375,
+            "location": "",
+            "name": "\u0130brahim Melih G\u00f6k\u00e7ek",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/236131165/1500061320",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1419298461/Baskan_0383_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1419298461/Baskan_0383_normal.jpg",
+            "profile_link_color": "3B94D9",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "06melihgokcek",
+            "statuses_count": 74218,
+            "time_zone": null,
+            "translator_type": "regular",
+            "url": null,
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @06melihgokcek: ARKADA\u015e CORONA\u2019NIN \u00c7\u00d6Z\u00dcM\u00dcN\u00dc BULMU\u015e...\nBENCE KILI\u00c7DARO\u011eLU\u2019NA S\u00d6YLEY\u0130N.\nBU F\u0130KR\u0130 KAPSIN...\nACA\u0130P REYT\u0130NG YAPAR\ud83d\ude06 https://t.\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sat Nov 30 19:50:41 +0000 2019",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "#MilliHesaplarBurada",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 330,
+        "follow_request_sent": false,
+        "followers_count": 149,
+        "following": false,
+        "friends_count": 290,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 1200864692966756352,
+        "id_str": "1200864692966756352",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "",
+        "name": "S\u00fcmeyye Kurdo\u011flu \ud83d\udc9a\ud83c\uddf9\ud83c\uddf7",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1200864692966756352/1589715775",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1261985061500596227/srqt5TcA_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1261985061500596227/srqt5TcA_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "KurdogluSumeyye",
+        "statuses_count": 203,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat May 16 23:59:59 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "favorite_count": 3,
+    "favorited": false,
+    "geo": null,
+    "id": 1261808646708760585,
+    "id_str": "1261808646708760585",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "pt",
+    "metadata": {
+        "iso_language_code": "pt",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "s\u00f3 falta vcs dizerem que t\u00e3o com corona v\u00edrus e marcarem o timoth\u00e9e",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Oct 26 21:45:32 +0000 2017",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "dune(2020) - dir. denis villeneuve \u00b0\u2022@zeffrelli\u2022\u00b0",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 11889,
+        "follow_request_sent": false,
+        "followers_count": 3850,
+        "following": false,
+        "friends_count": 1950,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 923666931739131904,
+        "id_str": "923666931739131904",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 35,
+        "location": "she/her",
+        "name": "rebeca | \u2283\u222a\u2229\u2abd",
+        "notifications": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/923666931739131904/1589702077",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1261791795995914241/l2zzGEAO_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1261791795995914241/l2zzGEAO_normal.jpg",
+        "profile_link_color": "ABB8C2",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "protected": false,
+        "screen_name": "chalamet_holmes",
+        "statuses_count": 21781,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat May 16 23:59:58 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 236131165,
+                "id_str": "236131165",
+                "indices": [
+                    3,
+                    17
+                ],
+                "name": "\u0130brahim Melih G\u00f6k\u00e7ek",
+                "screen_name": "06melihgokcek"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1261808643827216384,
+    "id_str": "1261808643827216384",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "tr",
+    "metadata": {
+        "iso_language_code": "tr",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 577,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sat May 16 23:25:44 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/IY18Vma30C",
+                    "expanded_url": "https://twitter.com/06melihgokcek/status/1261800029632765953/video/1",
+                    "id": 1261799967540359168,
+                    "id_str": "1261799967540359168",
+                    "indices": [
+                        110,
+                        133
+                    ],
+                    "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1261799967540359168/pu/img/V_GQS1_T2brpmvRL.jpg",
+                    "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1261799967540359168/pu/img/V_GQS1_T2brpmvRL.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 358,
+                            "resize": "fit",
+                            "w": 640
+                        },
+                        "medium": {
+                            "h": 358,
+                            "resize": "fit",
+                            "w": 640
+                        },
+                        "small": {
+                            "h": 358,
+                            "resize": "fit",
+                            "w": 640
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/IY18Vma30C"
+                }
+            ],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": []
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "additional_media_info": {
+                        "monetizable": false
+                    },
+                    "display_url": "pic.twitter.com/IY18Vma30C",
+                    "expanded_url": "https://twitter.com/06melihgokcek/status/1261800029632765953/video/1",
+                    "id": 1261799967540359168,
+                    "id_str": "1261799967540359168",
+                    "indices": [
+                        110,
+                        133
+                    ],
+                    "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/1261799967540359168/pu/img/V_GQS1_T2brpmvRL.jpg",
+                    "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1261799967540359168/pu/img/V_GQS1_T2brpmvRL.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 358,
+                            "resize": "fit",
+                            "w": 640
+                        },
+                        "medium": {
+                            "h": 358,
+                            "resize": "fit",
+                            "w": 640
+                        },
+                        "small": {
+                            "h": 358,
+                            "resize": "fit",
+                            "w": 640
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "video",
+                    "url": "https://t.co/IY18Vma30C",
+                    "video_info": {
+                        "aspect_ratio": [
+                            320,
+                            179
+                        ],
+                        "duration_millis": 26507,
+                        "variants": [
+                            {
+                                "bitrate": 832000,
+                                "content_type": "video/mp4",
+                                "url": "https://video.twimg.com/ext_tw_video/1261799967540359168/pu/vid/640x358/7866EluZ7xJ-DOpL.mp4?tag=10"
+                            },
+                            {
+                                "bitrate": 256000,
+                                "content_type": "video/mp4",
+                                "url": "https://video.twimg.com/ext_tw_video/1261799967540359168/pu/vid/482x270/TX7CUsdgEIGD3-5y.mp4?tag=10"
+                            },
+                            {
+                                "content_type": "application/x-mpegURL",
+                                "url": "https://video.twimg.com/ext_tw_video/1261799967540359168/pu/pl/Ye9MCpQwxX6vEEEf.m3u8?tag=10"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "favorite_count": 2891,
+        "favorited": false,
+        "geo": null,
+        "id": 1261800029632765953,
+        "id_str": "1261800029632765953",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "tr",
+        "metadata": {
+            "iso_language_code": "tr",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 577,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "text": "ARKADA\u015e CORONA\u2019NIN \u00c7\u00d6Z\u00dcM\u00dcN\u00dc BULMU\u015e...\nBENCE KILI\u00c7DARO\u011eLU\u2019NA S\u00d6YLEY\u0130N.\nBU F\u0130KR\u0130 KAPSIN...\nACA\u0130P REYT\u0130NG YAPAR\ud83d\ude06 https://t.co/IY18Vma30C",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Sun Jan 09 21:49:21 +0000 2011",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Twitlerin %99\u2019unu ben atar\u0131m.% 1 dan\u0131\u015fmanlar\u0131m atabilir.",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 921,
+            "follow_request_sent": false,
+            "followers_count": 4096316,
+            "following": false,
+            "friends_count": 50132,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 236131165,
+            "id_str": "236131165",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 3375,
+            "location": "",
+            "name": "\u0130brahim Melih G\u00f6k\u00e7ek",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/236131165/1500061320",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1419298461/Baskan_0383_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1419298461/Baskan_0383_normal.jpg",
+            "profile_link_color": "3B94D9",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "06melihgokcek",
+            "statuses_count": 74218,
+            "time_zone": null,
+            "translator_type": "regular",
+            "url": null,
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "RT @06melihgokcek: ARKADA\u015e CORONA\u2019NIN \u00c7\u00d6Z\u00dcM\u00dcN\u00dc BULMU\u015e...\nBENCE KILI\u00c7DARO\u011eLU\u2019NA S\u00d6YLEY\u0130N.\nBU F\u0130KR\u0130 KAPSIN...\nACA\u0130P REYT\u0130NG YAPAR\ud83d\ude06 https://t.\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Sep 13 18:15:30 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "AK Parti Band\u0131rma belediye Meclis \u00fcyesi|. | Of, Trabzonspor",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 302314,
+        "follow_request_sent": false,
+        "followers_count": 7693,
+        "following": false,
+        "friends_count": 6469,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 821963485,
+        "id_str": "821963485",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 4,
+        "location": "Band\u0131rma, T\u00fcrkiye",
+        "name": "Yusuf Ziya \u00c7EL\u0130KO\u011eLU \ud83d\udfe2",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/821963485/1473615168",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1209129980510253057/_q8TdOck_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1209129980510253057/_q8TdOck_normal.jpg",
+        "profile_link_color": "001EB3",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "ysfzylkoglu",
+        "statuses_count": 49096,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat May 16 23:59:58 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "favorite_count": 4,
+    "favorited": false,
+    "geo": null,
+    "id": 1261808643009384452,
+    "id_str": "1261808643009384452",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "pt",
+    "metadata": {
+        "iso_language_code": "pt",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "meu vozinho pegou esse corona filha da puta \ud83e\udd7a\ud83d\ude2d",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed Dec 07 22:50:02 +0000 2016",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 86942,
+        "follow_request_sent": false,
+        "followers_count": 1678,
+        "following": false,
+        "friends_count": 1049,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 806631882372894721,
+        "id_str": "806631882372894721",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Rond\u00f4nia, Brasil",
+        "name": "Grasi",
+        "notifications": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/806631882372894721/1583076886",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1257478724896915457/_Z26BvWj_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1257478724896915457/_Z26BvWj_normal.jpg",
+        "profile_link_color": "F58EA8",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "protected": false,
+        "screen_name": "grasi_link7",
+        "statuses_count": 21318,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat May 16 23:59:58 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 1248456665982103552,
+                "id_str": "1248456665982103552",
+                "indices": [
+                    3,
+                    15
+                ],
+                "name": "dethalles",
+                "screen_name": "nathallinos"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1261808642493423617,
+    "id_str": "1261808642493423617",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "pt",
+    "metadata": {
+        "iso_language_code": "pt",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 4,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sat May 16 23:57:50 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1261808104418803712",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/027cxt7AwH"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 8,
+        "favorited": false,
+        "geo": null,
+        "id": 1261808104418803712,
+        "id_str": "1261808104418803712",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "pt",
+        "metadata": {
+            "iso_language_code": "pt",
+            "result_type": "recent"
+        },
+        "place": null,
+        "retweet_count": 4,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "text": "oi gente, sabe a It\u00e1lia que a dois meses atr\u00e1s era o epicentro do corona? ent\u00e3o, o brasil ultrapassou ela no n\u00famero\u2026 https://t.co/027cxt7AwH",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Fri Apr 10 03:44:08 +0000 2020",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "sou obrigado a gostar de militante?",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "instagram.com/thalles.on",
+                            "expanded_url": "http://instagram.com/thalles.on",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/EBcaPAJgRe"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 648,
+            "follow_request_sent": false,
+            "followers_count": 45,
+            "following": false,
+            "friends_count": 94,
+            "geo_enabled": false,
+            "has_extended_profile": true,
+            "id": 1248456665982103552,
+            "id_str": "1248456665982103552",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 0,
+            "location": "mg/es",
+            "name": "I will never be royals",
+            "notifications": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1248456665982103552/1589689013",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1257615111105253377/E0Cg7OYo_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1257615111105253377/E0Cg7OYo_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "nathallinos",
+            "statuses_count": 472,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/EBcaPAJgRe",
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "RT @nathallinos: oi gente, sabe a It\u00e1lia que a dois meses atr\u00e1s era o epicentro do corona? ent\u00e3o, o brasil ultrapassou ela no n\u00famero de cas\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Feb 07 22:16:35 +0000 2019",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "why are you so obsessed with me?",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 28207,
+        "follow_request_sent": false,
+        "followers_count": 519,
+        "following": false,
+        "friends_count": 387,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 1093634655973265409,
+        "id_str": "1093634655973265409",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Vila Velha, Brasil",
+        "name": "brenda",
+        "notifications": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1093634655973265409/1589673299",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1261807129134055427/Zd8c5NhX_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1261807129134055427/Zd8c5NhX_normal.jpg",
+        "profile_link_color": "F58EA8",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "protected": false,
+        "screen_name": "bdaltio",
+        "statuses_count": 23044,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat May 16 23:59:58 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 1109570427448365058,
+                "id_str": "1109570427448365058",
+                "indices": [
+                    0,
+                    11
+                ],
+                "name": "kakashi sem chakra",
+                "screen_name": "otakuzinh0"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1261808642040508417,
+    "id_str": "1261808642040508417",
+    "in_reply_to_screen_name": "otakuzinh0",
+    "in_reply_to_status_id": 1261752484864897024,
+    "in_reply_to_status_id_str": "1261752484864897024",
+    "in_reply_to_user_id": 1109570427448365058,
+    "in_reply_to_user_id_str": "1109570427448365058",
+    "is_quote_status": false,
+    "lang": "pt",
+    "metadata": {
+        "iso_language_code": "pt",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "@otakuzinh0 Ele \u00e9 o pr\u00f3prio corona",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed May 29 01:36:54 +0000 2019",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "021\ud83c\udf1e\n\nInsta:@sofia_dias2603",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 925,
+        "follow_request_sent": false,
+        "followers_count": 623,
+        "following": false,
+        "friends_count": 257,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 1133547733162369030,
+        "id_str": "1133547733162369030",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "BQ",
+        "name": "sofia com f",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1133547733162369030/1582264696",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1249214136443113473/7MXD0Pp5_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1249214136443113473/7MXD0Pp5_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "sofiacomf_",
+        "statuses_count": 493,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat May 16 23:59:58 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 1068984892783034369,
+                "id_str": "1068984892783034369",
+                "indices": [
+                    3,
+                    17
+                ],
+                "name": "Cock Piss Ptarmigan",
+                "screen_name": "vndshvsbmwrmp"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1261808641465823233,
+    "id_str": "1261808641465823233",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 4,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sat May 16 22:45:36 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1261789926330380289",
+                    "indices": [
+                        116,
+                        139
+                    ],
+                    "url": "https://t.co/PgUJnXk9ne"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 5,
+        "favorited": false,
+        "geo": null,
+        "id": 1261789926330380289,
+        "id_str": "1261789926330380289",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "retweet_count": 4,
+        "retweeted": false,
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "text": "My \u2018apolitical\u2019 but conservatively inclined sister is now blaming the UK\u2019s corona death rate on fat people. Why is\u2026 https://t.co/PgUJnXk9ne",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Sat Dec 01 21:47:14 +0000 2018",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 2446,
+            "follow_request_sent": false,
+            "followers_count": 12,
+            "following": false,
+            "friends_count": 235,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 1068984892783034369,
+            "id_str": "1068984892783034369",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 0,
+            "location": "Glasgow, Scotland",
+            "name": "Cock Piss Ptarmigan",
+            "notifications": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1069169292288102400/65ZCpBT__normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1069169292288102400/65ZCpBT__normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "vndshvsbmwrmp",
+            "statuses_count": 335,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "text": "RT @vndshvsbmwrmp: My \u2018apolitical\u2019 but conservatively inclined sister is now blaming the UK\u2019s corona death rate on fat people. Why is petty\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed Aug 08 22:24:24 +0000 2012",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 66,
+        "follow_request_sent": false,
+        "followers_count": 1022,
+        "following": false,
+        "friends_count": 2181,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 746053466,
+        "id_str": "746053466",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 6,
+        "location": "",
+        "name": "stevenbones",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/344513261583277059/2b452dfd8fcd18f0f626fcec6efef8f2_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/344513261583277059/2b452dfd8fcd18f0f626fcec6efef8f2_normal.jpeg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "stevenbones1",
+        "statuses_count": 9701,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat May 16 23:59:57 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    23,
+                    42
+                ],
+                "text": "Soloselbstst\u00e4ndige"
+            },
+            {
+                "indices": [
+                    47,
+                    61
+                ],
+                "text": "K\u00fcnstlerInnen"
+            },
+            {
+                "indices": [
+                    97,
+                    104
+                ],
+                "text": "Corona"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 2785118350,
+                "id_str": "2785118350",
+                "indices": [
+                    3,
+                    17
+                ],
+                "name": "Green Janine",
+                "screen_name": "JanineSteeger"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1261808637699395586,
+    "id_str": "1261808637699395586",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "de",
+    "metadata": {
+        "iso_language_code": "de",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 2,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Wed May 13 18:14:37 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        4,
+                        23
+                    ],
+                    "text": "Soloselbstst\u00e4ndige"
+                },
+                {
+                    "indices": [
+                        28,
+                        42
+                    ],
+                    "text": "K\u00fcnstlerInnen"
+                },
+                {
+                    "indices": [
+                        78,
+                        85
+                    ],
+                    "text": "Corona"
+                }
+            ],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1260634569327419392",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/jaLeTIAlBM"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 9,
+        "favorited": false,
+        "geo": null,
+        "id": 1260634569327419392,
+        "id_str": "1260634569327419392",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "de",
+        "metadata": {
+            "iso_language_code": "de",
+            "result_type": "recent"
+        },
+        "place": {
+            "attributes": {},
+            "bounding_box": {
+                "coordinates": [
+                    [
+                        [
+                            6.772567,
+                            50.830287
+                        ],
+                        [
+                            7.162373,
+                            50.830287
+                        ],
+                        [
+                            7.162373,
+                            51.0849471
+                        ],
+                        [
+                            6.772567,
+                            51.0849471
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "contained_within": [],
+            "country": "Germany",
+            "country_code": "DE",
+            "full_name": "Cologne, Germany",
+            "id": "8abc99434d4f5d28",
+            "name": "Cologne",
+            "place_type": "city",
+            "url": "https://api.twitter.com/1.1/geo/id/8abc99434d4f5d28.json"
+        },
+        "possibly_sensitive": false,
+        "retweet_count": 2,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "text": "Wir #Soloselbstst\u00e4ndige und #K\u00fcnstlerInnen haben ein Problem. Wir haben durch #Corona keine Eink\u00fcnfte, und sollen j\u2026 https://t.co/jaLeTIAlBM",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Fri Sep 26 07:34:38 +0000 2014",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Sustainability makes you happy\ud83d\udc95 Moderatorin, Speakerin, Buchautorin, Futurewoman, Inspiratorin, Mutter",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "janine-steeger.de",
+                            "expanded_url": "http://janine-steeger.de",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/af4I96f9Iq"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 1722,
+            "follow_request_sent": false,
+            "followers_count": 1584,
+            "following": false,
+            "friends_count": 620,
+            "geo_enabled": true,
+            "has_extended_profile": true,
+            "id": 2785118350,
+            "id_str": "2785118350",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 62,
+            "location": "K\u00f6ln",
+            "name": "Green Janine",
+            "notifications": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2785118350/1499585909",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/883953329461702658/yVxHUsxU_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/883953329461702658/yVxHUsxU_normal.jpg",
+            "profile_link_color": "81B345",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "JanineSteeger",
+            "statuses_count": 2969,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/af4I96f9Iq",
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @JanineSteeger: Wir #Soloselbstst\u00e4ndige und #K\u00fcnstlerInnen haben ein Problem. Wir haben durch #Corona keine Eink\u00fcnfte, und sollen jetzt\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sun Feb 02 11:06:28 +0000 2020",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Podcaster aus Neugierde",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "kleinaberstoukalov.de/podcast/",
+                        "expanded_url": "http://kleinaberstoukalov.de/podcast/",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/eMZjWLbNA9"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 29,
+        "follow_request_sent": false,
+        "followers_count": 3,
+        "following": false,
+        "friends_count": 12,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1223925601314246656,
+        "id_str": "1223925601314246656",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Cologne, Germany",
+        "name": "Klein aber Stoukalov",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1223926067305635840/us5Xq0_Y_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223926067305635840/us5Xq0_Y_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "KStoukalov",
+        "statuses_count": 36,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/eMZjWLbNA9",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat May 16 23:59:57 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "favorite_count": 1,
+    "favorited": false,
+    "geo": null,
+    "id": 1261808637468524545,
+    "id_str": "1261808637468524545",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "in",
+    "metadata": {
+        "iso_language_code": "in",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "Keinginan ku di 2020 belum banyak yg tercapai njing, gara gara virus corona njing, jadi ngeri njing",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sun May 13 20:04:19 +0000 2018",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "overdosis samyang",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 1833,
+        "follow_request_sent": false,
+        "followers_count": 95,
+        "following": false,
+        "friends_count": 172,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 995756646902059008,
+        "id_str": "995756646902059008",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Yogyakarta",
+        "name": "izal",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/995756646902059008/1582747377",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1232752529047351296/UTMM1lwI_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1232752529047351296/UTMM1lwI_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "jinbotol___",
+        "statuses_count": 1096,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat May 16 23:59:56 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/2Zo5Dzv6Ak",
+                "expanded_url": "https://twitter.com/Voice_For_India/status/1261637104796413953/photo/1",
+                "id": 1261636211761909761,
+                "id_str": "1261636211761909761",
+                "indices": [
+                    102,
+                    125
+                ],
+                "media_url": "http://pbs.twimg.com/media/EYI7cz3WkAE0pQ-.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EYI7cz3WkAE0pQ-.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 461,
+                        "resize": "fit",
+                        "w": 960
+                    },
+                    "medium": {
+                        "h": 461,
+                        "resize": "fit",
+                        "w": 960
+                    },
+                    "small": {
+                        "h": 327,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "source_status_id": 1261637104796413953,
+                "source_status_id_str": "1261637104796413953",
+                "source_user_id": 923325871200620544,
+                "source_user_id_str": "923325871200620544",
+                "type": "photo",
+                "url": "https://t.co/2Zo5Dzv6Ak"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 923325871200620544,
+                "id_str": "923325871200620544",
+                "indices": [
+                    3,
+                    19
+                ],
+                "name": "Renee Lynn",
+                "screen_name": "Voice_For_India"
+            }
+        ]
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/2Zo5Dzv6Ak",
+                "expanded_url": "https://twitter.com/Voice_For_India/status/1261637104796413953/photo/1",
+                "id": 1261636211761909761,
+                "id_str": "1261636211761909761",
+                "indices": [
+                    102,
+                    125
+                ],
+                "media_url": "http://pbs.twimg.com/media/EYI7cz3WkAE0pQ-.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EYI7cz3WkAE0pQ-.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 461,
+                        "resize": "fit",
+                        "w": 960
+                    },
+                    "medium": {
+                        "h": 461,
+                        "resize": "fit",
+                        "w": 960
+                    },
+                    "small": {
+                        "h": 327,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "source_status_id": 1261637104796413953,
+                "source_status_id_str": "1261637104796413953",
+                "source_user_id": 923325871200620544,
+                "source_user_id_str": "923325871200620544",
+                "type": "photo",
+                "url": "https://t.co/2Zo5Dzv6Ak"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1261808636818452480,
+    "id_str": "1261808636818452480",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 664,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sat May 16 12:38:20 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/2Zo5Dzv6Ak",
+                    "expanded_url": "https://twitter.com/Voice_For_India/status/1261637104796413953/photo/1",
+                    "id": 1261636211761909761,
+                    "id_str": "1261636211761909761",
+                    "indices": [
+                        81,
+                        104
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EYI7cz3WkAE0pQ-.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EYI7cz3WkAE0pQ-.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 461,
+                            "resize": "fit",
+                            "w": 960
+                        },
+                        "medium": {
+                            "h": 461,
+                            "resize": "fit",
+                            "w": 960
+                        },
+                        "small": {
+                            "h": 327,
+                            "resize": "fit",
+                            "w": 680
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/2Zo5Dzv6Ak"
+                }
+            ],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": []
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/2Zo5Dzv6Ak",
+                    "expanded_url": "https://twitter.com/Voice_For_India/status/1261637104796413953/photo/1",
+                    "id": 1261636211761909761,
+                    "id_str": "1261636211761909761",
+                    "indices": [
+                        81,
+                        104
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EYI7cz3WkAE0pQ-.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EYI7cz3WkAE0pQ-.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 461,
+                            "resize": "fit",
+                            "w": 960
+                        },
+                        "medium": {
+                            "h": 461,
+                            "resize": "fit",
+                            "w": 960
+                        },
+                        "small": {
+                            "h": 327,
+                            "resize": "fit",
+                            "w": 680
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/2Zo5Dzv6Ak"
+                }
+            ]
+        },
+        "favorite_count": 3302,
+        "favorited": false,
+        "geo": null,
+        "id": 1261637104796413953,
+        "id_str": "1261637104796413953",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 664,
+        "retweeted": false,
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "text": "Can you name this Virus outside the Corona Hotel? Name this Indian virus. GO! \ud83d\ude09\ud83d\ude43 https://t.co/2Zo5Dzv6Ak",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Wed Oct 25 23:10:17 +0000 2017",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Social Activist, Author, Columnist & Founder \u00a9Voice for India.\nJoin the https://t.co/oSlJ8O8UXe Movement.\nIndia Icon Award in Social Activism",
+            "entities": {
+                "description": {
+                    "urls": [
+                        {
+                            "display_url": "voiceforindia.com",
+                            "expanded_url": "http://voiceforindia.com",
+                            "indices": [
+                                72,
+                                95
+                            ],
+                            "url": "https://t.co/oSlJ8O8UXe"
+                        }
+                    ]
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "facebook.com/ReneeLynnVoice\u2026",
+                            "expanded_url": "https://www.facebook.com/ReneeLynnVoiceForIndia/",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/sN2jckLIb2"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 22007,
+            "follow_request_sent": false,
+            "followers_count": 83626,
+            "following": false,
+            "friends_count": 233,
+            "geo_enabled": false,
+            "has_extended_profile": true,
+            "id": 923325871200620544,
+            "id_str": "923325871200620544",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 82,
+            "location": "New Jersey, USA & Delhi, India",
+            "name": "Renee Lynn",
+            "notifications": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/923325871200620544/1585431277",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1260526554175672322/Ocr6kJOz_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1260526554175672322/Ocr6kJOz_normal.jpg",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "Voice_For_India",
+            "statuses_count": 999,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/sN2jckLIb2",
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @Voice_For_India: Can you name this Virus outside the Corona Hotel? Name this Indian virus. GO! \ud83d\ude09\ud83d\ude43 https://t.co/2Zo5Dzv6Ak",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Fri Feb 21 14:51:42 +0000 2020",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Common persecuted hindu in own land by own government.",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 29478,
+        "follow_request_sent": false,
+        "followers_count": 228,
+        "following": false,
+        "friends_count": 474,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1230867639368650753,
+        "id_str": "1230867639368650753",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "",
+        "name": "Sandeep #SaveHindus",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1230867639368650753/1585135564",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1259280415564554241/vt-A9-2a_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1259280415564554241/vt-A9-2a_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Sandeep57484623",
+        "statuses_count": 30508,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+}
+]
+}

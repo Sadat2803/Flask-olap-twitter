@@ -8,8 +8,6 @@ import re
 from nltk.corpus import stopwords
 from Preprocessing.tweetsPreProcessing import *
 import preprocessor as p
-
-
 class TweetsInsertionIntermediaryToDB():
 
 
@@ -64,8 +62,6 @@ class TweetsInsertionIntermediaryToDB():
                     else:
                         newFileName2 = dirPath + fileName.split('.')[0] + "Done" + "Loaded" + "." + "json"
                     rename(newFileName,newFileName2)
-
-
         print("All Files are loaded to the intermediary database")
 
     def renameFiles(self):
