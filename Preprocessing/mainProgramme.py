@@ -22,7 +22,7 @@ class MainProgramme():
 
     def extractAndSaveDataIntoIntermediaryDB(self):
         # create a folder for this client
-        """
+
         fullPath = "../TweetFilesByClients/" + self.analysisID
         os.mkdir(fullPath)
         #print("Directory ", fullPath, " Created ")
@@ -53,15 +53,15 @@ class MainProgramme():
                 f.close()
                 tweetsRest.extractTweets(concept, filePath, dateBegin, dateEnd)
         print("tweets extraction done!")
-        """
+
         #insert tweets into the intermediary database
         cpt = 0
-        fullPath = "../TweetFilesByClients/" +"Analysis-2020-05-05_15-52-41" #self.analysisID
+        fullPath = "../TweetFilesByClients/" +self.analysisID
         tweetsInsertionIntermediaryToDB = TweetsInsertionIntermediaryToDB()
         for concept in self.conceptsList:
             cpt += 1
             conceptFolderPath = fullPath + "/" + "Concept-" + str(cpt) + "/"
-            tweetsInsertionIntermediaryToDB.lanchInsertionToIntermediaryDB(False, conceptFolderPath, concept.lower(), "Analysis-2020-05-05_15-52-41" ) #self.analysisID
+            tweetsInsertionIntermediaryToDB.lanchInsertionToIntermediaryDB(False, conceptFolderPath, concept.lower(), self.analysisID)
         print("tweets insertion into intermediary database done!")
 
     def createCubes(self, analysisID):

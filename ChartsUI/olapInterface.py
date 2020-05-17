@@ -18,7 +18,60 @@ def runServer():
     @cross_origin()
     def launchAnalysis():
         print(request.json)
-        return []
+        conceptsList = request.json
+        test = MainProgramme(conceptsList)
+        test.extractAndSaveDataIntoIntermediaryDB()
+        data = []
+        a = jsonify(data)
+        return a
+
+
+    @app.route('/getTweets', methods=['GET'])
+    @cross_origin()
+    def getTweets():
+        analysisID = request.args['analysisID']
+        mydb = mysql.connector.connect(
+            host="localhost",
+            user="root",
+            passwd="",
+            database="interDB"
+        )
+        mycursor = mydb.cursor()
+        query = "select text, languageName, cityName, countryName, continentName, day, month, year, concept from alltweets where analysisID = '" + analysisID+"'"
+        mycursor.execute(query)
+
+        result = mycursor.fetchall()
+        element = {
+            'text': '',
+            'language': '',
+            'city': '',
+            'country': '',
+            'continent': '',
+            'date': '',
+            'concept': ''
+        }
+        dataList = []
+        for row in result:
+            element['text'] = row[0]
+            element['language'] = row[1]
+            element['city'] = row[2]
+            element['country'] = row[3]
+            element['continent'] = row[4]
+            element['date'] = row[5]+"/"+row[6]+"/"+row[7]
+            element['concept'] = row[8]
+            element = {
+                'text': '',
+                'language': '',
+                'city': '',
+                'country': '',
+                'continent': '',
+                'date': '',
+                'concept': ''
+            }
+            dataList.append(element)
+
+        a = jsonify(dataList)
+        return a
 
 
     @app.route('/sentimentByCountriesAndDatesMapJson', methods=['GET'])
