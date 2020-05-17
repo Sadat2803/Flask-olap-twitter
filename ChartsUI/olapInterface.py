@@ -14,6 +14,13 @@ def runServer():
     app = Flask(__name__)
 
 
+    @app.route('/launchAnalysis', methods=['POST'])
+    @cross_origin()
+    def launchAnalysis():
+        print(request.json)
+        return []
+
+
     @app.route('/sentimentByCountriesAndDatesMapJson', methods=['GET'])
     @cross_origin()
     def sentimentByCountriesAndDatesMapJson():
