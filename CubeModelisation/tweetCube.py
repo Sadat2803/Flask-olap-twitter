@@ -40,19 +40,34 @@ class TweetCube:
         print("output ",output)
         i = 0
         data = []
-        for continent in output:
+        continentsList = ['Asia','Africa','Australia','Europe','North America','South America']
+        for continent in continentsList:
             temp['continentName'] = continent
-            temp['sources'][i]['source'] = "iPhone"
-            temp['sources'][i]['numberOfTweets'] = output[continent].get('iPhone', 0)
-            i += 1
-            temp['sources'][i]['source'] = "Android"
-            temp['sources'][i]['numberOfTweets'] = output[continent].get('Android', 0)
-            i += 1
-            temp['sources'][i]['source'] = "Web"
-            temp['sources'][i]['numberOfTweets'] = output[continent].get('Web', 0)
-            i += 1
-            temp['sources'][i]['source'] = "Unknown"
-            temp['sources'][i]['numberOfTweets'] = output[continent].get('Unknown', 0)
+            if output[continent]:
+                temp['sources'][i]['source'] = "iPhone"
+                temp['sources'][i]['numberOfTweets'] = output[continent].get('iPhone', 0)
+                i += 1
+                temp['sources'][i]['source'] = "Android"
+                temp['sources'][i]['numberOfTweets'] = output[continent].get('Android', 0)
+                i += 1
+                temp['sources'][i]['source'] = "Web"
+                temp['sources'][i]['numberOfTweets'] = output[continent].get('Web', 0)
+                i += 1
+                temp['sources'][i]['source'] = "Unknown"
+                temp['sources'][i]['numberOfTweets'] = output[continent].get('Unknown', 0)
+            else:
+                temp['sources'][i]['source'] = "iPhone"
+                temp['sources'][i]['numberOfTweets'] = 0
+                i += 1
+                temp['sources'][i]['source'] = "Android"
+                temp['sources'][i]['numberOfTweets'] = 0
+                i += 1
+                temp['sources'][i]['source'] = "Web"
+                temp['sources'][i]['numberOfTweets'] = 0
+                i += 1
+                temp['sources'][i]['source'] = "Unknown"
+                temp['sources'][i]['numberOfTweets'] = 0
+
             i = 0
             data.append(temp)
             temp = {'continentName': '',

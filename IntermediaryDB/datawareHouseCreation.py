@@ -136,7 +136,7 @@ class DatawareHouseCreation:
                 print(cpt, "tuple inserted", sep=" ")
             print("All tuples are inserted For the Fact Sentiment for the concept :", concept)
 # ----------------------------------------------------------------------------------------------------------------
-        # Fill the Fact CovCase Table
+        '''# Fill the Fact CovCase Table
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
@@ -176,7 +176,7 @@ class DatawareHouseCreation:
 
             cpt += 1
             print(cpt, "tuple inserted", sep=" ")
-        print("All tuples are inserted For the Fact CovCase")
+        print("All tuples are inserted For the Fact CovCase")'''
 
 
 if __name__ == "__main__":

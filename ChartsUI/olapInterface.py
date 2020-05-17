@@ -14,7 +14,7 @@ def runServer():
     app = Flask(__name__)
 
 
-    @app.route('/route1', methods=['GET'])
+    @app.route('/sentimentByCountriesAndDatesMapJson', methods=['GET'])
     @cross_origin()
     def sentimentByCountriesAndDatesMapJson():
         concept = request.args['concept']
@@ -23,7 +23,7 @@ def runServer():
         a = jsonify(data)
         return a
 
-    @app.route('/sentimentByCountriesMapJson', methods=['GET'])
+    @app.route('/groupedCountriesSentiments', methods=['GET'])
     @cross_origin()
     def sentimentByCountriesMapJson():
         concept = request.args['concept']
@@ -33,7 +33,7 @@ def runServer():
         return a
 
 
-    @app.route('/route3', methods=['GET'])
+    @app.route('/tweetsSourcesByContinent', methods=['GET'])
     @cross_origin()
     def sourcePieChartsByContinentJson():
         concept = request.args['concept']
@@ -42,7 +42,7 @@ def runServer():
         a = jsonify(data)
         return a
 
-    @app.route('/route4', methods=['GET'])
+    @app.route('/tweetsByLanguage', methods=['GET'])
     @cross_origin()
     def barChartRaceByLanguageAndDateJson():
         concept = request.args['concept']
@@ -51,7 +51,7 @@ def runServer():
         a = jsonify(data)
         return a
 
-    @app.route('/route5', methods=['GET'])
+    @app.route('/tweetsBySentiment', methods=['GET'])
     @cross_origin()
     def barChartRaceBySentimentAndDateJson():
         concept = request.args['concept']
