@@ -29,6 +29,8 @@ class TweetsRest():
             print('Pause Time ')
             time.sleep(16 * 60)
             tweet = next(allTweets)
+        except StopIteration:
+            return ;
 
         while True:
             try:
@@ -43,7 +45,6 @@ class TweetsRest():
                 print(datetime.datetime.now())
                 print('Pause Time ')
                 time.sleep(16*60)
-                tweet = next(allTweets)
             except StopIteration:
                 break
 

@@ -40,11 +40,10 @@ class TweetsInsertionIntermediaryToDB():
                     cpt=0
                     for tweet in tweets['tweets']:
                         allTweets = AllTweets()
-
                         tweetID = tweet['id_str']
                         text = p.clean(tweet['text'])
                         text = " ".join(re.findall('\w+', text))
-                        text = "text"
+                        #text = "text"
                         row = [tweetID, text]
                         row += preProcessing.getLangage(tweet['lang']) + preProcessing.getLocation(tweet['user']['location'])\
                                + preProcessing.getTime(tweet['created_at']) + preProcessing.getSentimentAnalysis(tweet['text'])\
