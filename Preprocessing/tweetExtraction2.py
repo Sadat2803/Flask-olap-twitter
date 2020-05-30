@@ -11,7 +11,7 @@ class TweetsRest():
     def __init__(self, auth):
         self.api = tweepy.API(auth, wait_on_rate_limit=False, wait_on_rate_limit_notify=False)
 
-    def extractTweets(self,tagsList, filePath, dateBegin, dateEnd):
+    def extractTweets(self,tagsList, filePath, dateBegin, dateEnd, numberOfTweets):
         #,since="2020-03-19" , until="2020-03-20"
         allTweets = tweepy.Cursor(self.api.search, q=tagsList,since=dateBegin , until=dateEnd,count=100).items()
         fileName = filePath
@@ -37,7 +37,7 @@ class TweetsRest():
                 tweet = next(allTweets)
                 tweetsFile.write(","+json.dumps(tweet._json, sort_keys="False", indent=4))
                 cpt+=1
-                if cpt >10:
+                if cpt > numberOfTweets:
                     break
                 print('Tweets number : '+str(cpt))
             except tweepy.TweepError:

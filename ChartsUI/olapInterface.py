@@ -18,9 +18,14 @@ def runServer():
     @cross_origin()
     def launchAnalysis():
         print(request.json)
-        conceptsList = request.json
+        dataJson = request.json
+        conceptsList = dataJson['conceptsList']
+        numberOfDays = dataJson['numberOfDays']
+        numberOfTweets = dataJson['numberOfTweets'] / numberOfDays
+
         test = MainProgramme(conceptsList)
-        analysisID = test.extractAndSaveDataIntoIntermediaryDB()
+
+        analysisID = test.extractAndSaveDataIntoIntermediaryDB(numberOfDays, numberOfTweets)
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",

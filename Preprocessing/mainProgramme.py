@@ -20,7 +20,7 @@ class MainProgramme():
         temp[1] = temp[1].replace(":", "-")
         self.analysisID = "Analysis-" + temp[0] + "_" + temp[1].split('.')[0]
 
-    def extractAndSaveDataIntoIntermediaryDB(self):
+    def extractAndSaveDataIntoIntermediaryDB(self, numberOfDays, numberOfTweets):
         # create a folder for this client
 
         fullPath = "../TweetFilesByClients/" + self.analysisID
@@ -38,7 +38,7 @@ class MainProgramme():
             twitterAuthentificator = TwitterAuthenticator()
             tweetsRest = TweetsRest(twitterAuthentificator.auth)
             date = datetime.datetime.today()
-            numberOfDays = 2 # from today to 1 day ago
+            #numberOfDays = 2 # from today to 1 day ago
             for i in range(numberOfDays):
                 tempDate = date
                 dateBegin = str(tempDate).split()[0]
@@ -51,7 +51,7 @@ class MainProgramme():
                 f = open(conceptFolderPath + "/readme.txt","w")
                 f.write(concept)
                 f.close()
-                tweetsRest.extractTweets(concept, filePath, dateBegin, dateEnd)
+                tweetsRest.extractTweets(concept, filePath, dateBegin, dateEnd, numberOfTweets)
         print("tweets extraction done!")
 
 
@@ -68,6 +68,7 @@ class MainProgramme():
             tweetsInsertionIntermediaryToDB.lanchInsertionToIntermediaryDB(False, conceptFolderPath, concept.lower(), self.analysisID)
         print("tweets insertion into intermediary database done!")
         return self.analysisID
+
     def createCubes(self, analysisID):
 
         #reset the database for owr new analyse
