@@ -1,6 +1,7 @@
 from collections import defaultdict
 
 import mysql.connector
+import re
 from flask import Flask, jsonify, request
 from flask_cors import cross_origin
 from CubeModelisation.sentimentCube import SentimentCube
@@ -13,6 +14,26 @@ from Preprocessing.mainProgramme import MainProgramme
 def runServer():
     app = Flask(__name__)
 
+    @app.route('/extractConceptsFromClientDW', methods = ['GET'])
+    @cross_origin()
+    def extractConceptsFromClientDW():
+        clientDW = request.args['clientDWPath']
+        clientDWPath = '../ClientDW/' + clientDW
+        f = open(clientDWPath,'r').read()
+        # first, let search for the fact table creation queries
+        queries = re.findall("CREATE TABLE IF NOT EXISTS `fact[A-Za-z0-9]+` \(([\n`\(\), \w]+)\)",f)
+        #print(queries)
+        temp = []
+        for query in queries:
+            result = re.findall("`(\w+)`", query)
+            temp += result
+        conceptList = []
+        for word in temp:
+            if not (word.lower().startswith('id') or word.lower().endswith('id')):
+                conceptList.append(word)
+        #print(conceptList)
+        a = jsonify(conceptList)
+        return a
 
     @app.route('/launchAnalysis', methods=['POST'])
     @cross_origin()
