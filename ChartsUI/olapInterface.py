@@ -67,8 +67,7 @@ def runServer():
             'date': '',
             'concept': ''
         }
-        returnObject = {}
-        returnObject["analysisID"] = analysisID
+        returnObject = {"analysisID": analysisID, "dataList": []}
         dataList = []
         for row in result:
             element['text'] = row[0]
@@ -222,7 +221,7 @@ def runServer():
     @app.route('/getConceptsByAnalysisId', methods=['GET'])
     @cross_origin()
     def getConceptsByAnalysisId():
-        # analysisID = request.args['analysisID']
+        analysisID = request.args['analysisID']
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
@@ -230,25 +229,13 @@ def runServer():
             database="interDB"
         )
         mycursor = mydb.cursor()
-        mycursor.execute("select analysisID, concept from alltweets "
+        mycursor.execute("select analysisID, concept from alltweets where analysisID = '"+analysisID+"'"
                          "group by analysisID, concept")
         result = mycursor.fetchall()
-
-        temp = defaultdict(lambda: list())
-        for row in result:
-            temp[row[0]] += [row[1]]
-
-        element = {'analysisId': '', 'analysisName': '', 'analysisConcepts': []}
-        dataList = []
-        for analysisID in temp:
-            element['analysisId'] = analysisID
-            element['analysisName'] = analysisID
-            element['analysisConcepts'] = []
-            for concept in temp[analysisID]:
-                element['analysisConcepts'].append(concept)
-            dataList.append(element)
-
-        a = jsonify(dataList)
+        element = {'analysisId': analysisID, 'analysisName': analysisID, 'analysisConcepts': []}
+        for tuple in result:
+            element['analysisConcepts'].append(tuple[1])
+        a = jsonify(element)
         return a
 
     @app.route('/createCubeForAnAnalysis', methods=['GET'])
