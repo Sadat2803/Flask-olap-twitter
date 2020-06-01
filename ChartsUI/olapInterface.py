@@ -46,6 +46,8 @@ def runServer():
             'date': '',
             'concept': ''
         }
+        returnObject = {}
+        returnObject["analysisID"] = analysisID
         dataList = []
         for row in result:
             element['text'] = row[0]
@@ -66,7 +68,8 @@ def runServer():
             }
             dataList.append(element)
 
-        a = jsonify(dataList)
+        returnObject["dataList"] = dataList
+        a = jsonify(returnObject)
         return a
 
 
@@ -83,7 +86,6 @@ def runServer():
         mycursor = mydb.cursor()
         query = "select text, languageName, cityName, countryName, continentName, day, month, year, concept from alltweets where analysisID = '" + analysisID+"'"
         mycursor.execute(query)
-
         result = mycursor.fetchall()
         element = {
             'text': '',
@@ -167,6 +169,39 @@ def runServer():
     @app.route('/getConceptsByAnalysis', methods=['GET'])
     @cross_origin()
     def getConceptsByAnalysis():
+        #analysisID = request.args['analysisID']
+        mydb = mysql.connector.connect(
+            host="localhost",
+            user="root",
+            passwd="",
+            database="interDB"
+        )
+        mycursor = mydb.cursor()
+        mycursor.execute("select analysisID, concept from alltweets "
+                         "group by analysisID, concept")
+        result = mycursor.fetchall()
+
+        temp = defaultdict(lambda: list())
+        for row in result:
+            temp[row[0]] += [row[1]]
+
+        element = {'analysisId': '', 'analysisName': '', 'analysisConcepts': []}
+        dataList = []
+        for analysisID in temp:
+            element['analysisId'] = analysisID
+            element['analysisName'] = analysisID
+            element['analysisConcepts'] = []
+            for concept in temp[analysisID]:
+                element['analysisConcepts'].append(concept)
+            dataList.append(element)
+
+        a = jsonify(dataList)
+        return a
+
+    @app.route('/getConceptsByAnalysisId', methods=['GET'])
+    @cross_origin()
+    def getConceptsByAnalysisId():
+        # analysisID = request.args['analysisID']
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",

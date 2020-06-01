@@ -1,0 +1,5108 @@
+{ "tweets" : [{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:42 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 180748385,
+                "id_str": "180748385",
+                "indices": [
+                    3,
+                    13
+                ],
+                "name": "ORF",
+                "screen_name": "orfonline"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131650900664320,
+    "id_str": "1267131650900664320",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 1,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sun May 31 16:18:00 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1267128202549485575",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/GpLOcPT4Ql"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 1,
+        "favorited": false,
+        "geo": null,
+        "id": 1267128202549485575,
+        "id_str": "1267128202549485575",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 1,
+        "retweeted": false,
+        "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+        "text": "There are increasing questions about China\u2019s use of economic globalisation for geopolitical leverage which the worl\u2026 https://t.co/GpLOcPT4Ql",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Fri Aug 20 11:19:22 +0000 2010",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Non\u2013partisan, independent analyses on security, strategy, economy, development, energy & global governance. Sign up for our newsletter: https://t.co/l70usnEOYv",
+            "entities": {
+                "description": {
+                    "urls": [
+                        {
+                            "display_url": "bit.ly/2HT2blv",
+                            "expanded_url": "https://bit.ly/2HT2blv",
+                            "indices": [
+                                136,
+                                159
+                            ],
+                            "url": "https://t.co/l70usnEOYv"
+                        }
+                    ]
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "orfonline.org",
+                            "expanded_url": "http://www.orfonline.org",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/jKaTttKtaw"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 266,
+            "follow_request_sent": false,
+            "followers_count": 66577,
+            "following": false,
+            "friends_count": 154,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 180748385,
+            "id_str": "180748385",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 694,
+            "location": "India",
+            "name": "ORF",
+            "notifications": false,
+            "profile_background_color": "4388F0",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme2/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme2/bg.gif",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/180748385/1572878225",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/875617363089018880/418zc2ld_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/875617363089018880/418zc2ld_normal.jpg",
+            "profile_link_color": "1B5AB8",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DAECF4",
+            "profile_text_color": "663B12",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "orfonline",
+            "statuses_count": 128511,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/jKaTttKtaw",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @orfonline: There are increasing questions about China\u2019s use of economic globalisation for geopolitical leverage which the world got the\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Tue Sep 10 05:23:58 +0000 2019",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "\u0938\u0924\u094d\u092f\u092e\u0947\u0935 \u091c\u092f\u0924\u0947!\nCitizen first !\nOnly 'ism' is human + ism = \"Humanism\"\nPolitical Sci & IR\nEX-AITIAN\nArmy institute of technology [2014-2018]\n#ARMYbrat",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "instagram.com/mbishnoi39/",
+                        "expanded_url": "https://www.instagram.com/mbishnoi39/",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/xrtZVoNwfu"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 8917,
+        "follow_request_sent": false,
+        "followers_count": 67,
+        "following": false,
+        "friends_count": 1526,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 1171293147738984451,
+        "id_str": "1171293147738984451",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Rajasthan",
+        "name": "\u092e\u0928\u0940\u0937 \u092c\u093f\u0936\u0928\u094b\u0908 {Manish Bishnoi}",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1171293147738984451/1572490882",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1254337389323042817/tA4Pkaar_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1254337389323042817/tA4Pkaar_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "mbishnoi39",
+        "statuses_count": 9783,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/xrtZVoNwfu",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:42 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 20612105,
+                "id_str": "20612105",
+                "indices": [
+                    3,
+                    15
+                ],
+                "name": "Damian",
+                "screen_name": "dublin_damo"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131650447757314,
+    "id_str": "1267131650447757314",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 15,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sun May 31 12:18:14 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1267067863917047809",
+                    "indices": [
+                        116,
+                        139
+                    ],
+                    "url": "https://t.co/3ygUZRxi9C"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 64,
+        "favorited": false,
+        "geo": null,
+        "id": 1267067863917047809,
+        "id_str": "1267067863917047809",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "retweet_count": 15,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "text": "Would be difficult to catch coronavirus now if you actually tried, yet people I know are still gripped by fear and\u2026 https://t.co/3ygUZRxi9C",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Wed Feb 11 19:06:06 +0000 2009",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "Formerly, an 'Erudite drinking establishment connoisseur and travel dandy'.",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 12122,
+            "follow_request_sent": false,
+            "followers_count": 1091,
+            "following": false,
+            "friends_count": 849,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 20612105,
+            "id_str": "20612105",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 18,
+            "location": "De Northside ",
+            "name": "Damian",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/20612105/1590183632",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1259296187867443202/kNXar7Uo_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1259296187867443202/kNXar7Uo_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "dublin_damo",
+            "statuses_count": 7140,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @dublin_damo: Would be difficult to catch coronavirus now if you actually tried, yet people I know are still gripped by fear and confine\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Tue Dec 25 11:41:09 +0000 2018",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "All I want is a party that represents the man/woman who goes out and works for a living",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 1613,
+        "follow_request_sent": false,
+        "followers_count": 65,
+        "following": false,
+        "friends_count": 123,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 1077529676963299328,
+        "id_str": "1077529676963299328",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 1,
+        "location": "",
+        "name": "Georgedevlin7",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1093910850371502082/_YrQIXQp_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1093910850371502082/_YrQIXQp_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Georgedevlin71",
+        "statuses_count": 387,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:42 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 875856268056969216,
+                "id_str": "875856268056969216",
+                "indices": [
+                    3,
+                    13
+                ],
+                "name": "Rogan O\u2019Handley \ud83c\uddfa\ud83c\uddf8",
+                "screen_name": "DC_Draino"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131650422562823,
+    "id_str": "1267131650422562823",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 1143,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sat May 30 16:59:59 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": []
+        },
+        "favorite_count": 5981,
+        "favorited": false,
+        "geo": null,
+        "id": 1266776380659941377,
+        "id_str": "1266776380659941377",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "retweet_count": 1143,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "text": "I think we can all agree nobody really cares about Coronavirus anymore",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Fri Jun 16 23:23:01 +0000 2017",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "Lawyer \u2022 Patriot \u2022 Civil Rights Activist \u2022 Journalist \u2022 Bro/Bruh\ud83c\uddfa\ud83c\uddf81M on IG #KAG",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 1942,
+            "follow_request_sent": false,
+            "followers_count": 127577,
+            "following": false,
+            "friends_count": 514,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 875856268056969216,
+            "id_str": "875856268056969216",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 249,
+            "location": "IG: DC_Draino",
+            "name": "Rogan O\u2019Handley \ud83c\uddfa\ud83c\uddf8",
+            "notifications": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/875856268056969216/1558021194",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1126999397420736516/nmjNauRU_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1126999397420736516/nmjNauRU_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "DC_Draino",
+            "statuses_count": 3966,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "RT @DC_Draino: I think we can all agree nobody really cares about Coronavirus anymore",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Mar 29 18:46:23 +0000 2010",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "God Fearing x Fifth Member Of Jodeci x League Of Assassins Intern x Jedi Master In Training",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 749,
+        "follow_request_sent": false,
+        "followers_count": 295,
+        "following": false,
+        "friends_count": 6,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 127609099,
+        "id_str": "127609099",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 8,
+        "location": "",
+        "name": "5th Member Of Jodeci",
+        "notifications": false,
+        "profile_background_color": "EBEBEB",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1219739928948506626/5haxt_ty_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1219739928948506626/5haxt_ty_normal.jpg",
+        "profile_link_color": "990000",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "F3F3F3",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "JAYO718",
+        "statuses_count": 65574,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:42 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 1026636587298443265,
+                "id_str": "1026636587298443265",
+                "indices": [
+                    3,
+                    15
+                ],
+                "name": "Professora Dayane Pimentel",
+                "screen_name": "deppimentel"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131649785036800,
+    "id_str": "1267131649785036800",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "pt",
+    "metadata": {
+        "iso_language_code": "pt",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 33,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sun May 31 15:41:38 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1267119052130058247",
+                    "indices": [
+                        116,
+                        139
+                    ],
+                    "url": "https://t.co/FlCLDWspoG"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 171,
+        "favorited": false,
+        "geo": null,
+        "id": 1267119052130058247,
+        "id_str": "1267119052130058247",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "pt",
+        "metadata": {
+            "iso_language_code": "pt",
+            "result_type": "recent"
+        },
+        "place": null,
+        "retweet_count": 33,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "text": "28. 834 mil mortes. Milhares de fam\u00edlia chorando, outras milhares assustadas, pessoas perdendo empregos... nada de\u2026 https://t.co/FlCLDWspoG",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Tue Aug 07 01:10:11 +0000 2018",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Deputada Federal/BA \ud83d\ude4f\ud83c\udffb\ud83c\udde7\ud83c\uddf7 Na luta pelo BRASIL.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "professoradayanepimentel.com.br",
+                            "expanded_url": "http://professoradayanepimentel.com.br",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/wBSrbXnwyZ"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 19613,
+            "follow_request_sent": false,
+            "followers_count": 46521,
+            "following": false,
+            "friends_count": 1560,
+            "geo_enabled": true,
+            "has_extended_profile": true,
+            "id": 1026636587298443265,
+            "id_str": "1026636587298443265",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 114,
+            "location": "Bahia, Brasil",
+            "name": "Professora Dayane Pimentel",
+            "notifications": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1026636587298443265/1588716554",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1267120894591348740/LoKp__-__normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1267120894591348740/LoKp__-__normal.jpg",
+            "profile_link_color": "91D2FA",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "deppimentel",
+            "statuses_count": 6224,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/wBSrbXnwyZ",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @deppimentel: 28. 834 mil mortes. Milhares de fam\u00edlia chorando, outras milhares assustadas, pessoas perdendo empregos... nada de um plan\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed Oct 05 22:42:44 +0000 2016",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 19224,
+        "follow_request_sent": false,
+        "followers_count": 132,
+        "following": false,
+        "friends_count": 166,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 783799613279051776,
+        "id_str": "783799613279051776",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 1,
+        "location": "S\u00e3o Lu\u00eds, Brasil",
+        "name": "tatiana santos",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/783799613279051776/1475708563",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1115316244553637889/VyjPZx3s_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1115316244553637889/VyjPZx3s_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "tatianavvs",
+        "statuses_count": 6419,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:42 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "elperiodi.co/qzefc1",
+                "expanded_url": "http://elperiodi.co/qzefc1",
+                "indices": [
+                    98,
+                    121
+                ],
+                "url": "https://t.co/HESyPHhPmJ"
+            }
+        ],
+        "user_mentions": [
+            {
+                "id": 198829810,
+                "id_str": "198829810",
+                "indices": [
+                    3,
+                    15
+                ],
+                "name": "El Peri\u00f3dico",
+                "screen_name": "elperiodico"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131649625595905,
+    "id_str": "1267131649625595905",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "es",
+    "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 2,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sun May 31 16:26:39 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "elperiodi.co/qzefc1",
+                    "expanded_url": "http://elperiodi.co/qzefc1",
+                    "indices": [
+                        81,
+                        104
+                    ],
+                    "url": "https://t.co/HESyPHhPmJ"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 6,
+        "favorited": false,
+        "geo": null,
+        "id": 1267130378365657090,
+        "id_str": "1267130378365657090",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "es",
+        "metadata": {
+            "iso_language_code": "es",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 2,
+        "retweeted": false,
+        "source": "<a href=\"http://dogtrack.es\" rel=\"nofollow\">DogTrack_Oficial</a>",
+        "text": "Espa\u00f1a experimenta una ca\u00edda en el n\u00famero de nuevos casos y fallecidos por Covid https://t.co/HESyPHhPmJ",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Tue Oct 05 10:56:58 +0000 2010",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Informaci\u00f3n, participaci\u00f3n y conversaci\u00f3n con El Peri\u00f3dico. \ud83d\udde3\ufe0fSi te interesa la pol\u00edtica, s\u00edguenos en Telegram https://t.co/UJ3Iv2Fjsj",
+            "entities": {
+                "description": {
+                    "urls": [
+                        {
+                            "display_url": "telegram.me/elperiodico",
+                            "expanded_url": "https://telegram.me/elperiodico",
+                            "indices": [
+                                111,
+                                134
+                            ],
+                            "url": "https://t.co/UJ3Iv2Fjsj"
+                        }
+                    ]
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "elperiodico.com",
+                            "expanded_url": "http://www.elperiodico.com",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/GM34cPn2d4"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 325,
+            "follow_request_sent": false,
+            "followers_count": 674976,
+            "following": false,
+            "friends_count": 18232,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 198829810,
+            "id_str": "198829810",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 7200,
+            "location": "Barcelona",
+            "name": "El Peri\u00f3dico",
+            "notifications": false,
+            "profile_background_color": "370C0C",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/198829810/1552081537",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1104136028137418752/atEDvkN3_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1104136028137418752/atEDvkN3_normal.png",
+            "profile_link_color": "E81C4F",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "EFEFEF",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "elperiodico",
+            "statuses_count": 466990,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "http://t.co/GM34cPn2d4",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+    "text": "RT @elperiodico: Espa\u00f1a experimenta una ca\u00edda en el n\u00famero de nuevos casos y fallecidos por Covid https://t.co/HESyPHhPmJ",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed Dec 28 20:26:05 +0000 2011",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 2841,
+        "follow_request_sent": false,
+        "followers_count": 51,
+        "following": false,
+        "friends_count": 333,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 449163588,
+        "id_str": "449163588",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 4,
+        "location": "",
+        "name": "Ultimo Parri",
+        "notifications": false,
+        "profile_background_color": "1A1B1F",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/449163588/1366114789",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/2570602653/image_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/2570602653/image_normal.jpg",
+        "profile_link_color": "2FC2EF",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "252429",
+        "profile_text_color": "666666",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "UParri",
+        "statuses_count": 12939,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:42 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 200046449,
+                "id_str": "200046449",
+                "indices": [
+                    3,
+                    18
+                ],
+                "name": "A. S\u00e1nchez Moreno",
+                "screen_name": "alejandrosanmo"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131649386582021,
+    "id_str": "1267131649386582021",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "es",
+    "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 5505,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sat May 30 10:49:27 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1266683133870694401",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/zGPZEqQlxx"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 9259,
+        "favorited": false,
+        "geo": null,
+        "id": 1266683133870694401,
+        "id_str": "1266683133870694401",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "es",
+        "metadata": {
+            "iso_language_code": "es",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 5505,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "text": "Se confirma que el \"misterioso\" arist\u00f3crata belga que se cruz\u00f3 media Espa\u00f1a en AVE en pleno estado de alarma para d\u2026 https://t.co/zGPZEqQlxx",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Fri Oct 08 09:40:39 +0000 2010",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Padre. Docente e Historiador. No uso Uber ni Cabify. No bebo Coca Cola, pero s\u00ed Cruzcampo. Eleg\u00ed a los Rolling Stones. Ahora tambi\u00e9n dirijo El Com\u00fan.",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 47574,
+            "follow_request_sent": false,
+            "followers_count": 41498,
+            "following": false,
+            "friends_count": 1337,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 200046449,
+            "id_str": "200046449",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 275,
+            "location": "Sevilla.",
+            "name": "A. S\u00e1nchez Moreno",
+            "notifications": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/200046449/1590827150",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1251554219536068611/EV14acNV_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1251554219536068611/EV14acNV_normal.jpg",
+            "profile_link_color": "4A913C",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "alejandrosanmo",
+            "statuses_count": 28860,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @alejandrosanmo: Se confirma que el \"misterioso\" arist\u00f3crata belga que se cruz\u00f3 media Espa\u00f1a en AVE en pleno estado de alarma para dar u\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Tue May 31 18:14:58 +0000 2011",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 31007,
+        "follow_request_sent": false,
+        "followers_count": 157,
+        "following": false,
+        "friends_count": 295,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 308615067,
+        "id_str": "308615067",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 1,
+        "location": "Huelva--ESPA\u00d1A--",
+        "name": "Maria del Rosario",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/308615067/1535965865",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1169924404639387649/_mpvTesD_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1169924404639387649/_mpvTesD_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Charoriotinto",
+        "statuses_count": 14713,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:42 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 1205966828159287296,
+                "id_str": "1205966828159287296",
+                "indices": [
+                    3,
+                    19
+                ],
+                "name": "VICTORIA.P",
+                "screen_name": "VICTORI43762463"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131649382387714,
+    "id_str": "1267131649382387714",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "es",
+    "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 1185,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sat May 30 17:47:55 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1266788442031128576",
+                    "indices": [
+                        116,
+                        139
+                    ],
+                    "url": "https://t.co/r06l4fK4gN"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 1261,
+        "favorited": false,
+        "geo": null,
+        "id": 1266788442031128576,
+        "id_str": "1266788442031128576",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "es",
+        "metadata": {
+            "iso_language_code": "es",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 1185,
+        "retweeted": false,
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "text": "14 d\u00edas despu\u00e9s de las manifestaciones del barrio Salamanca, grave rebrote del coronavirus en Madrid: 1.567 nuevos\u2026 https://t.co/r06l4fK4gN",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Sat Dec 14 21:44:55 +0000 2019",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 44669,
+            "follow_request_sent": false,
+            "followers_count": 5546,
+            "following": false,
+            "friends_count": 5342,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 1205966828159287296,
+            "id_str": "1205966828159287296",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 4,
+            "location": " ",
+            "name": "VICTORIA.P",
+            "notifications": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1205968857573277696/MoFhNW6z_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1205968857573277696/MoFhNW6z_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "VICTORI43762463",
+            "statuses_count": 34424,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @VICTORI43762463: 14 d\u00edas despu\u00e9s de las manifestaciones del barrio Salamanca, grave rebrote del coronavirus en Madrid: 1.567 nuevos con\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Tue May 31 18:14:58 +0000 2011",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 31007,
+        "follow_request_sent": false,
+        "followers_count": 157,
+        "following": false,
+        "friends_count": 295,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 308615067,
+        "id_str": "308615067",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 1,
+        "location": "Huelva--ESPA\u00d1A--",
+        "name": "Maria del Rosario",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/308615067/1535965865",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1169924404639387649/_mpvTesD_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1169924404639387649/_mpvTesD_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Charoriotinto",
+        "statuses_count": 14713,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:42 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    48,
+                    58
+                ],
+                "text": "Lombardia"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 16476536,
+                "id_str": "16476536",
+                "indices": [
+                    3,
+                    17
+                ],
+                "name": "Ultime Notizie",
+                "screen_name": "ultimenotizie"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131649348833281,
+    "id_str": "1267131649348833281",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "it",
+    "metadata": {
+        "iso_language_code": "it",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 1,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sun May 31 16:18:12 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        29,
+                        39
+                    ],
+                    "text": "Lombardia"
+                }
+            ],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1267128254961455108",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/FP8W3TPmyM"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 1,
+        "favorited": false,
+        "geo": null,
+        "id": 1267128254961455108,
+        "id_str": "1267128254961455108",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "it",
+        "metadata": {
+            "iso_language_code": "it",
+            "result_type": "recent"
+        },
+        "place": null,
+        "retweet_count": 1,
+        "retweeted": false,
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "text": "Sono 210 i nuovi positivi in #Lombardia con 12.427 tamponi effettuati, e il totale dei contagiati dal coronavirus i\u2026 https://t.co/FP8W3TPmyM",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Fri Sep 26 22:53:05 +0000 2008",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "#UltimeNotizie \u00e8 un quotidiano d'informazione #H24 con #cronaca e #politica in tempo reale, #nonstopnews. #Rassegnastampa #notizie dell'#ultimora.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "facebook.com/ultimenotizie",
+                            "expanded_url": "http://facebook.com/ultimenotizie",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/7doyK1VpDj"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 0,
+            "follow_request_sent": false,
+            "followers_count": 106448,
+            "following": false,
+            "friends_count": 85,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 16476536,
+            "id_str": "16476536",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 811,
+            "location": "redazione @ultimenotizie.eu",
+            "name": "Ultime Notizie",
+            "notifications": false,
+            "profile_background_color": "CCCCCC",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/16476536/1398257096",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/601210053136384000/4tfjD63E_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/601210053136384000/4tfjD63E_normal.png",
+            "profile_link_color": "0084B4",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "ultimenotizie",
+            "statuses_count": 101902,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/7doyK1VpDj",
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "text": "RT @ultimenotizie: Sono 210 i nuovi positivi in #Lombardia con 12.427 tamponi effettuati, e il totale dei contagiati dal coronavirus in reg\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jan 30 08:03:29 +0000 2014",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Primi passi in Occidente.",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 46061,
+        "follow_request_sent": false,
+        "followers_count": 2638,
+        "following": false,
+        "friends_count": 4983,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 2318485496,
+        "id_str": "2318485496",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 3,
+        "location": "Emilia",
+        "name": "boubakar boulahia#facciamo rete.",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2318485496/1563898473",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1092126624605188096/6mXwWoGX_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1092126624605188096/6mXwWoGX_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "BubaBubmar",
+        "statuses_count": 21235,
+        "time_zone": null,
+        "translator_type": "regular",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:41 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 7855062,
+                "id_str": "7855062",
+                "indices": [
+                    3,
+                    19
+                ],
+                "name": "Susan Hennessey",
+                "screen_name": "Susan_Hennessey"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131648488779776,
+    "id_str": "1267131648488779776",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 2618,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sun May 31 12:48:49 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1267075559198273536",
+                    "indices": [
+                        116,
+                        139
+                    ],
+                    "url": "https://t.co/seZuY0zGxb"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 12142,
+        "favorited": false,
+        "geo": null,
+        "id": 1267075559198273536,
+        "id_str": "1267075559198273536",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "retweet_count": 2618,
+        "retweeted": false,
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "text": "As coronavirus numbers climb from here, I think it is a safe assumption that Trump will now attempt to blame these\u2026 https://t.co/seZuY0zGxb",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Tue Jul 31 18:21:38 +0000 2007",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Lawfare Executive Editor, Brookings Senior Fellow, CNN National Security and Legal Analyst, Former IC attorney.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "lawfareblog.com",
+                            "expanded_url": "http://www.lawfareblog.com",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/leFCyHYOfA"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 1660,
+            "follow_request_sent": false,
+            "followers_count": 338303,
+            "following": false,
+            "friends_count": 698,
+            "geo_enabled": false,
+            "has_extended_profile": true,
+            "id": 7855062,
+            "id_str": "7855062",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 4213,
+            "location": "Washington, DC",
+            "name": "Susan Hennessey",
+            "notifications": false,
+            "profile_background_color": "9AE4E8",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/7855062/1568676777",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/666086916874510337/dAufmV8F_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/666086916874510337/dAufmV8F_normal.jpg",
+            "profile_link_color": "0000FF",
+            "profile_sidebar_border_color": "87BC44",
+            "profile_sidebar_fill_color": "E0FF92",
+            "profile_text_color": "000000",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "Susan_Hennessey",
+            "statuses_count": 31340,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/leFCyHYOfA",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @Susan_Hennessey: As coronavirus numbers climb from here, I think it is a safe assumption that Trump will now attempt to blame these pro\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Feb 09 18:16:55 +0000 2017",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Health Politics Arts & Culture Art\nVote Blue...\nUnion first Union Always\nEye of the Tiger...mouth of a Teamster",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 16521,
+        "follow_request_sent": false,
+        "followers_count": 79,
+        "following": false,
+        "friends_count": 702,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 829755974558818306,
+        "id_str": "829755974558818306",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Wisconsin, USA",
+        "name": "Rae Ann Robokoff",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/829755974558818306/1533690880",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1031723838986305536/sPD7QSfk_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1031723838986305536/sPD7QSfk_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "raeannrobokoff",
+        "statuses_count": 2765,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:41 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1267131648430280704",
+                "indices": [
+                    117,
+                    140
+                ],
+                "url": "https://t.co/iXhHY8a1sq"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131648430280704,
+    "id_str": "1267131648430280704",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "fr",
+    "metadata": {
+        "iso_language_code": "fr",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"https://twitter.com/SevenderLiv\" rel=\"nofollow\">BotNagew</a>",
+    "text": "Et C reparti pour  Morandini 1 info que vous ne verrez pas sur son  blog\nCorruption de mineur  morandiniblog perver\u2026 https://t.co/iXhHY8a1sq",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sat Dec 17 07:52:16 +0000 2016",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Youtuber gaming sur tous les jeux.\nMa chaine:https://t.co/M8Arw6xENB\u2026",
+        "entities": {
+            "description": {
+                "urls": [
+                    {
+                        "display_url": "youtube.com/channel/UCsgnA",
+                        "expanded_url": "http://youtube.com/channel/UCsgnA",
+                        "indices": [
+                            45,
+                            68
+                        ],
+                        "url": "https://t.co/M8Arw6xENB"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 9707,
+        "follow_request_sent": false,
+        "followers_count": 372,
+        "following": false,
+        "friends_count": 4434,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 810029830918049792,
+        "id_str": "810029830918049792",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "France",
+        "name": "Zaykos",
+        "notifications": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/810029830918049792/1548612361",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1149638210554748928/sTNjr_OB_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1149638210554748928/sTNjr_OB_normal.jpg",
+        "profile_link_color": "1B95E0",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "protected": false,
+        "screen_name": "SevenderLiv",
+        "statuses_count": 35099,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:41 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 4765364386,
+                "id_str": "4765364386",
+                "indices": [
+                    3,
+                    17
+                ],
+                "name": "Chuck Callesto",
+                "screen_name": "ChuckCallesto"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131648279117824,
+    "id_str": "1267131648279117824",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 845,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sun May 31 15:44:50 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": []
+        },
+        "favorite_count": 1534,
+        "favorited": false,
+        "geo": null,
+        "id": 1267119858015244289,
+        "id_str": "1267119858015244289",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "retweet_count": 845,
+        "retweeted": false,
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "text": "Anyone remember all the PRISONERS RELEASED because of the Coronavirus...\n\nWHERE ARE THEY NOW?",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Sun Jan 10 15:12:40 +0000 2016",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Father and Former Candidate for Florida's 3rd Congressional District. | #FLO3 | Digital Real Estate Manager | Looking hard at #2020",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "chuckcallesto.com",
+                            "expanded_url": "https://www.chuckcallesto.com/",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/jELm8SJs5P"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 2047,
+            "follow_request_sent": false,
+            "followers_count": 265912,
+            "following": false,
+            "friends_count": 148830,
+            "geo_enabled": true,
+            "has_extended_profile": true,
+            "id": 4765364386,
+            "id_str": "4765364386",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 507,
+            "location": "Florida, USA",
+            "name": "Chuck Callesto",
+            "notifications": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/4765364386/1547025790",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1082908645950599168/Xb171Tdz_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1082908645950599168/Xb171Tdz_normal.jpg",
+            "profile_link_color": "ABB8C2",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "ChuckCallesto",
+            "statuses_count": 23146,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/jELm8SJs5P",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "RT @ChuckCallesto: Anyone remember all the PRISONERS RELEASED because of the Coronavirus...\n\nWHERE ARE THEY NOW?",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed May 08 20:59:44 +0000 2013",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "I love my Clients and I LOVE to save them money!!!",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 10103,
+        "follow_request_sent": false,
+        "followers_count": 200,
+        "following": false,
+        "friends_count": 875,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 1413837601,
+        "id_str": "1413837601",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Rancho Cucamonga, CA",
+        "name": "JENNIFER NUNEZ",
+        "notifications": false,
+        "profile_background_color": "EBEBEB",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1413837601/1369082093",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/3687063447/3b6d7d137d8865646973faf0ae7b7e5b_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/3687063447/3b6d7d137d8865646973faf0ae7b7e5b_normal.png",
+        "profile_link_color": "990000",
+        "profile_sidebar_border_color": "DFDFDF",
+        "profile_sidebar_fill_color": "F3F3F3",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Alwaysjen7",
+        "statuses_count": 9238,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:41 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "trib.al/lZn3bnC",
+                "expanded_url": "https://trib.al/lZn3bnC",
+                "indices": [
+                    82,
+                    105
+                ],
+                "url": "https://t.co/Xj42Y80Tyj"
+            }
+        ],
+        "user_mentions": [
+            {
+                "id": 19415444,
+                "id_str": "19415444",
+                "indices": [
+                    3,
+                    15
+                ],
+                "name": "Pasadena Star News",
+                "screen_name": "PasStarNews"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131648161705984,
+    "id_str": "1267131648161705984",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 6,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Thu May 28 17:44:16 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "trib.al/lZn3bnC",
+                    "expanded_url": "https://trib.al/lZn3bnC",
+                    "indices": [
+                        65,
+                        88
+                    ],
+                    "url": "https://t.co/Xj42Y80Tyj"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 3,
+        "favorited": false,
+        "geo": null,
+        "id": 1266062750792454151,
+        "id_str": "1266062750792454151",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 6,
+        "retweeted": false,
+        "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+        "text": "Pasadena\u2019s coronavirus death rate may be inflated, officials say https://t.co/Xj42Y80Tyj",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Fri Jan 23 21:37:36 +0000 2009",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Local. News. Matters. We cover the news from Pasadena, Calif., and surrounding communities. #LocalNewsMatters",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "pasadenastarnews.com",
+                            "expanded_url": "http://www.pasadenastarnews.com",
+                            "indices": [
+                                0,
+                                22
+                            ],
+                            "url": "http://t.co/qQpUnP0o0J"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 57,
+            "follow_request_sent": false,
+            "followers_count": 44347,
+            "following": false,
+            "friends_count": 584,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 19415444,
+            "id_str": "19415444",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 649,
+            "location": "Pasadena, Calif.",
+            "name": "Pasadena Star News",
+            "notifications": false,
+            "profile_background_color": "131516",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/19415444/1470440279",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/817474686590197760/m5gGfAFs_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/817474686590197760/m5gGfAFs_normal.jpg",
+            "profile_link_color": "D42424",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "EFEFEF",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "PasStarNews",
+            "statuses_count": 115913,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "http://t.co/qQpUnP0o0J",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @PasStarNews: Pasadena\u2019s coronavirus death rate may be inflated, officials say https://t.co/Xj42Y80Tyj",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Tue Aug 27 05:52:29 +0000 2013",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 459,
+        "follow_request_sent": false,
+        "followers_count": 29,
+        "following": false,
+        "friends_count": 600,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1703810826,
+        "id_str": "1703810826",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "",
+        "name": "MtnDewIT",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1703810826/1378364882",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/378800000413920846/20d4cb8a33d007e2a851810303150c45_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000413920846/20d4cb8a33d007e2a851810303150c45_normal.jpeg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "MtnDewIT",
+        "statuses_count": 653,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:41 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 708682194588450816,
+                "id_str": "708682194588450816",
+                "indices": [
+                    3,
+                    15
+                ],
+                "name": "eli",
+                "screen_name": "elialjanati"
+            },
+            {
+                "id": 519569139,
+                "id_str": "519569139",
+                "indices": [
+                    17,
+                    33
+                ],
+                "name": "Khaled Abu Toameh",
+                "screen_name": "KhaledAbuToameh"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131647863820291,
+    "id_str": "1267131647863820291",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 6,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sat May 30 14:48:35 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": [
+                {
+                    "id": 519569139,
+                    "id_str": "519569139",
+                    "indices": [
+                        0,
+                        16
+                    ],
+                    "name": "Khaled Abu Toameh",
+                    "screen_name": "KhaledAbuToameh"
+                }
+            ]
+        },
+        "favorite_count": 109,
+        "favorited": false,
+        "geo": null,
+        "id": 1266743312859361285,
+        "id_str": "1266743312859361285",
+        "in_reply_to_screen_name": "KhaledAbuToameh",
+        "in_reply_to_status_id": 1266738091361996800,
+        "in_reply_to_status_id_str": "1266738091361996800",
+        "in_reply_to_user_id": 519569139,
+        "in_reply_to_user_id_str": "519569139",
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "retweet_count": 6,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "text": "@KhaledAbuToameh Praising the regime who has locked down millions of Muslims before coronavirus",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Sat Mar 12 15:52:56 +0000 2016",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "twitter est\u00e1 descontrolado",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 14557,
+            "follow_request_sent": false,
+            "followers_count": 342,
+            "following": false,
+            "friends_count": 207,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 708682194588450816,
+            "id_str": "708682194588450816",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 1,
+            "location": "En mi cueva",
+            "name": "eli",
+            "notifications": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/708682194588450816/1494541201",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1247266186754220035/2XD0BXZy_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1247266186754220035/2XD0BXZy_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "elialjanati",
+            "statuses_count": 40775,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @elialjanati: @KhaledAbuToameh Praising the regime who has locked down millions of Muslims before coronavirus",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sun Jun 12 15:46:51 +0000 2011",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "\u2615   \ud83d\udcda    \ud83c\udfb6    \ud83c\udfbe    \ud83d\uddfa",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "linkedin.com/in/wenah-wenci\u2026",
+                        "expanded_url": "https://www.linkedin.com/in/wenah-wencislaus-22485b116",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/LDYVTqCCZw"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 4890,
+        "follow_request_sent": false,
+        "followers_count": 253,
+        "following": false,
+        "friends_count": 387,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 315871623,
+        "id_str": "315871623",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 12,
+        "location": "Borneo, Malaysia ",
+        "name": "Wenah Wencislaus",
+        "notifications": false,
+        "profile_background_color": "0099B9",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/315871623/1587409749",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1252313384210464769/QWFeYdHx_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1252313384210464769/QWFeYdHx_normal.jpg",
+        "profile_link_color": "0099B9",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "95E8EC",
+        "profile_text_color": "3C3940",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "miszwrina",
+        "statuses_count": 7895,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/LDYVTqCCZw",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:41 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 1428714702,
+                "id_str": "1428714702",
+                "indices": [
+                    3,
+                    14
+                ],
+                "name": "pirate",
+                "screen_name": "Hazardeux_"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131647599824896,
+    "id_str": "1267131647599824896",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "fr",
+    "metadata": {
+        "iso_language_code": "fr",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 16024,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sat May 30 18:08:38 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": []
+        },
+        "favorite_count": 66089,
+        "favorited": false,
+        "geo": null,
+        "id": 1266793658352898048,
+        "id_str": "1266793658352898048",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "fr",
+        "metadata": {
+            "iso_language_code": "fr",
+            "result_type": "recent"
+        },
+        "place": null,
+        "retweet_count": 16024,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "text": "Ca me tue comment plus personnes calcul le coronavirus mdrr",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Tue May 14 20:06:50 +0000 2013",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "\ud83c\udff4\u200d\u2620\ufe0f @Hazardeux10.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "instagram.com/_hazardeux",
+                            "expanded_url": "http://instagram.com/_hazardeux",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/T6QeGSI3VT"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 109794,
+            "follow_request_sent": false,
+            "followers_count": 22241,
+            "following": false,
+            "friends_count": 175,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 1428714702,
+            "id_str": "1428714702",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 28,
+            "location": "Paris, France",
+            "name": "pirate",
+            "notifications": false,
+            "profile_background_color": "FFF04D",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1428714702/1588761050",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1262326255543898112/WQ8dx9XQ_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1262326255543898112/WQ8dx9XQ_normal.jpg",
+            "profile_link_color": "0099CC",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "EFEFEF",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "Hazardeux_",
+            "statuses_count": 80159,
+            "time_zone": null,
+            "translator_type": "regular",
+            "url": "https://t.co/T6QeGSI3VT",
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @Hazardeux_: Ca me tue comment plus personnes calcul le coronavirus mdrr",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed May 08 20:18:03 +0000 2013",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "\ud80c\udd43\ud83d\udc7bdozman40  BAR\ud83c\uddea\ud83c\uddf8 @dozy_Way , Beatmaking ,SpaceVybe\ud83c\udf9a\ud83c\udfb9\ud83c\udfa7\ud83c\udfb6",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 32390,
+        "follow_request_sent": false,
+        "followers_count": 7995,
+        "following": false,
+        "friends_count": 6136,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 1413750086,
+        "id_str": "1413750086",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 13,
+        "location": "+225 \ud83c\udde8\ud83c\uddee",
+        "name": "\u262aTrill_Dozy\ud83c\udf1f\ud80c\udd43",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1413750086/1589486366",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1262004786020392960/Tk7BHRJq_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1262004786020392960/Tk7BHRJq_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Dozyy4Stxnna",
+        "statuses_count": 72800,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:41 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "nytimes.com/2020/05/31/us/\u2026",
+                "expanded_url": "https://www.nytimes.com/2020/05/31/us/george-floyd-protests-coronavirus.html",
+                "indices": [
+                    95,
+                    118
+                ],
+                "url": "https://t.co/wws1LOvPeG"
+            }
+        ],
+        "user_mentions": [
+            {
+                "id": 178065733,
+                "id_str": "178065733",
+                "indices": [
+                    3,
+                    15
+                ],
+                "name": "Mike Baker",
+                "screen_name": "ByMikeBaker"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131646626500610,
+    "id_str": "1267131646626500610",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 14,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sun May 31 16:19:56 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/8ZbIrkQLdX",
+                    "expanded_url": "https://twitter.com/ByMikeBaker/status/1267128691999440896/photo/1",
+                    "id": 1267127345879515136,
+                    "id_str": "1267127345879515136",
+                    "indices": [
+                        102,
+                        125
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EZW9m4hVAAAXnVm.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EZW9m4hVAAAXnVm.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 1365,
+                            "resize": "fit",
+                            "w": 2048
+                        },
+                        "medium": {
+                            "h": 800,
+                            "resize": "fit",
+                            "w": 1200
+                        },
+                        "small": {
+                            "h": 453,
+                            "resize": "fit",
+                            "w": 680
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/8ZbIrkQLdX"
+                }
+            ],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "nytimes.com/2020/05/31/us/\u2026",
+                    "expanded_url": "https://www.nytimes.com/2020/05/31/us/george-floyd-protests-coronavirus.html",
+                    "indices": [
+                        78,
+                        101
+                    ],
+                    "url": "https://t.co/wws1LOvPeG"
+                }
+            ],
+            "user_mentions": []
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/8ZbIrkQLdX",
+                    "expanded_url": "https://twitter.com/ByMikeBaker/status/1267128691999440896/photo/1",
+                    "id": 1267127345879515136,
+                    "id_str": "1267127345879515136",
+                    "indices": [
+                        102,
+                        125
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EZW9m4hVAAAXnVm.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EZW9m4hVAAAXnVm.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 1365,
+                            "resize": "fit",
+                            "w": 2048
+                        },
+                        "medium": {
+                            "h": 800,
+                            "resize": "fit",
+                            "w": 1200
+                        },
+                        "small": {
+                            "h": 453,
+                            "resize": "fit",
+                            "w": 680
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/8ZbIrkQLdX"
+                }
+            ]
+        },
+        "favorite_count": 27,
+        "favorited": false,
+        "geo": null,
+        "id": 1267128691999440896,
+        "id_str": "1267128691999440896",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 14,
+        "retweeted": false,
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "text": "Tears from a member of the National Guard during the protest in Minneapolis.\n\nhttps://t.co/wws1LOvPeG https://t.co/8ZbIrkQLdX",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Fri Aug 13 19:47:08 +0000 2010",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Correspondent for @nytimes, based in the Northwest. Reporting on coronavirus. Tips welcome via DM or Signal: 646-394-3002",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "nytimes.com/by/mike-baker",
+                            "expanded_url": "https://www.nytimes.com/by/mike-baker",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/zySc5eZcsk"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 3427,
+            "follow_request_sent": false,
+            "followers_count": 30293,
+            "following": false,
+            "friends_count": 1407,
+            "geo_enabled": true,
+            "has_extended_profile": true,
+            "id": 178065733,
+            "id_str": "178065733",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 1013,
+            "location": "Washington/Oregon/Idaho/Alaska",
+            "name": "Mike Baker",
+            "notifications": false,
+            "profile_background_color": "C6E2EE",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme2/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme2/bg.gif",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/178065733/1417448065",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/890984076424826880/3jgdPGGn_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/890984076424826880/3jgdPGGn_normal.jpg",
+            "profile_link_color": "1F98C7",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DAECF4",
+            "profile_text_color": "663B12",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "ByMikeBaker",
+            "statuses_count": 9319,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/zySc5eZcsk",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @ByMikeBaker: Tears from a member of the National Guard during the protest in Minneapolis.\n\nhttps://t.co/wws1LOvPeG https://t.co/8ZbIrkQ\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sat May 16 16:50:57 +0000 2015",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "A wise woman once said \"fuck this shit\" and she lived happily ever after",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 21856,
+        "follow_request_sent": false,
+        "followers_count": 138,
+        "following": false,
+        "friends_count": 1248,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 3197703020,
+        "id_str": "3197703020",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 1,
+        "location": "Seattle, WA",
+        "name": "DJ Moss",
+        "notifications": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3197703020/1587768270",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1253817113673781248/C03IXon5_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1253817113673781248/C03IXon5_normal.jpg",
+        "profile_link_color": "94D487",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "protected": false,
+        "screen_name": "marshmellow775",
+        "statuses_count": 21776,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:41 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    11,
+                    18
+                ],
+                "text": "EnVivo"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 116590031,
+                "id_str": "116590031",
+                "indices": [
+                    3,
+                    9
+                ],
+                "name": "AVN Titulares",
+                "screen_name": "avnve"
+            },
+            {
+                "id": 109601997,
+                "id_str": "109601997",
+                "indices": [
+                    50,
+                    61
+                ],
+                "name": "Jorge Rodr\u00edguez",
+                "screen_name": "jorgerpsuv"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131646605754368,
+    "id_str": "1267131646605754368",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "es",
+    "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 2,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sun May 31 16:27:35 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        0,
+                        7
+                    ],
+                    "text": "EnVivo"
+                }
+            ],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1267130615427670016",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/4p7ySVIq4N"
+                }
+            ],
+            "user_mentions": [
+                {
+                    "id": 109601997,
+                    "id_str": "109601997",
+                    "indices": [
+                        39,
+                        50
+                    ],
+                    "name": "Jorge Rodr\u00edguez",
+                    "screen_name": "jorgerpsuv"
+                }
+            ]
+        },
+        "favorite_count": 0,
+        "favorited": false,
+        "geo": null,
+        "id": 1267130615427670016,
+        "id_str": "1267130615427670016",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "es",
+        "metadata": {
+            "iso_language_code": "es",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 2,
+        "retweeted": false,
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "text": "#EnVivo \ud83d\udcf9 || Vicepresidente sectorial, @jorgerpsuv: Hoy estamos en el d\u00eda 77 desde aquel d\u00eda de anuncio de las medi\u2026 https://t.co/4p7ySVIq4N",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Tue Feb 23 00:54:51 +0000 2010",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Agencia Venezolana de Noticias",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 45,
+            "follow_request_sent": false,
+            "followers_count": 313577,
+            "following": false,
+            "friends_count": 1471,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 116590031,
+            "id_str": "116590031",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 1442,
+            "location": "Venezuela",
+            "name": "AVN Titulares",
+            "notifications": false,
+            "profile_background_color": "FFFFFF",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/116590031/1580769917",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/960920977675816960/-q14GEAm_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/960920977675816960/-q14GEAm_normal.jpg",
+            "profile_link_color": "26477B",
+            "profile_sidebar_border_color": "DDDDDD",
+            "profile_sidebar_fill_color": "DDDDDD",
+            "profile_text_color": "4B4B4B",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "avnve",
+            "statuses_count": 462947,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @avnve: #EnVivo \ud83d\udcf9 || Vicepresidente sectorial, @jorgerpsuv: Hoy estamos en el d\u00eda 77 desde aquel d\u00eda de anuncio de las medidas contra el\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Fri Feb 21 14:24:08 +0000 2020",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Izquierdista, Bolivariano, Sucrense y Chavista...",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 951,
+        "follow_request_sent": false,
+        "followers_count": 605,
+        "following": false,
+        "friends_count": 671,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1230860720071376898,
+        "id_str": "1230860720071376898",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Caracas, Venezuela",
+        "name": "Paul",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1230860720071376898/1583401872",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1230864493317697538/B2mIEAkX_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1230864493317697538/B2mIEAkX_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "PaulP_46",
+        "statuses_count": 36132,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:41 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    32,
+                    38
+                ],
+                "text": "Gimbe"
+            },
+            {
+                "indices": [
+                    41,
+                    54
+                ],
+                "text": "mezzorainpi\u00f9"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 1857528240,
+                "id_str": "1857528240",
+                "indices": [
+                    3,
+                    16
+                ],
+                "name": "Mezz'ora in Pi\u00f9",
+                "screen_name": "Mezzorainpiu"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131646383476737,
+    "id_str": "1267131646383476737",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "it",
+    "metadata": {
+        "iso_language_code": "it",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 13,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sun May 31 13:55:08 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        14,
+                        20
+                    ],
+                    "text": "Gimbe"
+                },
+                {
+                    "indices": [
+                        23,
+                        36
+                    ],
+                    "text": "mezzorainpi\u00f9"
+                }
+            ],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1267092249852219394",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/VgBqVf13wm"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 49,
+        "favorited": false,
+        "geo": null,
+        "id": 1267092249852219394,
+        "id_str": "1267092249852219394",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "it",
+        "metadata": {
+            "iso_language_code": "it",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 13,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "text": "Cartabellotta #Gimbe a #mezzorainpi\u00f9 : i dati che arrivano in ospedali sono i pi\u00f9 affidabili, ma problema rimane so\u2026 https://t.co/VgBqVf13wm",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Thu Sep 12 14:29:13 +0000 2013",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Il programma condotto da Lucia Annunziata in onda la domenica alle 14:30 su @RaiTre",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "raiplay.it/programmi/mezz\u2026",
+                            "expanded_url": "https://www.raiplay.it/programmi/mezzorainpiu/",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/QT6WRKaqrj"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 55,
+            "follow_request_sent": false,
+            "followers_count": 15248,
+            "following": false,
+            "friends_count": 730,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 1857528240,
+            "id_str": "1857528240",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 124,
+            "location": "",
+            "name": "Mezz'ora in Pi\u00f9",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1857528240/1557744095",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1179423366643666944/JTX-A7p2_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1179423366643666944/JTX-A7p2_normal.jpg",
+            "profile_link_color": "F29B0E",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "Mezzorainpiu",
+            "statuses_count": 5954,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/QT6WRKaqrj",
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "RT @Mezzorainpiu: Cartabellotta #Gimbe a #mezzorainpi\u00f9 : i dati che arrivano in ospedali sono i pi\u00f9 affidabili, ma problema rimane sovrasti\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed Apr 22 21:16:28 +0000 2020",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Del doman non v\u2019\u00e8 certezza",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 29,
+        "follow_request_sent": false,
+        "followers_count": 3,
+        "following": false,
+        "friends_count": 88,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1253070131644829698,
+        "id_str": "1253070131644829698",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Parma, Emilia Romagna",
+        "name": "NikyMD",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1254115389694451712/ap1cAU1f_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1254115389694451712/ap1cAU1f_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "md_niky",
+        "statuses_count": 59,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:41 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/callmimis/stat\u2026",
+                "expanded_url": "https://twitter.com/callmimis/status/1267130997264523267",
+                "indices": [
+                    62,
+                    85
+                ],
+                "url": "https://t.co/yEldQcrays"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131646203043840,
+    "id_str": "1267131646203043840",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": true,
+    "lang": "pt",
+    "metadata": {
+        "iso_language_code": "pt",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "quoted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sun May 31 16:29:06 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": []
+        },
+        "favorite_count": 0,
+        "favorited": false,
+        "geo": null,
+        "id": 1267130997264523267,
+        "id_str": "1267130997264523267",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "pt",
+        "metadata": {
+            "iso_language_code": "pt",
+            "result_type": "recent"
+        },
+        "place": null,
+        "retweet_count": 0,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "text": "um guri do meu insta furou a quarentena pra ir em um ch\u00e1 revela\u00e7\u00e3o \u00bf",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Fri Jul 06 23:33:50 +0000 2018",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "quem posta \u00e9 o meu assessor",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "instagram.com/milenegmrs",
+                            "expanded_url": "http://instagram.com/milenegmrs",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/ixWLcEdbr6"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 5121,
+            "follow_request_sent": false,
+            "followers_count": 907,
+            "following": false,
+            "friends_count": 657,
+            "geo_enabled": true,
+            "has_extended_profile": true,
+            "id": 1015378316105342976,
+            "id_str": "1015378316105342976",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 5,
+            "location": "fcb | sep",
+            "name": "mi",
+            "notifications": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1015378316105342976/1569728744",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1255580045743095808/AUKGdfgx_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1255580045743095808/AUKGdfgx_normal.jpg",
+            "profile_link_color": "7FDBB6",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "callmimis",
+            "statuses_count": 19443,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/ixWLcEdbr6",
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "quoted_status_id": 1267130997264523267,
+    "quoted_status_id_str": "1267130997264523267",
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "Revelar se as pessoas que t\u00e3o lado t\u00e3o com coronav\u00edrus ou n\u00e3o https://t.co/yEldQcrays",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Nov 28 15:57:26 +0000 2016",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "mente s\u00e3 corpo s\u00e3o.",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 84161,
+        "follow_request_sent": false,
+        "followers_count": 297,
+        "following": false,
+        "friends_count": 288,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 803266557912772612,
+        "id_str": "803266557912772612",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 1,
+        "location": "S\u00e3o Paulo, Brasil",
+        "name": "traumatismo ucraniano.",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/803266557912772612/1583858413",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1249933765478137857/zyMSXtH9_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1249933765478137857/zyMSXtH9_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "igiveblas",
+        "statuses_count": 110713,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:41 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "tvn-2.com/_14d3b2c80",
+                "expanded_url": "https://www.tvn-2.com/_14d3b2c80",
+                "indices": [
+                    110,
+                    133
+                ],
+                "url": "https://t.co/4LY5rP2mqI"
+            }
+        ],
+        "user_mentions": [
+            {
+                "id": 219493590,
+                "id_str": "219493590",
+                "indices": [
+                    3,
+                    14
+                ],
+                "name": "Sabrina Bacal",
+                "screen_name": "sabribacal"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131645817217031,
+    "id_str": "1267131645817217031",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "es",
+    "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 34,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sun May 31 00:09:54 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "tvn-2.com/_14d3b2c80",
+                    "expanded_url": "https://www.tvn-2.com/_14d3b2c80",
+                    "indices": [
+                        94,
+                        117
+                    ],
+                    "url": "https://t.co/4LY5rP2mqI"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 65,
+        "favorited": false,
+        "geo": null,
+        "id": 1266884571334934528,
+        "id_str": "1266884571334934528",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "es",
+        "metadata": {
+            "iso_language_code": "es",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 34,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "text": "Medidas de retroceso se aplicar\u00edan en caso de incrementar el \u00edndice de contagio de COVID-19 - https://t.co/4LY5rP2mqI",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Thu Nov 25 00:59:01 +0000 2010",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Digo lo que pienso y hago lo que digo. Mam\u00e1 orgullosa, polit\u00f3loga, periodista, Productora de H\u00e9roes por Panama\u0301 y de #RadarTVN. Instagram: @sabribacal",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 5251,
+            "follow_request_sent": false,
+            "followers_count": 61259,
+            "following": false,
+            "friends_count": 1191,
+            "geo_enabled": true,
+            "has_extended_profile": true,
+            "id": 219493590,
+            "id_str": "219493590",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 171,
+            "location": "Panama",
+            "name": "Sabrina Bacal",
+            "notifications": false,
+            "profile_background_color": "709397",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme6/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme6/bg.gif",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/219493590/1535752509",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1223602220509356037/zZZg7B8j_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223602220509356037/zZZg7B8j_normal.jpg",
+            "profile_link_color": "0A0808",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "A0C5C7",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "sabribacal",
+            "statuses_count": 44285,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @sabribacal: Medidas de retroceso se aplicar\u00edan en caso de incrementar el \u00edndice de contagio de COVID-19 - https://t.co/4LY5rP2mqI",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Dec 20 00:24:21 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Inform\u00e1tico y docente en formaci\u00f3n.\nVivo y sirvo a la Rosa Roja.\nBienaventurados sean quienes siguen a Origen.",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 11799,
+        "follow_request_sent": false,
+        "followers_count": 185,
+        "following": false,
+        "friends_count": 139,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 1023184021,
+        "id_str": "1023184021",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 7,
+        "location": "Estado del Istmo",
+        "name": "Jonatan",
+        "notifications": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1023184021/1589207226",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1259852525613846530/A2I5mP64_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1259852525613846530/A2I5mP64_normal.jpg",
+        "profile_link_color": "19CF86",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "protected": false,
+        "screen_name": "usuariojonatan",
+        "statuses_count": 20745,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:41 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 15965292,
+                "id_str": "15965292",
+                "indices": [
+                    3,
+                    11
+                ],
+                "name": "MPR News",
+                "screen_name": "MPRnews"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131645670363141,
+    "id_str": "1267131645670363141",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 14,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sun May 31 12:52:03 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1267076375044780033",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/UbHpe1t86n"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 76,
+        "favorited": false,
+        "geo": null,
+        "id": 1267076375044780033,
+        "id_str": "1267076375044780033",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 14,
+        "retweeted": false,
+        "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+        "text": "Health experts fear that silent carriers of the coronavirus who have no symptoms could unwittingly infect others at\u2026 https://t.co/UbHpe1t86n",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Sun Aug 24 03:29:23 +0000 2008",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Breaking News, and award-winning coverage of Minnesota from MPR News. Support what is important to you. https://t.co/LyjDKymnKt",
+            "entities": {
+                "description": {
+                    "urls": [
+                        {
+                            "display_url": "support.mpr.org/may2020-news-s\u2026",
+                            "expanded_url": "https://support.mpr.org/may2020-news-social",
+                            "indices": [
+                                104,
+                                127
+                            ],
+                            "url": "https://t.co/LyjDKymnKt"
+                        }
+                    ]
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "mprnews.org",
+                            "expanded_url": "http://mprnews.org/",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/9fCde0YkJK"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 2123,
+            "follow_request_sent": false,
+            "followers_count": 271479,
+            "following": false,
+            "friends_count": 908,
+            "geo_enabled": true,
+            "has_extended_profile": true,
+            "id": 15965292,
+            "id_str": "15965292",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 3082,
+            "location": "Minnesota",
+            "name": "MPR News",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/15965292/1588705965",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/705087700269817857/yv1jLeHt_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/705087700269817857/yv1jLeHt_normal.jpg",
+            "profile_link_color": "2E8DB0",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "MPRnews",
+            "statuses_count": 114122,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/9fCde0YkJK",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @MPRnews: Health experts fear that silent carriers of the coronavirus who have no symptoms could unwittingly infect others at packed dem\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu May 02 01:05:18 +0000 2019",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "UMN St. John's Family Med PGY3, avid cyclist, love a solid cup of coffee or five. Special interest in advancing care of older adults. Tweets my own.",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 163,
+        "follow_request_sent": false,
+        "followers_count": 74,
+        "following": false,
+        "friends_count": 57,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1123755307853807616,
+        "id_str": "1123755307853807616",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 3,
+        "location": "Minneapolis, MN",
+        "name": "Benjamin Rosenstein, MD, MA",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1123755307853807616/1556760594",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1123761501129584640/UzV7hgMA_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1123761501129584640/UzV7hgMA_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "BERosensteinMD",
+        "statuses_count": 134,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:40 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    17,
+                    32
+                ],
+                "text": "Somos57MILHOES"
+            },
+            {
+                "indices": [
+                    37,
+                    55
+                ],
+                "text": "BolsonaroReeleito"
+            },
+            {
+                "indices": [
+                    57,
+                    83
+                ],
+                "text": "BolsonaroTrabalhaPeloPovo"
+            },
+            {
+                "indices": [
+                    85,
+                    99
+                ],
+                "text": "Bolsonaro2022"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1267131644890275841",
+                "indices": [
+                    101,
+                    124
+                ],
+                "url": "https://t.co/A3IbX4RaVt"
+            }
+        ],
+        "user_mentions": [
+            {
+                "id": 350476403,
+                "id_str": "350476403",
+                "indices": [
+                    0,
+                    11
+                ],
+                "name": "Jouberth Souza\ud83c\udde7\ud83c\uddf7\ud83e\udd5b",
+                "screen_name": "Jouberth19"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131644890275841,
+    "id_str": "1267131644890275841",
+    "in_reply_to_screen_name": "Jouberth19",
+    "in_reply_to_status_id": 1267086022581551106,
+    "in_reply_to_status_id_str": "1267086022581551106",
+    "in_reply_to_user_id": 350476403,
+    "in_reply_to_user_id_str": "350476403",
+    "is_quote_status": false,
+    "lang": "und",
+    "metadata": {
+        "iso_language_code": "und",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "@Jouberth19 \ud83c\udde7\ud83c\uddf7\ud83c\udde7\ud83c\uddf7 #Somos57MILHOES ...\n#BolsonaroReeleito \n#BolsonaroTrabalhaPeloPovo \n#Bolsonaro2022\u2026 https://t.co/A3IbX4RaVt",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Tue Apr 28 03:09:50 +0000 2020",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Anti-Corrup\u00e7\u00e3o\nFam\u00edlia e Deus\nEscorpi\u00e3o raiz...",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 2915,
+        "follow_request_sent": false,
+        "followers_count": 38,
+        "following": false,
+        "friends_count": 156,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1254970976103804930,
+        "id_str": "1254970976103804930",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "",
+        "name": "Martinho38",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1254970976103804930/1590533572",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1265415382174703616/9xdtomo5_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1265415382174703616/9xdtomo5_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "LeandroDahlke",
+        "statuses_count": 2136,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:40 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "lanacion.com.ar/2371863",
+                "expanded_url": "http://www.lanacion.com.ar/2371863",
+                "indices": [
+                    91,
+                    114
+                ],
+                "url": "https://t.co/tIEqIWCFi4"
+            }
+        ],
+        "user_mentions": [
+            {
+                "id": 2321317278,
+                "id_str": "2321317278",
+                "indices": [
+                    3,
+                    14
+                ],
+                "name": "kekita",
+                "screen_name": "ElsaKekita"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131644521189376,
+    "id_str": "1267131644521189376",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "es",
+    "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 1,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sun May 31 16:29:52 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "lanacion.com.ar/2371863",
+                    "expanded_url": "http://www.lanacion.com.ar/2371863",
+                    "indices": [
+                        75,
+                        98
+                    ],
+                    "url": "https://t.co/tIEqIWCFi4"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 0,
+        "favorited": false,
+        "geo": null,
+        "id": 1267131191674777614,
+        "id_str": "1267131191674777614",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "es",
+        "metadata": {
+            "iso_language_code": "es",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 1,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "text": "Coronavirus: los bancos ampl\u00edan la atenci\u00f3n para personas con discapacidad https://t.co/tIEqIWCFi4",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Fri Jan 31 20:25:54 +0000 2014",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "Decoradora de interiores",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 386897,
+            "follow_request_sent": false,
+            "followers_count": 7265,
+            "following": false,
+            "friends_count": 2175,
+            "geo_enabled": true,
+            "has_extended_profile": true,
+            "id": 2321317278,
+            "id_str": "2321317278",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 94,
+            "location": "",
+            "name": "kekita",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/429351413496299522/0gG8-j3Y_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/429351413496299522/0gG8-j3Y_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "ElsaKekita",
+            "statuses_count": 1337937,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "text": "RT @ElsaKekita: Coronavirus: los bancos ampl\u00edan la atenci\u00f3n para personas con discapacidad https://t.co/tIEqIWCFi4",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed Apr 16 22:07:52 +0000 2014",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Emprendedor Visionario en un pais de ciegos",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 697,
+        "follow_request_sent": false,
+        "followers_count": 1017,
+        "following": false,
+        "friends_count": 1619,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 2448129888,
+        "id_str": "2448129888",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 4,
+        "location": "Venado Tuerto",
+        "name": "roberto diego cavana",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2448129888/1399319147",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/458288879401832448/MOvsVy-u_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/458288879401832448/MOvsVy-u_normal.jpeg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "robertodiegocav",
+        "statuses_count": 85815,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:40 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    61,
+                    66
+                ],
+                "text": "Cuba"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1267131644454014976",
+                "indices": [
+                    117,
+                    140
+                ],
+                "url": "https://t.co/dSasMnAvxC"
+            }
+        ],
+        "user_mentions": [
+            {
+                "id": 1075882433776676865,
+                "id_str": "1075882433776676865",
+                "indices": [
+                    0,
+                    16
+                ],
+                "name": "Presidencia Cuba",
+                "screen_name": "PresidenciaCuba"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131644454014976,
+    "id_str": "1267131644454014976",
+    "in_reply_to_screen_name": "PresidenciaCuba",
+    "in_reply_to_status_id": 1267055205671211013,
+    "in_reply_to_status_id_str": "1267055205671211013",
+    "in_reply_to_user_id": 1075882433776676865,
+    "in_reply_to_user_id_str": "1075882433776676865",
+    "is_quote_status": false,
+    "lang": "es",
+    "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "text": "@PresidenciaCuba Esta medida es para beneficio del pueblo de #Cuba en medio de una situaci\u00f3n compleja con el corona\u2026 https://t.co/dSasMnAvxC",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Oct 03 14:18:21 +0000 2019",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Soy un joven amante del deporte y de mi patria.",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 5099,
+        "follow_request_sent": false,
+        "followers_count": 507,
+        "following": false,
+        "friends_count": 491,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1179762416277688320,
+        "id_str": "1179762416277688320",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "",
+        "name": "Roberto Arocha Real",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1252213425515757570/8D5fmQ8o_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1252213425515757570/8D5fmQ8o_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "ArochaReal",
+        "statuses_count": 5731,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:40 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/i/broadcasts/1\u2026",
+                "expanded_url": "https://twitter.com/i/broadcasts/1mrGmQPYgVQGy",
+                "indices": [
+                    99,
+                    122
+                ],
+                "url": "https://t.co/ABBzqIHPPj"
+            }
+        ],
+        "user_mentions": [
+            {
+                "id": 4515126989,
+                "id_str": "4515126989",
+                "indices": [
+                    3,
+                    14
+                ],
+                "name": "Casa Rosada",
+                "screen_name": "CasaRosada"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131643942313984,
+    "id_str": "1267131643942313984",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "es",
+    "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 158,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sun May 31 12:06:31 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/broadcasts/1\u2026",
+                    "expanded_url": "https://twitter.com/i/broadcasts/1mrGmQPYgVQGy",
+                    "indices": [
+                        83,
+                        106
+                    ],
+                    "url": "https://t.co/ABBzqIHPPj"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 263,
+        "favorited": false,
+        "geo": null,
+        "id": 1267064914142801920,
+        "id_str": "1267064914142801920",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "es",
+        "metadata": {
+            "iso_language_code": "es",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 158,
+        "retweeted": false,
+        "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
+        "text": "EN VIVO | Reporte diario desde el Ministerio de Salud - Nuevo coronavirus COVID-19 https://t.co/ABBzqIHPPj",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Thu Dec 17 15:30:42 +0000 2015",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "\u00a1Bienvenidos a Casa Rosada!",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "casarosada.gob.ar",
+                            "expanded_url": "http://www.casarosada.gob.ar",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/EgYkq8MG5G"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 0,
+            "follow_request_sent": false,
+            "followers_count": 796698,
+            "following": false,
+            "friends_count": 83,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 4515126989,
+            "id_str": "4515126989",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 942,
+            "location": "Ciudad de Buenos Aires, Ar",
+            "name": "Casa Rosada",
+            "notifications": false,
+            "profile_background_color": "B07799",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/4515126989/1583070716",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1234114140597374978/NtNtwsmw_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1234114140597374978/NtNtwsmw_normal.jpg",
+            "profile_link_color": "B07799",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "CasaRosada",
+            "statuses_count": 3608,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/EgYkq8MG5G",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @CasaRosada: EN VIVO | Reporte diario desde el Ministerio de Salud - Nuevo coronavirus COVID-19 https://t.co/ABBzqIHPPj",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sun Feb 15 17:13:35 +0000 2015",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 66738,
+        "follow_request_sent": false,
+        "followers_count": 1027,
+        "following": false,
+        "friends_count": 1426,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 3039388534,
+        "id_str": "3039388534",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 2,
+        "location": "",
+        "name": "Marta.",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3039388534/1589843744",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1262522416389070848/wqGgb6G9_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1262522416389070848/wqGgb6G9_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "MBarteloot",
+        "statuses_count": 98575,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:40 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    47,
+                    54
+                ],
+                "text": "ISCIII"
+            },
+            {
+                "indices": [
+                    84,
+                    96
+                ],
+                "text": "Coronavirus"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 1117202048313896960,
+                "id_str": "1117202048313896960",
+                "indices": [
+                    3,
+                    15
+                ],
+                "name": "Instituto de Salud Carlos III (ISCIII)",
+                "screen_name": "SaludISCIII"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131643711459328,
+    "id_str": "1267131643711459328",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "es",
+    "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 27,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Sun May 31 10:38:02 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        30,
+                        37
+                    ],
+                    "text": "ISCIII"
+                },
+                {
+                    "indices": [
+                        67,
+                        79
+                    ],
+                    "text": "Coronavirus"
+                }
+            ],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1267042646649974784",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/c4roBdHIly"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 40,
+        "favorited": false,
+        "geo": null,
+        "id": 1267042646649974784,
+        "id_str": "1267042646649974784",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "es",
+        "metadata": {
+            "iso_language_code": "es",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 27,
+        "retweeted": false,
+        "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
+        "text": "\ud83d\udcf9 Como cada domingo, el Grupo #ISCIII de An\u00e1lisis Cient\u00edfico sobre #Coronavirus recomienda algunos de los art\u00edculos\u2026 https://t.co/c4roBdHIly",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Sat Apr 13 23:04:59 +0000 2019",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "Principal OPI que financia y gestiona la investigaci\u00f3n biom\u00e9dica en Espa\u00f1a. Ciencia, formaci\u00f3n y servicios cient\u00edfico-t\u00e9cnicos para mejorar la salud p\u00fablica",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "isciii.es",
+                            "expanded_url": "http://www.isciii.es",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/3ErR1tIo8n"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 483,
+            "follow_request_sent": false,
+            "followers_count": 16044,
+            "following": false,
+            "friends_count": 475,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 1117202048313896960,
+            "id_str": "1117202048313896960",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 209,
+            "location": "Madrid, Comunidad de Madrid",
+            "name": "Instituto de Salud Carlos III (ISCIII)",
+            "notifications": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1117202048313896960/1560422566",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1145297642680967169/qBXRsgiZ_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1145297642680967169/qBXRsgiZ_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "SaludISCIII",
+            "statuses_count": 1363,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/3ErR1tIo8n",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "RT @SaludISCIII: \ud83d\udcf9 Como cada domingo, el Grupo #ISCIII de An\u00e1lisis Cient\u00edfico sobre #Coronavirus recomienda algunos de los art\u00edculos cient\u00ed\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Fri May 24 21:41:24 +0000 2013",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "MInterna-Endocrine-INNSZ-Postgrado en Barcelona y Cleveland Clinic re-certificate.Calisthenics-CrossFit.",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 32207,
+        "follow_request_sent": false,
+        "followers_count": 115,
+        "following": false,
+        "friends_count": 816,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 1455303150,
+        "id_str": "1455303150",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "",
+        "name": "israel",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1455303150/1590812036",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1266584602430386178/sTwcsCiZ_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1266584602430386178/sTwcsCiZ_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "IsraelRyzard",
+        "statuses_count": 24116,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:40 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 133753789,
+                "id_str": "133753789",
+                "indices": [
+                    3,
+                    19
+                ],
+                "name": "Marta Guill\u00e9n",
+                "screen_name": "Expertaenoserlo"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131643548090371,
+    "id_str": "1267131643548090371",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "es",
+    "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 1673,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Wed May 27 16:59:59 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1265689216123654147",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/66wl7T6VSD"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 1187,
+        "favorited": false,
+        "geo": null,
+        "id": 1265689216123654147,
+        "id_str": "1265689216123654147",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "es",
+        "metadata": {
+            "iso_language_code": "es",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 1673,
+        "retweeted": false,
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "text": "\u2728Twitter haz tu magia\u2728\nMi amiga Carla hace joyas s\u00faper bonitas y s\u00f3lo las vende en ferias de artesan\u00eda, pero este a\u2026 https://t.co/66wl7T6VSD",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Fri Apr 16 14:54:34 +0000 2010",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Si tienes que preguntar, nunca lo sabr\u00e1s. Si lo sabes, solo necesitas preguntar.",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 592,
+            "follow_request_sent": false,
+            "followers_count": 164,
+            "following": false,
+            "friends_count": 643,
+            "geo_enabled": true,
+            "has_extended_profile": true,
+            "id": 133753789,
+            "id_str": "133753789",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 9,
+            "location": "Barcelona, Espa\u00f1a",
+            "name": "Marta Guill\u00e9n",
+            "notifications": false,
+            "profile_background_color": "4D3F4D",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme17/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme17/bg.gif",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/133753789/1590507903",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1197793432523231232/YBPWIQNp_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1197793432523231232/YBPWIQNp_normal.jpg",
+            "profile_link_color": "674D73",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "FC3F4C",
+            "profile_text_color": "91736E",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "Expertaenoserlo",
+            "statuses_count": 32101,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "RT @Expertaenoserlo: \u2728Twitter haz tu magia\u2728\nMi amiga Carla hace joyas s\u00faper bonitas y s\u00f3lo las vende en ferias de artesan\u00eda, pero este a\u00f1o\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed Dec 19 11:37:07 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Eudaimonia.\ud83c\udf3c",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 16948,
+        "follow_request_sent": false,
+        "followers_count": 334,
+        "following": false,
+        "friends_count": 245,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 1021908169,
+        "id_str": "1021908169",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 2,
+        "location": "",
+        "name": "Paulaa\ud83c\udf38\ud83e\udd8b",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1021908169/1565817464",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1217555970248802308/-189czbk_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1217555970248802308/-189czbk_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Pauliita_G",
+        "statuses_count": 14161,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun May 31 16:31:40 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "nytimes.com/2020/05/31/us/\u2026",
+                "expanded_url": "https://www.nytimes.com/2020/05/31/us/george-floyd-protests-coronavirus.html",
+                "indices": [
+                    66,
+                    89
+                ],
+                "url": "https://t.co/WcvDRwnQKJ"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1267131643384528899,
+    "id_str": "1267131643384528899",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "CRISIS CONVERGENCE\nSocietal perfect storm.\nLeaderless and adrift.\nhttps://t.co/WcvDRwnQKJ",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sat Sep 29 09:58:16 +0000 2018",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "#RESISTANCE HEADLINES: Journalist\ud83d\udd38Integrity\ud83d\udd38Service\ud83d\udd38Links\ud83d\udd38Tolerance\ud83d\udd38Community\ud83d\udd38Activism\ud83d\udd38Gratitude\ud83d\udd38#FBR",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "gogetfunding.com/VOTE-BLUE/",
+                        "expanded_url": "https://gogetfunding.com/VOTE-BLUE/",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/L3Siij90vc"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 28299,
+        "follow_request_sent": false,
+        "followers_count": 53634,
+        "following": false,
+        "friends_count": 56828,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1045976040877756421,
+        "id_str": "1045976040877756421",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 32,
+        "location": "Please DONATE \ud83d\udc47\u269c\ufe0f\ud83d\udc47",
+        "name": "Bombshell DAILY \ud83d\udca3",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1045976040877756421/1538215228",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1054022306043957249/rN7rsSiC_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1054022306043957249/rN7rsSiC_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "BombshellDAILY",
+        "statuses_count": 6959,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/L3Siij90vc",
+        "utc_offset": null,
+        "verified": false
+    }
+}
+]
+}
