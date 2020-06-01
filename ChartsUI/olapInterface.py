@@ -205,8 +205,9 @@ def runServer():
         for row in result:
             temp[row[0]] += [row[1]]
 
-        element = {'analysisId': '', 'analysisName': '', 'analysisConcepts': []}
         dataList = []
+        element = {'analysisId': '', 'analysisName': '', 'analysisConcepts': []}
+
         for analysisID in temp:
             element['analysisId'] = analysisID
             element['analysisName'] = analysisID
@@ -214,6 +215,7 @@ def runServer():
             for concept in temp[analysisID]:
                 element['analysisConcepts'].append(concept)
             dataList.append(element)
+            element = {'analysisId': '', 'analysisName': '', 'analysisConcepts': []}
 
         a = jsonify(dataList)
         return a
