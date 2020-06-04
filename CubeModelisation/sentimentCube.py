@@ -20,6 +20,36 @@ class SentimentCube:
         self.browserTweet = self.workspace.browser("sentiment")
 
 
+    def getMondialSentimentByDates(self):
+        cube = self.workspace.cube("sentiment")
+        cube.browser = self.browserTweet
+
+        cut = [PointCut("concept", [self.concept])]
+        cell = Cell(cube, cut)
+
+        result = self.browserTweet.aggregate(cell, drilldown=["time:day","location"], aggregates=["sentiment_average"])
+        output = []
+        for row in result.table_rows("location"):
+            #print(row.record)
+            output.append(row.record)
+        data = defaultdict(lambda: list())
+        for row in output:
+            date = row['time.year'] + "-" + row['time.month'] + "-" + row['time.day']
+            data[date] += [row['sentiment_average']]
+
+        element = {'date': '', 'averageSentiment': 0}
+        elementList = []
+        for date in data:
+            element['date'] = date
+            somSentiment = 0
+            for i in data[date]:
+                somSentiment += i
+            element['averageSentiment'] = somSentiment / data[date].__len__()
+            elementList.append(element)
+            element = {'date': '', 'averageSentiment': 0}
+
+        return elementList
+
     def getSentimentByCountriesAndDates(self):
         cube = self.workspace.cube("sentiment")
         cube.browser = self.browserTweet

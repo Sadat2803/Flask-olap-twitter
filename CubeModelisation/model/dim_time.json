@@ -25,17 +25,11 @@
             ]
         },
         {
-            "name": "week",
-            "label": "Week",
-            "attributes": [
-                "dayOfWeek"
-            ]
-        },
-        {
             "name": "day",
             "label": "Day",
             "attributes": [
-                "day"
+                "day",
+				"dayOfWeek"
             ]
         }
     ],
@@ -46,19 +40,9 @@
             "levels": ["year", "month", "day"]
         },
         {
-            "name": "ym",
-            "label": "Year-Month",
-            "levels": ["year", "month"]
-        },
-        {
-            "name": "ymw",
-            "label": "Year-Month-Week",
-            "levels": ["year","month" , "week"]
-        },
-        {
-            "name": "ysmwd",
-            "label": "Year-Season-Month-Week-Day",
-            "levels": ["year", "season", "month", "week"]
+            "name": "ysmd",
+            "label": "Year-Season-Month-Day",
+            "levels": ["year", "season", "month", "day"]
         }
     ],
     "default_hierarchy_name": "ymd"

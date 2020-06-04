@@ -14,17 +14,21 @@ from Preprocessing.twitterAuthentification import TwitterAuthenticator
 
 class MainProgramme():
 
-    def __init__(self, conceptsList):
+    def __init__(self, conceptsList, analysisID):
         self.conceptsList = conceptsList
         temp = str(datetime.datetime.today()).split()
         temp[1] = temp[1].replace(":", "-")
-        self.analysisID = "Analysis-" + temp[0] + "_" + temp[1].split('.')[0]
+        if analysisID =="":
+            self.analysisID = "Analysis-" + temp[0] + "_" + temp[1].split('.')[0]
+        else:
+            self.analysisID = analysisID
 
     def extractAndSaveDataIntoIntermediaryDB(self, numberOfDays, numberOfTweets):
         # create a folder for this client
 
         fullPath = "../TweetFilesByClients/" + self.analysisID
-        os.mkdir(fullPath)
+        if not os.path.isdir(fullPath):
+            os.mkdir(fullPath)
         #print("Directory ", fullPath, " Created ")
         cpt = 0
         # extract data for each concept and save into intermediary BD and then create DW and Cubes
@@ -32,7 +36,8 @@ class MainProgramme():
             # create a folder for each concept
             cpt += 1
             conceptFolderPath = fullPath+"/"+"Concept-"+str(cpt)
-            os.mkdir(conceptFolderPath)
+            if not os.path.isdir(conceptFolderPath):
+                os.mkdir(conceptFolderPath)
             #print("Directory ", conceptFolderPath, " Created ")
             # extract tweets for this current concept
             twitterAuthentificator = TwitterAuthenticator()
