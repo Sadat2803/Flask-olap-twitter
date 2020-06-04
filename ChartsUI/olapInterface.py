@@ -22,7 +22,6 @@ def runServer():
         f = open(clientDWPath,'r').read()
         # first, let search for the fact table creation queries
         queries = re.findall("CREATE TABLE IF NOT EXISTS `fact[A-Za-z0-9]+` \(([\n`\(\), \w]+)\)",f)
-        #print(queries)
         temp = []
         for query in queries:
             result = re.findall("`(\w+)`", query)
@@ -135,7 +134,6 @@ def runServer():
                 'concept': ''
             }
             dataList.append(element)
-
         a = jsonify(dataList)
         return a
 
