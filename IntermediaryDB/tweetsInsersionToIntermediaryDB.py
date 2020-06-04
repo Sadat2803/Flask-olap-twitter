@@ -134,7 +134,7 @@ class TweetsInsertionIntermediaryToDB():
                 tweetsFile.close()
 
 
-        def treatFiles(self):
+    def treatFiles(self):
         dirPathIn = "../TweetFiles/"
         dirPathOut = "../TweetFiles2/"
         monthList = {
@@ -205,9 +205,9 @@ class TweetsInsertionIntermediaryToDB():
                     wordFrequency[token]+=1
         w = sorted(wordFrequency.items(), key=lambda wordFrequency: wordFrequency[1], reverse=True)
         print(w)
+
         
-        
-     def lanchInsertionToIntermediaryDB2(self):
+    def lanchInsertionToIntermediaryDB2(self):
         concept = "coronavirus"
         analysisID = "passif"
 

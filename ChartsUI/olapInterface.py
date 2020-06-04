@@ -14,6 +14,17 @@ from Preprocessing.mainProgramme import MainProgramme
 def runServer():
     app = Flask(__name__)
 
+
+    @app.route('/mondialSentimentByDatesJson', methods=['GET'])
+    @cross_origin()
+    def mondialSentimentByDatesJson():
+        concept = request.args['concept']
+        sentimentCube = SentimentCube(concept)
+        data = sentimentCube.getMondialSentimentByDates()
+        a = jsonify(data)
+        return a
+
+
     @app.route('/extractConceptsFromClientDW', methods = ['GET'])
     @cross_origin()
     def extractConceptsFromClientDW():
@@ -40,11 +51,12 @@ def runServer():
     def launchAnalysis():
         print(request.json)
         dataJson = request.json
+        analysisID = dataJson['analysisID']
         conceptsList = dataJson['conceptsList']
         numberOfDays = dataJson['numberOfDays']
         numberOfTweets = dataJson['numberOfTweets'] / numberOfDays
 
-        test = MainProgramme(conceptsList)
+        test = MainProgramme(conceptsList, analysisID)
 
         analysisID = test.extractAndSaveDataIntoIntermediaryDB(numberOfDays, numberOfTweets)
         mydb = mysql.connector.connect(
@@ -209,13 +221,14 @@ def runServer():
         element = {'analysisId': '', 'analysisName': '', 'analysisConcepts': []}
 
         for analysisID in temp:
-            element['analysisId'] = analysisID
-            element['analysisName'] = analysisID
-            element['analysisConcepts'] = []
-            for concept in temp[analysisID]:
-                element['analysisConcepts'].append(concept)
-            dataList.append(element)
-            element = {'analysisId': '', 'analysisName': '', 'analysisConcepts': []}
+            if analysisID != "passif":
+                element['analysisId'] = analysisID
+                element['analysisName'] = analysisID
+                element['analysisConcepts'] = []
+                for concept in temp[analysisID]:
+                    element['analysisConcepts'].append(concept)
+                dataList.append(element)
+                element = {'analysisId': '', 'analysisName': '', 'analysisConcepts': []}
 
         a = jsonify(dataList)
         return a
