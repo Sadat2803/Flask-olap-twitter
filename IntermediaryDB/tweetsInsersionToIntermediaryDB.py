@@ -150,7 +150,6 @@ class TweetsInsertionIntermediaryToDB():
             'Oct': '10',
             'Nov': '11',
             'Dec': '12'}
-
         allFiles = [f for f in listdir(dirPathIn) if isfile(join(dirPathIn, f))]
         #print(allFiles)
         for fileName in allFiles:
@@ -206,7 +205,7 @@ class TweetsInsertionIntermediaryToDB():
         w = sorted(wordFrequency.items(), key=lambda wordFrequency: wordFrequency[1], reverse=True)
         print(w)
 
-        
+
     def lanchInsertionToIntermediaryDB2(self):
         concept = "coronavirus"
         analysisID = "passif"
