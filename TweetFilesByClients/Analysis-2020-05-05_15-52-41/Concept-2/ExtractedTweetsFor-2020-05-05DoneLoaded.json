@@ -1,0 +1,2532 @@
+{ "tweets" : [{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 14:00:00 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    58,
+                    66
+                ],
+                "text": "PonyVPN"
+            },
+            {
+                "indices": [
+                    67,
+                    71
+                ],
+                "text": "VPN"
+            },
+            {
+                "indices": [
+                    72,
+                    75
+                ],
+                "text": "\u7ffb\u5899"
+            },
+            {
+                "indices": [
+                    76,
+                    79
+                ],
+                "text": "\u68af\u5b50"
+            },
+            {
+                "indices": [
+                    80,
+                    87
+                ],
+                "text": "Russia"
+            },
+            {
+                "indices": [
+                    88,
+                    101
+                ],
+                "text": "Repatriation"
+            },
+            {
+                "indices": [
+                    102,
+                    106
+                ],
+                "text": "CCP"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "speedinapp.com",
+                "expanded_url": "http://speedinapp.com",
+                "indices": [
+                    33,
+                    56
+                ],
+                "url": "https://t.co/c4XoGRPwWs"
+            },
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1257671389483397124",
+                "indices": [
+                    108,
+                    131
+                ],
+                "url": "https://t.co/OoWVbW6qt3"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257671389483397124,
+    "id_str": "1257671389483397124",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "zh",
+    "metadata": {
+        "iso_language_code": "zh",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "text": "\u3010\u5229\u5bb3\u4e86\u4ed6\u7684\u56fd\u3011\u4e2d\u56fd\u5546\u4eba\u56e4\u79ef\u53e3\u7f69\uff0c\u906d\u5230\u5f53\u5730\u56e2\u4f19\u6d17\u52ab\n\u27a1\ufe0f\u4e0b\u8f7d\u94fe\u63a5\uff1ahttps://t.co/c4XoGRPwWs\n\n#PonyVPN #VPN #\u7ffb\u5899 #\u68af\u5b50 #Russia #Repatriation\n#CCP\u2026 https://t.co/OoWVbW6qt3",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sun Feb 16 06:32:15 +0000 2020",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "\u6781\u901f\u3001\u7a33\u5b9a\u3001\u5b89\u5168\u7684\u865a\u62df\u7f51\u7edc\n\u5168\u65b0 VPN\uff0c\u65e0\u5e7f\u544a\u65e0\u6d41\u91cf\u9650\u5236\uff0c\u4e24\u6b65\u5f00\u901a 14 \u5929\u514d\u8d39\u8bd5\u7528\uff0c\u4e00\u4e2a\u5e10\u53f7\u7545\u884c iOS\u3001Android\u3001Windows \u7b49\u5404\u4e2a\u5e73\u53f0\uff0c\u6700\u591a 5 \u4e2a\u8bbe\u5907\u540c\u65f6\u8fde\u63a5\uff0c\u77ac\u95f4\u6253\u7834\u7f51\u7edc\u754c\u9650\uff0c\u52a0\u901f\u6d4f\u89c8\u5168\u7403\u89c6\u8baf\u5a31\u4e50\u3002\u66f4\u591a\u8d44\u8baf\u27a1\ufe0fhttps://t.co/gKooLKAfS1",
+        "entities": {
+            "description": {
+                "urls": [
+                    {
+                        "display_url": "youtube.com/channel/UChsNR\u2026",
+                        "expanded_url": "http://youtube.com/channel/UChsNRqsCsA70XFCJBpWQvvQ",
+                        "indices": [
+                            116,
+                            139
+                        ],
+                        "url": "https://t.co/gKooLKAfS1"
+                    }
+                ]
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "speedinapp.com",
+                        "expanded_url": "http://speedinapp.com",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/QASQtQS1Gu"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 2,
+        "follow_request_sent": false,
+        "followers_count": 43,
+        "following": false,
+        "friends_count": 119,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1228930012633419777,
+        "id_str": "1228930012633419777",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "",
+        "name": "Pony",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1228930012633419777/1581877371",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1250661148677902337/OVZ6nDzh_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1250661148677902337/OVZ6nDzh_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ponyjsq",
+        "statuses_count": 700,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/QASQtQS1Gu",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 13:55:30 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    0,
+                    5
+                ],
+                "text": "ebay"
+            },
+            {
+                "indices": [
+                    6,
+                    18
+                ],
+                "text": "panicbuying"
+            },
+            {
+                "indices": [
+                    19,
+                    26
+                ],
+                "text": "Panini"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "rover.ebay.com/rover/1/711-53\u2026",
+                "expanded_url": "http://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_ff3=2&pub=5575378759&campid=5338273189&customid=&icep_item=133393106286&ipn=psmain&icep_vectorid=229466&kwid=902099&mtid=824&kw=lg&toolid=11111",
+                "indices": [
+                    28,
+                    51
+                ],
+                "url": "https://t.co/Dkl3fuK1m5"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257670257491226627,
+    "id_str": "1257670257491226627",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "und",
+    "metadata": {
+        "iso_language_code": "und",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "#ebay #panicbuying #Panini  https://t.co/Dkl3fuK1m5",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed Apr 29 04:36:40 +0000 2009",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Too old to tweet everyday. I get confused easily. My goal is to walk out the house with my pants and my cellphone. Follow Me... I will lead the way!!",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 121,
+        "follow_request_sent": false,
+        "followers_count": 132,
+        "following": false,
+        "friends_count": 287,
+        "geo_enabled": true,
+        "has_extended_profile": false,
+        "id": 36288232,
+        "id_str": "36288232",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 1,
+        "location": "Louisville, KY",
+        "name": "FerrariJohnson",
+        "notifications": false,
+        "profile_background_color": "1A1B1F",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/36288232/1444613919",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/653646971341815808/aE-Ht0Xp_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/653646971341815808/aE-Ht0Xp_normal.jpg",
+        "profile_link_color": "2FC2EF",
+        "profile_sidebar_border_color": "181A1E",
+        "profile_sidebar_fill_color": "252429",
+        "profile_text_color": "666666",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "whodomjohnson",
+        "statuses_count": 2109,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 13:35:39 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    17,
+                    29
+                ],
+                "text": "panicbuying"
+            }
+        ],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/A7BekQNfBh",
+                "expanded_url": "https://twitter.com/bkrkwd/status/1257665263522234368/photo/1",
+                "id": 1257665261588676610,
+                "id_str": "1257665261588676610",
+                "indices": [
+                    30,
+                    53
+                ],
+                "media_url": "http://pbs.twimg.com/media/EXQf5FtXgAIS8-Y.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EXQf5FtXgAIS8-Y.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 266,
+                        "resize": "fit",
+                        "w": 472
+                    },
+                    "medium": {
+                        "h": 266,
+                        "resize": "fit",
+                        "w": 472
+                    },
+                    "small": {
+                        "h": 266,
+                        "resize": "fit",
+                        "w": 472
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/A7BekQNfBh"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/A7BekQNfBh",
+                "expanded_url": "https://twitter.com/bkrkwd/status/1257665263522234368/photo/1",
+                "id": 1257665261588676610,
+                "id_str": "1257665261588676610",
+                "indices": [
+                    30,
+                    53
+                ],
+                "media_url": "http://pbs.twimg.com/media/EXQf5FtXgAIS8-Y.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EXQf5FtXgAIS8-Y.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 266,
+                        "resize": "fit",
+                        "w": 472
+                    },
+                    "medium": {
+                        "h": 266,
+                        "resize": "fit",
+                        "w": 472
+                    },
+                    "small": {
+                        "h": 266,
+                        "resize": "fit",
+                        "w": 472
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/A7BekQNfBh"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257665263522234368,
+    "id_str": "1257665263522234368",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "Next panic buy?\n\n#panicbuying https://t.co/A7BekQNfBh",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Jul 09 17:24:16 +0000 2018",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "1+1+3=gongshow",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 2655,
+        "follow_request_sent": false,
+        "followers_count": 65,
+        "following": false,
+        "friends_count": 533,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1016372477256175618,
+        "id_str": "1016372477256175618",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Stittsville, ON, Canada",
+        "name": "Ben Kirkwood",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1249107754557587458/K585_A66_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1249107754557587458/K585_A66_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "bkrkwd",
+        "statuses_count": 712,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 12:55:03 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1257655045962809344",
+                "indices": [
+                    117,
+                    140
+                ],
+                "url": "https://t.co/RqaLZZqRqq"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 1,
+    "favorited": false,
+    "geo": null,
+    "id": 1257655045962809344,
+    "id_str": "1257655045962809344",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"https://sproutsocial.com\" rel=\"nofollow\">Sprout Social</a>",
+    "text": "We've created some posters for our retailers to use in their stores to make sure shoppers are getting the right inf\u2026 https://t.co/RqaLZZqRqq",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Jan 21 13:20:47 +0000 2013",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "We are Nisa's family of independent retailers. Sharing Nisa news, retail insights & the success behind our 1300+ strong partnership \ud83c\udf4f\ud83c\udf55\ud83c\udf77#WeSayNisa #JoinNisa",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "join-nisa.co.uk",
+                        "expanded_url": "http://www.join-nisa.co.uk",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/iX8E6KLtDI"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 10108,
+        "follow_request_sent": false,
+        "followers_count": 4754,
+        "following": false,
+        "friends_count": 743,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 1109021042,
+        "id_str": "1109021042",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 42,
+        "location": "United Kingdom",
+        "name": "Nisa Retail",
+        "notifications": false,
+        "profile_background_color": "B2BEDE",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1109021042/1585233578",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1091320703633248257/cj3S7Oqu_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1091320703633248257/cj3S7Oqu_normal.jpg",
+        "profile_link_color": "19398A",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "NisaRetail",
+        "statuses_count": 14664,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/iX8E6KLtDI",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 12:44:45 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    51,
+                    63
+                ],
+                "text": "panicbuying"
+            },
+            {
+                "indices": [
+                    64,
+                    77
+                ],
+                "text": "quarantigang"
+            },
+            {
+                "indices": [
+                    78,
+                    93
+                ],
+                "text": "staysafeathome"
+            }
+        ],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/6I0O0AbhJ0",
+                "expanded_url": "https://twitter.com/abcd_eun/status/1257652452079239170/photo/1",
+                "id": 1257652437189419010,
+                "id_str": "1257652437189419010",
+                "indices": [
+                    94,
+                    117
+                ],
+                "media_url": "http://pbs.twimg.com/media/EXQUOnGUYAIChVY.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EXQUOnGUYAIChVY.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 1024,
+                        "resize": "fit",
+                        "w": 1024
+                    },
+                    "medium": {
+                        "h": 1024,
+                        "resize": "fit",
+                        "w": 1024
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/6I0O0AbhJ0"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/6I0O0AbhJ0",
+                "expanded_url": "https://twitter.com/abcd_eun/status/1257652452079239170/photo/1",
+                "id": 1257652437189419010,
+                "id_str": "1257652437189419010",
+                "indices": [
+                    94,
+                    117
+                ],
+                "media_url": "http://pbs.twimg.com/media/EXQUOnGUYAIChVY.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EXQUOnGUYAIChVY.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 1024,
+                        "resize": "fit",
+                        "w": 1024
+                    },
+                    "medium": {
+                        "h": 1024,
+                        "resize": "fit",
+                        "w": 1024
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/6I0O0AbhJ0"
+            }
+        ]
+    },
+    "favorite_count": 8,
+    "favorited": false,
+    "geo": null,
+    "id": 1257652452079239170,
+    "id_str": "1257652452079239170",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": {
+        "attributes": {},
+        "bounding_box": {
+            "coordinates": [
+                [
+                    [
+                        106.54873,
+                        -6.279013
+                    ],
+                    [
+                        106.652494,
+                        -6.279013
+                    ],
+                    [
+                        106.652494,
+                        -6.208549
+                    ],
+                    [
+                        106.54873,
+                        -6.208549
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "contained_within": [],
+        "country": "Indonesia",
+        "country_code": "ID",
+        "full_name": "Curug, Indonesia",
+        "id": "1d982263cb72d996",
+        "name": "Curug",
+        "place_type": "city",
+        "url": "https://api.twitter.com/1.1/geo/id/1d982263cb72d996.json"
+    },
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "i love zepeto it makes my wildest dreams come true #panicbuying #quarantigang #staysafeathome https://t.co/6I0O0AbhJ0",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed Nov 14 10:21:09 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "indeed indeed indeed",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "open.spotify.com/playlist/3Xm9T\u2026",
+                        "expanded_url": "https://open.spotify.com/playlist/3Xm9TKPMmPGEUC5LbZLqjn?si=6ndi80XaRyGZH0WrH6Wkgw",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/cXifYWDCa4"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 22138,
+        "follow_request_sent": false,
+        "followers_count": 708,
+        "following": false,
+        "friends_count": 368,
+        "geo_enabled": true,
+        "has_extended_profile": false,
+        "id": 947485489,
+        "id_str": "947485489",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 3,
+        "location": "Hawkins, Indiana",
+        "name": "Eun",
+        "notifications": false,
+        "profile_background_color": "131516",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/947485489/1587803567",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1257652886802063361/qeb4QH_F_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1257652886802063361/qeb4QH_F_normal.jpg",
+        "profile_link_color": "ABB8C2",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "abcd_eun",
+        "statuses_count": 31280,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/cXifYWDCa4",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 11:54:48 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    24,
+                    36
+                ],
+                "text": "PanicBuying"
+            }
+        ],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/Rx0C01bF3m",
+                "expanded_url": "https://twitter.com/_hzrn_/status/1257570729198936069/photo/1",
+                "id": 1257570719161933824,
+                "id_str": "1257570719161933824",
+                "indices": [
+                    37,
+                    60
+                ],
+                "media_url": "http://pbs.twimg.com/media/EXPJ5_uUYAAL_yd.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EXPJ5_uUYAAL_yd.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 2048,
+                        "resize": "fit",
+                        "w": 1152
+                    },
+                    "medium": {
+                        "h": 1200,
+                        "resize": "fit",
+                        "w": 675
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 383
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "source_status_id": 1257570729198936069,
+                "source_status_id_str": "1257570729198936069",
+                "source_user_id": 23420466,
+                "source_user_id_str": "23420466",
+                "type": "photo",
+                "url": "https://t.co/Rx0C01bF3m"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 23420466,
+                "id_str": "23420466",
+                "indices": [
+                    3,
+                    10
+                ],
+                "name": "Hazrin Halim",
+                "screen_name": "_hzrn_"
+            }
+        ]
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/Rx0C01bF3m",
+                "expanded_url": "https://twitter.com/_hzrn_/status/1257570729198936069/photo/1",
+                "id": 1257570719161933824,
+                "id_str": "1257570719161933824",
+                "indices": [
+                    37,
+                    60
+                ],
+                "media_url": "http://pbs.twimg.com/media/EXPJ5_uUYAAL_yd.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EXPJ5_uUYAAL_yd.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 2048,
+                        "resize": "fit",
+                        "w": 1152
+                    },
+                    "medium": {
+                        "h": 1200,
+                        "resize": "fit",
+                        "w": 675
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 383
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "source_status_id": 1257570729198936069,
+                "source_status_id_str": "1257570729198936069",
+                "source_user_id": 23420466,
+                "source_user_id_str": "23420466",
+                "type": "photo",
+                "url": "https://t.co/Rx0C01bF3m"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257639882396037120,
+    "id_str": "1257639882396037120",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "und",
+    "metadata": {
+        "iso_language_code": "und",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 1,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Tue May 05 07:20:01 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        12,
+                        24
+                    ],
+                    "text": "PanicBuying"
+                }
+            ],
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/Rx0C01bF3m",
+                    "expanded_url": "https://twitter.com/_hzrn_/status/1257570729198936069/photo/1",
+                    "id": 1257570719161933824,
+                    "id_str": "1257570719161933824",
+                    "indices": [
+                        25,
+                        48
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EXPJ5_uUYAAL_yd.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EXPJ5_uUYAAL_yd.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 2048,
+                            "resize": "fit",
+                            "w": 1152
+                        },
+                        "medium": {
+                            "h": 1200,
+                            "resize": "fit",
+                            "w": 675
+                        },
+                        "small": {
+                            "h": 680,
+                            "resize": "fit",
+                            "w": 383
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/Rx0C01bF3m"
+                }
+            ],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": []
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/Rx0C01bF3m",
+                    "expanded_url": "https://twitter.com/_hzrn_/status/1257570729198936069/photo/1",
+                    "id": 1257570719161933824,
+                    "id_str": "1257570719161933824",
+                    "indices": [
+                        25,
+                        48
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EXPJ5_uUYAAL_yd.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EXPJ5_uUYAAL_yd.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 2048,
+                            "resize": "fit",
+                            "w": 1152
+                        },
+                        "medium": {
+                            "h": 1200,
+                            "resize": "fit",
+                            "w": 675
+                        },
+                        "small": {
+                            "h": 680,
+                            "resize": "fit",
+                            "w": 383
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/Rx0C01bF3m"
+                }
+            ]
+        },
+        "favorite_count": 0,
+        "favorited": false,
+        "geo": null,
+        "id": 1257570729198936069,
+        "id_str": "1257570729198936069",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "und",
+        "metadata": {
+            "iso_language_code": "und",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 1,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "text": "62nd \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f\n\n#PanicBuying https://t.co/Rx0C01bF3m",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Mon Mar 09 10:10:40 +0000 2009",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Extroverting Introvert",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 1088,
+            "follow_request_sent": false,
+            "followers_count": 291,
+            "following": false,
+            "friends_count": 181,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 23420466,
+            "id_str": "23420466",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 3,
+            "location": "",
+            "name": "Hazrin Halim",
+            "notifications": false,
+            "profile_background_color": "000000",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/23420466/1461994602",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/726284133601710080/XXZdryDL_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/726284133601710080/XXZdryDL_normal.jpg",
+            "profile_link_color": "F7030F",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "F7DA93",
+            "profile_text_color": "000000",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "_hzrn_",
+            "statuses_count": 1962,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @_hzrn_: 62nd \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f\n\n#PanicBuying https://t.co/Rx0C01bF3m",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Tue May 22 19:29:35 +0000 2018",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "bon voyage \u26f5\ufe0f",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "Instagram.com/pisang_haziq",
+                        "expanded_url": "http://Instagram.com/pisang_haziq",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/beE8gCndIA"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 241,
+        "follow_request_sent": false,
+        "followers_count": 253,
+        "following": false,
+        "friends_count": 318,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 999009396402274304,
+        "id_str": "999009396402274304",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 2,
+        "location": "UPM",
+        "name": "ihsan \u2728\u2728\u2728",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/999009396402274304/1572725234",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1000315500038049792/IyxVAg1M_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1000315500038049792/IyxVAg1M_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "pisang_haziq",
+        "statuses_count": 68967,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/beE8gCndIA",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 11:52:07 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 159016742,
+                "id_str": "159016742",
+                "indices": [
+                    3,
+                    14
+                ],
+                "name": "BFI Finance",
+                "screen_name": "BFIFinance"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257639208467828742,
+    "id_str": "1257639208467828742",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "in",
+    "metadata": {
+        "iso_language_code": "in",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 1,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Tue May 05 10:22:41 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1257616699248930816",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/5NDhGLtPwe"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 0,
+        "favorited": false,
+        "geo": null,
+        "id": 1257616699248930816,
+        "id_str": "1257616699248930816",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "in",
+        "metadata": {
+            "iso_language_code": "in",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 1,
+        "retweeted": false,
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "text": "Membeli barang-barang kebutuhan secara berlebihan akan berimbas buruk bagi keuangan Indonesia. Yuk, simak tips beri\u2026 https://t.co/5NDhGLtPwe",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Thu Jun 24 06:44:29 +0000 2010",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Solusi kebutuhan finansial Anda. Mention us for more info!",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "bit.ly/2Vm6daD",
+                            "expanded_url": "http://bit.ly/2Vm6daD",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/qSVrIvCDn2"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 35,
+            "follow_request_sent": false,
+            "followers_count": 4734,
+            "following": false,
+            "friends_count": 53,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 159016742,
+            "id_str": "159016742",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 16,
+            "location": "",
+            "name": "BFI Finance",
+            "notifications": false,
+            "profile_background_color": "EDECE9",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme3/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme3/bg.gif",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/159016742/1578391195",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/491109042467512320/gWgbPPhB_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/491109042467512320/gWgbPPhB_normal.jpeg",
+            "profile_link_color": "DE4E0B",
+            "profile_sidebar_border_color": "D3D2CF",
+            "profile_sidebar_fill_color": "E3E2DE",
+            "profile_text_color": "194DC4",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "BFIFinance",
+            "statuses_count": 8728,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/qSVrIvCDn2",
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @BFIFinance: Membeli barang-barang kebutuhan secara berlebihan akan berimbas buruk bagi keuangan Indonesia. Yuk, simak tips berikut dan\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sat Feb 13 04:21:04 +0000 2010",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Happy. Free. Confused. Lonely. At the same times",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 102,
+        "follow_request_sent": false,
+        "followers_count": 329,
+        "following": false,
+        "friends_count": 577,
+        "geo_enabled": true,
+        "has_extended_profile": false,
+        "id": 113817120,
+        "id_str": "113817120",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Bandung, Jawa Barat",
+        "name": "Sona Oktafiana",
+        "notifications": false,
+        "profile_background_color": "0099B9",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/113817120/1510929043",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/931530051039895559/bRfA4GGH_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/931530051039895559/bRfA4GGH_normal.jpg",
+        "profile_link_color": "0099B9",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "95E8EC",
+        "profile_text_color": "3C3940",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "SonaOktafiana_",
+        "statuses_count": 5230,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 11:51:03 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    96,
+                    108
+                ],
+                "text": "coronavirus"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 289118612,
+                "id_str": "289118612",
+                "indices": [
+                    3,
+                    19
+                ],
+                "name": "Tomthunkit\u2122",
+                "screen_name": "TomthunkitsMind"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257638937595535361,
+    "id_str": "1257638937595535361",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 1,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Tue May 05 11:48:19 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        75,
+                        87
+                    ],
+                    "text": "coronavirus"
+                }
+            ],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1257638249536860161",
+                    "indices": [
+                        101,
+                        124
+                    ],
+                    "url": "https://t.co/Af16PfOB56"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 2,
+        "favorited": false,
+        "geo": null,
+        "id": 1257638249536860161,
+        "id_str": "1257638249536860161",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 1,
+        "retweeted": false,
+        "source": "<a href=\"https://www.socialjukebox.com\" rel=\"nofollow\">The Social Jukebox</a>",
+        "text": "This is the evilest most opportunistic thing I\u2019ve seen people do to others #coronavirus panicbuying\u2026 https://t.co/Af16PfOB56",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Thu Apr 28 01:56:15 +0000 2011",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Tomthunkit's Mind Diner is open 24/7. All-you-can-eat smorgasbord of hand-picked deliciously sweet tweets for your political palate. Donations Welcome.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "gofundme.com/tomthunkit039s\u2026",
+                            "expanded_url": "https://www.gofundme.com/tomthunkit039s-mind-diner",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/QXUxZhjYl6"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 22499,
+            "follow_request_sent": false,
+            "followers_count": 70461,
+            "following": false,
+            "friends_count": 66956,
+            "geo_enabled": true,
+            "has_extended_profile": true,
+            "id": 289118612,
+            "id_str": "289118612",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 1057,
+            "location": "Atlanta, GA",
+            "name": "Tomthunkit\u2122",
+            "notifications": false,
+            "profile_background_color": "FFFFFF",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme12/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme12/bg.gif",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/289118612/1586782345",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1071761767611670533/vNTh69MD_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1071761767611670533/vNTh69MD_normal.jpg",
+            "profile_link_color": "FF691F",
+            "profile_sidebar_border_color": "F2E195",
+            "profile_sidebar_fill_color": "FFF7CC",
+            "profile_text_color": "0C3E53",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "TomthunkitsMind",
+            "statuses_count": 2414136,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/QXUxZhjYl6",
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @TomthunkitsMind: This is the evilest most opportunistic thing I\u2019ve seen people do to others #coronavirus panicbuying https://t.co/swjSh\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed Oct 26 04:20:40 +0000 2016",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "\ud83c\udf0a\ud83c\udf0a\ud83c\udf0aHumanity before politics, Country before party. Only here to Resist. I intend on ridding myself of this propaganda machine when the war is won! #Resist",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 29830,
+        "follow_request_sent": false,
+        "followers_count": 1938,
+        "following": false,
+        "friends_count": 2171,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 791132413749592065,
+        "id_str": "791132413749592065",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 3,
+        "location": "",
+        "name": "Dracarys\ud83c\udf0a\ud83c\udf0a\ud83c\udf0a",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/791132413749592065/1538402924",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1046763292713254913/7F5QssLu_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1046763292713254913/7F5QssLu_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "LSRoybal1",
+        "statuses_count": 17924,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 11:48:19 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    75,
+                    87
+                ],
+                "text": "coronavirus"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1257638249536860161",
+                "indices": [
+                    101,
+                    124
+                ],
+                "url": "https://t.co/Af16PfOB56"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 2,
+    "favorited": false,
+    "geo": null,
+    "id": 1257638249536860161,
+    "id_str": "1257638249536860161",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 1,
+    "retweeted": false,
+    "source": "<a href=\"https://www.socialjukebox.com\" rel=\"nofollow\">The Social Jukebox</a>",
+    "text": "This is the evilest most opportunistic thing I\u2019ve seen people do to others #coronavirus panicbuying\u2026 https://t.co/Af16PfOB56",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Apr 28 01:56:15 +0000 2011",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Tomthunkit's Mind Diner is open 24/7. All-you-can-eat smorgasbord of hand-picked deliciously sweet tweets for your political palate. Donations Welcome.",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "gofundme.com/tomthunkit039s\u2026",
+                        "expanded_url": "https://www.gofundme.com/tomthunkit039s-mind-diner",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/QXUxZhjYl6"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 22499,
+        "follow_request_sent": false,
+        "followers_count": 70461,
+        "following": false,
+        "friends_count": 66956,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 289118612,
+        "id_str": "289118612",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 1057,
+        "location": "Atlanta, GA",
+        "name": "Tomthunkit\u2122",
+        "notifications": false,
+        "profile_background_color": "FFFFFF",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme12/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme12/bg.gif",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/289118612/1586782345",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1071761767611670533/vNTh69MD_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1071761767611670533/vNTh69MD_normal.jpg",
+        "profile_link_color": "FF691F",
+        "profile_sidebar_border_color": "F2E195",
+        "profile_sidebar_fill_color": "FFF7CC",
+        "profile_text_color": "0C3E53",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "TomthunkitsMind",
+        "statuses_count": 2414136,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/QXUxZhjYl6",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 11:13:20 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    88,
+                    100
+                ],
+                "text": "panicbuying"
+            }
+        ],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/lEBJeFXBTz",
+                "expanded_url": "https://twitter.com/itsfxrz/status/1257443445486075912/photo/1",
+                "id": 1257443437399486472,
+                "id_str": "1257443437399486472",
+                "indices": [
+                    101,
+                    124
+                ],
+                "media_url": "http://pbs.twimg.com/media/EXNWJONXsAg8Wom.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EXNWJONXsAg8Wom.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 2048,
+                        "resize": "fit",
+                        "w": 946
+                    },
+                    "medium": {
+                        "h": 1200,
+                        "resize": "fit",
+                        "w": 554
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 314
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "source_status_id": 1257443445486075912,
+                "source_status_id_str": "1257443445486075912",
+                "source_user_id": 842155446131671040,
+                "source_user_id_str": "842155446131671040",
+                "type": "photo",
+                "url": "https://t.co/lEBJeFXBTz"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 842155446131671040,
+                "id_str": "842155446131671040",
+                "indices": [
+                    3,
+                    11
+                ],
+                "name": "farz",
+                "screen_name": "itsfxrz"
+            }
+        ]
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/lEBJeFXBTz",
+                "expanded_url": "https://twitter.com/itsfxrz/status/1257443445486075912/photo/1",
+                "id": 1257443437399486472,
+                "id_str": "1257443437399486472",
+                "indices": [
+                    101,
+                    124
+                ],
+                "media_url": "http://pbs.twimg.com/media/EXNWJONXsAg8Wom.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EXNWJONXsAg8Wom.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 2048,
+                        "resize": "fit",
+                        "w": 946
+                    },
+                    "medium": {
+                        "h": 1200,
+                        "resize": "fit",
+                        "w": 554
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 314
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "source_status_id": 1257443445486075912,
+                "source_status_id_str": "1257443445486075912",
+                "source_user_id": 842155446131671040,
+                "source_user_id_str": "842155446131671040",
+                "type": "photo",
+                "url": "https://t.co/lEBJeFXBTz"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257629446498144256,
+    "id_str": "1257629446498144256",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 13,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Mon May 04 22:54:14 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        75,
+                        87
+                    ],
+                    "text": "panicbuying"
+                }
+            ],
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/lEBJeFXBTz",
+                    "expanded_url": "https://twitter.com/itsfxrz/status/1257443445486075912/photo/1",
+                    "id": 1257443437399486472,
+                    "id_str": "1257443437399486472",
+                    "indices": [
+                        88,
+                        111
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EXNWJONXsAg8Wom.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EXNWJONXsAg8Wom.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 2048,
+                            "resize": "fit",
+                            "w": 946
+                        },
+                        "medium": {
+                            "h": 1200,
+                            "resize": "fit",
+                            "w": 554
+                        },
+                        "small": {
+                            "h": 680,
+                            "resize": "fit",
+                            "w": 314
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/lEBJeFXBTz"
+                }
+            ],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": []
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/lEBJeFXBTz",
+                    "expanded_url": "https://twitter.com/itsfxrz/status/1257443445486075912/photo/1",
+                    "id": 1257443437399486472,
+                    "id_str": "1257443437399486472",
+                    "indices": [
+                        88,
+                        111
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EXNWJONXsAg8Wom.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EXNWJONXsAg8Wom.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 2048,
+                            "resize": "fit",
+                            "w": 946
+                        },
+                        "medium": {
+                            "h": 1200,
+                            "resize": "fit",
+                            "w": 554
+                        },
+                        "small": {
+                            "h": 680,
+                            "resize": "fit",
+                            "w": 314
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/lEBJeFXBTz"
+                }
+            ]
+        },
+        "favorite_count": 63,
+        "favorited": false,
+        "geo": null,
+        "id": 1257443445486075912,
+        "id_str": "1257443445486075912",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 13,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "text": "No wonder I never find any ingredients to bake or make a simple dessert!!! #panicbuying https://t.co/lEBJeFXBTz",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Wed Mar 15 23:27:59 +0000 2017",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "criminology in law and justice \u2696\ufe0f",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 12421,
+            "follow_request_sent": false,
+            "followers_count": 637,
+            "following": false,
+            "friends_count": 367,
+            "geo_enabled": true,
+            "has_extended_profile": true,
+            "id": 842155446131671040,
+            "id_str": "842155446131671040",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 2,
+            "location": "brum brum bole",
+            "name": "farz",
+            "notifications": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/842155446131671040/1588522389",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1255168170790465537/QsmPYqyC_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1255168170790465537/QsmPYqyC_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "itsfxrz",
+            "statuses_count": 6375,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "RT @itsfxrz: No wonder I never find any ingredients to bake or make a simple dessert!!! #panicbuying https://t.co/lEBJeFXBTz",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Mar 30 12:39:16 +0000 2020",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "instagram.com/ayshaahm3d",
+                        "expanded_url": "http://instagram.com/ayshaahm3d",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/XyyzXjrktu"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 1362,
+        "follow_request_sent": false,
+        "followers_count": 130,
+        "following": false,
+        "friends_count": 122,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1244605071226265601,
+        "id_str": "1244605071226265601",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Surrey",
+        "name": "b\ud83d\udc1d\ud83d\udc95\ud83d\udc84",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1244605071226265601/1586598778",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1248911910457815040/KSF-D6bU_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1248911910457815040/KSF-D6bU_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "ayshaahm3d",
+        "statuses_count": 89,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/XyyzXjrktu",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 11:11:14 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    89,
+                    101
+                ],
+                "text": "panicbuying"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1257628917625577472",
+                "indices": [
+                    103,
+                    126
+                ],
+                "url": "https://t.co/bW4KCGtzBO"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 1,
+    "favorited": false,
+    "geo": null,
+    "id": 1257628917625577472,
+    "id_str": "1257628917625577472",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"https://www.socialjukebox.com\" rel=\"nofollow\">The Social Jukebox</a>",
+    "text": "I've no idea if this is fake or not. Neutral face\nWho cares, it is perfect. \ncoronavirus\n#panicbuying\u2026 https://t.co/bW4KCGtzBO",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Apr 28 01:56:15 +0000 2011",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Tomthunkit's Mind Diner is open 24/7. All-you-can-eat smorgasbord of hand-picked deliciously sweet tweets for your political palate. Donations Welcome.",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "gofundme.com/tomthunkit039s\u2026",
+                        "expanded_url": "https://www.gofundme.com/tomthunkit039s-mind-diner",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/QXUxZhjYl6"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 22499,
+        "follow_request_sent": false,
+        "followers_count": 70461,
+        "following": false,
+        "friends_count": 66956,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 289118612,
+        "id_str": "289118612",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 1057,
+        "location": "Atlanta, GA",
+        "name": "Tomthunkit\u2122",
+        "notifications": false,
+        "profile_background_color": "FFFFFF",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme12/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme12/bg.gif",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/289118612/1586782345",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1071761767611670533/vNTh69MD_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1071761767611670533/vNTh69MD_normal.jpg",
+        "profile_link_color": "FF691F",
+        "profile_sidebar_border_color": "F2E195",
+        "profile_sidebar_fill_color": "FFF7CC",
+        "profile_text_color": "0C3E53",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "TomthunkitsMind",
+        "statuses_count": 2414136,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/QXUxZhjYl6",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Tue May 05 11:01:01 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    67,
+                    79
+                ],
+                "text": "panicbuying"
+            },
+            {
+                "indices": [
+                    93,
+                    113
+                ],
+                "text": "VoteBlueNoMatterWho"
+            }
+        ],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/rT6896NLY2",
+                "expanded_url": "https://twitter.com/TomthunkitsMind/status/1257624659199168518/photo/1",
+                "id": 1257624657576026112,
+                "id_str": "1257624657576026112",
+                "indices": [
+                    114,
+                    137
+                ],
+                "media_url": "http://pbs.twimg.com/media/EXP69n-XYAANmgd.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EXP69n-XYAANmgd.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 555,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "medium": {
+                        "h": 555,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "small": {
+                        "h": 555,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "source_status_id": 1257624659199168518,
+                "source_status_id_str": "1257624659199168518",
+                "source_user_id": 289118612,
+                "source_user_id_str": "289118612",
+                "type": "photo",
+                "url": "https://t.co/rT6896NLY2"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 289118612,
+                "id_str": "289118612",
+                "indices": [
+                    3,
+                    19
+                ],
+                "name": "Tomthunkit\u2122",
+                "screen_name": "TomthunkitsMind"
+            }
+        ]
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/rT6896NLY2",
+                "expanded_url": "https://twitter.com/TomthunkitsMind/status/1257624659199168518/photo/1",
+                "id": 1257624657576026112,
+                "id_str": "1257624657576026112",
+                "indices": [
+                    114,
+                    137
+                ],
+                "media_url": "http://pbs.twimg.com/media/EXP69n-XYAANmgd.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EXP69n-XYAANmgd.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 555,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "medium": {
+                        "h": 555,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "small": {
+                        "h": 555,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "source_status_id": 1257624659199168518,
+                "source_status_id_str": "1257624659199168518",
+                "source_user_id": 289118612,
+                "source_user_id_str": "289118612",
+                "type": "photo",
+                "url": "https://t.co/rT6896NLY2"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1257626347687432193,
+    "id_str": "1257626347687432193",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 1,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Tue May 05 10:54:18 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        46,
+                        58
+                    ],
+                    "text": "panicbuying"
+                },
+                {
+                    "indices": [
+                        72,
+                        92
+                    ],
+                    "text": "VoteBlueNoMatterWho"
+                }
+            ],
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/rT6896NLY2",
+                    "expanded_url": "https://twitter.com/TomthunkitsMind/status/1257624659199168518/photo/1",
+                    "id": 1257624657576026112,
+                    "id_str": "1257624657576026112",
+                    "indices": [
+                        93,
+                        116
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EXP69n-XYAANmgd.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EXP69n-XYAANmgd.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 555,
+                            "resize": "fit",
+                            "w": 680
+                        },
+                        "medium": {
+                            "h": 555,
+                            "resize": "fit",
+                            "w": 680
+                        },
+                        "small": {
+                            "h": 555,
+                            "resize": "fit",
+                            "w": 680
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/rT6896NLY2"
+                }
+            ],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": []
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/rT6896NLY2",
+                    "expanded_url": "https://twitter.com/TomthunkitsMind/status/1257624659199168518/photo/1",
+                    "id": 1257624657576026112,
+                    "id_str": "1257624657576026112",
+                    "indices": [
+                        93,
+                        116
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/EXP69n-XYAANmgd.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/EXP69n-XYAANmgd.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 555,
+                            "resize": "fit",
+                            "w": 680
+                        },
+                        "medium": {
+                            "h": 555,
+                            "resize": "fit",
+                            "w": 680
+                        },
+                        "small": {
+                            "h": 555,
+                            "resize": "fit",
+                            "w": 680
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/rT6896NLY2"
+                }
+            ]
+        },
+        "favorite_count": 1,
+        "favorited": false,
+        "geo": null,
+        "id": 1257624659199168518,
+        "id_str": "1257624659199168518",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 1,
+        "retweeted": false,
+        "source": "<a href=\"https://www.socialjukebox.com\" rel=\"nofollow\">The Social Jukebox</a>",
+        "text": "I\u2019ll just leave this here... coronavirus stop #panicbuying \nvia RKMac65\n#VoteBlueNoMatterWho https://t.co/rT6896NLY2",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Thu Apr 28 01:56:15 +0000 2011",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Tomthunkit's Mind Diner is open 24/7. All-you-can-eat smorgasbord of hand-picked deliciously sweet tweets for your political palate. Donations Welcome.",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "gofundme.com/tomthunkit039s\u2026",
+                            "expanded_url": "https://www.gofundme.com/tomthunkit039s-mind-diner",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/QXUxZhjYl6"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 22499,
+            "follow_request_sent": false,
+            "followers_count": 70461,
+            "following": false,
+            "friends_count": 66956,
+            "geo_enabled": true,
+            "has_extended_profile": true,
+            "id": 289118612,
+            "id_str": "289118612",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 1057,
+            "location": "Atlanta, GA",
+            "name": "Tomthunkit\u2122",
+            "notifications": false,
+            "profile_background_color": "FFFFFF",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme12/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme12/bg.gif",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/289118612/1586782345",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1071761767611670533/vNTh69MD_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1071761767611670533/vNTh69MD_normal.jpg",
+            "profile_link_color": "FF691F",
+            "profile_sidebar_border_color": "F2E195",
+            "profile_sidebar_fill_color": "FFF7CC",
+            "profile_text_color": "0C3E53",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "TomthunkitsMind",
+            "statuses_count": 2414136,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/QXUxZhjYl6",
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @TomthunkitsMind: I\u2019ll just leave this here... coronavirus stop #panicbuying \nvia RKMac65\n#VoteBlueNoMatterWho https://t.co/rT6896NLY2",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Mar 03 21:17:42 +0000 2016",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "USAF SAC BASE PLATTSBURG NY\nVIETNAM VETERAN",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 126634,
+        "follow_request_sent": false,
+        "followers_count": 3596,
+        "following": false,
+        "friends_count": 4998,
+        "geo_enabled": true,
+        "has_extended_profile": false,
+        "id": 705502431438880769,
+        "id_str": "705502431438880769",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "",
+        "name": "Nina Ippolito",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/991512835778789376/XZs7embk_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/991512835778789376/XZs7embk_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "NG1951",
+        "statuses_count": 125330,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+}
+]
+}

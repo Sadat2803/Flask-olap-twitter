@@ -1,0 +1,664 @@
+{ "tweets" : [{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun Jun 07 21:01:22 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 1074502068646436864,
+                "id_str": "1074502068646436864",
+                "indices": [
+                    3,
+                    15
+                ],
+                "name": "Fritzia Rockville",
+                "screen_name": "fritziarock"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1269736230700363778,
+    "id_str": "1269736230700363778",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 250,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Fri Mar 13 21:49:59 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1238583108930342917",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/7LfSIrdlZL"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 612,
+        "favorited": false,
+        "geo": null,
+        "id": 1238583108930342917,
+        "id_str": "1238583108930342917",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 250,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "text": "People are really out there fighting over toilet paper? Damn, she just wanted one pack, she could have just gave he\u2026 https://t.co/7LfSIrdlZL",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Mon Dec 17 03:10:31 +0000 2018",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "A bit of a nerd \u2022Engineer \u2022Sucker for music \u2022Extroverted introvert \u2022Aspiring Mental Health Advocate \u2022Multilingual \u2022Whatever is good for your soul, do that.-\ud83c\udded\ud83c\uddf9",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "instagram.com/fritziarock",
+                            "expanded_url": "http://instagram.com/fritziarock",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/Or5AHVj9V0"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 493,
+            "follow_request_sent": false,
+            "followers_count": 81,
+            "following": false,
+            "friends_count": 129,
+            "geo_enabled": false,
+            "has_extended_profile": true,
+            "id": 1074502068646436864,
+            "id_str": "1074502068646436864",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 0,
+            "location": "\ud83c\udde9\ud83c\uddf4",
+            "name": "Fritzia Rockville",
+            "notifications": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1074502068646436864/1586675488",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1263157603825221632/DI7CtOBm_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1263157603825221632/DI7CtOBm_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "fritziarock",
+            "statuses_count": 814,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/Or5AHVj9V0",
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "text": "RT @fritziarock: People are really out there fighting over toilet paper? Damn, she just wanted one pack, she could have just gave her one,\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Oct 11 01:49:48 +0000 2012",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Christian Fashion Handbags,Jewelry,The Pioneering Psalm 23 Tablecloth & Home Products By HolyBags Design Team(HBDT).Amen!",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "holybags.com",
+                        "expanded_url": "http://www.holybags.com",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/9VrYuGbdsK"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 3218,
+        "follow_request_sent": false,
+        "followers_count": 3522,
+        "following": false,
+        "friends_count": 2674,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 872820506,
+        "id_str": "872820506",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 49,
+        "location": "NYC",
+        "name": "Holybags",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/872820506/1350438857",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/952304171725742080/mp_SrViR_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/952304171725742080/mp_SrViR_normal.jpg",
+        "profile_link_color": "333333",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "0084B4",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Holybags",
+        "statuses_count": 775,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/9VrYuGbdsK",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun Jun 07 10:41:49 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    52,
+                    60
+                ],
+                "text": "PonyVPN"
+            },
+            {
+                "indices": [
+                    61,
+                    65
+                ],
+                "text": "VPN"
+            },
+            {
+                "indices": [
+                    66,
+                    69
+                ],
+                "text": "\u7ffb\u5899"
+            },
+            {
+                "indices": [
+                    70,
+                    73
+                ],
+                "text": "\u68af\u5b50"
+            },
+            {
+                "indices": [
+                    74,
+                    78
+                ],
+                "text": "USA"
+            },
+            {
+                "indices": [
+                    79,
+                    82
+                ],
+                "text": "\u7f8e\u56fd"
+            },
+            {
+                "indices": [
+                    83,
+                    89
+                ],
+                "text": "China"
+            },
+            {
+                "indices": [
+                    90,
+                    94
+                ],
+                "text": "CCP"
+            },
+            {
+                "indices": [
+                    95,
+                    98
+                ],
+                "text": "\u5ddd\u666e"
+            },
+            {
+                "indices": [
+                    99,
+                    105
+                ],
+                "text": "China"
+            },
+            {
+                "indices": [
+                    106,
+                    110
+                ],
+                "text": "\u751f\u7269\u6218"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "speedinapp.com",
+                "expanded_url": "http://speedinapp.com",
+                "indices": [
+                    27,
+                    50
+                ],
+                "url": "https://t.co/c4XoGRPwWs"
+            },
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1269580315200114688",
+                "indices": [
+                    112,
+                    135
+                ],
+                "url": "https://t.co/hCp8AmgRuW"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1269580315200114688,
+    "id_str": "1269580315200114688",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "zh",
+    "metadata": {
+        "iso_language_code": "zh",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "text": "\u3010\u5229\u5bb3\u4e86\u4ed6\u7684\u56fd\u3011\u8111\u6d1e\u5927\u5f00\uff01\u9a71\u8d76\u66b4\u5f92\u795e\u673a\n\u27a1\ufe0f\u4e0b\u8f7d\u94fe\u63a5\uff1ahttps://t.co/c4XoGRPwWs\n\n#PonyVPN #VPN #\u7ffb\u5899 #\u68af\u5b50\n#USA #\u7f8e\u56fd #China #CCP #\u5ddd\u666e\n#China #\u751f\u7269\u6218\u2026 https://t.co/hCp8AmgRuW",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sun Feb 16 06:32:15 +0000 2020",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "\u6781\u901f\u3001\u7a33\u5b9a\u3001\u5b89\u5168\u7684\u865a\u62df\u7f51\u7edc\n\u5168\u65b0 VPN\uff0c\u65e0\u5e7f\u544a\u65e0\u6d41\u91cf\u9650\u5236\uff0c\u4e24\u6b65\u5f00\u901a 14 \u5929\u514d\u8d39\u8bd5\u7528\uff0c\u4e00\u4e2a\u5e10\u53f7\u7545\u884c iOS\u3001Android\u3001Windows \u7b49\u5404\u4e2a\u5e73\u53f0\uff0c\u6700\u591a 5 \u4e2a\u8bbe\u5907\u540c\u65f6\u8fde\u63a5\uff0c\u77ac\u95f4\u6253\u7834\u7f51\u7edc\u754c\u9650\uff0c\u52a0\u901f\u6d4f\u89c8\u5168\u7403\u89c6\u8baf\u5a31\u4e50\u3002\u66f4\u591a\u8d44\u8baf\u27a1\ufe0fhttps://t.co/gKooLKAfS1",
+        "entities": {
+            "description": {
+                "urls": [
+                    {
+                        "display_url": "youtube.com/channel/UChsNR\u2026",
+                        "expanded_url": "http://youtube.com/channel/UChsNRqsCsA70XFCJBpWQvvQ",
+                        "indices": [
+                            116,
+                            139
+                        ],
+                        "url": "https://t.co/gKooLKAfS1"
+                    }
+                ]
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "speedinapp.com",
+                        "expanded_url": "http://speedinapp.com",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/QASQtQS1Gu"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 2,
+        "follow_request_sent": false,
+        "followers_count": 55,
+        "following": false,
+        "friends_count": 120,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1228930012633419777,
+        "id_str": "1228930012633419777",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "",
+        "name": "Pony",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1228930012633419777/1581877371",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1250661148677902337/OVZ6nDzh_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1250661148677902337/OVZ6nDzh_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ponyjsq",
+        "statuses_count": 968,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/QASQtQS1Gu",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun Jun 07 10:29:14 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    50,
+                    62
+                ],
+                "text": "stockpiling"
+            },
+            {
+                "indices": [
+                    63,
+                    75
+                ],
+                "text": "panicbuying"
+            },
+            {
+                "indices": [
+                    76,
+                    88
+                ],
+                "text": "downcycling"
+            },
+            {
+                "indices": [
+                    89,
+                    95
+                ],
+                "text": "beans"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "instagram.com/p/CBIWtMun3pp/\u2026",
+                "expanded_url": "https://www.instagram.com/p/CBIWtMun3pp/?igshid=fndz8vv3i3hj",
+                "indices": [
+                    96,
+                    119
+                ],
+                "url": "https://t.co/kkYmv51kKZ"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 1,
+    "favorited": false,
+    "geo": null,
+    "id": 1269577150119673857,
+    "id_str": "1269577150119673857",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>",
+    "text": "All those toilet roll middles are coming in handy #stockpiling #panicbuying #downcycling #beans https://t.co/kkYmv51kKZ",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Fri Apr 29 10:41:53 +0000 2011",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "#Tess, #Max, music, horses, food, family & fun. #Equestrianorganist #Eventingorganist #80by40 All views personal & RT not necessarily endorsement. European.",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "eventingorganist.com",
+                        "expanded_url": "https://eventingorganist.com",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/0Qk1f6TAz7"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 59223,
+        "follow_request_sent": false,
+        "followers_count": 1880,
+        "following": false,
+        "friends_count": 2382,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 289866855,
+        "id_str": "289866855",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 50,
+        "location": "Chelmsford, Essex",
+        "name": "James Davy",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/289866855/1554911258",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1223712764734181380/kOlCrdoq_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1223712764734181380/kOlCrdoq_normal.jpg",
+        "profile_link_color": "002DB3",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "jamesdavy7",
+        "statuses_count": 28084,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/0Qk1f6TAz7",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sun Jun 07 00:50:30 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    102,
+                    115
+                ],
+                "text": "BorisJohnson"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "youtube.com/watch?v=lB-2Rr\u2026",
+                "expanded_url": "https://www.youtube.com/watch?v=lB-2RrUO6BQ",
+                "indices": [
+                    77,
+                    100
+                ],
+                "url": "https://t.co/TS0GcsHEE3"
+            },
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1269431507078328320",
+                "indices": [
+                    117,
+                    140
+                ],
+                "url": "https://t.co/fVy5qmvvW5"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 1,
+    "favorited": false,
+    "geo": null,
+    "id": 1269431507078328320,
+    "id_str": "1269431507078328320",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"https://stuffedproductions.com/\" rel=\"nofollow\">Stalin's Twitter Reposter</a>",
+    "text": "Boris Phones His Mummy To Tell Her TO PANIC BUY everything in secret! Part 3 https://t.co/TS0GcsHEE3\n\n#BorisJohnson\u2026 https://t.co/fVy5qmvvW5",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Fri Dec 13 16:53:52 +0000 2019",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Villian and bad guy @stuffedofficial. I am a big supporter of Vladimir Putin and Mother Russia!",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "youtube.com/stuffedproduct\u2026",
+                        "expanded_url": "http://youtube.com/stuffedproductions",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/7DoAz20eXS"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 0,
+        "follow_request_sent": false,
+        "followers_count": 21,
+        "following": false,
+        "friends_count": 11,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1205531252301975552,
+        "id_str": "1205531252301975552",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "",
+        "name": "Stalin Meerkat",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1205532191842811904/wziS4Y_d_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1205532191842811904/wziS4Y_d_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "StalinMeerkat",
+        "statuses_count": 1136,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/7DoAz20eXS",
+        "utc_offset": null,
+        "verified": false
+    }
+}

@@ -63,11 +63,10 @@ class MainProgramme():
         #insert tweets into the intermediary database
         cpt = 0
         fullPath = "../TweetFilesByClients/" +self.analysisID
-        print("hello world 1 ")
+
         tweetsInsertionIntermediaryToDB = TweetsInsertionIntermediaryToDB()
-        print("hello world 2 ")
+
         for concept in self.conceptsList:
-            print("hello world 3 ")
             cpt += 1
             conceptFolderPath = fullPath + "/" + "Concept-" + str(cpt) + "/"
             tweetsInsertionIntermediaryToDB.lanchInsertionToIntermediaryDB(False, conceptFolderPath, concept.lower(), self.analysisID)
