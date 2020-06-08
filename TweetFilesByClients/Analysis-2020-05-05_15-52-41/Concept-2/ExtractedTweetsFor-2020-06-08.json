@@ -1,0 +1,1505 @@
+{ "tweets" : [{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Mon Jun 08 10:22:47 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    58,
+                    66
+                ],
+                "text": "PonyVPN"
+            },
+            {
+                "indices": [
+                    67,
+                    71
+                ],
+                "text": "VPN"
+            },
+            {
+                "indices": [
+                    72,
+                    75
+                ],
+                "text": "\u7ffb\u5899"
+            },
+            {
+                "indices": [
+                    76,
+                    79
+                ],
+                "text": "\u68af\u5b50"
+            },
+            {
+                "indices": [
+                    80,
+                    84
+                ],
+                "text": "USA"
+            },
+            {
+                "indices": [
+                    85,
+                    88
+                ],
+                "text": "\u7f8e\u56fd"
+            },
+            {
+                "indices": [
+                    90,
+                    96
+                ],
+                "text": "Pence"
+            },
+            {
+                "indices": [
+                    97,
+                    107
+                ],
+                "text": "MikePence"
+            },
+            {
+                "indices": [
+                    108,
+                    111
+                ],
+                "text": "\u5f6d\u65af"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "speedinapp.com",
+                "expanded_url": "http://speedinapp.com",
+                "indices": [
+                    33,
+                    56
+                ],
+                "url": "https://t.co/c4XoGRPwWs"
+            },
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1269937912528859136",
+                "indices": [
+                    113,
+                    136
+                ],
+                "url": "https://t.co/mLx6voAKnO"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1269937912528859136,
+    "id_str": "1269937912528859136",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "zh",
+    "metadata": {
+        "iso_language_code": "zh",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "text": "\u3010\ud83d\udd25\u7f8e\u5e1d\u89c9\u9192\ud83d\udd25\u3011\u526f\u603b\u7edf\u5f6d\u65af\uff1a\u5c06\u5bf9\u4e2d\u5171\u6240\u4f5c\u6240\u4e3a\u8ffd\u8d23\uff01\n\u27a1\ufe0f\u4e0b\u8f7d\u94fe\u63a5\uff1ahttps://t.co/c4XoGRPwWs\n\n#PonyVPN #VPN #\u7ffb\u5899 #\u68af\u5b50\n#USA #\u7f8e\u56fd  #Pence #MikePence #\u5f6d\u65af\u2026 https://t.co/mLx6voAKnO",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sun Feb 16 06:32:15 +0000 2020",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "\u6781\u901f\u3001\u7a33\u5b9a\u3001\u5b89\u5168\u7684\u865a\u62df\u7f51\u7edc\n\u5168\u65b0 VPN\uff0c\u65e0\u5e7f\u544a\u65e0\u6d41\u91cf\u9650\u5236\uff0c\u4e24\u6b65\u5f00\u901a 14 \u5929\u514d\u8d39\u8bd5\u7528\uff0c\u4e00\u4e2a\u5e10\u53f7\u7545\u884c iOS\u3001Android\u3001Windows \u7b49\u5404\u4e2a\u5e73\u53f0\uff0c\u6700\u591a 5 \u4e2a\u8bbe\u5907\u540c\u65f6\u8fde\u63a5\uff0c\u77ac\u95f4\u6253\u7834\u7f51\u7edc\u754c\u9650\uff0c\u52a0\u901f\u6d4f\u89c8\u5168\u7403\u89c6\u8baf\u5a31\u4e50\u3002\u66f4\u591a\u8d44\u8baf\u27a1\ufe0fhttps://t.co/gKooLKAfS1",
+        "entities": {
+            "description": {
+                "urls": [
+                    {
+                        "display_url": "youtube.com/channel/UChsNR\u2026",
+                        "expanded_url": "http://youtube.com/channel/UChsNRqsCsA70XFCJBpWQvvQ",
+                        "indices": [
+                            116,
+                            139
+                        ],
+                        "url": "https://t.co/gKooLKAfS1"
+                    }
+                ]
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "speedinapp.com",
+                        "expanded_url": "http://speedinapp.com",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/QASQtQS1Gu"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 2,
+        "follow_request_sent": false,
+        "followers_count": 55,
+        "following": false,
+        "friends_count": 120,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1228930012633419777,
+        "id_str": "1228930012633419777",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "",
+        "name": "Pony",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1228930012633419777/1581877371",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1250661148677902337/OVZ6nDzh_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1250661148677902337/OVZ6nDzh_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ponyjsq",
+        "statuses_count": 968,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/QASQtQS1Gu",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Mon Jun 08 08:43:53 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    21,
+                    27
+                ],
+                "text": "ICYMI"
+            },
+            {
+                "indices": [
+                    61,
+                    66
+                ],
+                "text": "food"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 142229853,
+                "id_str": "142229853",
+                "indices": [
+                    3,
+                    19
+                ],
+                "name": "IPS Sri Lanka",
+                "screen_name": "TalkEconomicsSL"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1269913024275648512,
+    "id_str": "1269913024275648512",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": true,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "quoted_status_id": 1265149221369413637,
+    "quoted_status_id_str": "1265149221369413637",
+    "retweet_count": 1,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Mon Jun 08 08:05:44 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        0,
+                        6
+                    ],
+                    "text": "ICYMI"
+                },
+                {
+                    "indices": [
+                        40,
+                        45
+                    ],
+                    "text": "food"
+                }
+            ],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1269903423828361216",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/e9rPfOpIj0"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 1,
+        "favorited": false,
+        "geo": null,
+        "id": 1269903423828361216,
+        "id_str": "1269903423828361216",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": true,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "quoted_status": {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Tue May 26 05:14:14 +0000 2020",
+            "entities": {
+                "hashtags": [
+                    {
+                        "indices": [
+                            18,
+                            23
+                        ],
+                        "text": "food"
+                    },
+                    {
+                        "indices": [
+                            61,
+                            70
+                        ],
+                        "text": "lockdown"
+                    }
+                ],
+                "symbols": [],
+                "urls": [
+                    {
+                        "display_url": "twitter.com/i/web/status/1\u2026",
+                        "expanded_url": "https://twitter.com/i/web/status/1265149221369413637",
+                        "indices": [
+                            117,
+                            140
+                        ],
+                        "url": "https://t.co/qoouUSL3wX"
+                    }
+                ],
+                "user_mentions": []
+            },
+            "favorite_count": 6,
+            "favorited": false,
+            "geo": null,
+            "id": 1265149221369413637,
+            "id_str": "1265149221369413637",
+            "in_reply_to_screen_name": "TalkEconomicsSL",
+            "in_reply_to_status_id": 1265148093646897159,
+            "in_reply_to_status_id_str": "1265148093646897159",
+            "in_reply_to_user_id": 142229853,
+            "in_reply_to_user_id_str": "142229853",
+            "is_quote_status": false,
+            "lang": "en",
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "place": null,
+            "possibly_sensitive": false,
+            "retweet_count": 3,
+            "retweeted": false,
+            "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+            "text": "Did you know that #food prices increased dramatically during #lockdown? Food distribution channels collapsed due to\u2026 https://t.co/qoouUSL3wX",
+            "truncated": true,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Mon May 10 09:34:23 +0000 2010",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "Discuss. Debate. Comment. 'Talking Economics', by the Institute of Policy Studies of Sri Lanka (IPS), discusses contemporary economic issues. https://t.co/lY6KqB7n4P",
+                "entities": {
+                    "description": {
+                        "urls": [
+                            {
+                                "display_url": "ips.lk",
+                                "expanded_url": "http://www.ips.lk",
+                                "indices": [
+                                    142,
+                                    165
+                                ],
+                                "url": "https://t.co/lY6KqB7n4P"
+                            }
+                        ]
+                    },
+                    "url": {
+                        "urls": [
+                            {
+                                "expanded_url": null,
+                                "indices": [
+                                    0,
+                                    34
+                                ],
+                                "url": "http://www.ips.lk/talkingeconomics"
+                            }
+                        ]
+                    }
+                },
+                "favourites_count": 2511,
+                "follow_request_sent": false,
+                "followers_count": 4738,
+                "following": false,
+                "friends_count": 237,
+                "geo_enabled": false,
+                "has_extended_profile": false,
+                "id": 142229853,
+                "id_str": "142229853",
+                "is_translation_enabled": false,
+                "is_translator": false,
+                "lang": null,
+                "listed_count": 51,
+                "location": "Colombo, Sri Lanka",
+                "name": "IPS Sri Lanka",
+                "notifications": false,
+                "profile_background_color": "9DC0E3",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme17/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme17/bg.gif",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/142229853/1480666370",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/804594548223590400/YY3Jxd9X_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/804594548223590400/YY3Jxd9X_normal.jpg",
+                "profile_link_color": "1B95E0",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "E6F6F9",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "TalkEconomicsSL",
+                "statuses_count": 4075,
+                "time_zone": null,
+                "translator_type": "none",
+                "url": "http://www.ips.lk/talkingeconomics",
+                "utc_offset": null,
+                "verified": false
+            }
+        },
+        "quoted_status_id": 1265149221369413637,
+        "quoted_status_id_str": "1265149221369413637",
+        "retweet_count": 1,
+        "retweeted": false,
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "text": "#ICYMI: \"Consumers were not able to buy #food as distribution channels collapsed... Food shortages were exacerbated\u2026 https://t.co/e9rPfOpIj0",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Mon May 10 09:34:23 +0000 2010",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Discuss. Debate. Comment. 'Talking Economics', by the Institute of Policy Studies of Sri Lanka (IPS), discusses contemporary economic issues. https://t.co/lY6KqB7n4P",
+            "entities": {
+                "description": {
+                    "urls": [
+                        {
+                            "display_url": "ips.lk",
+                            "expanded_url": "http://www.ips.lk",
+                            "indices": [
+                                142,
+                                165
+                            ],
+                            "url": "https://t.co/lY6KqB7n4P"
+                        }
+                    ]
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                34
+                            ],
+                            "url": "http://www.ips.lk/talkingeconomics"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 2511,
+            "follow_request_sent": false,
+            "followers_count": 4738,
+            "following": false,
+            "friends_count": 237,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 142229853,
+            "id_str": "142229853",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 51,
+            "location": "Colombo, Sri Lanka",
+            "name": "IPS Sri Lanka",
+            "notifications": false,
+            "profile_background_color": "9DC0E3",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme17/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme17/bg.gif",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/142229853/1480666370",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/804594548223590400/YY3Jxd9X_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/804594548223590400/YY3Jxd9X_normal.jpg",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "E6F6F9",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "TalkEconomicsSL",
+            "statuses_count": 4075,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "http://www.ips.lk/talkingeconomics",
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://iamsumane.lk\" rel=\"nofollow\">Sumanerts</a>",
+    "text": "RT @TalkEconomicsSL: #ICYMI: \"Consumers were not able to buy #food as distribution channels collapsed... Food shortages were exacerbated du\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sun Jun 14 07:21:15 +0000 2015",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Just doing my job ma'am!! Moniters #sumane #lka #bloodneeds \r\nRTs are not my endorsement. Nor my Creator's. Dare ask me who that is! DM to Report Spam.",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "IamSumanapala.lk",
+                        "expanded_url": "http://www.IamSumanapala.lk",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/kHVvJjbzNw"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 2015,
+        "follow_request_sent": false,
+        "followers_count": 562,
+        "following": false,
+        "friends_count": 399,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 3244922072,
+        "id_str": "3244922072",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 70,
+        "location": "Sri Lanka",
+        "name": "Sumanapala BOT",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3244922072/1434266974",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/609984807355846657/vivZHO6X_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/609984807355846657/vivZHO6X_normal.png",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "sumanebot",
+        "statuses_count": 594693,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/kHVvJjbzNw",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Mon Jun 08 08:05:44 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    0,
+                    6
+                ],
+                "text": "ICYMI"
+            },
+            {
+                "indices": [
+                    40,
+                    45
+                ],
+                "text": "food"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1269903423828361216",
+                "indices": [
+                    117,
+                    140
+                ],
+                "url": "https://t.co/e9rPfOpIj0"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 1,
+    "favorited": false,
+    "geo": null,
+    "id": 1269903423828361216,
+    "id_str": "1269903423828361216",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": true,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "quoted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Tue May 26 05:14:14 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        18,
+                        23
+                    ],
+                    "text": "food"
+                },
+                {
+                    "indices": [
+                        61,
+                        70
+                    ],
+                    "text": "lockdown"
+                }
+            ],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1265149221369413637",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/qoouUSL3wX"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 6,
+        "favorited": false,
+        "geo": null,
+        "id": 1265149221369413637,
+        "id_str": "1265149221369413637",
+        "in_reply_to_screen_name": "TalkEconomicsSL",
+        "in_reply_to_status_id": 1265148093646897159,
+        "in_reply_to_status_id_str": "1265148093646897159",
+        "in_reply_to_user_id": 142229853,
+        "in_reply_to_user_id_str": "142229853",
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 3,
+        "retweeted": false,
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "text": "Did you know that #food prices increased dramatically during #lockdown? Food distribution channels collapsed due to\u2026 https://t.co/qoouUSL3wX",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Mon May 10 09:34:23 +0000 2010",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Discuss. Debate. Comment. 'Talking Economics', by the Institute of Policy Studies of Sri Lanka (IPS), discusses contemporary economic issues. https://t.co/lY6KqB7n4P",
+            "entities": {
+                "description": {
+                    "urls": [
+                        {
+                            "display_url": "ips.lk",
+                            "expanded_url": "http://www.ips.lk",
+                            "indices": [
+                                142,
+                                165
+                            ],
+                            "url": "https://t.co/lY6KqB7n4P"
+                        }
+                    ]
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "expanded_url": null,
+                            "indices": [
+                                0,
+                                34
+                            ],
+                            "url": "http://www.ips.lk/talkingeconomics"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 2511,
+            "follow_request_sent": false,
+            "followers_count": 4738,
+            "following": false,
+            "friends_count": 237,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 142229853,
+            "id_str": "142229853",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 51,
+            "location": "Colombo, Sri Lanka",
+            "name": "IPS Sri Lanka",
+            "notifications": false,
+            "profile_background_color": "9DC0E3",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme17/bg.gif",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme17/bg.gif",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/142229853/1480666370",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/804594548223590400/YY3Jxd9X_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/804594548223590400/YY3Jxd9X_normal.jpg",
+            "profile_link_color": "1B95E0",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "E6F6F9",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "TalkEconomicsSL",
+            "statuses_count": 4075,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "http://www.ips.lk/talkingeconomics",
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "quoted_status_id": 1265149221369413637,
+    "quoted_status_id_str": "1265149221369413637",
+    "retweet_count": 1,
+    "retweeted": false,
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "text": "#ICYMI: \"Consumers were not able to buy #food as distribution channels collapsed... Food shortages were exacerbated\u2026 https://t.co/e9rPfOpIj0",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon May 10 09:34:23 +0000 2010",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Discuss. Debate. Comment. 'Talking Economics', by the Institute of Policy Studies of Sri Lanka (IPS), discusses contemporary economic issues. https://t.co/lY6KqB7n4P",
+        "entities": {
+            "description": {
+                "urls": [
+                    {
+                        "display_url": "ips.lk",
+                        "expanded_url": "http://www.ips.lk",
+                        "indices": [
+                            142,
+                            165
+                        ],
+                        "url": "https://t.co/lY6KqB7n4P"
+                    }
+                ]
+            },
+            "url": {
+                "urls": [
+                    {
+                        "expanded_url": null,
+                        "indices": [
+                            0,
+                            34
+                        ],
+                        "url": "http://www.ips.lk/talkingeconomics"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 2511,
+        "follow_request_sent": false,
+        "followers_count": 4738,
+        "following": false,
+        "friends_count": 237,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 142229853,
+        "id_str": "142229853",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 51,
+        "location": "Colombo, Sri Lanka",
+        "name": "IPS Sri Lanka",
+        "notifications": false,
+        "profile_background_color": "9DC0E3",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme17/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme17/bg.gif",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/142229853/1480666370",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/804594548223590400/YY3Jxd9X_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/804594548223590400/YY3Jxd9X_normal.jpg",
+        "profile_link_color": "1B95E0",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "E6F6F9",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "TalkEconomicsSL",
+        "statuses_count": 4075,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "http://www.ips.lk/talkingeconomics",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Mon Jun 08 08:02:24 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    18,
+                    37
+                ],
+                "text": "PhysicalDistancing"
+            },
+            {
+                "indices": [
+                    42,
+                    54
+                ],
+                "text": "WearingMask"
+            },
+            {
+                "indices": [
+                    102,
+                    114
+                ],
+                "text": "CoronaVirus"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 4832563445,
+                "id_str": "4832563445",
+                "indices": [
+                    3,
+                    16
+                ],
+                "name": "DGP TELANGANA POLICE",
+                "screen_name": "TelanganaDGP"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1269902585961476096,
+    "id_str": "1269902585961476096",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 61,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Wed May 27 07:20:21 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        0,
+                        19
+                    ],
+                    "text": "PhysicalDistancing"
+                },
+                {
+                    "indices": [
+                        24,
+                        36
+                    ],
+                    "text": "WearingMask"
+                },
+                {
+                    "indices": [
+                        84,
+                        96
+                    ],
+                    "text": "CoronaVirus"
+                }
+            ],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1265543349752213504",
+                    "indices": [
+                        99,
+                        122
+                    ],
+                    "url": "https://t.co/MgfJunp3q3"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 316,
+        "favorited": false,
+        "geo": null,
+        "id": 1265543349752213504,
+        "id_str": "1265543349752213504",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 61,
+        "retweeted": false,
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "text": "#PhysicalDistancing and #WearingMask - A Must Adapt 'Way Of Life' - To win over the #CoronaVirus.\u2026 https://t.co/MgfJunp3q3",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Thu Jan 21 11:44:26 +0000 2016",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "Police Chief of Telangana State ;\nFor right information, updates, stay tuned to our Telegram channel   :   https://t.co/huOM4J5T4n",
+            "entities": {
+                "description": {
+                    "urls": [
+                        {
+                            "display_url": "t.me/TelanganaState\u2026",
+                            "expanded_url": "http://t.me/TelanganaStatePolice",
+                            "indices": [
+                                107,
+                                130
+                            ],
+                            "url": "https://t.co/huOM4J5T4n"
+                        }
+                    ]
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "tspolice.gov.in",
+                            "expanded_url": "http://www.tspolice.gov.in",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/eROhMHfUdt"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 4991,
+            "follow_request_sent": false,
+            "followers_count": 275378,
+            "following": false,
+            "friends_count": 53,
+            "geo_enabled": false,
+            "has_extended_profile": false,
+            "id": 4832563445,
+            "id_str": "4832563445",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 111,
+            "location": "Hyderabad, Telangana",
+            "name": "DGP TELANGANA POLICE",
+            "notifications": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/4832563445/1590057348",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/929640845074087936/02mQO3Pi_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/929640845074087936/02mQO3Pi_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "TelanganaDGP",
+            "statuses_count": 3552,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/eROhMHfUdt",
+            "utc_offset": null,
+            "verified": true
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @TelanganaDGP: #PhysicalDistancing and #WearingMask - A Must Adapt 'Way Of Life' - To win over the #CoronaVirus.\n#CenterForDiseaseContro\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sun Apr 12 16:04:04 +0000 2020",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "BUSINESS MEN, INSURANCE CONSULTANT, AGRICULTURE. PAST PRESIDENT ROTARY CLUB INTERNATIONAL.",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 15504,
+        "follow_request_sent": false,
+        "followers_count": 322,
+        "following": false,
+        "friends_count": 3360,
+        "geo_enabled": true,
+        "has_extended_profile": false,
+        "id": 1249367615027286016,
+        "id_str": "1249367615027286016",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "MANCHERIAL ",
+        "name": "IRUKULLA SURYANARAYANA GUPTA",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1249391992443768832/Q-vB64KZ_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1249391992443768832/Q-vB64KZ_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "IRUKULLASURYA3",
+        "statuses_count": 8077,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Mon Jun 08 00:06:37 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 594748964,
+                "id_str": "594748964",
+                "indices": [
+                    3,
+                    18
+                ],
+                "name": "Carol Harrison",
+                "screen_name": "GreatMealIdeas"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1269782850624278534,
+    "id_str": "1269782850624278534",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 10,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Fri Mar 13 04:38:19 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1238323480334159872",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "url": "https://t.co/yzU0t2Ppjb"
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorite_count": 12,
+        "favorited": false,
+        "geo": null,
+        "id": 1238323480334159872,
+        "id_str": "1238323480334159872",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 10,
+        "retweeted": false,
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "text": "So you stocked up on canned beans....now you are wondering how to use them? \n\nUse beans to make: chili, bean salad,\u2026 https://t.co/yzU0t2Ppjb",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Wed May 30 17:12:37 +0000 2012",
+            "default_profile": false,
+            "default_profile_image": false,
+            "description": "Everyday ideas to make healthy eating deliciously easy. Media Dietitian, Spokesperson. Founder @yummylunchclub, #quarantinekitchen #cdnag #loveontfood #agvocate",
+            "entities": {
+                "description": {
+                    "urls": []
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "yummylunchclub.ca",
+                            "expanded_url": "http://www.yummylunchclub.ca",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/2gDSnPOmkj"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 13929,
+            "follow_request_sent": false,
+            "followers_count": 5082,
+            "following": false,
+            "friends_count": 3393,
+            "geo_enabled": true,
+            "has_extended_profile": false,
+            "id": 594748964,
+            "id_str": "594748964",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 136,
+            "location": "Toronto",
+            "name": "Carol Harrison",
+            "notifications": false,
+            "profile_background_color": "FCF794",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": true,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/594748964/1505965635",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2287698885/jpctpwr9r3tgx9s3g91y_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2287698885/jpctpwr9r3tgx9s3g91y_normal.jpeg",
+            "profile_link_color": "32C722",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": false,
+            "protected": false,
+            "screen_name": "GreatMealIdeas",
+            "statuses_count": 21826,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/2gDSnPOmkj",
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "text": "RT @GreatMealIdeas: So you stocked up on canned beans....now you are wondering how to use them? \n\nUse beans to make: chili, bean salad, bea\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Tue Sep 20 09:40:20 +0000 2011",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Professional\ud83d\ude0d rider. My WhatsApp 19015910449",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 404,
+        "follow_request_sent": false,
+        "followers_count": 3,
+        "following": false,
+        "friends_count": 123,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 376679741,
+        "id_str": "376679741",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Everywhere",
+        "name": "Olga Moore",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/376679741/1589667595",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1261783445744869376/h_LOWwSV_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1261783445744869376/h_LOWwSV_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "OlgaHot23",
+        "statuses_count": 124,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Mon Jun 08 00:00:24 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    133,
+                    139
+                ],
+                "text": "sjava"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "datafilehost.com/d/5c07a247",
+                "expanded_url": "https://www.datafilehost.com/d/5c07a247",
+                "indices": [
+                    108,
+                    131
+                ],
+                "url": "https://t.co/fudv35P13k"
+            }
+        ],
+        "user_mentions": [
+            {
+                "id": 1120655606950563841,
+                "id_str": "1120655606950563841",
+                "indices": [
+                    3,
+                    15
+                ],
+                "name": "HOPE-TG\ud83c\uddff\ud83c\udde6",
+                "screen_name": "Real_hopeTG"
+            },
+            {
+                "id": 955332751468761088,
+                "id_str": "955332751468761088",
+                "indices": [
+                    54,
+                    70
+                ],
+                "name": "\u2665 I am \ud83d\udc51 BLULYT\ud83d\udc8e",
+                "screen_name": "BLULYT_nonofang"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1269781287126040577,
+    "id_str": "1269781287126040577",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 6,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Tue Mar 03 11:07:22 +0000 2020",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "display_url": "datafilehost.com/d/5c07a247",
+                    "expanded_url": "https://www.datafilehost.com/d/5c07a247",
+                    "indices": [
+                        91,
+                        114
+                    ],
+                    "url": "https://t.co/fudv35P13k"
+                },
+                {
+                    "display_url": "twitter.com/i/web/status/1\u2026",
+                    "expanded_url": "https://twitter.com/i/web/status/1234797508632686592",
+                    "indices": [
+                        116,
+                        139
+                    ],
+                    "url": "https://t.co/L6I6Z6uPzf"
+                }
+            ],
+            "user_mentions": [
+                {
+                    "id": 955332751468761088,
+                    "id_str": "955332751468761088",
+                    "indices": [
+                        37,
+                        53
+                    ],
+                    "name": "\u2665 I am \ud83d\udc51 BLULYT\ud83d\udc8e",
+                    "screen_name": "BLULYT_nonofang"
+                }
+            ]
+        },
+        "favorite_count": 15,
+        "favorited": false,
+        "geo": null,
+        "id": 1234797508632686592,
+        "id_str": "1234797508632686592",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 6,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "text": "iNDAWO\ud83c\uddff\ud83c\udde6 is still on the map thanks  @BLULYT_nonofang  here's a link to download the track:https://t.co/fudv35P13k\u2026 https://t.co/L6I6Z6uPzf",
+        "truncated": true,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Tue Apr 23 11:48:12 +0000 2019",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "Music Producer | afrodrum| afroTech | Afrohouse | Remixer | For bookings bookings.chamber@gmail.com | 067 725 7548",
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "favourites_count": 3116,
+            "follow_request_sent": false,
+            "followers_count": 3336,
+            "following": false,
+            "friends_count": 3288,
+            "geo_enabled": false,
+            "has_extended_profile": true,
+            "id": 1120655606950563841,
+            "id_str": "1120655606950563841",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 0,
+            "location": "Pretoria, South Africa",
+            "name": "HOPE-TG\ud83c\uddff\ud83c\udde6",
+            "notifications": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1120655606950563841/1585252117",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1243263247744208910/BCY_Y5D__normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1243263247744208910/BCY_Y5D__normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "Real_hopeTG",
+            "statuses_count": 488,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": null,
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @Real_hopeTG: iNDAWO\ud83c\uddff\ud83c\udde6 is still on the map thanks  @BLULYT_nonofang  here's a link to download the track:https://t.co/fudv35P13k\n\n#sjava\u2026",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Mon Jan 22 06:54:11 +0000 2018",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "#Versatile dancer\ud83d\udc83|# actress \ud83c\udfa5|#musician ' vocalist \ud83c\udfa4#| #model|#MC | #Presenter | #radio personality #| poet  \nbookings 0633985469\nNonofangprudence@gmail.com",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 2083,
+        "follow_request_sent": false,
+        "followers_count": 212,
+        "following": false,
+        "friends_count": 128,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 955332751468761088,
+        "id_str": "955332751468761088",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Pretoria, South Africa",
+        "name": "\u2665 I am \ud83d\udc51 BLULYT\ud83d\udc8e",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/955332751468761088/1546130861",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1246068391330242562/axu1B-6h_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1246068391330242562/axu1B-6h_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "BLULYT_nonofang",
+        "statuses_count": 191,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+}

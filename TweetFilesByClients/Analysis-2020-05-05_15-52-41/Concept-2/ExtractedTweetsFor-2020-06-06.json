@@ -1,0 +1,2108 @@
+{ "tweets" : [{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat Jun 06 23:35:01 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    6,
+                    18
+                ],
+                "text": "Coronavirus"
+            },
+            {
+                "indices": [
+                    55,
+                    66
+                ],
+                "text": "businesses"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1269412510576316416",
+                "indices": [
+                    110,
+                    133
+                ],
+                "url": "https://t.co/6zlivsOthj"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1269412510576316416,
+    "id_str": "1269412510576316416",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"https://www.tweetsuite.com/\" rel=\"nofollow\">Tweet Suite</a>",
+    "text": "Since #Coronavirus spreads fast counties R unprepared, #businesses r crumbling people r avoiding rules &amp;\u2026 https://t.co/6zlivsOthj",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sun Jul 03 19:08:35 +0000 2011",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Inspired by JohnGreen's #book topping NewYork #chart we air history's FIRST PastPresentFuture gluing one #author BOOK & await critique Follow- Get 3D icon in DM",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "WomensPowerBook.Org",
+                        "expanded_url": "http://www.WomensPowerBook.Org",
+                        "indices": [
+                            0,
+                            22
+                        ],
+                        "url": "http://t.co/Et3TV3BO2Q"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 183,
+        "follow_request_sent": false,
+        "followers_count": 30064,
+        "following": false,
+        "friends_count": 19632,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 328638472,
+        "id_str": "328638472",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 1025,
+        "location": "UK",
+        "name": "'Women's Power' Book",
+        "notifications": false,
+        "profile_background_color": "C6E2EE",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/328638472/1493583065",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1523706394/WPB_normal.gif",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1523706394/WPB_normal.gif",
+        "profile_link_color": "1F98C7",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "WomensPowerBook",
+        "statuses_count": 263629,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "http://t.co/Et3TV3BO2Q",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat Jun 06 23:29:56 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    41,
+                    53
+                ],
+                "text": "panicbuying"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 4065831793,
+                "id_str": "4065831793",
+                "indices": [
+                    0,
+                    15
+                ],
+                "name": "monique sexy",
+                "screen_name": "moniquesexy100"
+            }
+        ]
+    },
+    "favorite_count": 1,
+    "favorited": false,
+    "geo": null,
+    "id": 1269411230764036097,
+    "id_str": "1269411230764036097",
+    "in_reply_to_screen_name": "moniquesexy100",
+    "in_reply_to_status_id": 1269306074869321728,
+    "in_reply_to_status_id_str": "1269306074869321728",
+    "in_reply_to_user_id": 4065831793,
+    "in_reply_to_user_id_str": "4065831793",
+    "is_quote_status": false,
+    "lang": "tl",
+    "metadata": {
+        "iso_language_code": "tl",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "text": "@moniquesexy100 wow ang rich kid naman.  #panicbuying hahaha.  extended sale nila",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sat Sep 30 10:58:58 +0000 2017",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "\u2728c h a s i n g   d r e a m s  \u2728\n\n\n\n\nwc to my darkside\n\n\nhttps://t.co/KsXUtG99J5\nhttps://t.co/ZgXvWan3ZB\nhttps://t.co/LzYvfECoX2",
+        "entities": {
+            "description": {
+                "urls": [
+                    {
+                        "display_url": "instagram.com/acel.mercado/",
+                        "expanded_url": "http://instagram.com/acel.mercado/",
+                        "indices": [
+                            56,
+                            79
+                        ],
+                        "url": "https://t.co/KsXUtG99J5"
+                    },
+                    {
+                        "display_url": "facebook.com/racelchristine\u2026",
+                        "expanded_url": "https://www.facebook.com/racelchristine.mercado",
+                        "indices": [
+                            80,
+                            103
+                        ],
+                        "url": "https://t.co/ZgXvWan3ZB"
+                    },
+                    {
+                        "display_url": "curiouscat.me/RacelChristine",
+                        "expanded_url": "http://curiouscat.me/RacelChristine",
+                        "indices": [
+                            104,
+                            127
+                        ],
+                        "url": "https://t.co/LzYvfECoX2"
+                    }
+                ]
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "instagram.com/acel.mercado/",
+                        "expanded_url": "https://www.instagram.com/acel.mercado/",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/gPVwfGEhFe"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 6176,
+        "follow_request_sent": false,
+        "followers_count": 51,
+        "following": false,
+        "friends_count": 253,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 914082136302411776,
+        "id_str": "914082136302411776",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Republic of the Philippines",
+        "name": "\ud835\udcd0\ud835\udcec\ud835\udcee\ud835\udcf5\u2728\ud83e\udd8b",
+        "notifications": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/914082136302411776/1588243810",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1254887902678413315/N7eH26cp_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1254887902678413315/N7eH26cp_normal.jpg",
+        "profile_link_color": "F58EA8",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "protected": false,
+        "screen_name": "RacelChristine",
+        "statuses_count": 5338,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/gPVwfGEhFe",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat Jun 06 15:38:09 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    14,
+                    26
+                ],
+                "text": "PanicBuying"
+            },
+            {
+                "indices": [
+                    32,
+                    36
+                ],
+                "text": "LSE"
+            },
+            {
+                "indices": [
+                    39,
+                    51
+                ],
+                "text": "CoronaViews"
+            },
+            {
+                "indices": [
+                    52,
+                    63
+                ],
+                "text": "nightwalks"
+            }
+        ],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/Rbh2CKeuQs",
+                "expanded_url": "https://twitter.com/passedwonder/status/1269292503305420800/photo/1",
+                "id": 1269292490584141826,
+                "id_str": "1269292490584141826",
+                "indices": [
+                    64,
+                    87
+                ],
+                "media_url": "http://pbs.twimg.com/media/EZ1uy5FWsAIvNZC.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EZ1uy5FWsAIvNZC.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 1536,
+                        "resize": "fit",
+                        "w": 2048
+                    },
+                    "medium": {
+                        "h": 900,
+                        "resize": "fit",
+                        "w": 1200
+                    },
+                    "small": {
+                        "h": 510,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/Rbh2CKeuQs"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/Rbh2CKeuQs",
+                "expanded_url": "https://twitter.com/passedwonder/status/1269292503305420800/photo/1",
+                "id": 1269292490584141826,
+                "id_str": "1269292490584141826",
+                "indices": [
+                    64,
+                    87
+                ],
+                "media_url": "http://pbs.twimg.com/media/EZ1uy5FWsAIvNZC.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EZ1uy5FWsAIvNZC.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 1536,
+                        "resize": "fit",
+                        "w": 2048
+                    },
+                    "medium": {
+                        "h": 900,
+                        "resize": "fit",
+                        "w": 1200
+                    },
+                    "small": {
+                        "h": 510,
+                        "resize": "fit",
+                        "w": 680
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/Rbh2CKeuQs"
+            }
+        ]
+    },
+    "favorite_count": 1,
+    "favorited": false,
+    "geo": null,
+    "id": 1269292503305420800,
+    "id_str": "1269292503305420800",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "Prescience on #PanicBuying from #LSE ? #CoronaViews #nightwalks https://t.co/Rbh2CKeuQs",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sat Sep 07 23:36:22 +0000 2019",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "The interesting, beautiful, or just plain weird things that have caught my eye whilst exploring\u2026 in London mostly, but occasionally elsewhere",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "instagram.com/passedwonder/",
+                        "expanded_url": "https://www.instagram.com/passedwonder/",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/frcQri6MuQ"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 73,
+        "follow_request_sent": false,
+        "followers_count": 14,
+        "following": false,
+        "friends_count": 5,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1170480903795200001,
+        "id_str": "1170480903795200001",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "London (mostly)",
+        "name": "passedwonder",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1170480903795200001/1568158682",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1171568260615213056/jB5zpCRo_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1171568260615213056/jB5zpCRo_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "passedwonder",
+        "statuses_count": 303,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/frcQri6MuQ",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat Jun 06 14:02:54 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    0,
+                    12
+                ],
+                "text": "panicbuying"
+            },
+            {
+                "indices": [
+                    13,
+                    22
+                ],
+                "text": "covid_19"
+            },
+            {
+                "indices": [
+                    23,
+                    35
+                ],
+                "text": "coronavirus"
+            },
+            {
+                "indices": [
+                    36,
+                    43
+                ],
+                "text": "idiots"
+            },
+            {
+                "indices": [
+                    44,
+                    51
+                ],
+                "text": "people"
+            }
+        ],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/QHIsuiarze",
+                "expanded_url": "https://twitter.com/CarinaD17896943/status/1269268530752565248/photo/1",
+                "id": 1269268526059094017,
+                "id_str": "1269268526059094017",
+                "indices": [
+                    52,
+                    75
+                ],
+                "media_url": "http://pbs.twimg.com/media/EZ1Y_-RWAAEveUp.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EZ1Y_-RWAAEveUp.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 410,
+                        "resize": "fit",
+                        "w": 437
+                    },
+                    "medium": {
+                        "h": 410,
+                        "resize": "fit",
+                        "w": 437
+                    },
+                    "small": {
+                        "h": 410,
+                        "resize": "fit",
+                        "w": 437
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/QHIsuiarze"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/QHIsuiarze",
+                "expanded_url": "https://twitter.com/CarinaD17896943/status/1269268530752565248/photo/1",
+                "id": 1269268526059094017,
+                "id_str": "1269268526059094017",
+                "indices": [
+                    52,
+                    75
+                ],
+                "media_url": "http://pbs.twimg.com/media/EZ1Y_-RWAAEveUp.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/EZ1Y_-RWAAEveUp.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 410,
+                        "resize": "fit",
+                        "w": 437
+                    },
+                    "medium": {
+                        "h": 410,
+                        "resize": "fit",
+                        "w": 437
+                    },
+                    "small": {
+                        "h": 410,
+                        "resize": "fit",
+                        "w": 437
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "type": "photo",
+                "url": "https://t.co/QHIsuiarze"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1269268530752565248,
+    "id_str": "1269268530752565248",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "und",
+    "metadata": {
+        "iso_language_code": "und",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "#panicbuying #covid_19 #coronavirus #idiots #people https://t.co/QHIsuiarze",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Feb 27 11:24:41 +0000 2020",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "I'm a unique portuguese ray of sarcastic sunshine living in Wales. \n*sunshine bit is just for the special ones \ud83d\ude09\n1000% fan of horror movies",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 827,
+        "follow_request_sent": false,
+        "followers_count": 39,
+        "following": false,
+        "friends_count": 47,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 1232989826208673792,
+        "id_str": "1232989826208673792",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Wales, United Kingdom",
+        "name": "Carina Domingues",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1232989826208673792/1590976000",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1267271484617228290/QcOFFG_Y_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1267271484617228290/QcOFFG_Y_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "CarinaD17896943",
+        "statuses_count": 702,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat Jun 06 13:55:27 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    9,
+                    21
+                ],
+                "text": "panicbuying"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "instagram.com/p/CBGJgknDTkO/\u2026",
+                "expanded_url": "https://www.instagram.com/p/CBGJgknDTkO/?igshid=mpx0lf1xsjbw",
+                "indices": [
+                    58,
+                    81
+                ],
+                "url": "https://t.co/fp5LKOXqWr"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1269266656330747904,
+    "id_str": "1269266656330747904",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>",
+    "text": "The only #panicbuying I'm interested in! @ Bath, Somerset https://t.co/fp5LKOXqWr",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Thu Jul 11 13:48:54 +0000 2019",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "#Anxiety driven since 73\n\nBelieve in real change and good sense making decision BTW I'm a-political! So don't think I'm a communist or anarchist.",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 401,
+        "follow_request_sent": false,
+        "followers_count": 53,
+        "following": false,
+        "friends_count": 461,
+        "geo_enabled": false,
+        "has_extended_profile": true,
+        "id": 1149314626280206336,
+        "id_str": "1149314626280206336",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Bath, England",
+        "name": "jonnydarko3000",
+        "notifications": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1149314626280206336/1562854041",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1149319460748234752/GRSd0Rtz_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1149319460748234752/GRSd0Rtz_normal.png",
+        "profile_link_color": "F58EA8",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "protected": false,
+        "screen_name": "jonnydarko3000",
+        "statuses_count": 2527,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat Jun 06 12:40:06 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    24,
+                    36
+                ],
+                "text": "panicbuying"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1269247693034938368,
+    "id_str": "1269247693034938368",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "in",
+    "metadata": {
+        "iso_language_code": "in",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "Zaman sekarang ni zaman #panicbuying",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Wed Nov 02 13:16:45 +0000 2011",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Bidadariku sahara \ud83c\udf80 | Instructor Photoshop",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "instagram.com/aisarnabil",
+                        "expanded_url": "http://instagram.com/aisarnabil",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/mreKjutNQx"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 7595,
+        "follow_request_sent": false,
+        "followers_count": 514,
+        "following": false,
+        "friends_count": 290,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 403408114,
+        "id_str": "403408114",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 2,
+        "location": "43650",
+        "name": "muhamad",
+        "notifications": false,
+        "profile_background_color": "050505",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/403408114/1590349831",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1264644826294743040/OOJe2XLg_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1264644826294743040/OOJe2XLg_normal.jpg",
+        "profile_link_color": "0A0A0A",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "muhamadaisar",
+        "statuses_count": 31156,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/mreKjutNQx",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat Jun 06 12:09:16 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    126,
+                    138
+                ],
+                "text": "PanicBuying"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1269239935539781632,
+    "id_str": "1269239935539781632",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "A nation\u2019s true character is revealed under warlike circumstances, when the supply of vital goods is short and fear is great. #PanicBuying",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Fri Feb 11 17:32:11 +0000 2011",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "Fl\u00e2neur, Neo-Victorian, avid reader, humble deliberator, consummate hedonist, lawyer. I usually tweet serendipitously.",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 112,
+        "follow_request_sent": false,
+        "followers_count": 49,
+        "following": false,
+        "friends_count": 24,
+        "geo_enabled": true,
+        "has_extended_profile": false,
+        "id": 250723175,
+        "id_str": "250723175",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 7,
+        "location": "London ",
+        "name": "Orkhan Amashov",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1260533529475264513/ubauUlfU_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1260533529475264513/ubauUlfU_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "OrkhanAmashov",
+        "statuses_count": 1214,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat Jun 06 11:22:10 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    0,
+                    13
+                ],
+                "text": "NoDealBrexit"
+            },
+            {
+                "indices": [
+                    26,
+                    40
+                ],
+                "text": "foodshortages"
+            },
+            {
+                "indices": [
+                    52,
+                    64
+                ],
+                "text": "coronavirus"
+            },
+            {
+                "indices": [
+                    65,
+                    77
+                ],
+                "text": "panicbuying"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "thegrocer.co.uk/brexit/no-deal\u2026",
+                "expanded_url": "https://www.thegrocer.co.uk/brexit/no-deal-brexit-will-cause-food-shortages-worse-than-coronavirus-panic-buying/645117.article",
+                "indices": [
+                    85,
+                    108
+                ],
+                "url": "https://t.co/57Ui52itmk"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1269228082134683649,
+    "id_str": "1269228082134683649",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+    "text": "#NoDealBrexit will \u2018cause #foodshortages worse than #coronavirus #panicbuying \u2019 \ud83e\udd37\u200d\u2642\ufe0f https://t.co/57Ui52itmk",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Fri Jul 22 20:12:06 +0000 2011",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "Love wine, Love food, Love life \ud83d\ude09...Et Chtimi d'Arras. My views only \ud83d\ude0b",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 99979,
+        "follow_request_sent": false,
+        "followers_count": 2001,
+        "following": false,
+        "friends_count": 3066,
+        "geo_enabled": true,
+        "has_extended_profile": false,
+        "id": 340501030,
+        "id_str": "340501030",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 136,
+        "location": "Uranus",
+        "name": "Patrick Pigny",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/340501030/1451762285",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1213149300584329218/FJ0zlV-R_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1213149300584329218/FJ0zlV-R_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Chambave",
+        "statuses_count": 36834,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat Jun 06 11:20:00 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    17,
+                    24
+                ],
+                "text": "Brexit"
+            },
+            {
+                "indices": [
+                    35,
+                    38
+                ],
+                "text": "EU"
+            },
+            {
+                "indices": [
+                    83,
+                    95
+                ],
+                "text": "coronavirus"
+            },
+            {
+                "indices": [
+                    96,
+                    108
+                ],
+                "text": "panicbuying"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1269227535843426304",
+                "indices": [
+                    117,
+                    140
+                ],
+                "url": "https://t.co/woqF2gmdk4"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1269227535843426304,
+    "id_str": "1269227535843426304",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "Failure to reach #Brexit deal with #EU will lead to much worse food shortages than #coronavirus #panicbuying crisis\u2026 https://t.co/woqF2gmdk4",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sun May 25 13:51:04 +0000 2014",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "",
+        "entities": {
+            "description": {
+                "urls": []
+            }
+        },
+        "favourites_count": 12811,
+        "follow_request_sent": false,
+        "followers_count": 63,
+        "following": false,
+        "friends_count": 781,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 2522751954,
+        "id_str": "2522751954",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 2,
+        "location": "Br\u00fcssel",
+        "name": "Boris Schmidt",
+        "notifications": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/668714407388573696/EYBjhBpW_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/668714407388573696/EYBjhBpW_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "SCHBBRU",
+        "statuses_count": 16212,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": null,
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat Jun 06 08:52:33 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    50,
+                    58
+                ],
+                "text": "PonyVPN"
+            },
+            {
+                "indices": [
+                    59,
+                    63
+                ],
+                "text": "VPN"
+            },
+            {
+                "indices": [
+                    64,
+                    67
+                ],
+                "text": "\u7ffb\u5899"
+            },
+            {
+                "indices": [
+                    68,
+                    71
+                ],
+                "text": "\u68af\u5b50"
+            },
+            {
+                "indices": [
+                    72,
+                    76
+                ],
+                "text": "USA"
+            },
+            {
+                "indices": [
+                    77,
+                    80
+                ],
+                "text": "\u7f8e\u56fd"
+            },
+            {
+                "indices": [
+                    81,
+                    87
+                ],
+                "text": "Trump"
+            },
+            {
+                "indices": [
+                    88,
+                    92
+                ],
+                "text": "\u7279\u6717\u666e"
+            },
+            {
+                "indices": [
+                    93,
+                    96
+                ],
+                "text": "\u5ddd\u666e"
+            },
+            {
+                "indices": [
+                    97,
+                    103
+                ],
+                "text": "China"
+            },
+            {
+                "indices": [
+                    104,
+                    108
+                ],
+                "text": "\u751f\u7269\u6218"
+            }
+        ],
+        "symbols": [],
+        "urls": [
+            {
+                "display_url": "speedinapp.com",
+                "expanded_url": "http://speedinapp.com",
+                "indices": [
+                    25,
+                    48
+                ],
+                "url": "https://t.co/c4XoGRPwWs"
+            },
+            {
+                "display_url": "twitter.com/i/web/status/1\u2026",
+                "expanded_url": "https://twitter.com/i/web/status/1269190427766210560",
+                "indices": [
+                    110,
+                    133
+                ],
+                "url": "https://t.co/bMQI5qV24Y"
+            }
+        ],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1269190427766210560,
+    "id_str": "1269190427766210560",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "zh",
+    "metadata": {
+        "iso_language_code": "zh",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "text": "\u3010\ud83d\udd25\u7f8e\u5e1d\u89c9\u9192\ud83d\udd25\u3011\u7279\u6717\u666e\u8c08\u53ca\u793e\u4f1a\u4e3b\u4e49\n\u27a1\ufe0f\u4e0b\u8f7d\u94fe\u63a5\uff1ahttps://t.co/c4XoGRPwWs\n\n#PonyVPN #VPN #\u7ffb\u5899 #\u68af\u5b50\n#USA #\u7f8e\u56fd #Trump #\u7279\u6717\u666e #\u5ddd\u666e\n#China #\u751f\u7269\u6218\u2026 https://t.co/bMQI5qV24Y",
+    "truncated": true,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Sun Feb 16 06:32:15 +0000 2020",
+        "default_profile": true,
+        "default_profile_image": false,
+        "description": "\u6781\u901f\u3001\u7a33\u5b9a\u3001\u5b89\u5168\u7684\u865a\u62df\u7f51\u7edc\n\u5168\u65b0 VPN\uff0c\u65e0\u5e7f\u544a\u65e0\u6d41\u91cf\u9650\u5236\uff0c\u4e24\u6b65\u5f00\u901a 14 \u5929\u514d\u8d39\u8bd5\u7528\uff0c\u4e00\u4e2a\u5e10\u53f7\u7545\u884c iOS\u3001Android\u3001Windows \u7b49\u5404\u4e2a\u5e73\u53f0\uff0c\u6700\u591a 5 \u4e2a\u8bbe\u5907\u540c\u65f6\u8fde\u63a5\uff0c\u77ac\u95f4\u6253\u7834\u7f51\u7edc\u754c\u9650\uff0c\u52a0\u901f\u6d4f\u89c8\u5168\u7403\u89c6\u8baf\u5a31\u4e50\u3002\u66f4\u591a\u8d44\u8baf\u27a1\ufe0fhttps://t.co/gKooLKAfS1",
+        "entities": {
+            "description": {
+                "urls": [
+                    {
+                        "display_url": "youtube.com/channel/UChsNR\u2026",
+                        "expanded_url": "http://youtube.com/channel/UChsNRqsCsA70XFCJBpWQvvQ",
+                        "indices": [
+                            116,
+                            139
+                        ],
+                        "url": "https://t.co/gKooLKAfS1"
+                    }
+                ]
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "speedinapp.com",
+                        "expanded_url": "http://speedinapp.com",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/QASQtQS1Gu"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 2,
+        "follow_request_sent": false,
+        "followers_count": 55,
+        "following": false,
+        "friends_count": 120,
+        "geo_enabled": false,
+        "has_extended_profile": false,
+        "id": 1228930012633419777,
+        "id_str": "1228930012633419777",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "",
+        "name": "Pony",
+        "notifications": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1228930012633419777/1581877371",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1250661148677902337/OVZ6nDzh_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1250661148677902337/OVZ6nDzh_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "Ponyjsq",
+        "statuses_count": 968,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/QASQtQS1Gu",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat Jun 06 06:22:44 +0000 2020",
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1269152727420080128,
+    "id_str": "1269152727420080128",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "in",
+    "metadata": {
+        "iso_language_code": "in",
+        "result_type": "recent"
+    },
+    "place": null,
+    "retweet_count": 0,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "Panicbuying bukan karena pandemi tpi karena baekhyun \ud83d\ude2d\ud83d\ude2b",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Tue Dec 21 00:00:00 +0000 2010",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "*\uce74\uc774\uc758 \uc138\uacc4*\n\uc0ac\ub791\ud558\uace0 \ub610 \uc0ac\ub791\ud574 \ud83d\udc25 #\uce74\uc774_\ud2b8\uc758\ud2f0 120922//140906//160227//170902//190526//191123 (fan acc)",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "my.w.tt/sgvr1DeXF5",
+                        "expanded_url": "https://my.w.tt/sgvr1DeXF5",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/JYFkFE7l4L"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 5740,
+        "follow_request_sent": false,
+        "followers_count": 1146,
+        "following": false,
+        "friends_count": 988,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 228894251,
+        "id_str": "228894251",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 4,
+        "location": "jongin's lego",
+        "name": "\ub3c8 \uce74\uc774 BUCIN KAI\ud83d\udda4",
+        "notifications": false,
+        "profile_background_color": "131516",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme11/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme11/bg.gif",
+        "profile_background_tile": true,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/228894251/1587913434",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1268096122905661440/zo_4LuKh_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1268096122905661440/zo_4LuKh_normal.jpg",
+        "profile_link_color": "E0128D",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "protected": false,
+        "screen_name": "buCinKai1302",
+        "statuses_count": 75430,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/JYFkFE7l4L",
+        "utc_offset": null,
+        "verified": false
+    }
+},{
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Sat Jun 06 00:17:44 +0000 2020",
+    "entities": {
+        "hashtags": [
+            {
+                "indices": [
+                    32,
+                    48
+                ],
+                "text": "coronapocalypse"
+            },
+            {
+                "indices": [
+                    52,
+                    64
+                ],
+                "text": "panicbuying"
+            }
+        ],
+        "media": [
+            {
+                "display_url": "pic.twitter.com/KR6pbbZv4S",
+                "expanded_url": "https://twitter.com/AngelaBelcamino/status/1238511988856229890/photo/1",
+                "id": 1238511966278291456,
+                "id_str": "1238511966278291456",
+                "indices": [
+                    77,
+                    100
+                ],
+                "media_url": "http://pbs.twimg.com/media/ETAUEkgWkAAOUYC.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/ETAUEkgWkAAOUYC.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 1024,
+                        "resize": "fit",
+                        "w": 768
+                    },
+                    "medium": {
+                        "h": 1024,
+                        "resize": "fit",
+                        "w": 768
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 510
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "source_status_id": 1238511988856229890,
+                "source_status_id_str": "1238511988856229890",
+                "source_user_id": 1685873604,
+                "source_user_id_str": "1685873604",
+                "type": "photo",
+                "url": "https://t.co/KR6pbbZv4S"
+            }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "id": 1685873604,
+                "id_str": "1685873604",
+                "indices": [
+                    3,
+                    19
+                ],
+                "name": "Angela Belcamino",
+                "screen_name": "AngelaBelcamino"
+            }
+        ]
+    },
+    "extended_entities": {
+        "media": [
+            {
+                "display_url": "pic.twitter.com/KR6pbbZv4S",
+                "expanded_url": "https://twitter.com/AngelaBelcamino/status/1238511988856229890/photo/1",
+                "id": 1238511966278291456,
+                "id_str": "1238511966278291456",
+                "indices": [
+                    77,
+                    100
+                ],
+                "media_url": "http://pbs.twimg.com/media/ETAUEkgWkAAOUYC.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/ETAUEkgWkAAOUYC.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 1024,
+                        "resize": "fit",
+                        "w": 768
+                    },
+                    "medium": {
+                        "h": 1024,
+                        "resize": "fit",
+                        "w": 768
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 510
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "source_status_id": 1238511988856229890,
+                "source_status_id_str": "1238511988856229890",
+                "source_user_id": 1685873604,
+                "source_user_id_str": "1685873604",
+                "type": "photo",
+                "url": "https://t.co/KR6pbbZv4S"
+            },
+            {
+                "display_url": "pic.twitter.com/KR6pbbZv4S",
+                "expanded_url": "https://twitter.com/AngelaBelcamino/status/1238511988856229890/photo/1",
+                "id": 1238511971881881602,
+                "id_str": "1238511971881881602",
+                "indices": [
+                    77,
+                    100
+                ],
+                "media_url": "http://pbs.twimg.com/media/ETAUE5YWkAIRCqp.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/ETAUE5YWkAIRCqp.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 2048,
+                        "resize": "fit",
+                        "w": 1536
+                    },
+                    "medium": {
+                        "h": 1200,
+                        "resize": "fit",
+                        "w": 900
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 510
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "source_status_id": 1238511988856229890,
+                "source_status_id_str": "1238511988856229890",
+                "source_user_id": 1685873604,
+                "source_user_id_str": "1685873604",
+                "type": "photo",
+                "url": "https://t.co/KR6pbbZv4S"
+            },
+            {
+                "display_url": "pic.twitter.com/KR6pbbZv4S",
+                "expanded_url": "https://twitter.com/AngelaBelcamino/status/1238511988856229890/photo/1",
+                "id": 1238511980438343682,
+                "id_str": "1238511980438343682",
+                "indices": [
+                    77,
+                    100
+                ],
+                "media_url": "http://pbs.twimg.com/media/ETAUFZQX0AIQ56S.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/ETAUFZQX0AIQ56S.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 1024,
+                        "resize": "fit",
+                        "w": 768
+                    },
+                    "medium": {
+                        "h": 1024,
+                        "resize": "fit",
+                        "w": 768
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 510
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "source_status_id": 1238511988856229890,
+                "source_status_id_str": "1238511988856229890",
+                "source_user_id": 1685873604,
+                "source_user_id_str": "1685873604",
+                "type": "photo",
+                "url": "https://t.co/KR6pbbZv4S"
+            },
+            {
+                "display_url": "pic.twitter.com/KR6pbbZv4S",
+                "expanded_url": "https://twitter.com/AngelaBelcamino/status/1238511988856229890/photo/1",
+                "id": 1238511984611639296,
+                "id_str": "1238511984611639296",
+                "indices": [
+                    77,
+                    100
+                ],
+                "media_url": "http://pbs.twimg.com/media/ETAUFozXQAAMT2v.jpg",
+                "media_url_https": "https://pbs.twimg.com/media/ETAUFozXQAAMT2v.jpg",
+                "sizes": {
+                    "large": {
+                        "h": 1024,
+                        "resize": "fit",
+                        "w": 768
+                    },
+                    "medium": {
+                        "h": 1024,
+                        "resize": "fit",
+                        "w": 768
+                    },
+                    "small": {
+                        "h": 680,
+                        "resize": "fit",
+                        "w": 510
+                    },
+                    "thumb": {
+                        "h": 150,
+                        "resize": "crop",
+                        "w": 150
+                    }
+                },
+                "source_status_id": 1238511988856229890,
+                "source_status_id_str": "1238511988856229890",
+                "source_user_id": 1685873604,
+                "source_user_id_str": "1685873604",
+                "type": "photo",
+                "url": "https://t.co/KR6pbbZv4S"
+            }
+        ]
+    },
+    "favorite_count": 0,
+    "favorited": false,
+    "geo": null,
+    "id": 1269060871269027840,
+    "id_str": "1269060871269027840",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 25,
+    "retweeted": false,
+    "retweeted_status": {
+        "contributors": null,
+        "coordinates": null,
+        "created_at": "Fri Mar 13 17:07:23 +0000 2020",
+        "entities": {
+            "hashtags": [
+                {
+                    "indices": [
+                        11,
+                        27
+                    ],
+                    "text": "coronapocalypse"
+                },
+                {
+                    "indices": [
+                        31,
+                        43
+                    ],
+                    "text": "panicbuying"
+                }
+            ],
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/KR6pbbZv4S",
+                    "expanded_url": "https://twitter.com/AngelaBelcamino/status/1238511988856229890/photo/1",
+                    "id": 1238511966278291456,
+                    "id_str": "1238511966278291456",
+                    "indices": [
+                        56,
+                        79
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/ETAUEkgWkAAOUYC.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/ETAUEkgWkAAOUYC.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 1024,
+                            "resize": "fit",
+                            "w": 768
+                        },
+                        "medium": {
+                            "h": 1024,
+                            "resize": "fit",
+                            "w": 768
+                        },
+                        "small": {
+                            "h": 680,
+                            "resize": "fit",
+                            "w": 510
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/KR6pbbZv4S"
+                }
+            ],
+            "symbols": [],
+            "urls": [],
+            "user_mentions": []
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "display_url": "pic.twitter.com/KR6pbbZv4S",
+                    "expanded_url": "https://twitter.com/AngelaBelcamino/status/1238511988856229890/photo/1",
+                    "id": 1238511966278291456,
+                    "id_str": "1238511966278291456",
+                    "indices": [
+                        56,
+                        79
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/ETAUEkgWkAAOUYC.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/ETAUEkgWkAAOUYC.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 1024,
+                            "resize": "fit",
+                            "w": 768
+                        },
+                        "medium": {
+                            "h": 1024,
+                            "resize": "fit",
+                            "w": 768
+                        },
+                        "small": {
+                            "h": 680,
+                            "resize": "fit",
+                            "w": 510
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/KR6pbbZv4S"
+                },
+                {
+                    "display_url": "pic.twitter.com/KR6pbbZv4S",
+                    "expanded_url": "https://twitter.com/AngelaBelcamino/status/1238511988856229890/photo/1",
+                    "id": 1238511971881881602,
+                    "id_str": "1238511971881881602",
+                    "indices": [
+                        56,
+                        79
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/ETAUE5YWkAIRCqp.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/ETAUE5YWkAIRCqp.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 2048,
+                            "resize": "fit",
+                            "w": 1536
+                        },
+                        "medium": {
+                            "h": 1200,
+                            "resize": "fit",
+                            "w": 900
+                        },
+                        "small": {
+                            "h": 680,
+                            "resize": "fit",
+                            "w": 510
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/KR6pbbZv4S"
+                },
+                {
+                    "display_url": "pic.twitter.com/KR6pbbZv4S",
+                    "expanded_url": "https://twitter.com/AngelaBelcamino/status/1238511988856229890/photo/1",
+                    "id": 1238511980438343682,
+                    "id_str": "1238511980438343682",
+                    "indices": [
+                        56,
+                        79
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/ETAUFZQX0AIQ56S.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/ETAUFZQX0AIQ56S.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 1024,
+                            "resize": "fit",
+                            "w": 768
+                        },
+                        "medium": {
+                            "h": 1024,
+                            "resize": "fit",
+                            "w": 768
+                        },
+                        "small": {
+                            "h": 680,
+                            "resize": "fit",
+                            "w": 510
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/KR6pbbZv4S"
+                },
+                {
+                    "display_url": "pic.twitter.com/KR6pbbZv4S",
+                    "expanded_url": "https://twitter.com/AngelaBelcamino/status/1238511988856229890/photo/1",
+                    "id": 1238511984611639296,
+                    "id_str": "1238511984611639296",
+                    "indices": [
+                        56,
+                        79
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/ETAUFozXQAAMT2v.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/ETAUFozXQAAMT2v.jpg",
+                    "sizes": {
+                        "large": {
+                            "h": 1024,
+                            "resize": "fit",
+                            "w": 768
+                        },
+                        "medium": {
+                            "h": 1024,
+                            "resize": "fit",
+                            "w": 768
+                        },
+                        "small": {
+                            "h": 680,
+                            "resize": "fit",
+                            "w": 510
+                        },
+                        "thumb": {
+                            "h": 150,
+                            "resize": "crop",
+                            "w": 150
+                        }
+                    },
+                    "type": "photo",
+                    "url": "https://t.co/KR6pbbZv4S"
+                }
+            ]
+        },
+        "favorite_count": 593,
+        "favorited": false,
+        "geo": null,
+        "id": 1238511988856229890,
+        "id_str": "1238511988856229890",
+        "in_reply_to_screen_name": null,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "is_quote_status": false,
+        "lang": "en",
+        "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+        },
+        "place": null,
+        "possibly_sensitive": false,
+        "retweet_count": 25,
+        "retweeted": false,
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "text": "There's no #coronapocalypse or #panicbuying out here. \ud83c\udf0a https://t.co/KR6pbbZv4S",
+        "truncated": false,
+        "user": {
+            "contributors_enabled": false,
+            "created_at": "Tue Aug 20 14:17:21 +0000 2013",
+            "default_profile": true,
+            "default_profile_image": false,
+            "description": "Actor at @sagaftra | Bass at @smbproject | Sometimes I dance \ud83d\udc83 | #blockedbyTrump | @Rollinscollege Alum | #resist https://t.co/XE7XBymelJ",
+            "entities": {
+                "description": {
+                    "urls": [
+                        {
+                            "display_url": "Instagram.com/angelabelcamino",
+                            "expanded_url": "http://Instagram.com/angelabelcamino",
+                            "indices": [
+                                114,
+                                137
+                            ],
+                            "url": "https://t.co/XE7XBymelJ"
+                        }
+                    ]
+                },
+                "url": {
+                    "urls": [
+                        {
+                            "display_url": "patreon.com/angelabelcamino",
+                            "expanded_url": "http://patreon.com/angelabelcamino",
+                            "indices": [
+                                0,
+                                23
+                            ],
+                            "url": "https://t.co/PNYcl8aIbW"
+                        }
+                    ]
+                }
+            },
+            "favourites_count": 349241,
+            "follow_request_sent": false,
+            "followers_count": 134517,
+            "following": false,
+            "friends_count": 72596,
+            "geo_enabled": true,
+            "has_extended_profile": true,
+            "id": 1685873604,
+            "id_str": "1685873604",
+            "is_translation_enabled": false,
+            "is_translator": false,
+            "lang": null,
+            "listed_count": 546,
+            "location": "New York, USA",
+            "name": "Angela Belcamino",
+            "notifications": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1685873604/1579703058",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/1166348439346696194/66rUWRr9_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1166348439346696194/66rUWRr9_normal.jpg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "protected": false,
+            "screen_name": "AngelaBelcamino",
+            "statuses_count": 10852,
+            "time_zone": null,
+            "translator_type": "none",
+            "url": "https://t.co/PNYcl8aIbW",
+            "utc_offset": null,
+            "verified": false
+        }
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "text": "RT @AngelaBelcamino: There's no #coronapocalypse or #panicbuying out here. \ud83c\udf0a https://t.co/KR6pbbZv4S",
+    "truncated": false,
+    "user": {
+        "contributors_enabled": false,
+        "created_at": "Fri Jul 31 13:37:20 +0000 2015",
+        "default_profile": false,
+        "default_profile_image": false,
+        "description": "MONTREAL  go fins\n\ngaming music movies poker 888grinder  wrestling",
+        "entities": {
+            "description": {
+                "urls": []
+            },
+            "url": {
+                "urls": [
+                    {
+                        "display_url": "youtube.com/jon316t",
+                        "expanded_url": "http://youtube.com/jon316t",
+                        "indices": [
+                            0,
+                            23
+                        ],
+                        "url": "https://t.co/tlWBBC3DFx"
+                    }
+                ]
+            }
+        },
+        "favourites_count": 8308,
+        "follow_request_sent": false,
+        "followers_count": 57,
+        "following": false,
+        "friends_count": 762,
+        "geo_enabled": true,
+        "has_extended_profile": true,
+        "id": 3397179676,
+        "id_str": "3397179676",
+        "is_translation_enabled": false,
+        "is_translator": false,
+        "lang": null,
+        "listed_count": 0,
+        "location": "Canada",
+        "name": "Jon316t",
+        "notifications": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3397179676/1551882243",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1119412257140637701/OaSqUGAs_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1119412257140637701/OaSqUGAs_normal.jpg",
+        "profile_link_color": "1B95E0",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "protected": false,
+        "screen_name": "Jon316T",
+        "statuses_count": 3585,
+        "time_zone": null,
+        "translator_type": "none",
+        "url": "https://t.co/tlWBBC3DFx",
+        "utc_offset": null,
+        "verified": false
+    }
+}
