@@ -10,7 +10,6 @@ from CubeModelisation.tweetCube import TweetCube
 # --------------------------------------------------------------------------------------------------------------------------------------------
 from Preprocessing.mainProgramme import MainProgramme
 
-
 def runServer():
     app = Flask(__name__)
 
@@ -255,7 +254,7 @@ def runServer():
     @cross_origin()
     def createCubeForAnAnalysis():
         analysisID = request.args['analysisID']
-        test = MainProgramme([])
+        test = MainProgramme([],analysisID)
         test.createCubes(analysisID)
         data = []
         a = jsonify(data)
