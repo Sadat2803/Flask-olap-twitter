@@ -37,16 +37,16 @@ class SentimentCube:
             date = row['time.year'] + "-" + row['time.month'] + "-" + row['time.day']
             data[date] += [row['sentiment_average']]
 
-        element = {'date': '', 'averageSentiment': 0}
+        element = {'date': '', 'value': 0}
         elementList = []
         for date in data:
             element['date'] = date
             somSentiment = 0
             for i in data[date]:
                 somSentiment += i
-            element['averageSentiment'] = somSentiment / data[date].__len__()
+            element['value'] = somSentiment / data[date].__len__()
             elementList.append(element)
-            element = {'date': '', 'averageSentiment': 0}
+            element = {'date': '', 'value': 0}
 
         return elementList
 
