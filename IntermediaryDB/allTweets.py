@@ -20,8 +20,9 @@ class AllTweets(Model):
     __table__ = 'alltweets'
 
     def insert(self, row):
-        found = AllTweets.find(row[0])
-        if not found:
+        found = AllTweets.where('tweetID', '=', row[0]).where('analysisID', '=', row[20]).where('concept', '=', row[21]).count()
+        #found = AllTweets.find(row[0])
+        if  found == 0 :
             self.tweetID = row[0]
             self.text = row[1]
             self.languageCode = row[2]
