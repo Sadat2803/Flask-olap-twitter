@@ -1,3 +1,5 @@
+import json
+import pycountry_convert
 import pandas as pd
 
 from IntermediaryDB.covidStats import CovidStats
@@ -6,24 +8,28 @@ from IntermediaryDB.covidStats import CovidStats
 class ClientDB:
 
     def createClientDB(self):
-        covidStatFile = pd.read_csv('covid_19.csv', sep=',', iterator=False, encoding='utf-8')
+        covidFile = open('covid_world_timeline.json', 'r', encoding="utf-8")
+        data = json.load(covidFile)
 
-
-        for line in covidStatFile.to_numpy():
-            covidStats = CovidStats()
-            temp = line[3].split("/")
-            y = temp[2]
-            m = temp[0]
-            d = temp[1]
-            if len(m)==1:
-                m = '0'+m
-            if len(d)==1:
-                d = '0'+d
-            dateCode = "".join([y,m,d])
-            date = "-".join([temp[2],temp[0],temp[1]])
-            row = [line[0].lower(), date, dateCode, line[4], line[5], line[6]]
-            print(row)
-            covidStats.insert(row)
+        for row in data:
+            date = row['date']
+            dateCode = "".join(date.split("-"))
+            listCountries = row['list']
+            for temp in listCountries:
+                countryCode = temp['id'].split('-')[0]
+                try:
+                    country = pycountry_convert.country_alpha2_to_country_name(countryCode)
+                except:
+                    country = 'Unknown'
+                    if countryCode == 'XK':
+                        country = 'Kosovo'
+                confirmed = temp['confirmed']
+                deaths = temp['deaths']
+                recovered = temp['recovered']
+                row = [country.lower(), countryCode, date, dateCode, confirmed, deaths, recovered]
+                print(row)
+                covidStats = CovidStats()
+                covidStats.insert(row)
         print("insertion complete")
 
 if __name__=="__main__":

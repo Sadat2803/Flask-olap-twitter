@@ -1,4 +1,5 @@
 from collections import defaultdict
+from datetime import datetime
 
 import mysql.connector
 import re
@@ -12,6 +13,62 @@ from Preprocessing.mainProgramme import MainProgramme
 
 def runServer():
     app = Flask(__name__)
+
+    @app.route('/covidTotalTimeLine', methods=['GET'])
+    @cross_origin()
+    def covidTotalTimeLine():
+        mydb = mysql.connector.connect(
+            host="localhost",
+            user="root",
+            passwd="",
+            database="interDB"
+        )
+        mycursor = mydb.cursor()
+        query = "select date, sum(confirmed), sum(deaths), sum(recovered) from covidstats group by date"
+        mycursor.execute(query)
+        result = mycursor.fetchall()
+
+        dataList = []
+        element = {'confirmed': 0, 'deaths': 0, 'recovered':0, 'date': ''}
+        for row in result:
+            element['date'] = row[0].strftime('%Y-%m-%d')
+            element['confirmed'] = row[1]
+            element['deaths'] = row[2]
+            element['recovered'] = row[3]
+            dataList.append(element)
+            element = {'confirmed': 0, 'deaths': 0, 'recovered':0, 'date': ''}
+
+        a = jsonify(dataList)
+        return a
+
+    @app.route('/covidWorldTimeLine', methods=['GET'])
+    @cross_origin()
+    def covidWorldTimeLine():
+        mydb = mysql.connector.connect(
+            host="localhost",
+            user="root",
+            passwd="",
+            database="interDB"
+        )
+        mycursor = mydb.cursor()
+        query = "select date, countryCode, confirmed, deaths, recovered from covidstats"
+        mycursor.execute(query)
+        result = mycursor.fetchall()
+
+        temp = defaultdict(lambda: list())
+        for row in result:
+            temp[row[0]] += [{'confirmed':row[2], 'deaths':row[3], 'recovered':row[4], 'id':row[1]}]
+        #print(result)
+        dataList = []
+        element = {'date': '', 'list': []}
+        for date in temp:
+            element['date'] = date.strftime('%Y-%m-%d')
+            element['list'] = temp[date]
+            dataList.append(element)
+            element = {'date': '', 'list': []}
+
+        a = jsonify(dataList)
+        return a
 
     @app.route('/mondialSentimentByDatesJson', methods=['GET'])
     @cross_origin()
