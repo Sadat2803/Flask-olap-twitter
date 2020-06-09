@@ -13,7 +13,6 @@ from Preprocessing.mainProgramme import MainProgramme
 def runServer():
     app = Flask(__name__)
 
-
     @app.route('/mondialSentimentByDatesJson', methods=['GET'])
     @cross_origin()
     def mondialSentimentByDatesJson():

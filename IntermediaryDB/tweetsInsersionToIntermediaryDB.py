@@ -215,7 +215,7 @@ class TweetsInsertionIntermediaryToDB():
         allFiles = [f for f in listdir(dirPath) if isfile(join(dirPath, f))]
         print(allFiles)
         for fileName in allFiles:
-            if fileName.startswith("ExtractedTweetsFor"):
+            if fileName.startswith("extractedtweetsfor"):
                 if not fileName.endswith("Loaded.json"): #check if the file is loaded to the database or not
                     fullFileName = dirPath+fileName
                     tweetsFile = open(fullFileName, 'r', encoding="utf-8")

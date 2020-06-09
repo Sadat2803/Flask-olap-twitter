@@ -1,7 +1,6 @@
 import datetime
 import os
-import time
-
+from time import perf_counter
 import mysql
 
 from IntermediaryDB.datawareHouseCreation import DatawareHouseCreation
@@ -99,10 +98,16 @@ class MainProgramme():
 
 if __name__=="__main__":
     conceptsList = ["StayAtHome", "panicBuying"]
-    test = MainProgramme(conceptsList)
+    test = MainProgramme(conceptsList,'passif')
     #test.extractAndSaveDataIntoIntermediaryDB()
-    analysisID = 'Analysis-2020-05-05_15-52-41'
+    t1_start = perf_counter()
+    analysisID = 'passif'
     test.createCubes(analysisID)
+    t2_end = perf_counter()
+    print(t1_start)
+    print(t2_end)
+    print(t2_end - t1_start)
+
 
 
 
