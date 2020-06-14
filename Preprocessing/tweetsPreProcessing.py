@@ -101,7 +101,10 @@ class TweetsPreProcessing():
     def getSource(self,fullSource):
 
         temp = re.findall(r'<.+>(.+)</a>',fullSource)
-        sourceTokens = temp[0].split()
+        try:
+            sourceTokens = temp[0].split()
+        except:
+            sourceTokens = ""
         iPhoneTokens = ['iphone','ipad' , 'ios']
         androidTokens = ['android']
         webTokens = ["web","mac","google"]

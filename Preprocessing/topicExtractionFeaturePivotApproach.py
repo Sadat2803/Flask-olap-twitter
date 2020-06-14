@@ -9,9 +9,11 @@ from os.path import isfile, join
 import mysql.connector
 import preprocessor as p
 from nltk.corpus import stopwords
+from textblob import TextBlob
 
 from IntermediaryDB.allTweets import AllTweets
 from Preprocessing.tweetsPreProcessing import TweetsPreProcessing
+
 
 
 class TopicExtractionFeaturePivotApproach():
@@ -25,7 +27,8 @@ class TopicExtractionFeaturePivotApproach():
 
         allFiles = [f for f in listdir(dirPath) if isfile(join(dirPath, f))]
         print(allFiles)
-        for fileName in allFiles:
+        for fileName in allFiles[63:]:
+            print(fileName)
             if fileName.startswith("ExtractedTweetsFor"):
                 if not fileName.endswith("Loaded.json"):  # check if the file is loaded to the database or not
                     fullFileName = dirPath + fileName
@@ -84,7 +87,8 @@ class TopicExtractionFeaturePivotApproach():
         cpt = 0
         wordFrequency = defaultdict(int)
         stopWords = set(stopwords.words('english'))
-        customizedStopWords = {'rt', 'hashtags'}
+        customizedStopWords = {'rt', 'hashtags', 'retweet', 'said','total','gmt','video','hum','read','trend',
+                               'update','updates','day','today','news'}
         stopWords = stopWords.union(customizedStopWords)
 
         #step 1 and 2 : create unigrams from the tweets
@@ -95,16 +99,20 @@ class TopicExtractionFeaturePivotApproach():
         unigramsByTweetID = defaultdict(lambda: set())
         for row in result:
             tweetText = row[0].lower()
+            tweetText = tweetText[:tweetText.index("hashtags")] # use only hashtags and not the hole tweet
             tweetID = row[1]
-            tokens = re.findall("[a-zA-Z0-9_]{2,}", tweetText)
-            for token in tokens:
-                if token not in stopWords:
+            blob = TextBlob(tweetText)
+            #tokens = re.findall("[a-zA-Z_]{2,}", tweetText)
+            #print(tokens)
+            for noun, tag in blob.tags:
+            #for token in tokens:
+                token = noun
+                if (tag=='NN') and (token not in stopWords):
                     unigramsList.append(token)
                     unigramsSet.add(token)
                     associatedTweetsForUnigramsSet[token].add(tweetID)
                     unigramsFrequency[token] += 1
                     unigramsByTweetID[tweetID].add(token)
-
         #step 3 : calculate the avg frequency
         sommeOfFrequencies = 0
         for unigram in unigramsSet:
@@ -114,13 +122,16 @@ class TopicExtractionFeaturePivotApproach():
         #step 4 :
         #first we have to order the frequencies of unigrams in descending order
         unigramsFrequency = dict(sorted(unigramsFrequency.items(), key=operator.itemgetter(1), reverse=True))
-
+        print(unigramsFrequency['quarantine'])
+        print(unigramsFrequency)
         significantUnigramsSet = set()
         for unigram in unigramsFrequency:
+            if significantUnigramsSet.__len__()>=20:
+                break
             if unigramsFrequency[unigram] >= averageFrequency:
                 significantUnigramsSet.add(unigram)
         significantUnigramsSet = list(significantUnigramsSet)
-
+        print(significantUnigramsSet)
         #step 5 : get the associated tweets for every significant unigram
         associatedTweetsForSignificantUnigramsSet = defaultdict(lambda: set())
         setOfTotalSetOfTweets = list()
@@ -170,9 +181,9 @@ class TopicExtractionFeaturePivotApproach():
             i += 1
 
         #step 10 : application of the "content similarity" algorithm
-        theta1 = 0.5
-        theta2 = 0.5
-        beta = 100
+        theta1 = 0.4
+        theta2 = 0.2
+        beta = 50
         topics = [] #it is a list of lists of unigrams
         s = significantUnigramsSet.__len__()
         i = 1
@@ -206,8 +217,9 @@ class TopicExtractionFeaturePivotApproach():
                                 k += 1
                     j += 1
                 if topicTweets.__len__() >= beta:
-                    print("Topic : ",topic,"\n",
-                          "TopicTweets : ",topicTweets)
+                    if topic.__len__()>=3:
+                        print("Topic : ",topic)
+                        #print("TopicTweets : ",topicTweets)
             i += 1
 
 
