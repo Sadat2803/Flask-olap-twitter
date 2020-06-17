@@ -246,6 +246,64 @@ class TweetsInsertionIntermediaryToDB():
 
         print("All Files are loaded to the intermediary database")
 
+    def calculateNumberOfTweets(self):
+        dirPath = "C:/Users/Raouf/PycharmProjects/PFE_SII_M2/TweetFiles/"
+        print(dirPath)
+        allFiles = [f for f in listdir(dirPath) if isfile(join(dirPath, f))]
+        print(allFiles)
+        cpt = 0
+        for fileName in allFiles:
+            if fileName.startswith("ExtractedTweetsFor"):
+                tweetsFile = open(dirPath+fileName, 'r',encoding="utf-8")
+                tweets = json.load(tweetsFile)
+                nbr = 0
+                for tweet in tweets['tweets']:
+                    nbr +=1
+                print(nbr)
+                cpt += nbr
+                tweetsFile.close()
+        print("Total", cpt)
+
+    def calculateNumberOfLanguages(self):
+        preProcessing = TweetsPreProcessing()
+        dirPath = "C:/Users/Raouf/PycharmProjects/PFE_SII_M2/TweetFiles/"
+        print(dirPath)
+        allFiles = [f for f in listdir(dirPath) if isfile(join(dirPath, f))]
+        print(allFiles)
+        cpt = 0
+        languageList = set()
+        for fileName in allFiles:
+            if fileName.startswith("ExtractedTweetsFor"):
+                tweetsFile = open(dirPath+fileName, 'r',encoding="utf-8")
+                tweets = json.load(tweetsFile)
+                for tweet in tweets['tweets']:
+                    languageCode = preProcessing.getLangage(tweet['lang'])
+                    languageList.add(languageCode[0])
+                tweetsFile.close()
+        print(languageList)
+        print("Total", languageList.__len__())
+
+    def calculateNumberOfCountries(self):
+        preProcessing = TweetsPreProcessing()
+        dirPath = "C:/Users/Raouf/PycharmProjects/PFE_SII_M2/TweetFiles/"
+        print(dirPath)
+        allFiles = [f for f in listdir(dirPath) if isfile(join(dirPath, f))]
+        print(allFiles)
+        cpt = 0
+        countriesList = set()
+        for fileName in allFiles:
+            if fileName.startswith("ExtractedTweetsFor"):
+                tweetsFile = open(dirPath+fileName, 'r',encoding="utf-8")
+                tweets = json.load(tweetsFile)
+                print(fileName)
+                for tweet in tweets['tweets']:
+                    [locationAltID, city, iso2, country, continentID, continent] = preProcessing.getLocation(tweet['user']['location'])
+                    countriesList.add(country)
+                tweetsFile.close()
+        print(countriesList)
+        print("Total", countriesList.__len__())
+
+
 
 
 if __name__=="__main__":
@@ -255,5 +313,8 @@ if __name__=="__main__":
     #test.getKeyWordsFromTweets()
     #test.renameFiles()
     #test.treatFiles()
-    test.lanchInsertionToIntermediaryDB2()
+    #test.lanchInsertionToIntermediaryDB2()
     #test.getDistinctTweets()
+    #test.calculateNumberOfTweets()
+    #test.calculateNumberOfLanguages()
+    test.calculateNumberOfCountries()

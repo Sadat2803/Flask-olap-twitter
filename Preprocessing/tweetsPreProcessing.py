@@ -76,7 +76,7 @@ class TweetsPreProcessing():
         return [timeAltID, dayOfWeek, day, month, monthName, year, season]
 
     def getLangage(self,languageCode):
-        if languageCode in["und","in","iw"]:
+        if languageCode in["und","in","iw","ckb"]:
             languageCode = "und"
             languageName = "und"
         else:
