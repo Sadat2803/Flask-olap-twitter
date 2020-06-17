@@ -14,6 +14,24 @@ from Preprocessing.mainProgramme import MainProgramme
 def runServer():
     app = Flask(__name__)
 
+    @app.route('/deleteAnalysis', methods=['GET'])
+    @cross_origin()
+    def deleteAnalysis():
+        analysisID = request.args['analysisID']
+        mydb = mysql.connector.connect(
+            host="localhost",
+            user="root",
+            passwd="",
+            database="interDB"
+        )
+        mycursor = mydb.cursor()
+        query = "delete from alltweets where analysisID = '" + analysisID + "'"
+        mycursor.execute(query)
+        mycursor.execute('commit')
+        data = []
+        a = jsonify(data)
+        return a
+
     @app.route('/covidTotalTimeLine', methods=['GET'])
     @cross_origin()
     def covidTotalTimeLine():
