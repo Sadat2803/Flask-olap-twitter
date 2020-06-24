@@ -9,6 +9,7 @@ from DWFiles.factSentiment import FactSentiment
 from DWFiles.factTweet import FactTweet
 from DWFiles.dimConcept import DimConcept
 import mysql.connector
+import random
 
 config = {
         'mysql':{
@@ -26,7 +27,7 @@ dbIntermediary = DatabaseManager(config)
 
 class DatawareHouseCreation:
 
-    def createDatawareHouse(self, analysisID):
+    def createDatawareHouse(self, analysisID, numberOfTweets):
 
         # get all the different concepts for this client
         #allConcepts = dbIntermediary.table('alltweets').select(dbIntermediary.raw('distinct concept')).where('analysisID', '=', analysisID).get()
@@ -137,12 +138,27 @@ class DatawareHouseCreation:
                 cpt += 1
                 print(cpt, "tuple inserted", sep=" ")
             print("All tuples are inserted For the Fact Sentiment for the concept :", concept)'''
+
+        data = dbIntermediary.table('alltweets')\
+            .select(dbIntermediary.raw('alltweets.tweetID')) \
+            .where('alltweets.analysisID', '=', analysisID) \
+            .get()
+        listIDTweets = []
+        for tuple in data:
+            listIDTweets.append(tuple['tweetID'])
+        # use the random.shuffle function to shuffle the tweets
+        random.shuffle(listIDTweets)
+        if numberOfTweets > 0:
+            listIDTweets = listIDTweets[:numberOfTweets]
+        print(listIDTweets.__len__(), listIDTweets)
         data = dbIntermediary.table('alltweets')\
             .select(dbIntermediary.raw('alltweets.languageName, alltweets.sourceName, alltweets.timeAltID, alltweets.sentimentLabel, alltweets.cityName, alltweets.concept, count(*) as numberOfTweets'))\
             .where('alltweets.analysisID', '=', analysisID)\
+            .where_in('alltweets.tweetID', listIDTweets)\
             .group_by('alltweets.languageName', 'alltweets.sourceName', 'alltweets.timeAltID', 'alltweets.sentimentLabel', 'alltweets.cityName','alltweets.concept')\
             .get()
-        #cpt = 0
+
+        cpt = 0
         for tuple in data:
             temp = dbIntermediary.table('alltweets').select(dbIntermediary.raw('*'))\
                 .where('languageName', '=', tuple['languageName'])\
@@ -151,7 +167,6 @@ class DatawareHouseCreation:
                 .where('cityName', '=', tuple['cityName']) \
                 .where('concept', '=', tuple['concept']) \
                 .get()
-
             row = temp[0]
             rowSentiment = [row['sentimentLabel']]
             rowSource = [row['sourceName']]
@@ -184,11 +199,14 @@ class DatawareHouseCreation:
             factTweet.insert(row)
             #cpt += 1
             #print(cpt, "tuple inserted", sep=" ")
+        #print(listIDTweets)
 # ----------------------------------------------------------------------------------------------------------------
         # Fill the Fact Sentiment Table
         data = dbIntermediary.table('alltweets').select(
             dbIntermediary.raw('languageName, timeAltID, cityName, avg(sentimentValue) as averageSentiment'))\
-            .where('analysisID', '=', analysisID).group_by(
+            .where('analysisID', '=', analysisID)\
+            .where_in('tweetID', listIDTweets)\
+            .group_by(
             'languageName', 'timeAltID', 'cityName').get()
         #cpt = 0
         for tuple in data:

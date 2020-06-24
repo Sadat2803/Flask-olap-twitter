@@ -8,11 +8,26 @@ from flask_cors import cross_origin
 from CubeModelisation.sentimentCube import SentimentCube
 from CubeModelisation.tweetCube import TweetCube
 
+
 # --------------------------------------------------------------------------------------------------------------------------------------------
 from Preprocessing.mainProgramme import MainProgramme
+from Preprocessing.topicExtractionFeaturePivotApproach import TopicExtractionFeaturePivotApproach
 
 def runServer():
     app = Flask(__name__)
+
+    @app.route('/relatedTopics', methods=['GET'])
+    @cross_origin()
+    def relatedTopics():
+        analysisID = request.args['analysisID']
+        concept = request.args['concept']
+        test = TopicExtractionFeaturePivotApproach()
+        #test.featurePivotApproach()
+
+        data = []
+        a = jsonify(data)
+        return a
+
 
     @app.route('/deleteAnalysis', methods=['GET'])
     @cross_origin()
@@ -35,6 +50,10 @@ def runServer():
     @app.route('/covidTotalTimeLine', methods=['GET'])
     @cross_origin()
     def covidTotalTimeLine():
+        dateBegin = request.args['dateBegin']
+        dateEnd = request.args['dateEnd']
+        print(dateBegin)
+        print(dateEnd)
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
@@ -43,6 +62,12 @@ def runServer():
         )
         mycursor = mydb.cursor()
         query = "select date, sum(confirmed), sum(deaths), sum(recovered) from covidstats group by date"
+        if dateBegin != "" and dateEnd != "":
+            temp = dateBegin.split('/')
+            dateBegin = '-'.join([temp[2], temp[1], temp[0]])
+            temp = dateEnd.split('/')
+            dateEnd = '-'.join([temp[2], temp[1], temp[0]])
+            query = "select date, sum(confirmed), sum(deaths), sum(recovered) from covidstats where date>= '" + dateBegin + "' and date <= '" + dateEnd + "' group by date"
         mycursor.execute(query)
         result = mycursor.fetchall()
 
@@ -92,8 +117,10 @@ def runServer():
     @cross_origin()
     def mondialSentimentByDatesJson():
         concept = request.args['concept']
+        dateBegin = request.args['dateBegin']
+        dateEnd = request.args['dateEnd']
         sentimentCube = SentimentCube(concept)
-        data = sentimentCube.getMondialSentimentByDates()
+        data = sentimentCube.getMondialSentimentByDates(dateBegin, dateEnd)
         a = jsonify(data)
         return a
 
@@ -187,7 +214,25 @@ def runServer():
             passwd="",
             database="interDB"
         )
+
+        dataOutput = {'numberOfTweets':0, 'numberOfCountries':0, 'numberOfLanguages':0, 'analysisData':[]}
+
         mycursor = mydb.cursor()
+        query = "select count(*) from alltweets where analysisID = '" + analysisID + "'"
+        mycursor.execute(query)
+        result = mycursor.fetchall()
+        dataOutput['numberOfTweets'] = result[0]
+
+        query = "select count(DISTINCT countryname) from alltweets where analysisID = '" + analysisID + "'"
+        mycursor.execute(query)
+        result = mycursor.fetchall()
+        dataOutput['numberOfCountries'] = result[0]
+
+        query = "select count(DISTINCT languageName) from alltweets where analysisID = '" + analysisID + "'"
+        mycursor.execute(query)
+        result = mycursor.fetchall()
+        dataOutput['numberOfLanguages'] = result[0]
+
         query = "select text, languageName, cityName, countryName, continentName, day, month, year, concept from alltweets where analysisID = '" + analysisID+"'"
         mycursor.execute(query)
         result = mycursor.fetchall()
@@ -200,7 +245,7 @@ def runServer():
             'date': '',
             'concept': ''
         }
-        dataList = []
+        elementsList = []
         for row in result:
             element['text'] = row[0]
             element['language'] = row[1]
@@ -218,8 +263,9 @@ def runServer():
                 'date': '',
                 'concept': ''
             }
-            dataList.append(element)
-        a = jsonify(dataList)
+            elementsList.append(element)
+        dataOutput['analysisData'] = elementsList
+        a = jsonify(dataOutput)
         return a
 
 
@@ -324,15 +370,19 @@ def runServer():
         a = jsonify(element)
         return a
 
+
     @app.route('/createCubeForAnAnalysis', methods=['GET'])
     @cross_origin()
     def createCubeForAnAnalysis():
         analysisID = request.args['analysisID']
+        numberOfTweets = int(request.args['numberOfTweets'])
         test = MainProgramme([],analysisID)
-        test.createCubes(analysisID)
+        test.createCubes(analysisID, numberOfTweets)
         data = []
         a = jsonify(data)
         return a
+
+
     app.run(debug=True)
 
 

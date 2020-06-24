@@ -5,6 +5,7 @@ import re
 from collections import defaultdict
 from os import listdir
 from os.path import isfile, join
+import textdistance
 
 import mysql.connector
 import preprocessor as p
@@ -84,11 +85,10 @@ class TopicExtractionFeaturePivotApproach():
         query = "select text, tweetID from alltweets where languageCode = 'en' and analysisID = '" + analysisID + "' and concept = '" + concept + "'"
         mycursor.execute(query)
         result = mycursor.fetchall()
-        cpt = 0
-        wordFrequency = defaultdict(int)
+
         stopWords = set(stopwords.words('english'))
         customizedStopWords = {'rt', 'hashtags', 'retweet', 'said','total','gmt','video','hum','read','trend',
-                               'update','updates','day','today','news'}
+                               'update','updates','day','today','news','num','sky','th'}
         stopWords = stopWords.union(customizedStopWords)
 
         #step 1 and 2 : create unigrams from the tweets
@@ -99,20 +99,35 @@ class TopicExtractionFeaturePivotApproach():
         unigramsByTweetID = defaultdict(lambda: set())
         for row in result:
             tweetText = row[0].lower()
-            tweetText = tweetText[:tweetText.index("hashtags")] # use only hashtags and not the hole tweet
+            #tweetText = tweetText[:tweetText.index("hashtags")] # use only hashtags and not the hole tweet
             tweetID = row[1]
             blob = TextBlob(tweetText)
+            tempList = tweetText.split(" ,")
+            print(tweetText)
+            print(tempList)
+            break
+
             #tokens = re.findall("[a-zA-Z_]{2,}", tweetText)
             #print(tokens)
             for noun, tag in blob.tags:
             #for token in tokens:
                 token = noun
                 if (tag=='NN') and (token not in stopWords):
+                    """for word in unigramsSet:
+                        # pour le cas erreur de saisie du mot
+                        distanceLevenshtein = textdistance.levenshtein(word, noun)
+                        print("leven Distance : ",word," ",noun," ",distanceLevenshtein)
+                        # pour calculer la distance phonitique
+                        distanceMRA = textdistance.mra(word, noun)
+                        print("MRA Distance : ", word, " ", noun, " ", distanceMRA)"""
                     unigramsList.append(token)
                     unigramsSet.add(token)
                     associatedTweetsForUnigramsSet[token].add(tweetID)
                     unigramsFrequency[token] += 1
                     unigramsByTweetID[tweetID].add(token)
+        print(unigramsList.__len__())
+        print(unigramsSet.__len__())
+
         #step 3 : calculate the avg frequency
         sommeOfFrequencies = 0
         for unigram in unigramsSet:
@@ -122,15 +137,13 @@ class TopicExtractionFeaturePivotApproach():
         #step 4 :
         #first we have to order the frequencies of unigrams in descending order
         unigramsFrequency = dict(sorted(unigramsFrequency.items(), key=operator.itemgetter(1), reverse=True))
-        print(unigramsFrequency['quarantine'])
         print(unigramsFrequency)
-        significantUnigramsSet = set()
+        significantUnigramsSet = list()
         for unigram in unigramsFrequency:
-            if significantUnigramsSet.__len__()>=20:
-                break
+            """if significantUnigramsSet.__len__()>=20:
+                break"""
             if unigramsFrequency[unigram] >= averageFrequency:
-                significantUnigramsSet.add(unigram)
-        significantUnigramsSet = list(significantUnigramsSet)
+                significantUnigramsSet.append(unigram)
         print(significantUnigramsSet)
         #step 5 : get the associated tweets for every significant unigram
         associatedTweetsForSignificantUnigramsSet = defaultdict(lambda: set())
@@ -170,23 +183,41 @@ class TopicExtractionFeaturePivotApproach():
         #step 8 and 9 : extract frequent common unigrams
         setOfFrequentCommonUnigrams = list()
         i = 0
+        allTopics = defaultdict(int)
         for listProportinalFrequencies in proportionalFrequencies:
             frequentCommonUnigrams = set()
             j = 0
             for proportionalFrequency in listProportinalFrequencies:
                 if proportionalFrequency >= averageProportionalFrequencies[i]:
                     frequentCommonUnigrams.add(unigramsForAssociatedTweetsSets[i][j])
+                    pf = allTopics.get(unigramsForAssociatedTweetsSets[i][j], 0)
+                    if pf < proportionalFrequency:
+                        allTopics[unigramsForAssociatedTweetsSets[i][j]] = proportionalFrequency
                 j += 1
             setOfFrequentCommonUnigrams.append(frequentCommonUnigrams)
             i += 1
+        #---------------------------------------------
+        allTopics = dict(sorted(allTopics.items(), key=operator.itemgetter(1), reverse=True))
+        numberOfTopics = 20
+        cpt = 0
+        print(allTopics)
+        for topic in allTopics:
+            print(topic)
+            if cpt > numberOfTopics:
+                break
+            cpt += 1
+
+        #---------------------------------------------
+
 
         #step 10 : application of the "content similarity" algorithm
-        theta1 = 0.4
+        """theta1 = 0.3
         theta2 = 0.2
-        beta = 50
+        beta = 20
         topics = [] #it is a list of lists of unigrams
         s = significantUnigramsSet.__len__()
-        i = 1
+        i = 0
+        allTopics = set()
         while i <= s - 3:
             unigramI = significantUnigramsSet[i]
             if not self.includeIn(unigramI, topics):
@@ -217,10 +248,13 @@ class TopicExtractionFeaturePivotApproach():
                                 k += 1
                     j += 1
                 if topicTweets.__len__() >= beta:
-                    if topic.__len__()>=3:
-                        print("Topic : ",topic)
-                        #print("TopicTweets : ",topicTweets)
+                    print("Topic : ",topic)
+                    topics.append(topic)
+                    allTopics = allTopics.union(topic)
+                    #break
+                    #print("TopicTweets : ",topicTweets)
             i += 1
+        print(allTopics)"""
 
 
     def includeIn(self, unigram, topics):

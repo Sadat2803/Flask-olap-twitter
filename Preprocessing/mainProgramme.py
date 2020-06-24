@@ -72,7 +72,7 @@ class MainProgramme():
         print("tweets insertion into intermediary database done!")
         return self.analysisID
 
-    def createCubes(self, analysisID):
+    def createCubes(self, analysisID, numberOfTweets):
 
         #reset the database for owr new analyse
         mydb = mysql.connector.connect(
@@ -92,7 +92,7 @@ class MainProgramme():
         #time.sleep(10)
         # create the datawarehouse
         datawareHouseCreation = DatawareHouseCreation()
-        datawareHouseCreation.createDatawareHouse(analysisID)
+        datawareHouseCreation.createDatawareHouse(analysisID, numberOfTweets)
         print("datawarehouse crée!")
         #--------------------------------------------
 

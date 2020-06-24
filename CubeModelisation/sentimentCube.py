@@ -4,7 +4,7 @@ from collections import defaultdict
 
 import cubes
 from cubes import Workspace, Cell, PointCut
-
+import datetime
 
 class SentimentCube:
 
@@ -20,7 +20,7 @@ class SentimentCube:
         self.browserTweet = self.workspace.browser("sentiment")
 
 
-    def getMondialSentimentByDates(self):
+    def getMondialSentimentByDates(self, dateBegin, dateEnd):
         cube = self.workspace.cube("sentiment")
         cube.browser = self.browserTweet
 
@@ -39,14 +39,32 @@ class SentimentCube:
 
         element = {'date': '', 'value': 0}
         elementList = []
-        for date in data:
-            element['date'] = date
-            somSentiment = 0
-            for i in data[date]:
-                somSentiment += i
-            element['value'] = somSentiment / data[date].__len__()
-            elementList.append(element)
-            element = {'date': '', 'value': 0}
+        if dateBegin != "" and dateEnd != "":
+            temp = dateBegin.split('/')
+            dateBegin = datetime.datetime(int(temp[2]), int(temp[1]), int(temp[0]))
+            temp = dateEnd.split('/')
+            dateEnd = datetime.datetime(int(temp[2]), int(temp[1]), int(temp[0]))
+            for date in data:
+                temp = date.split('-')
+                dateTemp = datetime.datetime(int(temp[0]), int(temp[1]), int(temp[2]))
+                if dateTemp >= dateBegin and dateTemp <= dateEnd:
+                    element['date'] = date
+                    somSentiment = 0
+                    for i in data[date]:
+                        somSentiment += i
+                    element['value'] = somSentiment / data[date].__len__()
+                    elementList.append(element)
+                    element = {'date': '', 'value': 0}
+        else:
+            for date in data:
+                element['date'] = date
+                somSentiment = 0
+                for i in data[date]:
+                    somSentiment += i
+                element['value'] = somSentiment / data[date].__len__()
+                elementList.append(element)
+                element = {'date': '', 'value': 0}
+
 
         return elementList
 
