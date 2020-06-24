@@ -20,11 +20,8 @@ def runServer():
     @cross_origin()
     def relatedTopics():
         analysisID = request.args['analysisID']
-        concept = request.args['concept']
         test = TopicExtractionFeaturePivotApproach()
-        #test.featurePivotApproach()
-
-        data = []
+        data = test.featurePivotApproach(analysisID)
         a = jsonify(data)
         return a
 
@@ -63,10 +60,6 @@ def runServer():
         mycursor = mydb.cursor()
         query = "select date, sum(confirmed), sum(deaths), sum(recovered) from covidstats group by date"
         if dateBegin != "" and dateEnd != "":
-            temp = dateBegin.split('/')
-            dateBegin = '-'.join([temp[2], temp[1], temp[0]])
-            temp = dateEnd.split('/')
-            dateEnd = '-'.join([temp[2], temp[1], temp[0]])
             query = "select date, sum(confirmed), sum(deaths), sum(recovered) from covidstats where date>= '" + dateBegin + "' and date <= '" + dateEnd + "' group by date"
         mycursor.execute(query)
         result = mycursor.fetchall()

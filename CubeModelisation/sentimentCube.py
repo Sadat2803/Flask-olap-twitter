@@ -40,10 +40,10 @@ class SentimentCube:
         element = {'date': '', 'value': 0}
         elementList = []
         if dateBegin != "" and dateEnd != "":
-            temp = dateBegin.split('/')
-            dateBegin = datetime.datetime(int(temp[2]), int(temp[1]), int(temp[0]))
-            temp = dateEnd.split('/')
-            dateEnd = datetime.datetime(int(temp[2]), int(temp[1]), int(temp[0]))
+            temp = dateBegin.split('-')
+            dateBegin = datetime.datetime(int(temp[0]), int(temp[1]), int(temp[2]))
+            temp = dateEnd.split('-')
+            dateEnd = datetime.datetime(int(temp[0]), int(temp[1]), int(temp[2]))
             for date in data:
                 temp = date.split('-')
                 dateTemp = datetime.datetime(int(temp[0]), int(temp[1]), int(temp[2]))

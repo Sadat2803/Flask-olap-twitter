@@ -74,7 +74,6 @@ class TopicExtractionFeaturePivotApproach():
 
     def featurePivotApproach(self):
         analysisID = "passif"
-        concept = "coronavirus"
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
@@ -82,7 +81,7 @@ class TopicExtractionFeaturePivotApproach():
             database="interDB"
         )
         mycursor = mydb.cursor()
-        query = "select text, tweetID from alltweets where languageCode = 'en' and analysisID = '" + analysisID + "' and concept = '" + concept + "'"
+        query = "select text, tweetID from alltweets where languageCode = 'en' and analysisID = '" + analysisID + "'"
         mycursor.execute(query)
         result = mycursor.fetchall()
 
@@ -255,7 +254,6 @@ class TopicExtractionFeaturePivotApproach():
                     #print("TopicTweets : ",topicTweets)
             i += 1
         print(allTopics)"""
-
 
     def includeIn(self, unigram, topics):
         for topic in topics:
