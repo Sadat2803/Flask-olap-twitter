@@ -125,17 +125,43 @@ def runServer():
         clientDWPath = '../ClientDW/' + clientDW
         f = open(clientDWPath,'r').read()
         # first, let search for the fact table creation queries
-        queries = re.findall("CREATE TABLE IF NOT EXISTS `fact[A-Za-z0-9]+` \(([\n`\(\), \w]+)\)",f)
+        queries = re.findall("CREATE TABLE IF NOT EXISTS `fact[A-Za-z0-9]+` \(([\n`\(\), \w]+)\)", f)
+        #print(queries)
         temp = []
         for query in queries:
             result = re.findall("`(\w+)`", query)
             temp += result
+        queries = re.findall("CREATE TABLE IF NOT EXISTS `fact([A-Za-z0-9]+)`", f)
+        #print(queries)
+        temp += queries
+        #print(temp)
         conceptList = []
         for word in temp:
-            if not (word.lower().startswith('id') or word.lower().endswith('id')):
+            if not (word.lower().startswith('id') or word.lower().endswith('id') or word.lower().startswith('key') or word.lower().endswith('key')):
                 conceptList.append(word)
         #print(conceptList)
-        a = jsonify(conceptList)
+        #treat the concept list
+        treatedConceptList = []
+        for concept in conceptList:
+            begin = 0
+            end = 0
+            word = ""
+            print(concept)
+            for char in concept:
+                end += 1
+                if char.isupper():
+                    if word == "":
+                        word = concept[begin:end-1]
+                    else:
+                        word += " "+concept[begin:end-1]
+                    begin = end-1
+            if word == "":
+                word = concept[begin:]
+            else:
+                word += " " + concept[begin:]
+            treatedConceptList.append(word)
+
+        a = jsonify(treatedConceptList)
         return a
 
     @app.route('/launchAnalysis', methods=['POST'])
