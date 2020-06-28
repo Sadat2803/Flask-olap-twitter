@@ -165,7 +165,7 @@ class DatawareHouseCreation:
                           'continentID', 'continentName', 'timeAltID', 'dayOfWeek', 'day', 'month', 'monthName', 'year',
                           'season', 'sourceName', 'sentimentLabel', 'concept') \
                 .get()
-
+        cpt = 0
         for row in data:
             rowSentiment = [row['sentimentLabel']]
             rowSource = [row['sourceName']]
@@ -193,11 +193,11 @@ class DatawareHouseCreation:
             conceptID = conceptTable.insert(rowConcept)
 
             # fill the fact table with foreign keys & mesures
-            numberOfTweets = row['numberOfTweets']
-            row = [conceptID, locationID, sourceID, languageID, timeID, sentimentID, numberOfTweets]
+            numberOfTweet = row['numberOfTweets']
+            row = [conceptID, locationID, sourceID, languageID, timeID, sentimentID, numberOfTweet]
             factTweet.insert(row)
-            #cpt += 1
-            #print(cpt, "tuple inserted", sep=" ")
+            cpt += 1
+            print(cpt, "tuple inserted", sep=" ")
         #print(listIDTweets)
 # ----------------------------------------------------------------------------------------------------------------
         # Fill the Fact Sentiment Table
@@ -217,8 +217,9 @@ class DatawareHouseCreation:
                 .group_by('languageCode', 'languageName', 'locationAltID', 'cityName', 'countryID', 'countryName',
                           'continentID', 'continentName', 'timeAltID', 'dayOfWeek', 'day', 'month', 'monthName', 'year',
                           'season', 'concept').get()
-        #cpt = 0
+        cpt = 0
         for row in data:
+            print(row)
             rowTime = [row['timeAltID'], row['dayOfWeek'], row['day'], row['month'], row['monthName'], row['year'],
                        row['season']]
             rowLocation = [row['locationAltID'], row['cityName'], row['countryID'], row['countryName'],
@@ -244,8 +245,8 @@ class DatawareHouseCreation:
             row = [conceptID, locationID, languageID, timeID, averageSentiment]
 
             factSentiment.insert(row)
-            #cpt += 1
-            #print(cpt, "tuple inserted", sep=" ")
+            cpt += 1
+            print(cpt, "tuple inserted", sep=" ")
 # ----------------------------------------------------------------------------------------------------------------
         '''# Fill the Fact CovCase Table
         mydb = mysql.connector.connect(

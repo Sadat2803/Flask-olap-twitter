@@ -86,7 +86,8 @@ class MainProgramme():
         tablesName = mycursor.fetchall()
         for row in tablesName:
             table = row[0]
-            mycursor.execute("TRUNCATE " + table)
+            if table !="factcorona":
+                mycursor.execute("TRUNCATE " + table)
         mycursor.close()
         print("reinitialisation de la base de donnée")
         #time.sleep(10)
