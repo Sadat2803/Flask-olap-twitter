@@ -139,35 +139,34 @@ class DatawareHouseCreation:
                 print(cpt, "tuple inserted", sep=" ")
             print("All tuples are inserted For the Fact Sentiment for the concept :", concept)'''
 
-        data = dbIntermediary.table('alltweets')\
-            .select(dbIntermediary.raw('alltweets.tweetID')) \
-            .where('alltweets.analysisID', '=', analysisID) \
-            .get()
-        listIDTweets = []
-        for tuple in data:
-            listIDTweets.append(tuple['tweetID'])
-        # use the random.shuffle function to shuffle the tweets
-        random.shuffle(listIDTweets)
         if numberOfTweets > 0:
-            listIDTweets = listIDTweets[:numberOfTweets]
-        print(listIDTweets.__len__(), listIDTweets)
-        data = dbIntermediary.table('alltweets')\
-            .select(dbIntermediary.raw('alltweets.languageName, alltweets.sourceName, alltweets.timeAltID, alltweets.sentimentLabel, alltweets.cityName, alltweets.concept, count(*) as numberOfTweets'))\
-            .where('alltweets.analysisID', '=', analysisID)\
-            .where_in('alltweets.tweetID', listIDTweets)\
-            .group_by('alltweets.languageName', 'alltweets.sourceName', 'alltweets.timeAltID', 'alltweets.sentimentLabel', 'alltweets.cityName','alltweets.concept')\
-            .get()
-
-        cpt = 0
-        for tuple in data:
-            temp = dbIntermediary.table('alltweets').select(dbIntermediary.raw('*'))\
-                .where('languageName', '=', tuple['languageName'])\
-                .where('sourceName', '=', tuple['sourceName']).where('timeAltID', '=', tuple['timeAltID'])\
-                .where('sentimentLabel', '=', tuple['sentimentLabel'])\
-                .where('cityName', '=', tuple['cityName']) \
-                .where('concept', '=', tuple['concept']) \
+            listIDTweets = dbIntermediary.table('alltweets') \
+                .select('tweetID') \
+                .where('analysisID', '=', analysisID) \
+                .take(numberOfTweets)\
                 .get()
-            row = temp[0]
+            temp = []
+            for element in listIDTweets:
+                temp.append(element['tweetID'])
+            listIDTweets = temp
+            print(listIDTweets.__len__(), listIDTweets)
+            data = dbIntermediary.table('alltweets')\
+                .select(dbIntermediary.raw('languageCode , languageName, locationAltID, cityName, countryID, countryName, continentID, continentName, timeAltID ,dayOfWeek, day, month, monthName, year, season, sourceName, sentimentLabel, concept, count(*) as numberOfTweets'))\
+                .where('analysisID', '=', analysisID)\
+                .where_in('tweetID', listIDTweets)\
+                .group_by('languageCode', 'languageName', 'locationAltID', 'cityName', 'countryID', 'countryName', 'continentID', 'continentName', 'timeAltID' ,'dayOfWeek', 'day', 'month', 'monthName', 'year', 'season', 'sourceName', 'sentimentLabel', 'concept')\
+                .get()
+        else:
+            data = dbIntermediary.table('alltweets') \
+                .select(dbIntermediary.raw(
+                'languageCode , languageName, locationAltID, cityName, countryID, countryName, continentID, continentName, timeAltID ,dayOfWeek, day, month, monthName, year, season, sourceName, sentimentLabel, concept, count(*) as numberOfTweets')) \
+                .where('analysisID', '=', analysisID) \
+                .group_by('languageCode', 'languageName', 'locationAltID', 'cityName', 'countryID', 'countryName',
+                          'continentID', 'continentName', 'timeAltID', 'dayOfWeek', 'day', 'month', 'monthName', 'year',
+                          'season', 'sourceName', 'sentimentLabel', 'concept') \
+                .get()
+
+        for row in data:
             rowSentiment = [row['sentimentLabel']]
             rowSource = [row['sourceName']]
             rowTime = [row['timeAltID'], row['dayOfWeek'], row['day'], row['month'], row['monthName'], row['year'],
@@ -194,7 +193,7 @@ class DatawareHouseCreation:
             conceptID = conceptTable.insert(rowConcept)
 
             # fill the fact table with foreign keys & mesures
-            numberOfTweets = tuple['numberOfTweets']
+            numberOfTweets = row['numberOfTweets']
             row = [conceptID, locationID, sourceID, languageID, timeID, sentimentID, numberOfTweets]
             factTweet.insert(row)
             #cpt += 1

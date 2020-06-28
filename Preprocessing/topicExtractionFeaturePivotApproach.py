@@ -96,7 +96,7 @@ class TopicExtractionFeaturePivotApproach():
         associatedTweetsForUnigramsSet = defaultdict(lambda: set())
         unigramsByTweetID = defaultdict(lambda: set())
         for row in result:
-            tweetText = row[0].lower()
+            tweetText = str(row[0]).lower()
             print(tweetText)
             #tweetText = tweetText[:tweetText.index("hashtags")-2] # use only hashtags and not the hole tweet
             tweetID = row[1]
