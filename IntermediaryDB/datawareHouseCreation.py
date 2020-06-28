@@ -138,7 +138,7 @@ class DatawareHouseCreation:
                 cpt += 1
                 print(cpt, "tuple inserted", sep=" ")
             print("All tuples are inserted For the Fact Sentiment for the concept :", concept)'''
-
+        listIDTweets = []
         if numberOfTweets > 0:
             listIDTweets = dbIntermediary.table('alltweets') \
                 .select('tweetID') \
@@ -201,39 +201,46 @@ class DatawareHouseCreation:
         #print(listIDTweets)
 # ----------------------------------------------------------------------------------------------------------------
         # Fill the Fact Sentiment Table
-        data = dbIntermediary.table('alltweets').select(
-            dbIntermediary.raw('languageName, timeAltID, cityName, avg(sentimentValue) as averageSentiment'))\
-            .where('analysisID', '=', analysisID)\
-            .where_in('tweetID', listIDTweets)\
-            .group_by(
-            'languageName', 'timeAltID', 'cityName').get()
+        if numberOfTweets > 0:
+            data = dbIntermediary.table('alltweets').select(
+                dbIntermediary.raw('languageCode , languageName, locationAltID, cityName, countryID, countryName, continentID, continentName, timeAltID ,dayOfWeek, day, month, monthName, year, season, concept, avg(sentimentValue) as averageSentiment'))\
+                .where('analysisID', '=', analysisID)\
+                .where_in('tweetID', listIDTweets)\
+                .group_by('languageCode', 'languageName', 'locationAltID', 'cityName', 'countryID', 'countryName',
+                              'continentID', 'continentName', 'timeAltID', 'dayOfWeek', 'day', 'month', 'monthName', 'year',
+                              'season', 'concept').get()
+        else:
+            data = dbIntermediary.table('alltweets').select(
+                dbIntermediary.raw(
+                    'languageCode , languageName, locationAltID, cityName, countryID, countryName, continentID, continentName, timeAltID ,dayOfWeek, day, month, monthName, year, season, concept, avg(sentimentValue) as averageSentiment')) \
+                .where('analysisID', '=', analysisID) \
+                .group_by('languageCode', 'languageName', 'locationAltID', 'cityName', 'countryID', 'countryName',
+                          'continentID', 'continentName', 'timeAltID', 'dayOfWeek', 'day', 'month', 'monthName', 'year',
+                          'season', 'concept').get()
         #cpt = 0
-        for tuple in data:
-            temp = dbIntermediary.table('alltweets').select(dbIntermediary.raw('*')).where(
-                'languageName', '=', tuple['languageName']).where(
-                'timeAltID', '=', tuple['timeAltID']).where(
-                'cityName', '=', tuple['cityName']).get()
-
-            row = temp[0]
+        for row in data:
             rowTime = [row['timeAltID'], row['dayOfWeek'], row['day'], row['month'], row['monthName'], row['year'],
                        row['season']]
             rowLocation = [row['locationAltID'], row['cityName'], row['countryID'], row['countryName'],
                            row['continentID'], row['continentName']]
             rowLanguage = [row['languageCode'], row['languageName']]
+            rowConcept = [row['concept']]
 
             # instanciate the DB tables
             time = DimTime()
             language = DimLanguage()
             location = DimLocation()
+            concept = DimConcept()
             factSentiment = FactSentiment()
 
             # fill the dimensions
             timeID = time.insert(rowTime)
             languageID = language.insert(rowLanguage)
             locationID = location.insert(rowLocation)
+            conceptID = concept.insert(rowConcept)
 
             # fill the fact table with foreign keys & mesures
-            averageSentiment = tuple['averageSentiment']
+            averageSentiment = row['averageSentiment']
             row = [conceptID, locationID, languageID, timeID, averageSentiment]
 
             factSentiment.insert(row)
